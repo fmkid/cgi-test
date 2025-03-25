@@ -1,32 +1,16 @@
 {
     "data": [
         {
-            "title": "South Park",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/609ae5cd48d3200007b0a98e/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },
-        {
             "title": "Avatar The Last Airbender",
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6759ee82bd523200083b4f0f/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },
-        {
-            "title": "La Familia del Barrio",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62d08af527ce19000731eaa0/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },
-        {
-            "title": "SpongeBob Squarepants",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
         {
             "title": "Captain Tsubasa",
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64666345f3f5b1000882bfb4/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
         {
-            "title": "Inuyasha",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66b26665d512590008c507b7/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },
-        {
-            "title": "One Piece",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff4b9ccf938f8000779eb99/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+            "title": "Comedy Central - ENG USA",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
         {
             "title": "Comedy Central - ESP Latam",
@@ -36,14 +20,30 @@
             "title": "Comedy Central - ESP USA",
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96dad1652631e36d43320/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
-         {
-            "title": "Comedy Central - ENG USA",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },
         {
             "title": "Comedy Central Animation",
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f99e24636d67d0007a94e6d/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
-        },       
+        },
+        {
+            "title": "Family Guy",
+            "url": "https://sae11.playlist.ttvnw.net/v1/playlist/CpoGciI0E7Lq3jpINwS9fK78k1iDACWeCYYoWxRNDimaJrNz-fHcFEn3mwelzZax8rKL7nbfN6tEoGopsIBU46PzxcehtycxBhzuAmlHVA7aa3ezCATbhk65AaOy3nd7zVNRFGZpbN-PYUkjNDavWczgrQ6_QhWzsgumES4zzJb2vINkHNiXI8lwvhq3aP1SsN1fFt3oudQL7Vg0Wdq7zBUp9g75xEMzycYq5OIxB0YX6MynFIM0PfSKbYXfGu3y5dqFxnnSCe9lX2Q5272gRuc13dJjoxROB6wVBjc4Kfo81cqck2hhVVaooh0sHm32o54MBeTw1TeQKnV5PfAp3EuuqSM8qOT_jCWKScOr7rTfcT9_Igm4uUpxnzwCtbnuR2khmD6JqmadYYCfO0GT6Y-_VFaMFdLFjOvszz8OW9q47vwYXwAFf9smlru82OOsK3qV6hrfriIVC2HrvISa2qbN_MGjwEaatplKuJEgW_h-Ohg958CtPVEfJoh-SdkhgrLIAymu1QnUQljX8VdaA2yx8lrUcCbZRPvmCFB_yVGf6-ed_MfUzzEKYceL2H8a4_77nkaoIPSRo5AIjw7YyYKJ_WDHYLiwi37DgSsdnMZGb3MgeeiF-DPHwgx4VnJhmRZihZXsbxACETmaqwn5CpbM7eWVhc0_g9DnffKxhx2Z783Qc9qi3C0qci_5QMohqf0JKiHUwb0XdZdDyKQD0vEUqNugEoGR5_GYq8FOJcpTDnWtvs1JTQwUMg-6shOM688gGiRsr2KfufT35RbYxwL2Elfc8T2C2bUmEIy7ttTP9PJN79LU04t5hbr7DYodbGhU2qmkhqZK9BnmlJ4-UJbniuiRlsRm64gHJHIZmq61J-k9eh-ZTn-6GdzsvWkcToIDulmMeBe-OODWN1ZynF6GiaRXH0OzyGPHbegU5wwEs8as4J1Mf6KuMXa1TJ_wSRXA_rHd5P_mMUZo9C40EMT2rrKsTCeqnVgu1bmL4OGSqYb__6VcA4MffNnCKu_tImr0DJMDYTrqFRRWxSa3oRs00g3nmt2Pi3DHZosaDNTRHaf_VelOfbv4pyABKgl1cy1lYXN0LTIw7ws.m3u8"
+        },
+        {
+            "title": "Inuyasha",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66b26665d512590008c507b7/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+        },
+        {
+            "title": "La Familia del Barrio",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62d08af527ce19000731eaa0/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+        },
+        {
+            "title": "One Piece",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff4b9ccf938f8000779eb99/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+        },
+        {
+            "title": "PlutoTV Anime Crunchyroll",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+        },
         {
             "title": "PlutoTV Anime Latam",
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dcde17bf6591d0009839e02/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
@@ -53,20 +53,20 @@
             "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
         {
-            "title": "PlutoTV Anime Crunchyroll",
-            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+            "title": "South Park",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/609ae5cd48d3200007b0a98e/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
+        },
+        {
+            "title": "SpongeBob Squarepants",
+            "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?appName=web&appVersion=unknown&deviceDNT=0&deviceId=eeadd4da-02fb-11f0-a87d-65d00eb8b551&deviceMake=unknown&deviceModel=web&deviceType=web&deviceVersion=unknown&sid=ccfc6473-46c4-4d1d-af4a-7fb31e2246f8"
         },
         {
             "title": "The Simpsons",
             "url": "https://sae11.playlist.ttvnw.net/v1/playlist/Cv8F5fryeHSKtHofDIVu4Mbm8qyEgPuIOvsBZgCOmdjDnmAsptQd9q_8tUnjIhsbolQXu2Q_q5AuqzTJUwJJNmfhubElCIE-2TXRMs22aiueNIka6ykpicrjfCMOyFnXCwx4hO-7dWw82LX3q12ds3tndxouzBJJDMI9pr4T7-HBmMDYQnFuWxoAHRti4yVxyLjyKbXmSRK88bW_OsU60jG3QOq0ifT65_CJpkFve_ejO0g26GcPbwzXXwI2CvhfX_DfxKPNZu_gOsM7c9xN-pIi6Entu6PHB_6BnHpcH2nbBWa6CQ-LnBK9qMtFkcECX6_pDfYOStE0b7S_cYYbBJawrHllFv2pHUFxXVJu1y9Kz0DZ6d_KXw1yxl-UgwZ5NEMI9L_qm3ydWAqfqrlyzCmxY0QC0lo3QzRS370P3WBM_Y_DQgTt0hB-YSyHsTkIlhRDbwmqL6L6bgMTVvSXZzl7a4YTYa4Z4ECoIv81szhJRgYS2PnQTCSueG4Kbb1_yO-CVkwQkOcgYsbXMcU8XHv26GCzYYHTnc_pMO82sPf-C3gzp0wZz-sPIvUlr4cH0sYkmpzjNZtogtHj_7unq4hdky0d1CnpJ9S24WmAsPIZMb_u4uYYgVO5eGdYouFK2QOm_cQwPGUxzRCfMFxhp4lcXZyUhpQMiyg3emSEcQtTJ486eWTB66grEbuSdJsNacFETvSFxmTqwgOGDrGg7cDckobE1AhZb36NR-HOac7ZuJsoWy_vETlRpmPVSmk-rfP_jrij4TP0xjuRvu7_x-F9ICygOU0uvKD-8JyAONlE87FuYmxB7xc7IszE0Lt3UPql2E7JQDCeMIi7yb1z_nIuHPo3XH7AeFicNvn0HcO0pw4KKiMW5FZpus7uCSAa-Y-QRFCgI-hW9MaV7_1ZlbcdrZQq_Uv5i-Uo7vuzBE7_2SYWTN1F3p8-3IqzgMS69i2WrrMv2mJP2w6GyAAzQ0JxC0EI5KkSeMmL9px2xKv87MJu3ds4zFozhVcx7B9AyAMaDJieIL7YcP0UFGu9eiABKgl1cy1lYXN0LTIw7ws.m3u8"
         },
         {
-            "title": "Family Guy",
-            "url": "https://sae11.playlist.ttvnw.net/v1/playlist/CpoGciI0E7Lq3jpINwS9fK78k1iDACWeCYYoWxRNDimaJrNz-fHcFEn3mwelzZax8rKL7nbfN6tEoGopsIBU46PzxcehtycxBhzuAmlHVA7aa3ezCATbhk65AaOy3nd7zVNRFGZpbN-PYUkjNDavWczgrQ6_QhWzsgumES4zzJb2vINkHNiXI8lwvhq3aP1SsN1fFt3oudQL7Vg0Wdq7zBUp9g75xEMzycYq5OIxB0YX6MynFIM0PfSKbYXfGu3y5dqFxnnSCe9lX2Q5272gRuc13dJjoxROB6wVBjc4Kfo81cqck2hhVVaooh0sHm32o54MBeTw1TeQKnV5PfAp3EuuqSM8qOT_jCWKScOr7rTfcT9_Igm4uUpxnzwCtbnuR2khmD6JqmadYYCfO0GT6Y-_VFaMFdLFjOvszz8OW9q47vwYXwAFf9smlru82OOsK3qV6hrfriIVC2HrvISa2qbN_MGjwEaatplKuJEgW_h-Ohg958CtPVEfJoh-SdkhgrLIAymu1QnUQljX8VdaA2yx8lrUcCbZRPvmCFB_yVGf6-ed_MfUzzEKYceL2H8a4_77nkaoIPSRo5AIjw7YyYKJ_WDHYLiwi37DgSsdnMZGb3MgeeiF-DPHwgx4VnJhmRZihZXsbxACETmaqwn5CpbM7eWVhc0_g9DnffKxhx2Z783Qc9qi3C0qci_5QMohqf0JKiHUwb0XdZdDyKQD0vEUqNugEoGR5_GYq8FOJcpTDnWtvs1JTQwUMg-6shOM688gGiRsr2KfufT35RbYxwL2Elfc8T2C2bUmEIy7ttTP9PJN79LU04t5hbr7DYodbGhU2qmkhqZK9BnmlJ4-UJbniuiRlsRm64gHJHIZmq61J-k9eh-ZTn-6GdzsvWkcToIDulmMeBe-OODWN1ZynF6GiaRXH0OzyGPHbegU5wwEs8as4J1Mf6KuMXa1TJ_wSRXA_rHd5P_mMUZo9C40EMT2rrKsTCeqnVgu1bmL4OGSqYb__6VcA4MffNnCKu_tImr0DJMDYTrqFRRWxSa3oRs00g3nmt2Pi3DHZosaDNTRHaf_VelOfbv4pyABKgl1cy1lYXN0LTIw7ws.m3u8"
-        },
-        {
             "title": "Vete a la versh",
-            "url": "https://use11-0.playlist.ttvnw.net/v1/playlist/CsAGtg8EpF6f2x-yv1EptAP1pvVdQ7ntYREupTdSzz9lxCUtM8sS1TnY-Bm7mTnkPK3pLIwT63NiMCDZA99U14yVnE5hZDqxuq5rhYz0_q378xbFOBqf-929xUkIolMUgGVhITM303KpTfPPjMfT0iW2zROjuU-4jDC22rIw4v3y1HVJ4SPfchGhLqzv9FNrs04japri_R9k_goegRaMqKw1-nWWk26ymEfXygVG9XPAydK9ngqQX3obI_5QfYGTl4KSY6LwhNe40eNpIssuk2LB6JBm9EvcSdZHpJgfecFjOIZNUkg4WwRTyPhWqZsGpphjBvbNWMsYwttLfYJBw5AyQGdYHW81eOdvGvbyxnaSXOCvNNocpPsAbkS9uoG7lQWofPCWh42Oasia7ehZ8UJsd5kdNADg1cS-Z-p9iREuH4DY2bB5MES3XVgCVDhszMJ8WzQbCm6-rzx5MxQo0iiWWQWHoftG1gZurn0CpsJ6PgqaVDWUD2yeObZdtueFnKc8p1qztGKgbu3xWRfCacqvnk1gIsBOjeg3Scuk0EaeaBPNvFZoeqSn8xKEgprkrcZijQIKZn-7IGtc2n64JzA6XO3kqx6rWxdy_S23ISq23V8qDNFN7uVIs5LNPfd9G31VnsKy5eOtJ6j0ls7Ix2xPHt7fYEWv5HBHdwyUxSbjYK0qc9EkDWkVI8EKPjQJlAPZdLPhi-jzTagYQAnfwDdZMYSYMU8KUM3v1ssJIp9sIEEikhJcyuMj0SMoJMf1qcWVeVTSLnhOs_xHfE5hyEa7XuzYQW1ZdvDTJsEFR__2q1qA_yQDiP2nFRYoAhrmp7nejcshHPu0SX2D18GFBMOb8nVzZbJxNSv0s5XHq1RpO0QMsMAsRh10mhHFfI3v412CMXPoHyUFHYGMM0R4BbWMsRrLX6uzvc8faD0ooq90KPZ4TY7-HeUY-B3YUr13qN3WG-eYOXhEhUjDwBS8guoIDmpG3basx_TsCLtWrJyahBG-vGoMb2G2YAZMq1k1Oli2SawUkwDZxf28IZGQsE4k3MNuXhsau54s262vixz7dnRJcNBsy87mwz-zmKzXwbDmz0Vk0Lzq7K4lY18OWY4nrRoMJye6csMCyJoxuo19IAEqCXVzLWVhc3QtMjDvCw.m3u8"
+            "url": "https://usw22-0.playlist.ttvnw.net/v1/playlist/CrUG-QiBQGcgm64wfEZLrftyJAp3ghTm9aNr4hly7A57GD3_jZ2Q0U0euAcUY-fJ3XytH04ovifD8nzpUyUnBZM6n-XuT8iSGSeXSgS0aMhtzI5FcgdSWZgHuzwKVkMlbqKB8Lv5-ov4fQ9aLkaKtk-sLF96t7rltjC-qf0QMikbk2Vj6MfPmC9ETBu22jgYUNPaw9PN5KJs0dgf1m5A2Gta7tNYqaZ3xhTdsDkWePL082qpFUMv2ZPXhBqPKI85moc4152HmsHrQKzAWNnkyCQywxl5NW-UHqBDL90Y-JvhElRcOA4SI-rcUlOe1FhmBno32rqqfAmVeBDuSlmILZ3nVFYqctjNHLpw50_9R1ih1ZYhAeRwZ_BEBuuK5WUdXd1x_wVk5cfcIHV0rRrLk9GaJfqlpcUJVuDBiHAwNLiJi4plxBwEQm2y7jR93wtU_pyFwBmMx0XslHH_L2yj1zgvHoI6qI_5iAcyMZFDPT0BviBkCQA8oQyWWg36FdT6U0cYrJaSFOL5lMZtiEvc5HodROzExl6z8ahD_n9F02XeGQW9DkQuExImbQ0q1Pta0tWGtP7BnTVL3T9R-D0GLTezaqAiswJsfMeHfUnYDOvkzAFpFyjJA2L5f7Suxqqha-ofb7aHVnQ16PrN2Z5blABPQE2ca7JCOFRUQMx9pCujqBqCWGw8cxIkCyksddGFXj_F6QVU-xX17DSoHN5MdhsMBuXei2Fm0tphoLj0b20sO2T6VnJHx2LrwlhoDKrSR-i7NcdMFAFbTCIK1EakLEqQGMY846UY-z2R46YGVxBWGNzImy6xXvaele_p_IcCqcIpfT7FPXa0FxPwf5-yyvK_0dJEY37vMehP7DVV2THJTN3E3CMC5Qvpzz3WKLxRCtS0XKhKKTUJX4NbZkgcmJ0ut6gT0a17xjx0lSyIjiFDvIATuX8GRgR_mrdCBo2KA5okE3LhhHSeTWwXJZsxxwgXUptMBhSSJgwPh5anhUlasOuTuwnEKP6hE8ACU7RJWJrdtRktPl5tX-rSSq4L2pVPGdzugZa3WhW3uyE78_GSh0_HYbPrsLOT_3mKIvSC0Rti3XqlBLgaDGHZFSaLL1WKEFy4MCABKgl1cy1lYXN0LTIw7ws.m3u8"
         }
     ]
 }
