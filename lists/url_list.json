@@ -1,0 +1,26 @@
+{
+  "urlList": [
+    {
+      "url": "https://api.pluto.tv/v2/channels",
+      "region": "LA"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/list_esp.json",
+      "region": "SP"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/list_usa.json",
+      "region": "US"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/list_alt.json",
+      "region": "TST"
+    },
+    {
+      "url": "http://192.168.101.2:8080/list.json",
+      "region": "LOC"
+    }
+  ],
+  "listStart": 0,
+  "listEnd": 2
+}
