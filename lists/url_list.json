@@ -17,7 +17,7 @@
       "region": "CA"
     },
     {
-      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/pluto-test/lists/list_alt.json",
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/pluto-test/lists/list_test.json",
       "region": "TST"
     },
     {
@@ -26,5 +26,5 @@
     }
   ],
   "listStart": 0,
-  "listEnd": 3
+  "listEnd": 4
 }
