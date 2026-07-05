@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component name="FetchList" extends="Task">
-    <interface>
-        <field id="response" type="array" />
-        <field id="urlList" type="string" value="https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/url_list.json" />
-        <field id="tokenUrl" type="string" value="https://boot.pluto.tv/v4/start?appName=roku&appVersion=0&clientID=0&clientModelNumber=0&deviceModel=0&deviceVersion=0&deviceMake=0" />
-    </interface>
-    <script type="text/brightscript" uri="pkg:/components/FetchList.brs" />
-</component>
