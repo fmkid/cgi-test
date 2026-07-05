@@ -6,7 +6,7 @@
     },
     {
       "url": "https://raw.githubusercontent.com/fmkid/cgi-test/pluto-test/lists/list_esp.json",
-      "region": "SP"
+      "region": "ES"
     },
     {
       "url": "https://raw.githubusercontent.com/fmkid/cgi-test/pluto-test/lists/list_usa.json",
@@ -21,14 +21,10 @@
       "region": "TST"
     },
     {
-      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/pluto-test/lists/list_dark.json",
-      "region": "DRK"
-    },
-    {
       "url": "http://192.168.101.2:8080/list.json",
       "region": "LOC"
     }
   ],
   "listStart": 0,
-  "listEnd": 5
+  "listEnd": 4
 }
