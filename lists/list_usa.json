@@ -320,10 +320,6 @@
     "name": "MTV Spankin' New"
   },
   {
-    "_id": "5d2cb7ac552e3773bc48982e",
-    "name": "WeatherNation"
-  },
-  {
     "_id": "5d3609cd6a6c78d7672f2a81",
     "name": "MTV Flow Latino"
   },
@@ -390,6 +386,10 @@
   {
     "_id": "5d93b635b43dd1a399b39eee",
     "name": "Vevo Pop"
+  },
+  {
+    "_id": "5d9ccd538661290009ecbdb7",
+    "name": "Pluto TV Mistletoe"
   },
   {
     "_id": "5da0c85bd2c9c10009370984",
@@ -474,10 +474,6 @@
   {
     "_id": "5e82530945600e0007ca076c",
     "name": "All Reality WE tv"
-  },
-  {
-    "_id": "5e8254118601b80007b4b7ae",
-    "name": "Stories by AMC"
   },
   {
     "_id": "5e825550e758c700077b0aef",
@@ -716,10 +712,6 @@
     "name": "Xtreme Outdoor by HISTORY"
   },
   {
-    "_id": "6008ddf24ef92b00079d61cf",
-    "name": "Movies for Gamers"
-  },
-  {
     "_id": "601a0342dcf4370007566891",
     "name": "Tiny House Nation"
   },
@@ -856,6 +848,10 @@
     "name": "BET Throwbacks"
   },
   {
+    "_id": "614501c653ceee000772b0ca",
+    "name": "Festive Fireplace"
+  },
+  {
     "_id": "615b8ec39e878900073f419a",
     "name": "Antiques Road Trip"
   },
@@ -948,8 +944,8 @@
     "name": "CBS News Bay Area"
   },
   {
-    "_id": "62cdc7c2a3e6270007f3f2f3",
-    "name": "CBS News Boston"
+    "_id": "62cdcd05b9e7a10007399603",
+    "name": "CBS News Sacramento"
   },
   {
     "_id": "62f54c11b3af68000702c304",
@@ -982,6 +978,18 @@
   {
     "_id": "63335b193583440007c859fb",
     "name": "Lifetime Movie Favorites"
+  },
+  {
+    "_id": "63335df531a7590007c226b9",
+    "name": "Pluto TV Christmas in July"
+  },
+  {
+    "_id": "6334a3ffdc283500076acf92",
+    "name": "Vevo Holiday"
+  },
+  {
+    "_id": "6334a4d7ae975100073994a2",
+    "name": "Cine navideño en Julio"
   },
   {
     "_id": "6334a574605f140007e233c4",
@@ -1114,10 +1122,6 @@
   {
     "_id": "64e561a4354251000823a0e0",
     "name": "Ghost Hunters"
-  },
-  {
-    "_id": "65033c4b98020f0008547124",
-    "name": "S.W.A.T."
   },
   {
     "_id": "6508be683a0d700008c534e4",
@@ -1264,10 +1268,6 @@
     "name": "Tough Jobs"
   },
   {
-    "_id": "65c69ee3d77d450008c80438",
-    "name": "F1 Channel"
-  },
-  {
     "_id": "65d92a8c8b24c80008e285c0",
     "name": "BBC News"
   },
@@ -1278,10 +1278,6 @@
   {
     "_id": "65ea8b928145cb0008509426",
     "name": "UEFA Champions League"
-  },
-  {
-    "_id": "661827ffe8fba800086b217d",
-    "name": "Triton Poker"
   },
   {
     "_id": "663946c1b18d700008d9c168",
@@ -1340,10 +1336,6 @@
     "name": "CBS en español"
   },
   {
-    "_id": "668c5d3bfd9eb2000882bb50",
-    "name": "ONE Championship TV"
-  },
-  {
     "_id": "66a7f0a78561260008c177f2",
     "name": "Salem News Channel"
   },
@@ -1357,7 +1349,7 @@
   },
   {
     "_id": "66ba495ffe11e5000881f049",
-    "name": "Cheers + Frasier"
+    "name": "Frasier"
   },
   {
     "_id": "66ba53cda4ee2700083fac09",
@@ -1374,6 +1366,10 @@
   {
     "_id": "66df8aa7abec540008ca8cb6",
     "name": "Homeful"
+  },
+  {
+    "_id": "66e0b265dd2d690008c5496b",
+    "name": "Places & Spaces"
   },
   {
     "_id": "66e0b4536ad04d0008fff4b2",
@@ -1394,6 +1390,10 @@
   {
     "_id": "66ff0cf663292d0008320cf8",
     "name": "No Reservations"
+  },
+  {
+    "_id": "66ff1d5a565d3a000892bdcd",
+    "name": "Stingray Holidayscapes"
   },
   {
     "_id": "672e4d915534bb0008c50168",
@@ -1608,6 +1608,10 @@
     "name": "Shop LC"
   },
   {
+    "_id": "68f690e7a25ba0aab32bed92",
+    "name": "BET Holiday Movies"
+  },
+  {
     "_id": "68fbf8101d26140175db8b58",
     "name": "Pluto TV Franchise Favorites"
   },
@@ -1686,5 +1690,33 @@
   {
     "_id": "69fa3faab9c0f0d444e64de3",
     "name": "Pluto TV Pride"
+  },
+  {
+    "_id": "69fa471bc2b638404ffa91bf",
+    "name": "Pluto TV Fireworks"
+  },
+  {
+    "_id": "6a28827ef4a627f3b07df1ea",
+    "name": "Cheers"
+  },
+  {
+    "_id": "6a2b0d669465b98649cd0ba1",
+    "name": "Charmed"
+  },
+  {
+    "_id": "6a2b0e66c2b638404f0a4ffb",
+    "name": "Ghost Whisperer"
+  },
+  {
+    "_id": "6a2b0eab9465b98649cd0d2f",
+    "name": "Diagnosis Murder"
+  },
+  {
+    "_id": "6a2b0edf201df02a8bfea30a",
+    "name": "Touched By An Angel"
+  },
+  {
+    "_id": "6a2b0f2509705ebdf781231d",
+    "name": "Dr. Quinn, Medicine Woman"
   }
 ]
