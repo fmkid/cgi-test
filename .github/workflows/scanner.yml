@@ -37,7 +37,7 @@ jobs:
 
       # Executes script
       - name: Run Scan Script
-        run: python .github/scripts/scanner.py
+        run: python scanner.py
 
       # Pushes JSON changes directly back to the 'test' branch
       - name: Commit and push changes
