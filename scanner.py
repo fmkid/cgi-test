@@ -4,8 +4,8 @@ import os
 import httpx
 
 BASE_URL = "https://api.pluto.tv/v2/channels/"  # Change to your API URL
-TOTAL_IDS = 100000
-CONCURRENCY_LIMIT = 100
+TOTAL_IDS = 15000
+CONCURRENCY_LIMIT = 50
 OUTPUT_PATH = "lists/list_all.json"
 
 
@@ -37,7 +37,7 @@ async def main():
     async with httpx.AsyncClient() as client:
         tasks = [
             fetch_id(client, semaphore, i, results)
-            for i in range(1, TOTAL_IDS + 1)
+            for i in range(0, TOTAL_IDS + 1)
         ]
         await asyncio.gather(*tasks)
 
