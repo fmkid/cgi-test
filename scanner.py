@@ -4,8 +4,8 @@ import os
 import httpx
 
 BASE_URL = "https://api.pluto.tv/v2/channels/"  # Change to your API URL
-TOTAL_IDS = 10000
-CONCURRENCY_LIMIT = 50
+TOTAL_IDS = 100000
+CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
 
