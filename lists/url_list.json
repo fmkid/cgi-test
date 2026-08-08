@@ -21,6 +21,14 @@
       "region": "GB"
     },
     {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_br.json",
+      "region": "BR"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_it.json",
+      "region": "IT"
+    },
+    {
       "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_all.json",
       "region": "ALL"
     },
@@ -34,5 +42,5 @@
     }
   ],
   "listStart": 0,
-  "listEnd": 5
+  "listEnd": 7
 }
