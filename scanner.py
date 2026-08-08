@@ -4,8 +4,8 @@ import os
 import httpx
 
 BASE_URL = "https://api.pluto.tv/v2/channels/"  # Change to your API URL
-TOTAL_IDS = 15000
-CONCURRENCY_LIMIT = 50
+TOTAL_IDS = 20000
+CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
 
@@ -23,6 +23,7 @@ async def fetch_id(client, semaphore, i, results):
                         {
                             "_id": str(data["_id"]),  # Saved as string
                             "name": str(data["name"]),  # Saved as string
+                            "number": str(data["number"]),
                         }
                     )
         except Exception:
@@ -41,6 +42,7 @@ async def main():
         ]
         await asyncio.gather(*tasks)
 
+    result.sort(key=lambda x: x["name"])
     print(f"Scan finished. {len(results)} valid items added to the list.")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
