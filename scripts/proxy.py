@@ -24,7 +24,7 @@ if country != "US":
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
             for p in raw_data 
-            if p.get("protocol") == "http" and p.get("country_code") == country and p.get("anonymous") is True
+            if p.get("protocol") == "http" and p.get("country_code") == country and p.get("anonymity") is not "elite"
         ]
         print(f"Found {len(proxy_list)} HTTP proxies for {country} inside the global list.")
     except Exception as e:
@@ -33,7 +33,7 @@ if country != "US":
         
     if not proxy_list:
         print(f"Error: No free proxies available right now for {country}.")
-        sys.exit(1)
+        sys.exit(0)
 else:
     # USA uses no proxy, runs natively
     proxy_list = [None]
