@@ -22,61 +22,28 @@ jobs:
         with:
           python-version: '3.10'
 
+      # Installed requests along with httpx to support the proxy script
       - name: Install dependencies
-        run: pip install httpx requests[socks]
-
-      - name: Install Tor
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tor
+        run: pip install httpx requests
 
       # ================= PROCESS 1: GLOBAL SCANNER =================
       - name: Run Global Scan Script
         run: python scanner.py
 
       # ================= PROCESS 2: GEOLOCATED SCANNER =================
-      # Country: Colombia
-      - name: Configure Tor for Colombia (CO)
-        run: |
-          echo "ExitNodes {co}" | sudo tee /etc/tor/torrc
-          echo "StrictNodes 1" | sudo tee -a /etc/tor/torrc
-          sudo systemctl restart tor
-          sleep 5
-      - name: Run script for Colombia
+      - name: Run proxy script for Colombia
         run: python proxy.py co
 
-      # Country: Spain
-      - name: Configure Tor for Spain (ES)
-        run: |
-          sudo sed -i '/ExitNodes/d' /etc/tor/torrc
-          echo "ExitNodes {es}" | sudo tee -a /etc/tor/torrc
-          sudo systemctl restart tor
-          sleep 5
-      - name: Run script for Spain
+      - name: Run proxy script for Spain
         run: python proxy.py es
 
-      # Country: Canada
-      - name: Configure Tor for Canada (CA)
-        run: |
-          sudo sed -i '/ExitNodes/d' /etc/tor/torrc
-          echo "ExitNodes {ca}" | sudo tee -a /etc/tor/torrc
-          sudo systemctl restart tor
-          sleep 5
-      - name: Run script for Canada
+      - name: Run proxy script for Canada
         run: python proxy.py ca
 
-      # Country: United Kingdom
-      - name: Configure Tor for United Kingdom (GB)
-        run: |
-          sudo sed -i '/ExitNodes/d' /etc/tor/torrc
-          echo "ExitNodes {gb}" | sudo tee -a /etc/tor/torrc
-          sudo systemctl restart tor
-          sleep 5
-      - name: Run script for United Kingdom
+      - name: Run proxy script for United Kingdom
         run: python proxy.py gb
 
-      # Country: United States
-      - name: Run script for USA natively
+      - name: Run proxy script for USA natively
         run: python proxy.py us
 
       # ================= COMMIT ALL CHANGES =================
