@@ -8,8 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-scanner:
+  run-geolocated-fetch:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country_code: [au, br, ca, co, es, gb, ir, us]
+      fail-fast: false 
 
     steps:
       - name: Checkout repository
@@ -22,37 +26,42 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Installed requests along with httpx to support the proxy script
       - name: Install dependencies
-        run: pip install httpx requests
+        run: pip install requests
 
-      # ================= PROCESS 1: GEOLOCATED SCANNER =================
-      - name: Run proxy script for Brazil
-        run: python scripts/proxy.py br
+      - name: Run proxy script for ${{ matrix.country_code }}
+        run: python proxy.py ${{ matrix.country_code }}
 
-      - name: Run proxy script for Spain
-        run: python scripts/proxy.py es
-
-      - name: Run proxy script for Canada
-        run: python scripts/proxy.py ca
-
-      - name: Run proxy script for United Kingdom
-        run: python scripts/proxy.py gb
-
-      - name: Run proxy script for Italy
-        run: python scripts/proxy.py it
-
-      - name: Run proxy script for USA natively
-        run: python scripts/proxy.py us
-
-      # ================= PROCESS 2: GLOBAL SCANNER =================
-      - name: Run Global Scan Script
-        run: python scripts/scanner.py
-
-      # ================= COMMIT ALL CHANGES =================
-      - name: Commit and push changes
+      - name: Commit country changes
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "actions@github.com"
-          git add lists/list_all.json lists/list_*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated global and geolocated update: $(date +'%Y-%m-%d %H:%M')" && git push origin test)
+          git add lists/list_${{ matrix.country_code }}.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated geolocated update [${{ matrix.country_code }}]" && git push origin test)
+
+  run-global-scanner:
+    needs: run-geolocated-fetch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: 'test'
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install httpx
+
+      - name: Run Global Scan Script
+        run: python scanner.py
+
+      - name: Commit global changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add lists/list_all.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated global update: $(date +'%Y-%m-%d %H:%M')" && git push origin test)
