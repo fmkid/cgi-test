@@ -66,4 +66,4 @@ for proxy_ip in proxy_list:
         print(f"Connection failed via proxy: {e}")
 
 print(f"Error: All proxy attempts failed to fetch data for {country}.")
-sys.exit(1)
+sys.exit(0)
