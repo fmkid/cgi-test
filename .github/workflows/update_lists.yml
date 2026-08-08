@@ -13,12 +13,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: 'test'
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
@@ -38,6 +38,9 @@ jobs:
 
       - name: Run proxy script for United Kingdom
         run: python scripts/proxy.py gb
+
+      - name: Run proxy script for Italy
+        run: python scripts/proxy.py it
 
       - name: Run proxy script for USA natively
         run: python scripts/proxy.py us
