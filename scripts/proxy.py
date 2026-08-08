@@ -24,7 +24,7 @@ if country != "US":
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
             for p in raw_data 
-            if p.get("protocol") == "http" and p.get("country_code") == country and p.get("anonymity") != "elite"
+            if p.get("protocol") == "http" and p.get("country_code") == country # and p.get("anonymity") != "elite"
         ]
         print(f"Found {len(proxy_list)} HTTP proxies for {country} inside the global list.")
     except Exception as e:
