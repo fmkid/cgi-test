@@ -1,1738 +1,850 @@
 [
     {
-        "_id": "51c75f7bb6f26ba1cd00002f",
-        "name": "Little Stars Universe"
-    },
-    {
-        "_id": "5421f71da6af422839419cb3",
-        "name": "CNN HEADLINES"
-    },
-    {
-        "_id": "545943f1c9f133a519bbac92",
-        "name": "MST3K"
-    },
-    {
-        "_id": "5459795fc9f133a519bc0bef",
-        "name": "Scripps News"
-    },
-    {
-        "_id": "54ff7ba69222cb1c2624c584",
+        "_id": "62b976b93279cb000772c6f9",
         "name": "Bloomberg TV+"
     },
     {
-        "_id": "554158e864526b29254ff105",
-        "name": "FailArmy"
+        "_id": "62b97c5f0d8c8e0007cf48b9",
+        "name": "Life & Legend of Wyatt Earp"
     },
     {
-        "_id": "55b179af994403942f3061d6",
-        "name": "Newsmax2"
+        "_id": "62bdaa32a1b2fd00076693e8",
+        "name": "FBI Files"
     },
     {
-        "_id": "55b285cd2665de274553d66f",
-        "name": "Sky News"
-    },
-    {
-        "_id": "5616f9c0ada51f8004c4b091",
-        "name": "World Poker Tour"
-    },
-    {
-        "_id": "56171fafada51f8004c4b40f",
-        "name": "Forever Kids"
-    },
-    {
-        "_id": "561c5b0dada51f8004c4d855",
-        "name": "Classic Movies Channel"
-    },
-    {
-        "_id": "561d7d484dc7c8770484914a",
-        "name": "Pluto TV Action"
-    },
-    {
-        "_id": "563a970aa1a1f7fe7c9daad7",
-        "name": "Pluto TV Science"
-    },
-    {
-        "_id": "569546031a619b8f07ce6e25",
-        "name": "Pluto TV Horror"
-    },
-    {
-        "_id": "580e87ff497c73ba2f321dd3",
-        "name": "Funny AF"
-    },
-    {
-        "_id": "5812b3a4249444e05d09cc46",
-        "name": "Pluto TV Cars"
-    },
-    {
-        "_id": "5812b7d3249444e05d09cc49",
-        "name": "Pluto TV Anime"
-    },
-    {
-        "_id": "5812bcc8237a6ff45d16c407",
-        "name": "Spike Pluto TV"
-    },
-    {
-        "_id": "5812bd9f249444e05d09cc4e",
-        "name": "Naturescape"
-    },
-    {
-        "_id": "5812be1c249444e05d09cc50",
-        "name": "Pluto TV True Crime"
-    },
-    {
-        "_id": "5812bfbe4ced4f7b601b12e6",
-        "name": "BUZZR"
-    },
-    {
-        "_id": "5873fc21cad696fb37aa9054",
-        "name": "Live Music"
-    },
-    {
-        "_id": "58af4c093a41ca9d4ecabe96",
-        "name": "BET Cinema"
-    },
-    {
-        "_id": "58d947b9e420d8656ee101ab",
-        "name": "RiffTrax"
-    },
-    {
-        "_id": "58e55b14ad8e9c364d55f717",
-        "name": "Flicks of Fury"
-    },
-    {
-        "_id": "59b722526996084038c01e1b",
-        "name": "TNA Wrestling"
-    },
-    {
-        "_id": "5a4d35dfa5c02e717a234f86",
-        "name": "Pluto TV History"
-    },
-    {
-        "_id": "5a4d3a00ad95e4718ae8d8db",
-        "name": "Pluto TV Comedy"
-    },
-    {
-        "_id": "5a66795ef91fef2c7031c599",
-        "name": "Pluto TV Romance"
-    },
-    {
-        "_id": "5a6b92f6e22a617379789618",
-        "name": "CBS News 24/7"
-    },
-    {
-        "_id": "5a74b8e1e22a61737979c6bf",
-        "name": "FOX Sports"
-    },
-    {
-        "_id": "5adf96e3e738977e2c31cb04",
-        "name": "Pluto TV Paranormal"
-    },
-    {
-        "_id": "5aea40b35126c2157123aa64",
+        "_id": "62bdabbc5611f2000761ca30",
         "name": "The New Detectives"
     },
     {
-        "_id": "5aec96ec5126c2157123c657",
-        "name": "Nosey"
-    },
-    {
-        "_id": "5b4e69e08291147bd04a9fd7",
-        "name": "Pluto TV Thrillers"
-    },
-    {
-        "_id": "5b4e92e4694c027be6ecece1",
-        "name": "Pluto TV Drama"
-    },
-    {
-        "_id": "5b4e94282d4ec87bdcbb87cd",
+        "_id": "62bdacc96a3751000811842d",
         "name": "Pluto TV Westerns"
     },
     {
-        "_id": "5b4e96a0423e067bd6df6901",
-        "name": "Unsolved Mysteries"
-    },
-    {
-        "_id": "5b4e99f4423e067bd6df6903",
-        "name": "Gordon Ramsay's Hell's Kitchen"
-    },
-    {
-        "_id": "5b4fc274694c027be6ed3eea",
-        "name": "Pluto TV Sci-Fi"
-    },
-    {
-        "_id": "5b64a245a202b3337f09e51d",
-        "name": "Pluto TV Fantastic"
-    },
-    {
-        "_id": "5ba3fb9c4b078e0f37ad34e8",
-        "name": "Pluto TV Spotlight"
-    },
-    {
-        "_id": "5bb1ad55268cae539bcedb08",
-        "name": "The Pet Collective"
-    },
-    {
-        "_id": "5bb1af6a268cae539bcedb0a",
-        "name": "Forensic Files"
-    },
-    {
-        "_id": "5bb3fea0f711fd76340eebff",
-        "name": "Pluto TV Military"
-    },
-    {
-        "_id": "5bdcdf1e851dd5632e2c11d1",
-        "name": "QVC"
-    },
-    {
-        "_id": "5bee1a7359ee03633e780238",
-        "name": "Dog the Bounty Hunter"
-    },
-    {
-        "_id": "5c12ba66eae03059cbdc77f2",
-        "name": "Pluto TV Cars"
-    },
-    {
-        "_id": "5c2d64ffbdf11b71587184b8",
-        "name": "TV Land Sitcoms"
-    },
-    {
-        "_id": "5c37d6712de254456f7ec340",
-        "name": "Cold Case Files by A&E"
-    },
-    {
-        "_id": "5c393cad2de254456f7ef8c2",
-        "name": "Spike Outdoors"
-    },
-    {
-        "_id": "5c665db3e6c01b72c4977bc2",
-        "name": "Pluto TV Cult Films"
-    },
-    {
-        "_id": "5c6dc88fcd232425a6e0f06e",
-        "name": "Pluto TV Terror"
-    },
-    {
-        "_id": "5c6eeb85c05dfc257e5a50c4",
-        "name": "Degrassi"
-    },
-    {
-        "_id": "5ca525b650be2571e3943c63",
-        "name": "80s Rewind"
-    },
-    {
-        "_id": "5ca670f6593a5d78f0e85aed",
-        "name": "BET Pluto TV"
-    },
-    {
-        "_id": "5ca671f215a62078d2ec0abf",
-        "name": "Comedy Central Pluto TV"
-    },
-    {
-        "_id": "5ca672f515a62078d2ec0ad2",
-        "name": "MTV Pluto TV"
-    },
-    {
-        "_id": "5ca673e0d0bd6c2689c94ce3",
-        "name": "Nickelodeon Pluto TV"
-    },
-    {
-        "_id": "5ca6748a37b88b269472dad9",
-        "name": "Nick Jr. Pluto TV"
-    },
-    {
-        "_id": "5cabdf1437b88b26947346b2",
-        "name": "Pluto TV Backcountry"
-    },
-    {
-        "_id": "5cb0cae7a461406ffe3f5213",
-        "name": "Paramount Movie Channel"
-    },
-    {
-        "_id": "5cbf6a868a1bce4a3d52a5e9",
-        "name": "Midsomer Murders"
-    },
-    {
-        "_id": "5ce4475cd43850831ca91ce7",
+        "_id": "62bdad934d73d50007a82472",
         "name": "Doctor Who Classic"
     },
     {
-        "_id": "5ce44810b421747ae467b7cd",
-        "name": "Antiques Roadshow UK"
+        "_id": "62bdae69a47b6c00076af298",
+        "name": "Baywatch"
     },
     {
-        "_id": "5ce5a8954311f992edbe1da2",
-        "name": "Logo Pluto TV"
+        "_id": "62bdaf3470f09a000714a2f6",
+        "name": "Degrassi"
     },
     {
-        "_id": "5ced7d5df64be98e07ed47b6",
-        "name": "NFL Channel"
+        "_id": "62bdb0bcd707b9000739d2e5",
+        "name": "Pluto TV Drama Movies"
     },
     {
-        "_id": "5cf0622da00ca1e2f6fac712",
-        "name": "EstrellaTV"
+        "_id": "62bdb1c5e25122000798ac79",
+        "name": "South Park"
     },
     {
-        "_id": "5cf968040ab7d8f181e6a68b",
-        "name": "Cine Premiere"
+        "_id": "62bdb5500c21270007218ce1",
+        "name": "FailArmy"
     },
     {
-        "_id": "5cf96b1c4f1ca3f0629f4bf0",
-        "name": "Cine en español"
+        "_id": "62bdb75c3afd1200079146a6",
+        "name": "Nick Jr. Pluto TV"
     },
     {
-        "_id": "5cf96b8f4f1ca3f0629f4bf1",
-        "name": "Investiga"
-    },
-    {
-        "_id": "5cf96c0222df39f1a338d163",
-        "name": "Pluto TV Novelas"
-    },
-    {
-        "_id": "5cf96cc422df39f1a338d165",
-        "name": "Telemundo telenovelas clásicas"
-    },
-    {
-        "_id": "5cf96d351652631e36d4331f",
-        "name": "MTV en español"
-    },
-    {
-        "_id": "5cf96dad1652631e36d43320",
-        "name": "Comedy Central en español"
-    },
-    {
-        "_id": "5d0c16d686454ead733d08f8",
-        "name": "TOTALLY TURTLES"
-    },
-    {
-        "_id": "5d14fb6c84dd37df3b4290c5",
-        "name": "Peppa Pig"
-    },
-    {
-        "_id": "5d14fc31252d35decbc4080b",
-        "name": "Yo! MTV"
-    },
-    {
-        "_id": "5d14fd1a252d35decbc4080c",
-        "name": "MTV Biggest Pop"
-    },
-    {
-        "_id": "5d14fdb8ca91eedee1633117",
-        "name": "MTV Spankin' New"
-    },
-    {
-        "_id": "5d3609cd6a6c78d7672f2a81",
-        "name": "MTV Flow Latino"
-    },
-    {
-        "_id": "5d40855b3fb0855028c99b6f",
-        "name": "DCC: Making the Team"
-    },
-    {
-        "_id": "5d40bebc5e3d2750a2239d7e",
-        "name": "TV Land Drama"
-    },
-    {
-        "_id": "5d48678d34ceb37d3c458a55",
-        "name": "Wild 'N Out"
-    },
-    {
-        "_id": "5d48685da7e9f476aa8a1888",
-        "name": "The Challenge"
-    },
-    {
-        "_id": "5d486acc34ceb37d3c458a64",
-        "name": "The First"
-    },
-    {
-        "_id": "5d51ddf0369acdb278dfb05e",
-        "name": "Love & Hip Hop"
-    },
-    {
-        "_id": "5d51e2bceca5b4b2c0e06c50",
-        "name": "Black Ink Crew"
-    },
-    {
-        "_id": "5d51e791b7dba3b2ae990ab2",
-        "name": "This Old House"
-    },
-    {
-        "_id": "5d695f7db53adf96b78e7ce3",
-        "name": "TODAY All Day"
-    },
-    {
-        "_id": "5d81607ab737153ea3c1c80e",
-        "name": "The Addams Family"
-    },
-    {
-        "_id": "5d8beeb39b5d5d5f8c672530",
-        "name": "Pluto TV Lives"
-    },
-    {
-        "_id": "5d8bf0b06d2d855ee15115e3",
-        "name": "Pluto TV Reality"
-    },
-    {
-        "_id": "5d8d08395f39465da6fb3ec4",
-        "name": "Nickelodeon en español"
-    },
-    {
-        "_id": "5d8d164d92e97a5e107638d2",
-        "name": "Cine adrenalina"
-    },
-    {
-        "_id": "5d8d180092e97a5e107638d3",
-        "name": "Cine terror"
-    },
-    {
-        "_id": "5d93b635b43dd1a399b39eee",
-        "name": "Vevo Pop"
-    },
-    {
-        "_id": "5da0c85bd2c9c10009370984",
-        "name": "Naruto"
-    },
-    {
-        "_id": "5da0d75e84830900098a1ea0",
-        "name": "Vevo Country"
-    },
-    {
-        "_id": "5da0d83f66c9700009b96d0e",
-        "name": "Vevo R&B"
-    },
-    {
-        "_id": "5dae084727c8af0009fe40a4",
-        "name": "Tosh.0"
-    },
-    {
-        "_id": "5dae0b4841a7d0000938ddbd",
-        "name": "Court TV"
-    },
-    {
-        "_id": "5db0ad56edc89300090d2ebb",
-        "name": "Kids Movie Club"
-    },
-    {
-        "_id": "5dc0c78281eddb0009a02d5e",
-        "name": "ET"
-    },
-    {
-        "_id": "5dc1cb279c91420009db261d",
-        "name": "Home.Made.Nation"
-    },
-    {
-        "_id": "5dc48170e280c80009a861ab",
-        "name": "CBS News New York"
-    },
-    {
-        "_id": "5dc481cda1d430000948a1b4",
-        "name": "CBS News Los Angeles"
-    },
-    {
-        "_id": "5dc9b8223687ff000936ed79",
-        "name": "CBS News New York"
-    },
-    {
-        "_id": "5dc9b875e280c80009a8a44a",
-        "name": "CBS News Los Angeles"
-    },
-    {
-        "_id": "5de94dacb394a300099fa22a",
-        "name": "PGA TOUR"
-    },
-    {
-        "_id": "5df97894467dfa00091c873c",
-        "name": "NBC News NOW"
-    },
-    {
-        "_id": "5e1f7da4bc7d740009831259",
-        "name": "America's Voice News"
-    },
-    {
-        "_id": "5e1f7e089f23700009d66303",
-        "name": "COPS"
-    },
-    {
-        "_id": "5e46fba0c43b0d00096e5ac1",
-        "name": "Blaze Live"
-    },
-    {
-        "_id": "5e54187aae660e00093561d6",
-        "name": "Game Show Central"
-    },
-    {
-        "_id": "5e66968a70f34c0007d050be",
-        "name": "MLB"
-    },
-    {
-        "_id": "5e7cf6c7b156d500078c5f44",
-        "name": "OAN Plus"
-    },
-    {
-        "_id": "5e82530945600e0007ca076c",
-        "name": "All Reality WE tv"
-    },
-    {
-        "_id": "5e825550e758c700077b0aef",
-        "name": "The Rifleman"
-    },
-    {
-        "_id": "5e82bb378601b80007b4bd78",
-        "name": "The Walking Dead en español"
-    },
-    {
-        "_id": "5e84f54a82f05300080e6746",
-        "name": "America's Test Kitchen"
-    },
-    {
-        "_id": "5e8df4bc16e34700077e77d3",
-        "name": "Western TV"
-    },
-    {
-        "_id": "5e94cd036cc69d0007e8a1ba",
-        "name": "Crímenes imperfectos"
-    },
-    {
-        "_id": "5e9debf8c881310007d7bde1",
-        "name": "Deal or No Deal"
-    },
-    {
-        "_id": "5e9decb953e157000752321c",
-        "name": "Judge Nosey"
-    },
-    {
-        "_id": "5e9f2c05172a0f0007db4786",
-        "name": "CBS Sports HQ"
-    },
-    {
-        "_id": "5eb1aeb2fd4b8a00076c2047",
-        "name": "CBS News Chicago"
-    },
-    {
-        "_id": "5eb1af2ad345340008fccd1e",
-        "name": "CBS News Boston"
-    },
-    {
-        "_id": "5eb1afb21486df0007abc57c",
-        "name": "CBS News Bay Area"
-    },
-    {
-        "_id": "5eb1b05ea168cc000767ba67",
-        "name": "CBS News Philadelphia"
-    },
-    {
-        "_id": "5eb1b0bf2240d8000732a09c",
-        "name": "CBS News Minnesota"
-    },
-    {
-        "_id": "5eb1b12146cba40007aa7e5d",
-        "name": "CBS News Colorado"
-    },
-    {
-        "_id": "5eb1b17aa5277e00083f6521",
-        "name": "CBS News Pittsburgh"
-    },
-    {
-        "_id": "5eb301b7395671000780d100",
-        "name": "Little Angel's Playroom"
-    },
-    {
-        "_id": "5ebc8688f3697d00072f7cf8",
-        "name": "Bellator MMA"
-    },
-    {
-        "_id": "5eceb0d4065c240007688ec6",
-        "name": "CBS News Texas"
-    },
-    {
-        "_id": "5ef3977e5d773400077de284",
-        "name": "Three's Company"
-    },
-    {
-        "_id": "5efbd29e4aa26700076c0d06",
-        "name": "CSI"
-    },
-    {
-        "_id": "5efbd39f8c4ce900075d7698",
-        "name": "Star Trek"
-    },
-    {
-        "_id": "5f15e32b297f96000768f928",
-        "name": "Classic TV Comedy"
-    },
-    {
-        "_id": "5f15e3cccf49290007053c67",
-        "name": "Classic TV Drama"
-    },
-    {
-        "_id": "5f21e7b24744c60007c1f6fc",
-        "name": "Survivor"
-    },
-    {
-        "_id": "5f21e8a6e2f12b000755afdb",
-        "name": "The Amazing Race"
-    },
-    {
-        "_id": "5f21ea08007a49000762d349",
-        "name": "Smithsonian Channel Selects"
-    },
-    {
-        "_id": "5f24662bebe0f0000767de32",
-        "name": "Supernatural Drama"
-    },
-    {
-        "_id": "5f31fd1b4c510e00071c3103",
-        "name": "Pluto TV Crime Drama"
-    },
-    {
-        "_id": "5f32f26bcd8aea00071240e5",
-        "name": "Vevo '70s"
-    },
-    {
-        "_id": "5f36d726234ce10007784f2a",
-        "name": "The Bob Ross Channel"
-    },
-    {
-        "_id": "5f4d83e0a382c00007bc02e7",
-        "name": "Beverly Hills 90210"
-    },
-    {
-        "_id": "5f4d8594eb979c0007706de7",
-        "name": "Pluto TV Crime Movies"
-    },
-    {
-        "_id": "5f4d863b98b41000076cd061",
-        "name": "Pluto TV Staff Picks"
-    },
-    {
-        "_id": "5f4d86f519358a00072b978e",
-        "name": "90s Throwback"
-    },
-    {
-        "_id": "5f4d878d3d19b30007d2e782",
-        "name": "70s Cinema"
-    },
-    {
-        "_id": "5f4d882d5233170007ee880e",
-        "name": "Misterios sin resolver"
-    },
-    {
-        "_id": "5f4ec10ed9636f00089b8c89",
-        "name": "Yu-Gi-Oh!"
-    },
-    {
-        "_id": "5f513564e4622a0007c578c0",
-        "name": "Cine comedia"
-    },
-    {
-        "_id": "5f5136317aedfb0007016f93",
-        "name": "Cine Amor"
-    },
-    {
-        "_id": "5f68f53eb1e5800007390bf8",
-        "name": "CMT Equal Play"
-    },
-    {
-        "_id": "5f7790b3ed0c88000720b241",
-        "name": "One Piece"
-    },
-    {
-        "_id": "5f7791b8372da90007fd45e6",
-        "name": "The Price Is Right: The Barker Era"
-    },
-    {
-        "_id": "5f77939a630f530007dde654",
-        "name": "Family Ties"
-    },
-    {
-        "_id": "5f7794162a4559000781fc12",
-        "name": "Happy Days"
-    },
-    {
-        "_id": "5f7794a788d29000079d2f07",
-        "name": "The Love Boat"
-    },
-    {
-        "_id": "5f7796e470510900070d4e3d",
-        "name": "Beverly Hillbillies"
-    },
-    {
-        "_id": "5f77977bd924d80007eee60c",
-        "name": "Mission Impossible"
-    },
-    {
-        "_id": "5f779951372da90007fd45e8",
-        "name": "Classica"
-    },
-    {
-        "_id": "5f8a02476b72230007e62b7d",
-        "name": "HSN"
-    },
-    {
-        "_id": "5f9b017d037a30000730c68e",
-        "name": "Closed Caption Test 3"
-    },
-    {
-        "_id": "5fb584b7613a31000789de5a",
-        "name": "Ryan and Friends"
-    },
-    {
-        "_id": "5fc54366b04b2300072e31af",
-        "name": "PokerGO"
-    },
-    {
-        "_id": "5fd7b8bf927e090007685853",
-        "name": "Vevo '80s"
-    },
-    {
-        "_id": "5fd7bb1f86d94a000796e2c2",
-        "name": "Vevo '90s"
-    },
-    {
-        "_id": "5fd7bca3e0a4ee0007a38e8c",
-        "name": "Vevo 2K"
-    },
-    {
-        "_id": "5ff8c708653d080007361b14",
-        "name": "Paramount+ Picks"
-    },
-    {
-        "_id": "5fff49cfb5cd4f0007c2b0dc",
-        "name": "News 12 New York"
-    },
-    {
-        "_id": "6000a5a9e767980007b497ca",
-        "name": "A&E Crime 360"
-    },
-    {
-        "_id": "6000a6f4c3f8550008fc9b91",
-        "name": "Xtreme Outdoor by HISTORY"
-    },
-    {
-        "_id": "601a0342dcf4370007566891",
-        "name": "Tiny House Nation"
-    },
-    {
-        "_id": "6036e6e7ac69c400072afca2",
-        "name": "Hot Bench"
-    },
-    {
-        "_id": "6036e7c385749f00075dbd3b",
-        "name": "Pluto TV Game Shows"
-    },
-    {
-        "_id": "603fde9026ecbf0007752c2c",
-        "name": "Pluto TV Competition"
-    },
-    {
-        "_id": "604928d54a4f730007ff76bc",
-        "name": "CSI en Español"
-    },
-    {
-        "_id": "6049295e7dcef800073c2499",
-        "name": "Star Trek en español"
-    },
-    {
-        "_id": "60492e6d7f3f560007ab0f62",
-        "name": "Estrella News"
-    },
-    {
-        "_id": "60493283ffc52f000710edae",
-        "name": "Little Angel's Playroom en Español"
-    },
-    {
-        "_id": "60807fd5db701400078219c2",
-        "name": "Ink Master"
-    },
-    {
-        "_id": "609bfa51fbecc1000733152e",
-        "name": "Jersey Shore"
-    },
-    {
-        "_id": "60a3d889a5b3690008dc7fe8",
-        "name": "Bar Rescue"
-    },
-    {
-        "_id": "60cb6df2b2ad610008cd5bea",
-        "name": "CBS News Sacramento"
-    },
-    {
-        "_id": "60d39387706fe50007fda8e8",
-        "name": "PBR RidePass"
-    },
-    {
-        "_id": "60d393e5579a420007ee553c",
-        "name": "Casos de la Dra. Polo"
-    },
-    {
-        "_id": "60f5d389985a0c0007357304",
-        "name": "BritBox Mysteries"
-    },
-    {
-        "_id": "60f75178e7f8aa0007e9c259",
-        "name": "The Andy Griffith Show"
-    },
-    {
-        "_id": "60f754f98185580007eb0754",
-        "name": "Matlock"
-    },
-    {
-        "_id": "60f75771dfc72a00071fd0e0",
-        "name": "Gunsmoke"
-    },
-    {
-        "_id": "60f75919718aed0007250d7a",
-        "name": "CBS News Baltimore"
-    },
-    {
-        "_id": "60f760bbdf090700075d7bfe",
-        "name": "Best of Dr. Phil"
-    },
-    {
-        "_id": "60f85644a9493e0007a1f035",
-        "name": "BET Classics"
-    },
-    {
-        "_id": "60faf9ddfcc1f200070a5932",
-        "name": "Garfield and Friends"
-    },
-    {
-        "_id": "60faffc3fbbc120007fc4376",
-        "name": "Baby Shark TV"
-    },
-    {
-        "_id": "60fb01a24795a6000762fe83",
-        "name": "LEGO Kids TV"
-    },
-    {
-        "_id": "60fb040d4795a6000762fe8f",
-        "name": "Kartoon Channel!"
-    },
-    {
-        "_id": "60fb053712f22a0007ff14d2",
-        "name": "Transformers TV"
-    },
-    {
-        "_id": "60fb299b79498900070b29e0",
-        "name": "CBS News Miami"
-    },
-    {
-        "_id": "60fb2f47c133270007327375",
-        "name": "Cine aventura"
-    },
-    {
-        "_id": "6127e12ed140e900077e7b6f",
-        "name": "Teen Mom"
-    },
-    {
-        "_id": "612fea0e970e6f00083be56b",
-        "name": "TV Land Drama"
-    },
-    {
-        "_id": "61325c4f982acd000723287e",
-        "name": "Classic TV Crime Drama"
-    },
-    {
-        "_id": "61325d18f5166c00081b84e0",
-        "name": "Classic TV: Families"
-    },
-    {
-        "_id": "613260e4bdb71c00070d63fa",
-        "name": "More TV Drama"
-    },
-    {
-        "_id": "6132619f9ddaa50007e7dd86",
-        "name": "More TV Sitcoms"
-    },
-    {
-        "_id": "61326275b3c86a00078e4833",
-        "name": "BET Throwbacks"
-    },
-    {
-        "_id": "615b8ec39e878900073f419a",
-        "name": "Antiques Road Trip"
-    },
-    {
-        "_id": "6176f39e709f160007ec61c3",
-        "name": "48 Hours"
-    },
-    {
-        "_id": "6176fd25e83a5f0007a464c9",
-        "name": "Bounce XL"
-    },
-    {
-        "_id": "617b37b361e0fd0008cfd8c5",
-        "name": "Pluto TV Reaction"
-    },
-    {
-        "_id": "6197086891ddd4000739941a",
-        "name": "Perry Mason"
-    },
-    {
-        "_id": "61b3b8c645b45d0007a9bb8d",
-        "name": "Blue Bloods"
-    },
-    {
-        "_id": "61bd0b57872c650008ed2e38",
-        "name": "TV Land Sitcoms"
-    },
-    {
-        "_id": "61d4b38226b8a50007fe03a6",
-        "name": "Vevo Rock"
-    },
-    {
-        "_id": "61d4c2817a823d00070ba53e",
-        "name": "Vevo True School Hip-Hop"
-    },
-    {
-        "_id": "61ea25686fd777000739a272",
-        "name": "WeatherNation Washington D.C."
-    },
-    {
-        "_id": "61f07513227feb00073ee6bc",
-        "name": "Heartland"
-    },
-    {
-        "_id": "61f33318210549000806a530",
-        "name": "Classic Movie Westerns"
-    },
-    {
-        "_id": "620bfa7df72827000703ddb1",
-        "name": "Stargate"
-    },
-    {
-        "_id": "623a1b5188ecdc0007c9ef5a",
-        "name": "XITE Rock x Metal"
-    },
-    {
-        "_id": "623b92a2ccefed0007b1db48",
-        "name": "XITE Classic Country"
-    },
-    {
-        "_id": "623b93628e6ded0007337d4d",
-        "name": "XITE Gospel"
-    },
-    {
-        "_id": "6267352efcf21c0007c76642",
-        "name": "Let's Make A Deal"
-    },
-    {
-        "_id": "627d355aa95efd00077afcc7",
-        "name": "Cheaters"
-    },
-    {
-        "_id": "6283d51144ad8f0007fa382d",
-        "name": "The Judge Judy Channel"
-    },
-    {
-        "_id": "628e685ba3811100070551a8",
-        "name": "Hallmark Movies & More"
-    },
-    {
-        "_id": "62a2e8d8a1c8650007e95bac",
-        "name": "Pluto TV Anime"
-    },
-    {
-        "_id": "62ba60f059624e000781c436",
-        "name": "00s Replay"
-    },
-    {
-        "_id": "62cdc813f5def500070361eb",
-        "name": "CBS News Texas"
-    },
-    {
-        "_id": "62cdcdf7393d8400076f3df1",
-        "name": "CBS News Baltimore"
-    },
-    {
-        "_id": "62f54c11b3af68000702c304",
-        "name": "CSI: Miami"
-    },
-    {
-        "_id": "62f54c6439183b000769fb8f",
-        "name": "CSI: NY"
-    },
-    {
-        "_id": "62fa8176b9884200074ef5ae",
-        "name": "The Walking Dead Universe"
-    },
-    {
-        "_id": "632b5950b515b000079e6b81",
-        "name": "CSI: Miami en español"
-    },
-    {
-        "_id": "632b606e12a67b0007c9e371",
-        "name": "CSI: NY en español"
-    },
-    {
-        "_id": "632b62b3982d0d000755a2be",
-        "name": "Boston 25"
-    },
-    {
-        "_id": "633354b63df9700007f6a1b7",
-        "name": "Sitcom Legends"
-    },
-    {
-        "_id": "63335b193583440007c859fb",
-        "name": "Lifetime Movie Favorites"
-    },
-    {
-        "_id": "6334a574605f140007e233c4",
-        "name": "PFL MMA"
-    },
-    {
-        "_id": "634dacf51d90320007fcd5fa",
-        "name": "Star Trek: Voyager"
-    },
-    {
-        "_id": "634ee8f95aa9870007248333",
-        "name": "Confess by Nosey"
-    },
-    {
-        "_id": "634f2610d5023700078f7dee",
-        "name": "CBS News Detroit"
-    },
-    {
-        "_id": "634f3011f4fff20007431641",
-        "name": "I Love Lucy"
-    },
-    {
-        "_id": "634f307c7a068e00072c9982",
-        "name": "Rawhide"
-    },
-    {
-        "_id": "636adc255bcf470007d6e0e2",
-        "name": "Top Gear"
-    },
-    {
-        "_id": "636c2b3c55d2e700074105c4",
-        "name": "PBS Antiques Roadshow"
-    },
-    {
-        "_id": "637413d8531e0c0007442d6d",
-        "name": "Dateline 24/7"
-    },
-    {
-        "_id": "637e55347427a40007fac703",
-        "name": "Sailor Moon"
-    },
-    {
-        "_id": "63a0e33a45264d000850ed7e",
-        "name": "Golazo Network"
-    },
-    {
-        "_id": "63b48016d9dd51000828fa37",
-        "name": "POWERNATION"
-    },
-    {
-        "_id": "63d025db4e83e700086eaa96",
-        "name": "LiveNOW from FOX"
-    },
-    {
-        "_id": "6400f731d200410008f9b339",
-        "name": "Discovery Turbo TV"
-    },
-    {
-        "_id": "640a64bd73e013000893d4e0",
-        "name": "PBS Nature"
-    },
-    {
-        "_id": "640a68880e884c0009979cc2",
-        "name": "FOX Weather"
-    },
-    {
-        "_id": "643f035d5a0cd50008361534",
-        "name": "The Price Is Right"
-    },
-    {
-        "_id": "643f03b9d8436e0008edf021",
-        "name": "Family Feud Classic"
-    },
-    {
-        "_id": "6450209d939a5900084dba1d",
-        "name": "iCarly TV"
-    },
-    {
-        "_id": "6452c77ed3fdde00080eb3a8",
-        "name": "90s Kids TV 2"
-    },
-    {
-        "_id": "6452c814939a590008567a3b",
-        "name": "90's Kids"
-    },
-    {
-        "_id": "645e7828e1979c00087b75b4",
-        "name": "MovieSphere by Lionsgate"
-    },
-    {
-        "_id": "649b6898f2ec0000081a9460",
-        "name": "DAZN Ringside"
-    },
-    {
-        "_id": "649ddbfb6f29ec000874ca9e",
-        "name": "Supermarket Sweep"
-    },
-    {
-        "_id": "64a765c04ea480000823917a",
-        "name": "Big Brother Camera 1"
-    },
-    {
-        "_id": "64a765fb798def0008734632",
-        "name": "Big Brother Camera 2"
-    },
-    {
-        "_id": "64a7665b902f2300085d7901",
-        "name": "Big Brother Camera 3"
-    },
-    {
-        "_id": "64a766a794635e0008626601",
-        "name": "Big Brother Camera 4"
-    },
-    {
-        "_id": "64a766cd798def0008734695",
-        "name": "Big Brother Quad View"
-    },
-    {
-        "_id": "64b585f84ea480000838e446",
-        "name": "Pluto TV Icons"
-    },
-    {
-        "_id": "64d1606b4c5ed80008e3b8b9",
-        "name": "Dynasty"
-    },
-    {
-        "_id": "64d160f53c785e0008df525e",
-        "name": "Top Rank Classics"
-    },
-    {
-        "_id": "64d161c93c785e0008df575e",
-        "name": "Vevo Íconos Latinos"
-    },
-    {
-        "_id": "64d2b6bf9b414d0008187d83",
-        "name": "Mayday: Air Disaster"
-    },
-    {
-        "_id": "64dab1f835425100080e1e7b",
-        "name": "Acapulco Shore"
-    },
-    {
-        "_id": "64dab5fe35425100080e2991",
-        "name": "Vevo Regional Mexicano"
-    },
-    {
-        "_id": "64dab9df3d48f40008868091",
-        "name": "The Jamie Oliver Channel"
-    },
-    {
-        "_id": "64e561a4354251000823a0e0",
-        "name": "Ghost Hunters"
-    },
-    {
-        "_id": "6508be683a0d700008c534e4",
-        "name": "ABC News Live"
-    },
-    {
-        "_id": "651f239d9c7aeb0008286823",
-        "name": "Dating Disasters"
-    },
-    {
-        "_id": "65244c403fd33c0008ffff31",
-        "name": "Car Chase"
-    },
-    {
-        "_id": "6532e6a9bdf3cf000887ab29",
-        "name": "More True Crime"
-    },
-    {
-        "_id": "6532e7fa045c3d0008514ca7",
-        "name": "Warner Bros. TV Sweet Escapes"
-    },
-    {
-        "_id": "6532e8342cf13100083b404c",
-        "name": "Warner Bros. TV Say Yes to the Dress"
-    },
-    {
-        "_id": "65453f30085df200085883d8",
-        "name": "ION"
-    },
-    {
-        "_id": "65492fc7056b9700088560b5",
-        "name": "American Crimes"
-    },
-    {
-        "_id": "65493029ab052400089e9d2f",
-        "name": "GolfPass"
-    },
-    {
-        "_id": "6549306c83595c000815a696",
-        "name": "NBC Sports NOW"
-    },
-    {
-        "_id": "654930a8346f420008d3b0b8",
-        "name": "Oxygen True Crime Archives"
-    },
-    {
-        "_id": "6549310a53fc97000838fcc9",
-        "name": "Bravo Vault"
-    },
-    {
-        "_id": "6549316d2c1d330008631496",
-        "name": "Real Housewives Vault"
-    },
-    {
-        "_id": "6549322e53fc97000838febc",
-        "name": "Million Dollar Listing Vault"
-    },
-    {
-        "_id": "654932fa4d6d8f00084c4723",
-        "name": "Bad Girls Club"
-    },
-    {
-        "_id": "6549337183595c000815ad05",
-        "name": "Murder, She Wrote"
-    },
-    {
-        "_id": "654933ac986ad20008a1f406",
-        "name": "Little House on the Prairie"
-    },
-    {
-        "_id": "654933e253fc970008390114",
-        "name": "Universal Action"
-    },
-    {
-        "_id": "6549341853fc9700083901ac",
-        "name": "Universal Crime"
-    },
-    {
-        "_id": "65652f7fc0fc88000883537a",
-        "name": "Crunchyroll"
-    },
-    {
-        "_id": "656535fc2c46f30008870fae",
-        "name": "BBC Earth"
-    },
-    {
-        "_id": "65653817c917a5000844bc30",
-        "name": "Criminal Minds"
-    },
-    {
-        "_id": "656538f8954b020008d389db",
-        "name": "UnXplained Zone"
-    },
-    {
-        "_id": "6565413e4261ca0008215320",
-        "name": "Pickers & Pawn"
-    },
-    {
-        "_id": "656542ae4261ca00082154a8",
-        "name": "Ultimate Builds"
-    },
-    {
-        "_id": "6565430c9d5ac4000822f508",
-        "name": "Rustic Retreats"
-    },
-    {
-        "_id": "65775af3b3801200084a3aa4",
-        "name": "Feel Good Drama"
-    },
-    {
-        "_id": "65775d29dfed030008cb3db2",
-        "name": "Modern Marvels by HISTORY"
-    },
-    {
-        "_id": "65790bd0dfed030008d02f49",
-        "name": "NBC Washington News"
-    },
-    {
-        "_id": "65791199dfed030008d031d3",
-        "name": "Telemundo Noticias Noreste"
-    },
-    {
-        "_id": "65a6dafb7bdc8d0008473c85",
-        "name": "The Lone Ranger"
-    },
-    {
-        "_id": "65a9b20f0c7ff50008d3a3b6",
-        "name": "Universal Monsters"
-    },
-    {
-        "_id": "65c69b683ba51e00084534a3",
-        "name": "Monster Jam"
-    },
-    {
-        "_id": "65c69bbfd77d450008c7ffee",
-        "name": "Star Trek: Deep Space Nine"
-    },
-    {
-        "_id": "65c69bf23ef47d0008583967",
-        "name": "Tough Jobs"
-    },
-    {
-        "_id": "65d92a8c8b24c80008e285c0",
-        "name": "BBC News"
-    },
-    {
-        "_id": "65e23f340d4561000821540d",
-        "name": "Mister Rogers' Neighborhood"
-    },
-    {
-        "_id": "65ea8b928145cb0008509426",
-        "name": "UEFA Champions League"
-    },
-    {
-        "_id": "663946c1b18d700008d9c168",
-        "name": "BET Visionaries"
-    },
-    {
-        "_id": "664e640a0120f40008be4582",
-        "name": "The Wild Wild West"
-    },
-    {
-        "_id": "664fd48894d5580008e45e7c",
-        "name": "Dog Whisperer with Cesar Millan"
-    },
-    {
-        "_id": "6661f11a41af6400080e90d8",
-        "name": "Big Brother"
-    },
-    {
-        "_id": "666b265722acab000885c6aa",
-        "name": "BET x Tyler Perry Comedy"
-    },
-    {
-        "_id": "666b38a5efa2a10008b15b3a",
-        "name": "BET x Tyler Perry Drama"
-    },
-    {
-        "_id": "6675c713fc3a46000863dde7",
-        "name": "Ebony TV Drama"
-    },
-    {
-        "_id": "6675c742ca74680008566b88",
-        "name": "Nash Bridges"
-    },
-    {
-        "_id": "6675c7868768aa0008d7f1c7",
-        "name": "Pokémon"
-    },
-    {
-        "_id": "6675c88da1d7ad00084762cb",
-        "name": "Star Trek: The Motion Pictures"
-    },
-    {
-        "_id": "667f34fffc3a4600087cb96d",
-        "name": "FOX LOCAL Washington DC"
-    },
-    {
-        "_id": "667f3852efa2a10008e1e514",
-        "name": "Go Go Gadget!"
-    },
-    {
-        "_id": "667f393836a2f90008fd17c0",
-        "name": "Strawberry Shortcake and Friends"
-    },
-    {
-        "_id": "668c566d08d5490008075948",
-        "name": "La Familia del Barrio"
-    },
-    {
-        "_id": "668c5cb4f01dbe0008dd4082",
-        "name": "CBS en español"
-    },
-    {
-        "_id": "66a7f0a78561260008c177f2",
-        "name": "Salem News Channel"
-    },
-    {
-        "_id": "66abefe5d2d50d00082c7d12",
-        "name": "VH1 Queens of Reality"
-    },
-    {
-        "_id": "66b646f9cd0d3100086af83c",
-        "name": "60 Minutes"
-    },
-    {
-        "_id": "66ba495ffe11e5000881f049",
-        "name": "Frasier"
-    },
-    {
-        "_id": "66ba53cda4ee2700083fac09",
-        "name": "Sala de Emergencias: Historias Inéditas"
-    },
-    {
-        "_id": "66c638726838ee00085ac20d",
-        "name": "Andromeda"
-    },
-    {
-        "_id": "66df8a29b25d2b0008fc5fe0",
-        "name": "Love Nature"
-    },
-    {
-        "_id": "66df8aa7abec540008ca8cb6",
-        "name": "Homeful"
-    },
-    {
-        "_id": "66e0b4536ad04d0008fff4b2",
-        "name": "CNN Originals"
-    },
-    {
-        "_id": "66e0b4866ad04d0008fff4d8",
-        "name": "MythBusters"
-    },
-    {
-        "_id": "66e0b4a3f0f17500085cc268",
-        "name": "Hit Sitcoms"
-    },
-    {
-        "_id": "66fedd65d7de140008dccd66",
-        "name": "El Reino Infantil"
-    },
-    {
-        "_id": "66ff0cf663292d0008320cf8",
-        "name": "No Reservations"
-    },
-    {
-        "_id": "672e4d915534bb0008c50168",
-        "name": "Family Feud"
-    },
-    {
-        "_id": "673247127d5da5000817b4d6",
-        "name": "Pluto TV Trending Now"
-    },
-    {
-        "_id": "673248f9030a2c0008033af8",
-        "name": "CNN Noticias"
-    },
-    {
-        "_id": "673249433a61d400087a51ed",
-        "name": "Construcciones Asombrosas"
-    },
-    {
-        "_id": "6732499ce40c4a0008bb9894",
-        "name": "Crimen"
-    },
-    {
-        "_id": "673249afc7626f0008c7205d",
-        "name": "Vidas Extremas"
-    },
-    {
-        "_id": "67352ed93a61d4000881f9fa",
-        "name": "The Twilight Zone"
-    },
-    {
-        "_id": "673bf05ddaad7f0008ac7a5c",
-        "name": "Dinos 24/7"
-    },
-    {
-        "_id": "674f735a2fb8a100087bf253",
-        "name": "Revry"
-    },
-    {
-        "_id": "677d9adfa9a51b0008497fa0",
-        "name": "UFC"
-    },
-    {
-        "_id": "67817323dd7846fe546940dd",
-        "name": "QVC2"
-    },
-    {
-        "_id": "67882c1c7b11714b795c2008",
-        "name": "Sketchy AF"
-    },
-    {
-        "_id": "6792c30abc03978b9b8bb832",
-        "name": "The NBA Channel"
-    },
-    {
-        "_id": "6793ea255225b515b4ba91a7",
-        "name": "ALLBLK Gems"
-    },
-    {
-        "_id": "6793eaa4bc03978b9bc63db1",
-        "name": "ANIME x HIDIVE"
-    },
-    {
-        "_id": "67c0a90621445314490642c8",
-        "name": "Degrassi VIDAA TEST"
-    },
-    {
-        "_id": "67c0ac57214453144906eb48",
-        "name": "Heartland VIDAA TEST"
-    },
-    {
-        "_id": "67c62ac2095aea2ec805eb34",
-        "name": "The Martha Stewart Channel"
-    },
-    {
-        "_id": "67c63b90a20c0399a381b816",
-        "name": "Inuyasha"
-    },
-    {
-        "_id": "67ed8f7e443f0671bc2b2368",
-        "name": "Pluto TV Anime Movies"
-    },
-    {
-        "_id": "681109b688b9d85d0938c6ba",
-        "name": "TennisChannel 2"
-    },
-    {
-        "_id": "682e43b21295f98347710917",
-        "name": "AWSN"
-    },
-    {
-        "_id": "683df56f5195c2a60a3f5559",
-        "name": "Swerve Women’s Sports"
-    },
-    {
-        "_id": "683f67fde5f82715941c047b",
-        "name": "P+ VLL"
-    },
-    {
-        "_id": "68487fb3f212bedacf5a53e3",
-        "name": "50 Cent Action"
-    },
-    {
-        "_id": "68509fe882d704acfc5bacd1",
-        "name": "Tastemade Smokehouse"
-    },
-    {
-        "_id": "686c2677ed17cf4c900a496d",
-        "name": "Wicked Tuna"
-    },
-    {
-        "_id": "686d61503484d6073283059d",
-        "name": "Black Family Sitcoms"
-    },
-    {
-        "_id": "686d8dd294a028da3ac59566",
-        "name": "Women's Sports Network"
-    },
-    {
-        "_id": "68757c45759366af05b3b199",
-        "name": "America's Next Top Model"
-    },
-    {
-        "_id": "68757c60552299d2b080eab6",
-        "name": "Project Runway"
-    },
-    {
-        "_id": "68757effdf333e336be1e49f",
-        "name": "Tony Robbins Network"
-    },
-    {
-        "_id": "68758038552299d2b08162e3",
-        "name": "Law & Order"
-    },
-    {
-        "_id": "687fea9a4fa995eff284a1c8",
-        "name": "Más adrenalina"
-    },
-    {
-        "_id": "687ff00ff6bc08130f16ab81",
-        "name": "Beyond the Gates"
-    },
-    {
-        "_id": "6887a4e01067b66fa16966ec",
-        "name": "Live PD Presents"
-    },
-    {
-        "_id": "6887a86be3703b7d42b3eca3",
-        "name": "Matched Married Meet by Lifetime"
-    },
-    {
-        "_id": "6887a8fd8e92b5e0a7244e88",
-        "name": "Ancient Aliens"
-    },
-    {
-        "_id": "6887aaade3703b7d42b64be8",
-        "name": "The First 48 by A&E"
-    },
-    {
-        "_id": "6887aaf4e3703b7d42b71a1e",
-        "name": "Storage Wars by A&E"
-    },
-    {
-        "_id": "68939e206727ec919bb39061",
-        "name": "Hogan's Heroes"
-    },
-    {
-        "_id": "68bb162bb3900870ec364cbe",
-        "name": "Beach Day"
-    },
-    {
-        "_id": "68bb164fb3900870ec368759",
-        "name": "Living With Evil"
-    },
-    {
-        "_id": "68bb167e00a2f063fdf7ee8f",
-        "name": "Best of Bobby Flay by Food Network"
-    },
-    {
-        "_id": "68bb16916523408b14bac7f8",
-        "name": "Home Cooking by Food Network"
-    },
-    {
-        "_id": "68bb16a500a2f063fdf89f8c",
-        "name": "Chef vs Chef by Food Network"
-    },
-    {
-        "_id": "68bb16ba3efb41cd971f3ce6",
-        "name": "Delicious Eats by Food Network"
-    },
-    {
-        "_id": "68bb16e7f89c82a68bcc4397",
-        "name": "Chip & Jo: Feels Like Home by Magnolia Network"
-    },
-    {
-        "_id": "68c32d88f56983aba40052bd",
-        "name": "BET Comedy Movies"
-    },
-    {
-        "_id": "68e40b54cba140ddfe5fb3b5",
-        "name": "The Brady Bunch"
-    },
-    {
-        "_id": "68e40bc9a1646a6c555a7e85",
-        "name": "The Hills / Laguna Beach"
-    },
-    {
-        "_id": "68e9913c4a666b9054849832",
-        "name": "Bonanza"
-    },
-    {
-        "_id": "68ee9a999938143525bfc385",
-        "name": "Shop LC"
-    },
-    {
-        "_id": "68fbf8101d26140175db8b58",
-        "name": "Pluto TV Franchise Favorites"
-    },
-    {
-        "_id": "6913e381b6bf26bb6e798c13",
-        "name": "The X-Files"
-    },
-    {
-        "_id": "691cf0410a78a9ce61ad2121",
-        "name": "America's Funniest Home Videos"
-    },
-    {
-        "_id": "691d1200c2185a44642f5e7c",
-        "name": "El Rey Rebel"
-    },
-    {
-        "_id": "69445a9a78c0c45b6c9aa8b9",
-        "name": "TikTok Radio"
-    },
-    {
-        "_id": "695c32671ca20bb8ca7fd8f7",
-        "name": "Star Trek: Enterprise"
-    },
-    {
-        "_id": "695c32e61ca20bb8ca802eb9",
-        "name": "Star Trek: The Next Generation"
-    },
-    {
-        "_id": "696689d13b9ce349c9be3a18",
-        "name": "Stingray DJAZZ"
-    },
-    {
-        "_id": "696997049889f8db34c936c2",
-        "name": "Boruto: Naruto Next Generations"
-    },
-    {
-        "_id": "696998915a0ae9e1b563f0c6",
-        "name": "Qello Concerts"
-    },
-    {
-        "_id": "696998dfa2b623e8b20125a3",
-        "name": "ZenLIFE by Stingray"
-    },
-    {
-        "_id": "69699ae5d301d54fb3dc1499",
-        "name": "GrowthDay Network"
-    },
-    {
-        "_id": "69699b6d23ea437206f4a036",
-        "name": "World of Love Island"
-    },
-    {
-        "_id": "698384cb7230043f21f4a3f4",
-        "name": "Property Brothers"
-    },
-    {
-        "_id": "6996296087742204bff43147",
-        "name": "Ridiculousness"
-    },
-    {
-        "_id": "69d6c7befde57cd5ba0160c3",
-        "name": "Pluto TV Hometown Drama"
-    },
-    {
-        "_id": "69d7ebb726eeec84158e28cb",
-        "name": "Pluto TV Adventure"
-    },
-    {
-        "_id": "69d7ebff029c431826bd328e",
-        "name": "Battlestar Galactica"
-    },
-    {
-        "_id": "69e6be40fde57cd5ba562b29",
-        "name": "Pokémon en español"
-    },
-    {
-        "_id": "69eaa34817801c84fca05d94",
-        "name": "Always Funny"
-    },
-    {
-        "_id": "69fa3faab9c0f0d444e64de3",
-        "name": "Pluto TV Pride"
-    },
-    {
-        "_id": "6a03782f2c1c785c1161756c",
-        "name": "Zuffa Boxing Prelims"
-    },
-    {
-        "_id": "6a065830853a01a827f6dd65",
-        "name": "Pluto TV Action Drama"
-    },
-    {
-        "_id": "6a28827ef4a627f3b07df1ea",
+        "_id": "62bdb7f0db2eb30007376d4d",
         "name": "Cheers"
     },
     {
-        "_id": "6a2b0d669465b98649cd0ba1",
-        "name": "Charmed"
+        "_id": "62bdb919d36cbd0007e6ab8a",
+        "name": "South Park En Français"
     },
     {
-        "_id": "6a2b0e66c2b638404f0a4ffb",
-        "name": "Ghost Whisperer"
+        "_id": "62cbef9ebb857100072fc187",
+        "name": "Global News National"
     },
     {
-        "_id": "6a2b0eab9465b98649cd0d2f",
-        "name": "Diagnosis Murder"
+        "_id": "62cbf063257170000724590c",
+        "name": "Global News BC"
     },
     {
-        "_id": "6a2b0edf201df02a8bfea30a",
-        "name": "Touched By An Angel"
+        "_id": "62cbf23dcfb48300077f8348",
+        "name": "Global News Calgary"
     },
     {
-        "_id": "6a2b0f2509705ebdf781231d",
-        "name": "Dr. Quinn, Medicine Woman"
+        "_id": "62cbf2de1fba5f0007e47d9c",
+        "name": "Global News Edmonton"
     },
     {
-        "_id": "6a4bf0a89ad0c6d75edc026b",
-        "name": "Jane the Virgin"
+        "_id": "62cbf398b8e02600071deda5",
+        "name": "Global News Halifax"
     },
     {
-        "_id": "6a4fd96d7652851fb490204f",
-        "name": "Pluto TV Royal Drama"
+        "_id": "62cbf4964446e2000742073e",
+        "name": "Global News Kingston"
     },
     {
-        "_id": "6a4fd9f5445cbf6c14ae3ea2",
-        "name": "Quirky AF"
+        "_id": "62cbf7439cb58900088dc77b",
+        "name": "Global News Lethbridge"
     },
     {
-        "_id": "6a5ff6d9c868f8fd984e005c",
-        "name": "Ghosts"
+        "_id": "62cbfbd6ad95670007f567af",
+        "name": "Global News Montreal"
+    },
+    {
+        "_id": "62cbfc572dc3750007a493ce",
+        "name": "Global News Okanagan"
+    },
+    {
+        "_id": "62cbfcd8c2db990007861e43",
+        "name": "Global News Peterborough"
+    },
+    {
+        "_id": "62cbff53ca8f2200080253b5",
+        "name": "Global News Regina"
+    },
+    {
+        "_id": "62cc00359cb58900088dc840",
+        "name": "Global News Saskatoon"
+    },
+    {
+        "_id": "62cc00b3b821cf00070f82c3",
+        "name": "Global News Toronto"
+    },
+    {
+        "_id": "62cc0120880c890007191016",
+        "name": "Global News Winnipeg"
+    },
+    {
+        "_id": "62cc1e1e0d0611000837dc1d",
+        "name": "Radio-Canada INFO"
+    },
+    {
+        "_id": "62e90e8cb05d2b0007f10a61",
+        "name": "Game Show Central"
+    },
+    {
+        "_id": "62e91384210bec0007ba714c",
+        "name": "The Dick Van Dyke Show"
+    },
+    {
+        "_id": "62e9145ec07f2a00070e68dc",
+        "name": "The Andy Griffith Show"
+    },
+    {
+        "_id": "62e917b5e354cf0007b97a67",
+        "name": "Happy Days"
+    },
+    {
+        "_id": "62e9186f8b685d000773cf58",
+        "name": "Taxi"
+    },
+    {
+        "_id": "62e91af00c43540007f2bb43",
+        "name": "Pluto TV Classic TV Families"
+    },
+    {
+        "_id": "62e91b5ca909cb0008114ae4",
+        "name": "Leave it to Bryan"
+    },
+    {
+        "_id": "62e91c3add66e00007eeb24c",
+        "name": "More Pluto TV Comedy"
+    },
+    {
+        "_id": "62e920403bd6940007fb68b8",
+        "name": "Family Ties"
+    },
+    {
+        "_id": "62e92178946c8000079a3160",
+        "name": "Pluto TV Comedy"
+    },
+    {
+        "_id": "62e922f6675f71000736db3b",
+        "name": "Doc Martin"
+    },
+    {
+        "_id": "62e92392a3e6270007f562e8",
+        "name": "Forensic Files"
+    },
+    {
+        "_id": "62e92447ea1e2a000735ed33",
+        "name": "Midsomer Murders"
+    },
+    {
+        "_id": "62e924f2be69bc0007b7d53d",
+        "name": "Unsolved Mysteries"
+    },
+    {
+        "_id": "62e925bc68d18a00077bb990",
+        "name": "48 Hours"
+    },
+    {
+        "_id": "62e926429cb58900088f951f",
+        "name": "Income Property"
+    },
+    {
+        "_id": "62e92708a7ce600007b2676a",
+        "name": "Pluto TV Crime Drama"
+    },
+    {
+        "_id": "62e9289f8d467f0007fbc701",
+        "name": "Pluto TV True Crime"
+    },
+    {
+        "_id": "62e92951c2db99000787c00d",
+        "name": "Deal or no Deal"
+    },
+    {
+        "_id": "62e92967cd663f0007e604fd",
+        "name": "Homeful"
+    },
+    {
+        "_id": "62e92a58f3e4290007290c96",
+        "name": "Pluto TV Paranormal"
+    },
+    {
+        "_id": "62e92b5fca869f00078f0162",
+        "name": "The Pet Collective"
+    },
+    {
+        "_id": "62e92e536f28870007fa9b3a",
+        "name": "The Judge Judy Channel"
+    },
+    {
+        "_id": "62e93d0a80d8d10008a0181e",
+        "name": "Nosey"
+    },
+    {
+        "_id": "62e94ec74823db0007277a8f",
+        "name": "One Piece"
+    },
+    {
+        "_id": "62e951258a26d40007b3034c",
+        "name": "Dora TV"
+    },
+    {
+        "_id": "62e95265c9fd030007268fb9",
+        "name": "Totally Turtles"
+    },
+    {
+        "_id": "62e9566e27ce19000732ec85",
+        "name": "Tortues Ninja TV"
+    },
+    {
+        "_id": "62ea3c2e4823db00072788ed",
+        "name": "Pluto TV Action Movies"
+    },
+    {
+        "_id": "62ea3d24b8e02600071fa296",
+        "name": "Pluto TV Comedy Movies"
+    },
+    {
+        "_id": "62ea3f8a38acc80007072d26",
+        "name": "Pluto TV Horror"
+    },
+    {
+        "_id": "62ea43aa0c43540007f2db96",
+        "name": "Mission Impossible"
+    },
+    {
+        "_id": "62ea45010d0611000839868c",
+        "name": "Gordon Ramsay's Hell's Kitchen"
+    },
+    {
+        "_id": "62ea4b755e8e770007387b79",
+        "name": "World Poker Tour"
+    },
+    {
+        "_id": "62ea4dadce395f0007086df2",
+        "name": "TNA Wrestling"
+    },
+    {
+        "_id": "62f4f414c2ba130007f8b24e",
+        "name": "King of Queens"
+    },
+    {
+        "_id": "62f4f5de1c100100075665ef",
+        "name": "NCIS"
+    },
+    {
+        "_id": "62f4f90e39183b000769f12b",
+        "name": "Frasier"
+    },
+    {
+        "_id": "62fb6057f923fb0007eafb24",
+        "name": "Reno Rehab"
+    },
+    {
+        "_id": "62fb61992443200008c59aef",
+        "name": "Reno Duo"
+    },
+    {
+        "_id": "62fb62081afad500077e915e",
+        "name": "Fixers and Flippers"
+    },
+    {
+        "_id": "62fb66c867976d0007647e54",
+        "name": "Kitchen Battles"
+    },
+    {
+        "_id": "62fb6a4feb32e8000708f4d0",
+        "name": "Max & Ruby"
+    },
+    {
+        "_id": "62fb6cd97b90e60007bc318a",
+        "name": "Romance 365"
+    },
+    {
+        "_id": "62fb6d4308f5ec0007453c09",
+        "name": "Christmas 365"
+    },
+    {
+        "_id": "62fb6da41afad500077e9178",
+        "name": "Thrillers 365"
+    },
+    {
+        "_id": "62fb9844db5a4a0007ebc2a3",
+        "name": "Beyond History"
+    },
+    {
+        "_id": "62fb9ade112ca70007d8441d",
+        "name": "Nonstop Drama"
+    },
+    {
+        "_id": "62fb9c4539183b00076a3875",
+        "name": "Busted at the Border"
+    },
+    {
+        "_id": "630f1e6073bd1800082107f0",
+        "name": "Pluto TV Retro Crime Drama"
+    },
+    {
+        "_id": "6310cbee5a8ad300070fdb7c",
+        "name": "Best of The Drew Barrymore Show"
+    },
+    {
+        "_id": "6350fdd266e9ea0007bedec5",
+        "name": "CBS News 24/7"
+    },
+    {
+        "_id": "635659445b4c4700076d2ad1",
+        "name": "Walker Texas Ranger"
+    },
+    {
+        "_id": "6368e15a51e9560007c592ed",
+        "name": "OUTflix Movies"
+    },
+    {
+        "_id": "638e0f4832494900074481e7",
+        "name": "Confess by Nosey"
+    },
+    {
+        "_id": "638e10220aa6a6000726979f",
+        "name": "Top Gear"
+    },
+    {
+        "_id": "638e10de75c3a30007092693",
+        "name": "Antiques Road Show UK"
+    },
+    {
+        "_id": "638e11951177840007fdd6b2",
+        "name": "Pluto TV British Comedy"
+    },
+    {
+        "_id": "63934c218ef524000757b122",
+        "name": "HauntTV"
+    },
+    {
+        "_id": "639b4f75d3d35c0007d37b30",
+        "name": "Pluto TV Snooker 900"
+    },
+    {
+        "_id": "63a2f1dda0d69700078b7cba",
+        "name": "I Love Lucy"
+    },
+    {
+        "_id": "63da365f60bc8f0008a50f44",
+        "name": "Matlock"
+    },
+    {
+        "_id": "63da36dea995710008727d4d",
+        "name": "Transformers"
+    },
+    {
+        "_id": "63da370e2e477400081cf8b6",
+        "name": "The Weather Network"
+    },
+    {
+        "_id": "63e20bd160bc8f0008b4c949",
+        "name": "Perry Mason"
+    },
+    {
+        "_id": "63e36b374e83e70008987c58",
+        "name": "Aftershock"
+    },
+    {
+        "_id": "63f87d057533d80008ab9549",
+        "name": "SpongeBob SquarePants"
+    },
+    {
+        "_id": "6408ae8f9b39550008caf94f",
+        "name": "American Pickers"
+    },
+    {
+        "_id": "6408b41b83f58900081d91ad",
+        "name": "Pluto TV Retro Kid"
+    },
+    {
+        "_id": "64240d3d466225000827412b",
+        "name": "Qello Concerts"
+    },
+    {
+        "_id": "647f07e74cfc2c0008a2e557",
+        "name": "DAZN TV"
+    },
+    {
+        "_id": "6482f27c17f5e10008c10ff0",
+        "name": "Arthur"
+    },
+    {
+        "_id": "64a3d96f060e830008af6745",
+        "name": "MovieSphere by Lionsgate"
+    },
+    {
+        "_id": "64c2201a2a7f2200089a0af2",
+        "name": "Let's Make a deal"
+    },
+    {
+        "_id": "64c220e15dc1660008a79c96",
+        "name": "The Price is Right: The Barker Era"
+    },
+    {
+        "_id": "64c2214c2a7f2200089a0c4b",
+        "name": "The Price is Right"
+    },
+    {
+        "_id": "64c2222fb0cf5c0008288c4f",
+        "name": "Family Feud Classic"
+    },
+    {
+        "_id": "64ca723a2bc49300081a8966",
+        "name": "Three's Company"
+    },
+    {
+        "_id": "64e89cfc9c1e3900084ca663",
+        "name": "Mayday: Air Disaster"
+    },
+    {
+        "_id": "64f89fcfd661bb00081ba45c",
+        "name": "MTV Reality"
+    },
+    {
+        "_id": "64f8a0c230ab3300084369b8",
+        "name": "MTV Dating"
+    },
+    {
+        "_id": "64f8a22a3efb510008245df0",
+        "name": "The Challenge"
+    },
+    {
+        "_id": "64f8a2a23a0d700008a6ed7b",
+        "name": "Catfish"
+    },
+    {
+        "_id": "64f8a408bd341e000818fcda",
+        "name": "Comedy Central"
+    },
+    {
+        "_id": "64f8a949f5b5e4000862467c",
+        "name": "Comedy Central Animation"
+    },
+    {
+        "_id": "64f9cccf110545000837912e",
+        "name": "MTV Ridiculousness"
+    },
+    {
+        "_id": "6536721dbfbaec00088687c0",
+        "name": "CBC News Toronto"
+    },
+    {
+        "_id": "6536725167bd1a00084481bc",
+        "name": "CBC News"
+    },
+    {
+        "_id": "65367e724f123d000877cfe5",
+        "name": "Come Dine with Me"
+    },
+    {
+        "_id": "65367e914f123d000877d021",
+        "name": "River Monsters"
+    },
+    {
+        "_id": "653bdb0fbdf3cf00089cc395",
+        "name": "Pluto TV Adventure"
+    },
+    {
+        "_id": "6540fe4bbdf3cf0008aa2cdd",
+        "name": "Ax Men"
+    },
+    {
+        "_id": "6540fe6fbfbaec0008a583ae",
+        "name": "Duck Dynasty"
+    },
+    {
+        "_id": "6540fec1770cf1000866b65b",
+        "name": "Dance Moms"
+    },
+    {
+        "_id": "6540fee72cf13100085d5a18",
+        "name": "Dog The Bounty Hunter"
+    },
+    {
+        "_id": "6540ff2d770cf1000866b90a",
+        "name": "Modern Marvels"
+    },
+    {
+        "_id": "6540ff4f7312a40008297b59",
+        "name": "Tiny House Nation"
+    },
+    {
+        "_id": "654100b4bdf3cf0008aa49c7",
+        "name": "MTV Classic"
+    },
+    {
+        "_id": "6541010f770cf1000866be98",
+        "name": "MTV Spankin’ New"
+    },
+    {
+        "_id": "65410176770cf1000866bf31",
+        "name": "MTV Biggest Pop"
+    },
+    {
+        "_id": "654102ed770cf1000866c307",
+        "name": "Yo! MTV"
+    },
+    {
+        "_id": "654ca7f92c1d3300086b608c",
+        "name": "NickToons"
+    },
+    {
+        "_id": "655f2d713944b60008bc7e90",
+        "name": "Ink Master"
+    },
+    {
+        "_id": "655f2ee6c0fc88000877d26c",
+        "name": "Bar Rescue"
+    },
+    {
+        "_id": "6565fefdc917a50008485cc6",
+        "name": "The Beverly Hillbillies"
+    },
+    {
+        "_id": "65660223635c3c00086c2578",
+        "name": "Rawhide"
+    },
+    {
+        "_id": "6582f7d612d5ee00089a663d",
+        "name": "Cheaters"
+    },
+    {
+        "_id": "6582f8dadfed030008e5a93d",
+        "name": "Iron Chef"
+    },
+    {
+        "_id": "65a803b607e03a0008925118",
+        "name": "Hot Ones"
+    },
+    {
+        "_id": "65bcc9c8d77d450008b34c6b",
+        "name": "Monster Jam"
+    },
+    {
+        "_id": "65cf8ace332fec00081e7ea2",
+        "name": "Ghost Hunters"
+    },
+    {
+        "_id": "65cf8b9328730900087c5324",
+        "name": "Are We There Yet?"
+    },
+    {
+        "_id": "65cf8bdaa25d5e00081e1e5d",
+        "name": "Anger Management"
+    },
+    {
+        "_id": "65cf8d7428730900087c5907",
+        "name": "Nashville"
+    },
+    {
+        "_id": "65df47f428730900089f83ac",
+        "name": "South Park: Kenny Collection"
+    },
+    {
+        "_id": "65df48ba28730900089f8480",
+        "name": "South Park: Stan Collection"
+    },
+    {
+        "_id": "65df4934f7f0af0008c32545",
+        "name": "South Park: Cartman Collection"
+    },
+    {
+        "_id": "65df49b30d45610008172c5b",
+        "name": "South Park: Kyle Collection"
+    },
+    {
+        "_id": "6601948129adfd0008a1c0ba",
+        "name": "Crime & Justice"
+    },
+    {
+        "_id": "660c29b5aec9680008f5b4a4",
+        "name": "FIFA+"
+    },
+    {
+        "_id": "66166989635c7500084105a2",
+        "name": "Bondi Rescue"
+    },
+    {
+        "_id": "66166cb1307fa30008f275e7",
+        "name": "Pluto TV Sci-fi"
+    },
+    {
+        "_id": "66166ce7aec96800080f6bd3",
+        "name": "The Graham Norton Show"
+    },
+    {
+        "_id": "66289716039f940008cf20a2",
+        "name": "The Dog Whisperer with Caesar Millan"
+    },
+    {
+        "_id": "663115d923e24f000843b49c",
+        "name": "South Park: Welcome to Canada!"
+    },
+    {
+        "_id": "6654adb1f99922000854388c",
+        "name": "Summer of Movies"
+    },
+    {
+        "_id": "66588931a3865300085ca800",
+        "name": "Bob l'éponge"
+    },
+    {
+        "_id": "666021cccb3ea10008406866",
+        "name": "Nash Bridges"
+    },
+    {
+        "_id": "666815f24b9fb400083f7e31",
+        "name": "Best of Dr. Phil"
+    },
+    {
+        "_id": "667d419415f35c0008942dd1",
+        "name": "World of Love Island"
+    },
+    {
+        "_id": "66a105f4a79dea0008aa5e0f",
+        "name": "JAG"
+    },
+    {
+        "_id": "66a106c8a79dea0008aa5ef3",
+        "name": "NCIS: Los Angeles"
+    },
+    {
+        "_id": "66a8f01914a2bb00084dd86c",
+        "name": "CBC News British Columbia"
+    },
+    {
+        "_id": "66bb3212fe11e5000883ea6b",
+        "name": "Married... with Children"
+    },
+    {
+        "_id": "66c45c274f25dd00092739ee",
+        "name": "CNN Headlines"
+    },
+    {
+        "_id": "66dad50215d2c60008d7afbd",
+        "name": "Pluto Classic Movie Westerns"
+    },
+    {
+        "_id": "66e2a94d167a8b000813485d",
+        "name": "The Conners"
+    },
+    {
+        "_id": "66ebf4a88131f10008b74739",
+        "name": "Pokémon"
+    },
+    {
+        "_id": "66ed3eb27358ce000830df49",
+        "name": "UFC"
+    },
+    {
+        "_id": "66fd394e9269330008413302",
+        "name": "AWSN"
+    },
+    {
+        "_id": "6703a96763292d000836b4fa",
+        "name": "Crime Up Close"
+    },
+    {
+        "_id": "671645c4529ac900080c9a0b",
+        "name": "MODUS Super Series Darts"
+    },
+    {
+        "_id": "6728c561daad7f000881ac83",
+        "name": "Wicked Tuna"
+    },
+    {
+        "_id": "6729d651c7626f0008b5dacf",
+        "name": "Super Channel Hearties"
+    },
+    {
+        "_id": "677f927554f43dad4b3258aa",
+        "name": "Garfield and Friends"
+    },
+    {
+        "_id": "677f929054f43dad4b325c1c",
+        "name": "Just for Laughs GAGS"
+    },
+    {
+        "_id": "67922858b83355184c699699",
+        "name": "Pluto TV Reality"
+    },
+    {
+        "_id": "67b4b8b47d8025b1610a0a57",
+        "name": "The Martha Stewart Channel"
+    },
+    {
+        "_id": "681b16158f97d58ff194a3a9",
+        "name": "Project Runway"
+    },
+    {
+        "_id": "681b196b896dcc617f8558fe",
+        "name": "RigTV"
+    },
+    {
+        "_id": "6850335b5965a2fd49f7e36d",
+        "name": "Andromeda"
+    },
+    {
+        "_id": "68679fc6bb46d0bdd38ac9a4",
+        "name": "America's Next Top Model"
+    },
+    {
+        "_id": "6874ac742704ca31d815b8ed",
+        "name": "Survivor"
+    },
+    {
+        "_id": "6874ad2f3484d60732267ba8",
+        "name": "Scare Tactics"
+    },
+    {
+        "_id": "6874ad743ffa5e0c917f6e20",
+        "name": "The Outer Limits"
+    },
+    {
+        "_id": "688a44cf5d73ec0a3f49718b",
+        "name": "Weeds / Nurse Jackie"
+    },
+    {
+        "_id": "68b9afd66985e192657a2b7f",
+        "name": "APTN Beyond"
+    },
+    {
+        "_id": "68b9b0dbf9cf3d7cb9f56d88",
+        "name": "MTV Jersey Shore"
+    },
+    {
+        "_id": "68d25b620a0f3829b116bb6f",
+        "name": "Pluto TV Anime"
+    },
+    {
+        "_id": "68d25c623175a2780d051d3a",
+        "name": "Pluto TV Classic TV Variety"
+    },
+    {
+        "_id": "69172f1699758a0f03459c5b",
+        "name": "America's Funniest Home Videos"
+    },
+    {
+        "_id": "69173ce8abd4703b27f71d44",
+        "name": "Anthony Bourdain: Parts Unknown"
+    },
+    {
+        "_id": "691b012d1148fa1cd8a75d5c",
+        "name": "Hardcore Pawn"
+    },
+    {
+        "_id": "691b023a7613e09a8b209539",
+        "name": "The X-Files"
+    },
+    {
+        "_id": "691e0561e32eb094b835c418",
+        "name": "Fresh Movies by VVS Films"
+    },
+    {
+        "_id": "693adae77f21340ef9746f56",
+        "name": "Pluto TV FBI"
+    },
+    {
+        "_id": "693bf37b75432d022c85ef01",
+        "name": "Stargate"
+    },
+    {
+        "_id": "696e61287d2afdec4ff2cb75",
+        "name": "Pluto TV Classic TV Crime Drama"
+    },
+    {
+        "_id": "696e647b07ea70192d49f6a5",
+        "name": "Bonanza"
+    },
+    {
+        "_id": "6972546cc62833833a187f50",
+        "name": "Willow Sports"
+    },
+    {
+        "_id": "69a9ae4d3bd16a4ed04240d7",
+        "name": "Pluto TV Retro Action Movies"
+    },
+    {
+        "_id": "69aee8a1acb7eb0bb68df641",
+        "name": "Pluto TV Retro Crime Action"
+    },
+    {
+        "_id": "69b03041cafd86d9dc5763c3",
+        "name": "All My Children"
+    },
+    {
+        "_id": "69b83e4169056557a9252f61",
+        "name": "Hit Sitcoms"
+    },
+    {
+        "_id": "69c592dff0f1a7d732dc6e36",
+        "name": "Pluto TV Cars"
+    },
+    {
+        "_id": "69dd5d7bfcb9bf5e3063cb16",
+        "name": "History & Warfare"
+    },
+    {
+        "_id": "69dd5d9dceddf13a1a7e39c2",
+        "name": "True Crime Now"
+    },
+    {
+        "_id": "6a205abba7b5a6c560b8ac25",
+        "name": "All Reality We TV"
+    },
+    {
+        "_id": "6a28960eee86450920a1cab3",
+        "name": "Pluto TV Spicy"
+    },
+    {
+        "_id": "6a4eb535269be3853419f4c7",
+        "name": "Zuffa Boxing Prelims"
+    },
+    {
+        "_id": "6a56adb02f9e0117d78f5b44",
+        "name": "Hogan's Heroes"
+    },
+    {
+        "_id": "6a56add5f7dc4ada892d374b",
+        "name": "The Wild Wild West"
+    },
+    {
+        "_id": "6a56ae15bd858f210ae007fe",
+        "name": "Classic TV Comedy"
     }
 ]
