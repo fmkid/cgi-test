@@ -2,8 +2,9 @@ import asyncio
 import json
 import os
 import httpx
+import requests
 
-BASE_URL = "https://api.pluto.tv/v2/channels/"  # Change to your API URL
+BASE_URL = "https://api.pluto.tv/v2/channels"  # Change to your API URL
 TOTAL_IDS = 12000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
@@ -11,7 +12,7 @@ OUTPUT_PATH = "lists/list_all.json"
 
 async def fetch_id(client, semaphore, i, results):
     async with semaphore:
-        url = f"{BASE_URL}{i}"
+        url = f"{BASE_URL}/{i}"
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
@@ -53,4 +54,5 @@ async def main():
 
 
 if __name__ == "__main__":
+    print(requests.get(BASE_URL, timeout=5.0).json())
     asyncio.run(main())
