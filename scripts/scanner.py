@@ -10,9 +10,9 @@ CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
 
-def load_existing_country_ids():
+def load_existing_country_data():
     existing_ids = set()
-    # Matches only 2-character country codes (e.g., co, es, ca)
+    unified_results = []
     country_files = glob.glob("lists/list_??.json")
     
     for file_path in country_files:
@@ -20,56 +20,66 @@ def load_existing_country_ids():
             with open(file_path, "r", encoding="utf-8") as f:
                 country_data = json.load(f)
                 for item in country_data:
-                    if isinstance(item, dict) and "_id" in item:
-                        existing_ids.add(str(item["_id"]))
+                    if isinstance(item, dict) and "_id" in item and "name" in item:
+                        item_id = str(item["_id"])
+                        if item_id not in existing_ids:
+                            existing_ids.add(item_id)
+                            unified_results.append({
+                                "_id": item_id,
+                                "name": str(item["name"]),
+                                "region": str(item["region"])
+                            })
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
             
-    print(f"Loaded {len(existing_ids)} unique IDs from country lists.")
-    return existing_ids
+    print(f"Loaded {len(existing_ids)} unique items from country lists.")
+    return existing_ids, unified_results
 
 
-async def fetch_id(client, semaphore, i, results, existing_ids):
+async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id):
     async with semaphore:
         url = f"{BASE_URL}/{i}"
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
+                # Tracks the highest valid endpoint ID scanned
+                if i > max_valid_id[0]:
+                    max_valid_id[0] = i
+                    
                 data = response.json()
-                
                 if "_id" in data and "name" in data:
                     item_id = str(data["_id"])
                     
-                    # Skip item if it already exists in country lists
                     if item_id in existing_ids:
                         return
                         
-                    results.append(
-                        {
-                            "_id": item_id,
-                            "name": str(data["name"]),
-                        }
-                    )
+                    existing_ids.add(item_id)
+                    results.append({
+                        "_id": item_id,
+                        "name": str(data["name"]),
+                        "region": "ALL",
+                    })
         except Exception:
             pass
 
 
 async def main():
-    existing_ids = load_existing_country_ids()
-    
+    existing_ids, results = load_existing_country_data()
     print(f"Scanning {TOTAL_IDS} IDs...")
+    
     semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    results = []
+    max_valid_id = [0]
 
     async with httpx.AsyncClient() as client:
         tasks = [
-            fetch_id(client, semaphore, i, results, existing_ids)
+            fetch_id(client, semaphore, i, results, existing_ids, max_valid_id)
             for i in range(0, TOTAL_IDS + 1)
         ]
         await asyncio.gather(*tasks)
 
     results.sort(key=lambda x: x["name"])
-    print(f"Scan finished. {len(results)} new unique items added to the list.")
+    print(f"Scan finished. Total unified items in list: {len(results)}")
+    print(f"Highest valid endpoint ID found: {max_valid_id[0]}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
