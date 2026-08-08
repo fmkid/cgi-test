@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        country_code: [au, br, ca, co, es, gb, ir, us]
+        country_code: [co, es, us, ca, gb, ie, au, br, it]
       fail-fast: false 
 
     steps:
