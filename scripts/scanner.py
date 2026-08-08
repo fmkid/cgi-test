@@ -1,7 +1,6 @@
 import asyncio
 import json
 import os
-import glob
 import httpx
 
 BASE_URL = "https://api.pluto.tv/v2/channels"
@@ -10,13 +9,28 @@ CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
 
+def get_country_codes():
+    env_codes = os.environ.get("RAW_COUNTRY_CODES")
+    if not env_codes:
+        raise ValueError("Critical error: RAW_COUNTRY_CODES environment variable is missing or empty.")
+    
+    try:
+        return [cc.strip().lower() for cc in json.loads(env_codes)]
+    except Exception as e:
+        raise ValueError(f"Critical error: Failed to parse RAW_COUNTRY_CODES as JSON: {e}")
+
+
 def load_existing_country_data():
     existing_ids = set()
     unified_results = []
-    country_files = glob.glob("lists/list_??.json")
+    
+    country_codes = get_country_codes()
+    country_files = [f"lists/list_{cc}.json" for cc in country_codes]
     
     for file_path in country_files:
-        # Extracts the 2-letter code right before '.json' and converts to uppercase
+        if not os.path.exists(file_path):
+            continue
+            
         region_code = os.path.basename(file_path)[-7:-5].upper()
         try:
             with open(file_path, "r", encoding="utf-8") as f:
@@ -34,7 +48,7 @@ def load_existing_country_data():
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
             
-    print(f"Loaded {len(existing_ids)} unique items from country lists.")
+    print(f"Loaded {len(existing_ids)} unique items from specified country lists.")
     return existing_ids, unified_results
 
 
@@ -44,8 +58,8 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
-                if i > max_valid_id_tracker[0]:
-                    max_valid_id_tracker[0] = i
+                if i > max_valid_id_tracker:
+                    max_valid_id_tracker = i
                     
                 data = response.json()
                 if "_id" in data and "name" in data:
@@ -58,7 +72,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
                     results.append({
                         "_id": item_id,
                         "name": str(data["name"]),
-                        "region": "ANY"
+                        "region": "API"
                     })
         except Exception:
             pass
@@ -69,7 +83,7 @@ async def main():
     print(f"Scanning {TOTAL_IDS} IDs...")
     
     semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    max_valid_id_tracker = [0]
+    max_valid_id_tracker =
 
     async with httpx.AsyncClient() as client:
         tasks = [
@@ -78,9 +92,8 @@ async def main():
         ]
         await asyncio.gather(*tasks)
 
-    results.sort(key=lambda x: x["name"])
     print(f"Scan finished. Total unified items in list: {len(results)}")
-    print(f"Highest valid endpoint ID found: {max_valid_id_tracker[0]}")
+    print(f"Highest valid endpoint ID found: {max_valid_id_tracker}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
