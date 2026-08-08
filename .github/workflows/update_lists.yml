@@ -2,7 +2,7 @@ name: Daily API Scanner & Geolocated Fetch
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 0,6,12,18 * * *'
   push:
     branches: [ "main", "test" ]
   workflow_dispatch:
