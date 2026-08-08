@@ -83,7 +83,7 @@ async def main():
     print(f"Scanning {TOTAL_IDS} IDs...")
     
     semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    max_valid_id_tracker =
+    max_valid_id_tracker = 0
 
     async with httpx.AsyncClient() as client:
         tasks = [
