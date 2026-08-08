@@ -17,15 +17,6 @@ jobs:
         with:
           ref: 'test'
 
-      # TEMPORARY STEP: Lists all files downloaded from the 'test' branch
-      - name: List files in repository
-        run: |
-          echo "=== Root Folder ==="
-          ls -la
-          echo "=== .github Folder ==="
-          ls -la .github || echo ".github not found"
-
-      # Leave the rest of the steps exactly the same...
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
