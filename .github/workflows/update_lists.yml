@@ -7,6 +7,9 @@ on:
     branches: [ "main", "test" ]
   workflow_dispatch:
 
+env:
+  API_URL: ${{ vars.PTV_API_URL }}
+  
 jobs:
   # This initial job sets the single source of truth for the entire workflow
   setup:
