@@ -4,7 +4,7 @@ import json
 import requests
 import urllib3
 
-TARGET_URL = "https://api.pluto.tv/v2/channels"
+TARGET_URL = os.environ.get("API_URL")
 
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
