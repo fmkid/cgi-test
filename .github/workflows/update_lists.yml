@@ -27,24 +27,24 @@ jobs:
         run: pip install httpx requests
 
       # ================= PROCESS 1: GEOLOCATED SCANNER =================
-      - name: Run proxy script for Colombia
-        run: python proxy.py co
+      - name: Run proxy script for Brazil
+        run: python scripts/proxy.py br
 
       - name: Run proxy script for Spain
-        run: python proxy.py es
+        run: python scripts/proxy.py es
 
       - name: Run proxy script for Canada
-        run: python proxy.py ca
+        run: python scripts/proxy.py ca
 
       - name: Run proxy script for United Kingdom
-        run: python proxy.py gb
+        run: python scripts/proxy.py gb
 
       - name: Run proxy script for USA natively
-        run: python proxy.py us
+        run: python scripts/proxy.py us
 
       # ================= PROCESS 2: GLOBAL SCANNER =================
       - name: Run Global Scan Script
-        run: python scanner.py
+        run: python scripts/scanner.py
 
       # ================= COMMIT ALL CHANGES =================
       - name: Commit and push changes
