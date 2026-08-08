@@ -53,5 +53,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    print(httpx.get(BASE_URL).json())
     asyncio.run(main())
