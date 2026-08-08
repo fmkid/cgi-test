@@ -29,14 +29,20 @@ if country != "US":
         print(f"Found {len(proxy_list)} HTTP proxies for {country} inside the global list.")
     except Exception as e:
         print(f"Error fetching global list: {e}")
-        proxy_list = []
-        
-    if not proxy_list:
-        print(f"Error: No free proxies available right now for {country}.")
-        sys.exit(0)
+        proxy_list = []        
 else:
-    # USA uses no proxy, runs natively
     proxy_list = [None]
+
+# If the proxy list is empty, initialize a safe empty file and exit gracefully
+if not proxy_list:
+    print(f"No proxies available for {country}. Saving empty list.")
+    os.makedirs("lists", exist_ok=True)
+    file_path = os.path.join("lists", f"list_{country.lower()}.json")
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump([], f, indent=4, ensure_ascii=False)
+    sys.exit(0)
+
+success = False
 
 # Universal loop
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -73,10 +79,16 @@ for proxy_ip in proxy_list:
             json.dump(filtered_list, f, indent=4, ensure_ascii=False)
             
         print(f"Success! Saved '{file_path}' containing {len(filtered_list)} elements.")
+        success = True
         sys.exit(0)
         
     except Exception as e:
         print(f"Connection failed via proxy: {e}")
 
-print(f"Error: All proxy attempts failed to fetch data for {country}.")
-sys.exit(0)
+if not success:
+    print(f"All proxy attempts failed. Saving empty list for resilience.")
+    os.makedirs("lists", exist_ok=True)
+    file_path = os.path.join("lists", f"list_{country.lower()}.json")
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump([], f, indent=4, ensure_ascii=False)
+    sys.exit(0)
