@@ -30,7 +30,7 @@ jobs:
         run: pip install requests
 
       - name: Run proxy script for ${{ matrix.country_code }}
-        run: python proxy.py ${{ matrix.country_code }}
+        run: python scripts/proxy.py ${{ matrix.country_code }}
 
       - name: Commit country changes
         run: |
@@ -57,7 +57,7 @@ jobs:
         run: pip install httpx
 
       - name: Run Global Scan Script
-        run: python scanner.py
+        run: python scripts/scanner.py
 
       - name: Commit global changes
         run: |
