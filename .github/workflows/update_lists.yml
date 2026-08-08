@@ -7,12 +7,16 @@ on:
     branches: [ "main", "test" ]
   workflow_dispatch:
 
+# The absolute single source of truth for country codes
+env:
+  COUNTRY_CODES: '["co", "es", "us", "ca", "gb", "ie", "au", "br", "it"]'
+
 jobs:
   run-geolocated-fetch:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        country_code: [co, es, us, ca, gb, ie, au, br, it]
+        country_code: ${{ fromJson(env.COUNTRY_CODES) }}
       fail-fast: false 
 
     steps:
@@ -32,17 +36,13 @@ jobs:
       - name: Run proxy script for ${{ matrix.country_code }}
         run: python scripts/proxy.py ${{ matrix.country_code }}
 
-      # Added a pull rebase loop to handle concurrent pushes smoothly
       - name: Commit country changes
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "actions@github.com"
           git add lists/list_${{ matrix.country_code }}.json
-          
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Automated geolocated update [${{ matrix.country_code }}]"
-            
-            # Retry loop for push concurrency
             for i in {1..5}; do
               git pull --rebase origin test && git push origin test && break || sleep 5
             done
@@ -53,6 +53,9 @@ jobs:
   run-global-scanner:
     needs: run-geolocated-fetch
     runs-on: ubuntu-latest
+    env:
+      # Cleans the JSON format into a clean comma-separated string for Python
+      RAW_COUNTRY_CODES: ${{ env.COUNTRY_CODES }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
