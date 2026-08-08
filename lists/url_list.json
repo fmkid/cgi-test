@@ -17,8 +17,12 @@
       "region": "CA"
     },
     {
-      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_uk.json",
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_all.json",
       "region": "UK"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_test.json",
+      "region": "ALL"
     },
     {
       "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_test.json",
@@ -29,6 +33,6 @@
       "region": "LOC"
     }
   ],
-  "listStart": 0,
-  "listEnd": 4
+  "listStart": 5,
+  "listEnd": 5
 }
