@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import requests
+import urllib3
 
 TARGET_URL = "https://api.pluto.tv/v2/channels"
 
@@ -38,6 +39,7 @@ else:
     proxy_list = [None]
 
 # Universal loop
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 for proxy_ip in proxy_list:
     if proxy_ip:
         proxies_config = {"http": f"http://{proxy_ip}", "https": f"http://{proxy_ip}"}
@@ -46,7 +48,7 @@ for proxy_ip in proxy_list:
         print("Connecting natively from USA...")
 
     try:
-        response = requests.get(TARGET_URL, proxies=proxies_config, timeout=6)
+        response = requests.get(TARGET_URL, proxies=proxies_config, timeout=6, verify=False)
         response.raise_for_status()
         
         filtered_list = [
