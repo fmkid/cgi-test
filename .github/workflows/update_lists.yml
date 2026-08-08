@@ -7,26 +7,33 @@ on:
     branches: [ "main", "test" ]
   workflow_dispatch:
 
-# The absolute single source of truth for country codes
-env:
-  COUNTRY_CODES: '["co", "es", "us", "ca", "gb", "ie", "au", "br", "it"]'
-
 jobs:
+  # This initial job sets the single source of truth for the entire workflow
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.codes }}
+    steps:
+      - id: set-matrix
+        # Edit your country codes array ONLY HERE (Using double quotes for valid JSON)
+        run: echo 'codes=["co", "es", "us", "ca", "gb", "ie", "au", "br", "it"]' >> $GITHUB_OUTPUT
+
   run-geolocated-fetch:
+    needs: setup
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        country_code: ${{ fromJson(env.COUNTRY_CODES) }}
+        country_code: ${{ fromJson(needs.setup.outputs.matrix) }}
       fail-fast: false 
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           ref: 'test'
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -51,19 +58,19 @@ jobs:
           fi
   
   run-global-scanner:
-    needs: run-geolocated-fetch
+    needs: [setup, run-geolocated-fetch]
     runs-on: ubuntu-latest
     env:
-      # Cleans the JSON format into a clean comma-separated string for Python
-      RAW_COUNTRY_CODES: ${{ env.COUNTRY_CODES }}
+      # Passes the exact same single source string array to Python
+      RAW_COUNTRY_CODES: ${{ needs.setup.outputs.matrix }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           ref: 'test'
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
