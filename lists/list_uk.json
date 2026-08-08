@@ -277,7 +277,7 @@
   },
   {
     "_id": "62ac405b3874370007419b7f",
-    "name": "Barney & Friends"
+    "name": "Barney &amp; Friends"
   },
   {
     "_id": "62ac50e92c48f900071444c9",
@@ -332,6 +332,10 @@
     "name": "5 Emergency Rescue"
   },
   {
+    "_id": "63d000ef4e83e700086e0d6c",
+    "name": "Scorpion"
+  },
+  {
     "_id": "63d91cc58795f30008678e9d",
     "name": "Bloodline Detectives"
   },
@@ -360,10 +364,6 @@
     "name": "Pluto TV Alien Invasion"
   },
   {
-    "_id": "64634eb42858cb0008fd92d6",
-    "name": "How To Use Pluto TV"
-  },
-  {
     "_id": "6490254fd2c47c00083a5743",
     "name": "That's 80s"
   },
@@ -372,24 +372,20 @@
     "name": "Pluto TV Action"
   },
   {
-    "_id": "64b676a4798def00088e5150",
-    "name": "Pluto TV Sci-Fi"
-  },
-  {
     "_id": "64c0d6765dc1660008a3e033",
-    "name": "U&Transport"
+    "name": "U&amp;Transport"
   },
   {
     "_id": "64c0d697b0cf5c000824e5d9",
-    "name": "U&The Past"
+    "name": "U&amp;The Past"
   },
   {
     "_id": "64c0d6b424ade50008bc8883",
-    "name": "U&Real Heroes"
+    "name": "U&amp;Real Heroes"
   },
   {
     "_id": "64c0d6f34096290008132d6b",
-    "name": "U&Laughs"
+    "name": "U&amp;Laughs"
   },
   {
     "_id": "64c37e47dac71b000809abab",
@@ -418,6 +414,10 @@
   {
     "_id": "6514346fa76507000887d441",
     "name": "Confess by Nosey"
+  },
+  {
+    "_id": "654a44d2f9cc82000868522e",
+    "name": "Gamera"
   },
   {
     "_id": "655b7cbb2c46f300086f0afa",
@@ -636,8 +636,8 @@
     "name": "River Monsters"
   },
   {
-    "_id": "68503d1736c9361b191e7d89",
-    "name": "Gunsmoke"
+    "_id": "6824563bfaaa60cd7deff5ad",
+    "name": "Love After Lock Up"
   },
   {
     "_id": "68503d3bc692373f0158c43f",
@@ -657,7 +657,7 @@
   },
   {
     "_id": "685041d936c9361b1921c26c",
-    "name": "Pluto TV Fantasy & Horror"
+    "name": "Pluto TV Fantasy &amp; Horror"
   },
   {
     "_id": "6850426e53d981d1fdb0d966",
@@ -674,10 +674,6 @@
   {
     "_id": "685aa802fb6023de7cc56357",
     "name": "Dominance FC TV"
-  },
-  {
-    "_id": "686cd713e48af72bc250efb8",
-    "name": "America's Next Top Model"
   },
   {
     "_id": "686fc8fe1889b4ad04604704",
@@ -773,15 +769,11 @@
   },
   {
     "_id": "6960c5a906d76f50db2816dc",
-    "name": "Cagney & Lacey"
+    "name": "Cagney &amp; Lacey"
   },
   {
     "_id": "696e024a7e92438c27a425a8",
     "name": "Rally TV"
-  },
-  {
-    "_id": "697a2f8b3991484f03064614",
-    "name": "Super Mario Bros."
   },
   {
     "_id": "6981cc6a644861a57c3bd8ad",
@@ -804,11 +796,23 @@
     "name": "The Therapy Crouch"
   },
   {
+    "_id": "69c3c6c912e978ee49277dc7",
+    "name": "That's 60s"
+  },
+  {
     "_id": "69c6a93486431735d974bc2a",
     "name": "Deal Masters"
   },
   {
     "_id": "69d51f98fcb9bf5e303ca0c1",
     "name": "Dinner Date"
+  },
+  {
+    "_id": "6a300571cdfd39da91df9159",
+    "name": "Pluto TV Crime Thrillers"
+  },
+  {
+    "_id": "6a3a463fd7a42182ccd2d0b1",
+    "name": "Sam and Colby"
   }
 ]
