@@ -58,8 +58,8 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
-                if i > max_valid_id_tracker:
-                    max_valid_id_tracker = i
+                if i > max_valid_id_tracker[0]:
+                    max_valid_id_tracker[0] = i
                     
                 data = response.json()
                 if "_id" in data and "name" in data:
@@ -83,7 +83,7 @@ async def main():
     print(f"Scanning {TOTAL_IDS} IDs...")
     
     semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    max_valid_id_tracker = 0
+    max_valid_id_tracker = [0]
 
     async with httpx.AsyncClient() as client:
         tasks = [
