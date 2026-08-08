@@ -26,11 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install httpx requests
 
-      # ================= PROCESS 1: GLOBAL SCANNER =================
-      - name: Run Global Scan Script
-        run: python scanner.py
-
-      # ================= PROCESS 2: GEOLOCATED SCANNER =================
+      # ================= PROCESS 1: GEOLOCATED SCANNER =================
       - name: Run proxy script for Colombia
         run: python proxy.py co
 
@@ -45,6 +41,10 @@ jobs:
 
       - name: Run proxy script for USA natively
         run: python proxy.py us
+
+      # ================= PROCESS 2: GLOBAL SCANNER =================
+      - name: Run Global Scan Script
+        run: python scanner.py
 
       # ================= COMMIT ALL CHANGES =================
       - name: Commit and push changes
