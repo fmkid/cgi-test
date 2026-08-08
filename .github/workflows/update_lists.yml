@@ -32,13 +32,24 @@ jobs:
       - name: Run proxy script for ${{ matrix.country_code }}
         run: python scripts/proxy.py ${{ matrix.country_code }}
 
+      # Added a pull rebase loop to handle concurrent pushes smoothly
       - name: Commit country changes
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "actions@github.com"
           git add lists/list_${{ matrix.country_code }}.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated geolocated update [${{ matrix.country_code }}]" && git push origin test)
-
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated geolocated update [${{ matrix.country_code }}]"
+            
+            # Retry loop for push concurrency
+            for i in {1..5}; do
+              git pull --rebase origin test && git push origin test && break || sleep 5
+            done
+          else
+            echo "No changes detected"
+          fi
+  
   run-global-scanner:
     needs: run-geolocated-fetch
     runs-on: ubuntu-latest
