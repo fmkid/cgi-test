@@ -3,6 +3,8 @@ name: Daily API Scanner
 on:
   schedule:
     - cron: '0 0,12 * * *'
+  push:
+    branches: [ "main", "test" ]
   workflow_dispatch:
 
 jobs:
