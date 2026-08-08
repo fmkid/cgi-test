@@ -46,7 +46,11 @@ for proxy_ip in proxy_list:
             continue
         
         filtered_list = [
-            {"_id": item.get("_id"), "name": item.get("name")}
+            {
+                "_id": item.get("_id"),
+                "name": item.get("name"),
+                "region": country.upper(),
+            }
             for item in json_data if isinstance(item, dict)
         ]
 
