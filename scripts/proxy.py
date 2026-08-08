@@ -10,21 +10,20 @@ if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
     sys.exit(1)
 
-country = sys.argv[1].upper()
-file_path = os.path.join("lists", f"list_{country.lower()}.json")
+country = sys.argv[1].lower()
+file_path = os.path.join("lists", f"list_{country}.json")
 proxy_list = [None]
 
-if country != "US":
-    print(f"Fetching free live proxies for {country}...")
+if country != "us":
+    print(f"Fetching free live proxies for {country.upper()}...")
     try:
-        global_url = "https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/all/data.json"
+        global_url = f"https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/countries/{country}/http/data.json"
         raw_data = requests.get(global_url, timeout=10).json()
-        print(raw_data)
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
-            for p in raw_data 
-            if p.get("protocol") == "http" and p.get("country_code") == country
+            for p in raw_data
         ]
+        print(proxy_list)
         print(f"Found {len(proxy_list)} HTTP proxies.")
     except Exception as e:
         print(f"Error fetching proxy list: {e}")
