@@ -4,7 +4,7 @@ import os
 import httpx
 
 BASE_URL = "https://api.pluto.tv/v2/channels"
-TOTAL_IDS = 12000
+TOTAL_IDS = 15000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
@@ -43,7 +43,7 @@ def load_existing_country_data():
                             unified_results.append({
                                 "_id": item_id,
                                 "name": str(item["name"]),
-                                "region": region_code
+                                "region": region_code if region_code != "CO" else "LA" 
                             })
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
@@ -72,7 +72,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
                     results.append({
                         "_id": item_id,
                         "name": str(data["name"]),
-                        "region": "API"
+                        "region": "ANY"
                     })
         except Exception:
             pass
