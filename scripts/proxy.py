@@ -17,7 +17,7 @@ proxy_list = [None]
 if country != "US":
     print(f"Fetching free live proxies for {country}...")
     try:
-        global_url = "https://jsdelivr.net"
+        global_url = "https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/all/data.json"
         raw_data = requests.get(global_url, timeout=10).json()
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
