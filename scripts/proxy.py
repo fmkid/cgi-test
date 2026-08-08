@@ -24,7 +24,7 @@ if country != "US":
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
             for p in raw_data 
-            if p.get("protocol") == "http" and p.get("country_code") == country
+            if p.get("protocol") == "http" and p.get("country_code") == country and p.get("anonymous") is True
         ]
         print(f"Found {len(proxy_list)} HTTP proxies for {country} inside the global list.")
     except Exception as e:
@@ -48,8 +48,19 @@ for proxy_ip in proxy_list:
         print("Connecting natively from USA...")
 
     try:
-        response = requests.get(TARGET_URL, proxies=proxies_config, timeout=6, verify=False)
+        # Request with fake User-Agent to reduce blocks
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        response = requests.get(TARGET_URL, proxies=proxies_config, timeout=8, verify=False, headers=headers)
+        
+        # If blocks the IP (e.g., 429 Too Many Requests), raise error to switch proxy
         response.raise_for_status()
+        
+        # KEY CHANGE: Safely handle content type to prevent JSON decode errors (HTML responses)
+        try:
+            json_data = response.json()
+        except ValueError:
+            print("Proxy returned HTML/text instead of a valid JSON. Trying next...")
+            continue
         
         filtered_list = [
             {"_id": item.get("_id"), "name": item.get("name")}
