@@ -3,7 +3,7 @@ import json
 import os
 import httpx
 
-BASE_URL = "https://api.pluto.tv/v2/channels"
+BASE_URL = os.environ.get("API_URL")
 TOTAL_IDS = 15000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
