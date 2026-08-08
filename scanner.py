@@ -2,7 +2,6 @@ import asyncio
 import json
 import os
 import httpx
-import requests
 
 BASE_URL = "https://api.pluto.tv/v2/channels"  # Change to your API URL
 TOTAL_IDS = 12000
@@ -54,5 +53,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    print(requests.get(BASE_URL, timeout=5.0).json())
+    print(httpx.get(BASE_URL).json())
     asyncio.run(main())
