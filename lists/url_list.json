@@ -21,6 +21,14 @@
       "region": "GB"
     },
     {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_ie.json",
+      "region": "IE"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_au.json",
+      "region": "AU"
+    },
+    {
       "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_br.json",
       "region": "BR"
     },
@@ -33,14 +41,10 @@
       "region": "ALL"
     },
     {
-      "url": "https://raw.githubusercontent.com/fmkid/cgi-test/test/lists/list_test.json",
-      "region": "TST"
-    },
-    {
       "url": "http://192.168.101.2:8080/list.json",
       "region": "LOC"
     }
   ],
   "listStart": 0,
-  "listEnd": 7
+  "listEnd": 9
 }
