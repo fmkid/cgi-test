@@ -42,7 +42,7 @@ async def main():
         ]
         await asyncio.gather(*tasks)
 
-    result.sort(key=lambda x: x["name"])
+    results.sort(key=lambda x: x["number"])
     print(f"Scan finished. {len(results)} valid items added to the list.")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
