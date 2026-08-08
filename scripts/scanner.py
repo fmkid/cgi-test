@@ -16,6 +16,8 @@ def load_existing_country_data():
     country_files = glob.glob("lists/list_??.json")
     
     for file_path in country_files:
+        # Extracts the 2-letter code right before '.json' and converts to uppercase
+        region_code = os.path.basename(file_path)[-7:-5].upper()
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 country_data = json.load(f)
@@ -27,7 +29,7 @@ def load_existing_country_data():
                             unified_results.append({
                                 "_id": item_id,
                                 "name": str(item["name"]),
-                                "region": str(item["region"])
+                                "region": region_code
                             })
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
@@ -36,15 +38,14 @@ def load_existing_country_data():
     return existing_ids, unified_results
 
 
-async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id):
+async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker):
     async with semaphore:
         url = f"{BASE_URL}/{i}"
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
-                # Tracks the highest valid endpoint ID scanned
-                if i > max_valid_id[0]:
-                    max_valid_id[0] = i
+                if i > max_valid_id_tracker[0]:
+                    max_valid_id_tracker[0] = i
                     
                 data = response.json()
                 if "_id" in data and "name" in data:
@@ -57,7 +58,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id):
                     results.append({
                         "_id": item_id,
                         "name": str(data["name"]),
-                        "region": "ALL",
+                        "region": "ANY"
                     })
         except Exception:
             pass
@@ -68,18 +69,18 @@ async def main():
     print(f"Scanning {TOTAL_IDS} IDs...")
     
     semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    max_valid_id = [0]
+    max_valid_id_tracker = [0]
 
     async with httpx.AsyncClient() as client:
         tasks = [
-            fetch_id(client, semaphore, i, results, existing_ids, max_valid_id)
+            fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker)
             for i in range(0, TOTAL_IDS + 1)
         ]
         await asyncio.gather(*tasks)
 
     results.sort(key=lambda x: x["name"])
     print(f"Scan finished. Total unified items in list: {len(results)}")
-    print(f"Highest valid endpoint ID found: {max_valid_id[0]}")
+    print(f"Highest valid endpoint ID found: {max_valid_id_tracker[0]}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
