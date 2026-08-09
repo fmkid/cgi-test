@@ -19,7 +19,7 @@ jobs:
     steps:
       - id: set-matrix
         # Edit your country codes array ONLY HERE (Using double quotes for valid JSON)
-        run: echo 'codes=["co", "es", "us", "ca", "gb", "ie", "au", "br", "it"]' >> $GITHUB_OUTPUT
+        run: echo 'codes=["any", "co", "es", "us", "ca", "gb", "ie", "au", "br", "it"]' >> $GITHUB_OUTPUT
 
   run-geolocated-fetch:
     needs: setup
@@ -44,6 +44,7 @@ jobs:
         run: pip install requests
 
       - name: Run proxy script for ${{ matrix.country_code }}
+        if: ${{ matrix.country_code != 'any' }}
         run: python scripts/proxy.py ${{ matrix.country_code }}
 
       - name: Commit country changes
