@@ -5,6 +5,7 @@ import requests
 import urllib3
 
 TARGET_URL = os.environ.get("API_URL")
+PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
@@ -17,7 +18,7 @@ proxy_list = [None]
 if country != "us":
     print(f"Fetching free live proxies for {country.upper()}...")
     try:
-        global_url = f"https://cdn.jsdelivr.net/gh/proxyscrape/free-proxy-list@main/proxies/countries/{country}/http/data.json"
+        global_url = f"{PROXY_BASE_URL}/{country}/http/data.json"
         raw_data = requests.get(global_url, timeout=10).json()
         proxy_list = [
             f"{p['ip']}:{p['port']}" 
