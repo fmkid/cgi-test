@@ -16,26 +16,58 @@ file_path = os.path.join("lists", f"list_{country}.json")
 proxy_list = [None]
 
 if country != "us":
-    print(f"Fetching free live proxies for {country.upper()}...")
+    print(f"Fetching and combining free live proxies for {country.upper()}...")
+    raw_combined = []
+    protocols = ["http", "https", "socks4", "socks5"]
+    
+    for proto in protocols:
+        try:
+            global_url = f"{PROXY_BASE_URL}/{country}/{proto}/data.json"
+            raw_data = requests.get(global_url, timeout=8).json()
+            
+            for p in raw_data:
+                p["assigned_protocol"] = proto
+            
+            raw_combined.extend(raw_data)
+        except Exception:
+            continue
+
     try:
-        global_url = f"{PROXY_BASE_URL}/{country}/http/data.json"
-        raw_data = requests.get(global_url, timeout=10).json()
+        # Sort by latency_ms (ascending), then by uptime_percent (descending)
+        raw_data_sorted = sorted(
+            raw_combined, 
+            key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
+        )
+        
         proxy_list = [
-            f"{p['ip']}:{p['port']}" 
-            for p in raw_data
+            {
+                "address": f"{p['ip']}:{p['port']}",
+                "protocol": p["assigned_protocol"]
+            }
+            for p in raw_data_sorted
         ]
-        print(proxy_list)
-        print(f"Found {len(proxy_list)} HTTP proxies.")
+        print(f"Total structured proxies gathered and sorted: {len(proxy_list)}")
     except Exception as e:
-        print(f"Error fetching proxy list: {e}")
+        print(f"Error filtering or sorting proxy list: {e}")
         proxy_list = []        
 
 success = False
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-for proxy_ip in proxy_list:
-    proxies_config = {"http": f"http://{proxy_ip}", "https": f"http://{proxy_ip}"} if proxy_ip else None
-    print(f"Testing proxy: {proxy_ip}" if proxy_ip else "Connecting natively from USA...")
+for proxy_info in proxy_list:
+    proxies_config = None
+    
+    if proxy_info:
+        addr = proxy_info["address"]
+        proto = proxy_info["protocol"]
+        proxy_url = f"{proto}://{addr}"
+        proxies_config = {
+            "http": proxy_url,
+            "https": proxy_url
+        }
+        print(f"Trying API connection via [{proto.upper()}] -> {addr}")
+    else:
+        print("Connecting natively from USA...")
 
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -62,7 +94,6 @@ for proxy_ip in proxy_list:
     except Exception as e:
         print(f"Connection failed: {e}")
 
-# Centralized resilience check: runs only if ALL attempts failed
 if not success:
     print(f"All attempts failed for {country}.")
     if not os.path.exists(file_path):
