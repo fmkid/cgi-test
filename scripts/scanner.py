@@ -7,6 +7,7 @@ BASE_URL = os.environ.get("API_URL")
 TOTAL_IDS = 15000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
+SEARCH = False
 
 
 def get_country_codes():
@@ -25,7 +26,8 @@ def load_existing_country_data():
     unified_results = []
     
     country_codes = get_country_codes()
-    country_files = [f"lists/list_{cc}.json" for cc in country_codes]
+    SEARCH = "any" in country_codes 
+    country_files = [f"lists/list_{cc}.json" for cc in country_codes if len(cc) == 2]
     
     for file_path in country_files:
         if not os.path.exists(file_path):
@@ -80,20 +82,24 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
 
 async def main():
     existing_ids, results = load_existing_country_data()
-    print(f"Scanning {TOTAL_IDS} IDs...")
+
+    if SEARCH:
+        print(f"Scanning {TOTAL_IDS} IDs...")
     
-    semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-    max_valid_id_tracker = [0]
+        semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
+        max_valid_id_tracker = [0]
 
-    async with httpx.AsyncClient() as client:
-        tasks = [
-            fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker)
-            for i in range(0, TOTAL_IDS + 1)
-        ]
-        await asyncio.gather(*tasks)
+        async with httpx.AsyncClient() as client:
+            tasks = [
+                fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker)
+                for i in range(0, TOTAL_IDS + 1)
+            ]
+            await asyncio.gather(*tasks)
 
-    print(f"Scan finished. Total unified items in list: {len(results)}")
-    print(f"Highest valid endpoint ID found: {max_valid_id_tracker}")
+        print(f"Scan finished. Total unified items in list: {len(results)}")
+        print(f"Highest valid endpoint ID found: {max_valid_id_tracker}")
+    else:
+        print(f"Scan was not performed. Total unified items in list: {len(results)}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
