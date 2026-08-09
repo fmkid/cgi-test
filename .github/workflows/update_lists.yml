@@ -14,6 +14,8 @@ jobs:
   # This initial job sets the single source of truth for the entire workflow
   setup:
     runs-on: ubuntu-latest
+    env:
+      PROXY_URL: ${{ vars.CDN_PROXY_API }}
     outputs:
       matrix: ${{ steps.set-matrix.outputs.codes }}
     steps:
