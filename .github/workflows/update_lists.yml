@@ -14,8 +14,6 @@ jobs:
   # This initial job sets the single source of truth for the entire workflow
   setup:
     runs-on: ubuntu-latest
-    env:
-      PROXY_URL: ${{ vars.CDN_PROXY_API }}
     outputs:
       matrix: ${{ steps.set-matrix.outputs.codes }}
     steps:
@@ -26,6 +24,8 @@ jobs:
   run-geolocated-fetch:
     needs: setup
     runs-on: ubuntu-latest
+    env:
+      PROXY_URL: ${{ vars.CDN_PROXY_API }}
     strategy:
       matrix:
         country_code: ${{ fromJson(needs.setup.outputs.matrix) }}
