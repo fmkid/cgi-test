@@ -7,7 +7,6 @@ BASE_URL = os.environ.get("API_URL")
 TOTAL_IDS = 15000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
-SEARCH = False
 
 
 def get_country_codes():
@@ -26,8 +25,7 @@ def load_existing_country_data():
     unified_results = []
     
     country_codes = get_country_codes()
-    SEARCH = ("any" in country_codes)
-    print(SEARCH, country_codes)
+    scan = ("any" in country_codes)
     country_files = [f"lists/list_{cc}.json" for cc in country_codes if len(cc) == 2]
     
     for file_path in country_files:
@@ -52,7 +50,7 @@ def load_existing_country_data():
             print(f"Error reading {file_path}: {e}")
             
     print(f"Loaded {len(existing_ids)} unique items from specified country lists.")
-    return existing_ids, unified_results
+    return scan, existing_ids, unified_results
 
 
 async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker):
@@ -82,10 +80,10 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
 
 
 async def main():
-    existing_ids, results = load_existing_country_data()
-    print(f"Search: {SEARCH}")
+    scan, existing_ids, results = load_existing_country_data()
+    print(f"Scan?: {scan}")
 
-    if SEARCH:
+    if scan:
         print(f"Scanning {TOTAL_IDS} IDs...")
     
         semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
