@@ -26,7 +26,8 @@ def load_existing_country_data():
     unified_results = []
     
     country_codes = get_country_codes()
-    SEARCH = "any" in country_codes 
+    SEARCH = ("any" in country_codes)
+    print(SEARCH, country_codes)
     country_files = [f"lists/list_{cc}.json" for cc in country_codes if len(cc) == 2]
     
     for file_path in country_files:
