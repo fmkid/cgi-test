@@ -27,6 +27,8 @@ jobs:
     strategy:
       matrix:
         country_code: ${{ fromJson(needs.setup.outputs.matrix) }}
+        exclude:
+          - country_code: "any"
       fail-fast: false 
 
     steps:
@@ -44,7 +46,6 @@ jobs:
         run: pip install requests
 
       - name: Run proxy script for ${{ matrix.country_code }}
-        if: ${{ matrix.country_code != 'any' }}
         run: python scripts/proxy.py ${{ matrix.country_code }}
 
       - name: Commit country changes
