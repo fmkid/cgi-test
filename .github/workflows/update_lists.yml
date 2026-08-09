@@ -45,7 +45,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install "requests[socks]"
 
       - name: Run proxy script for ${{ matrix.country_code }}
         run: python scripts/proxy.py ${{ matrix.country_code }}
