@@ -82,6 +82,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
 
 async def main():
     existing_ids, results = load_existing_country_data()
+    print(f"Search: {SEARCH}")
 
     if SEARCH:
         print(f"Scanning {TOTAL_IDS} IDs...")
