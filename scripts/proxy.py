@@ -6,6 +6,7 @@ import urllib3
 
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
+PROXY_ADDRESS = f"{p['protocol']}://{p['ip']}:{p['port']}"
 
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
@@ -27,9 +28,8 @@ if country != "us":
 
             # Using dict assignment automatically removes duplicates by key (IP:Port)
             for p in raw_data:
-                key = f"{p['ip']}:{p['port']}"
-                p["assigned_protocol"] = proto
-                unique_proxies[key] = p
+                p['address'] = PROXY_ADDRESS
+                unique_proxies[PROXY_ADDRESS] = p
         except Exception:
             continue
 
@@ -42,8 +42,7 @@ if country != "us":
         
         proxy_list = [
             {
-                "address": f"{p['ip']}:{p['port']}",
-                "protocol": p["assigned_protocol"],
+                "address": p["address"],
                 "latency": p["latency_ms"],
                 "uptime": f"{p['uptime_percent']}%"
             }
@@ -62,9 +61,7 @@ for proxy_info in proxy_list:
     proxies_config = None
     
     if proxy_info:
-        addr = proxy_info["address"]
-        proto = proxy_info["protocol"]
-        proxy_url = f"{proto}://{addr}"
+        proxy_url = proxy_info["address"]
         proxies_config = {
             "http": proxy_url,
             "https": proxy_url
