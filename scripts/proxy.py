@@ -33,7 +33,6 @@ if country != "us":
             continue
 
     try:
-        # Sort by latency_ms (ascending), then by uptime_percent (descending)
         raw_data_sorted = sorted(
             raw_combined, 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
@@ -42,11 +41,14 @@ if country != "us":
         proxy_list = [
             {
                 "address": f"{p['ip']}:{p['port']}",
-                "protocol": p["assigned_protocol"]
+                "protocol": p["assigned_protocol"],
+                "latency": p["latency_ms"],
+                "uptime": f"{p['uptime_percent']}%"
             }
             for p in raw_data_sorted
         ]
         print(f"Total structured proxies gathered and sorted: {len(proxy_list)}")
+        print(proxy_list)
     except Exception as e:
         print(f"Error filtering or sorting proxy list: {e}")
         proxy_list = []        
@@ -75,13 +77,17 @@ for proxy_info in proxy_list:
         response.raise_for_status()
         
         json_data = response.json()
-        if not isinstance(json_data, list):
-            continue
         
+        # Extracts only valid dictionary items with required parameters
         filtered_list = [
             {"_id": item.get("_id"), "name": item.get("name")}
-            for item in json_data if isinstance(item, dict)
+            for item in json_data if isinstance(item, dict) and item.get("_id") and item.get("name")
         ]
+
+        # Skips to next proxy if response is invalid, empty, or lacks required keys
+        if not filtered_list:
+            print("No valid data or empty list received. Trying next proxy...")
+            continue
 
         os.makedirs("lists", exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as f:
@@ -95,11 +101,4 @@ for proxy_info in proxy_list:
         print(f"Connection failed: {e}")
 
 if not success:
-    print(f"All attempts failed for {country}.")
-    if not os.path.exists(file_path):
-        os.makedirs("lists", exist_ok=True)
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump([], f, indent=4, ensure_ascii=False)
-        print("Created safe empty file since it did not exist.")
-    else:
-        print("Preserved existing historical data.")
+    print(f"All attempts failed or returned empty data for {country}. No files were created or modified.")
