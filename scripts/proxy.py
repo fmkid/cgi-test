@@ -27,7 +27,7 @@ if country != "us":
 
             # Using dict assignment automatically removes duplicates by key (IP:Port)
             for p in raw_data:
-                key = f"{proto}://{p['ip']}:{p['port']}"
+                key = f"{proto if proto != "https" else "http"}://{p['ip']}:{p['port']}"
                 p["url"] = key
                 unique_proxies[key] = p
         except Exception:
