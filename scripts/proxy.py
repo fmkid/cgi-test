@@ -17,7 +17,7 @@ proxy_list = [None]
 
 if country != "us":
     print(f"Fetching and combining free live proxies for {country.upper()}...")
-    raw_combined = []
+    unique_proxies = {}
     protocols = ["http", "https", "socks4", "socks5"]
     
     for proto in protocols:
