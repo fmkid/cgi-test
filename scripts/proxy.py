@@ -24,17 +24,19 @@ if country != "us":
         try:
             global_url = f"{PROXY_BASE_URL}/{country}/{proto}/data.json"
             raw_data = requests.get(global_url, timeout=8).json()
-            
+
+            # Using dict assignment automatically removes duplicates by key (IP:Port)
             for p in raw_data:
+                key = f"{p['ip']}:{p['port']}"
                 p["assigned_protocol"] = proto
-            
-            raw_combined.extend(raw_data)
+                unique_proxies[key] = p
         except Exception:
             continue
 
     try:
+        # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            raw_combined, 
+            unique_proxies.values(), 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
         
