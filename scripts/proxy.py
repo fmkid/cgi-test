@@ -76,6 +76,14 @@ for proxy_info in proxy_list:
         response.raise_for_status()
         
         json_data = response.json()
+        if country != "us":
+            response = requests.get(TARGET_URL, timeout=8, verify=False, headers=headers)
+            response.raise_for_status()
+            us_data = response.json()
+
+            if us_data[0] == json_data[0]:
+                print(f"Invalid data: list for {country.upper()} is the same than US. Trying next proxy...")
+                continue
         
         # Extracts only valid dictionary items with required parameters
         filtered_list = [
