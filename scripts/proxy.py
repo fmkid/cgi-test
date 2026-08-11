@@ -76,15 +76,6 @@ for proxy_info in proxy_list:
         response.raise_for_status()
         
         json_data = response.json()
-        if country != "us":
-            response = requests.get(TARGET_URL, timeout=8, verify=False, headers=headers)
-            response.raise_for_status()
-            us_data = response.json()
-            print(us_data[0], json_data[0], us_data[0] == json_data[0])
-
-            if us_data[0] == json_data[0]:
-                print(f"Invalid data: list for {country.upper()} is the same than US. Trying next proxy...")
-                continue
         
         # Extracts only valid dictionary items with required parameters
         filtered_list = [
@@ -96,6 +87,15 @@ for proxy_info in proxy_list:
         if not filtered_list:
             print("No valid data or empty list received. Trying next proxy...")
             continue
+
+        if country != "us":
+            response = requests.get(TARGET_URL, timeout=8, verify=False, headers=headers)
+            response.raise_for_status()
+            us_data = response.json()
+
+            if len(us_data) > 0 and us_data[0]["_id"] == json_data[0]["_id"]:
+                print(f"List for {country.upper()} is the same than US. Trying next proxy...")
+                continue
 
         os.makedirs("lists", exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as f:
