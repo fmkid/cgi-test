@@ -7,6 +7,24 @@ import urllib3
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
+def fetch_url_list(url, timeout=8, verify=False, headers=None, proxies=None):
+    try:
+        response = requests.get(url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
+        response.raise_for_status()  
+        json_data = response.json()
+        
+        if not isinstance(json_data, list):
+            return []
+            
+        return [
+            {"_id": item["_id"], "name": item["name"]}
+            for item in json_data 
+            if isinstance(item, dict) and "_id" in item and "name" in item
+        ]
+    except (requests.RequestException, ValueError):
+        return []
+
+
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
     sys.exit(1)
@@ -36,10 +54,10 @@ if country != "us":
     try:
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            unique_proxies.values(), 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 50.0], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
-        
+  
         proxy_list = [
             {
                 "url": p["url"],
@@ -72,28 +90,17 @@ for proxy_info in proxy_list:
 
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-        response = requests.get(TARGET_URL, proxies=proxies_config, timeout=8, verify=False, headers=headers)
-        response.raise_for_status()
-        
-        json_data = response.json()
-        
-        # Extracts only valid dictionary items with required parameters
-        filtered_list = [
-            {"_id": item.get("_id"), "name": item.get("name")}
-            for item in json_data if isinstance(item, dict) and item.get("_id") and item.get("name")
-        ]
+        result = fetch_url_list(TARGET_URL, headers=headers, proxies=proxies_config)
 
-        # Skips to next proxy if response is invalid, empty, or lacks required keys
-        if not filtered_list:
+        # Skips to next proxy if result is invalid, empty, or lacks required keys
+        if not result:
             print("No valid data or empty list received. Trying next proxy...")
             continue
 
         if country != "us":
-            response = requests.get(TARGET_URL, timeout=8, verify=False, headers=headers)
-            response.raise_for_status()
-            us_data = response.json()
-
-            if len(us_data) > 0 and us_data[0]["_id"] == json_data[0]["_id"]:
+            us_list = fetch_url_list(TARGET_URL, headers=headers)
+            
+            if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
                 print(f"List for {country.upper()} is the same than US. Trying next proxy...")
                 continue
 
