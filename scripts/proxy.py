@@ -21,7 +21,7 @@ def fetch_url_list(url=TARGET_URL, timeout=10, verify=False, headers=None, proxi
         if isinstance(item, dict) and "_id" in item and "name" in item
     ]
 
-#=========================================================================================================
+#=====================================================================================================
 
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
@@ -52,7 +52,7 @@ if country != "us":
     try:
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 45.0], 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 40.0], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
   
