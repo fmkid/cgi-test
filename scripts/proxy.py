@@ -21,9 +21,10 @@ def fetch_url_list(url=TARGET_URL, timeout=8, verify=False, headers=None, proxie
             for item in json_data 
             if isinstance(item, dict) and "_id" in item and "name" in item
         ]
-    except (requests.RequestException, ValueError):
-        return []
+    except Exception as e:
+        return e
 
+#=========================================================================================================
 
 if len(sys.argv) < 2:
     print("Error: Missing country code argument.")
@@ -54,7 +55,7 @@ if country != "us":
     try:
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 50.0], 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 45.0], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
   
@@ -89,22 +90,21 @@ for proxy_info in proxy_list:
     else:
         print("Connecting natively from USA...")
 
-    result = fetch_url_list(headers=headers, proxies=proxies_config)
-    print(len(result))
-
-    # Skips to next proxy if result is invalid, empty, or lacks required keys
-    if not result:
-        print("No valid data or empty list received. Trying next proxy...")
-        continue
-
-    if country != "us":
-        us_list = fetch_url_list()
-            
-        if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
-            print(f"List for {country.upper()} is the same than US. Trying next proxy...")
+    try:
+        result = fetch_url_list(headers=headers, proxies=proxies_config)
+        
+        # Skips to next proxy if result is invalid, empty, or lacks required keys
+        if not result:
+            print("No valid data or empty list received. Trying next proxy...")
             continue
 
-    try:
+        if country != "us":
+            us_list = fetch_url_list()
+            
+            if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
+                print(f"List for {country.upper()} is the same than US. Trying next proxy...")
+                continue
+
         os.makedirs("lists", exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=4, ensure_ascii=False)
