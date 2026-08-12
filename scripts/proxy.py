@@ -7,7 +7,7 @@ import urllib3
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
-def fetch_url_list(url=TARGET_URL, timeout=8, verify=False, headers=None, proxies=None):
+def fetch_url_list(url=TARGET_URL, timeout=10, verify=False, headers=None, proxies=None):
     response = requests.get(url=url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
     response.raise_for_status()  
     json_data = response.json()
@@ -65,7 +65,6 @@ if country != "us":
             for p in raw_data_sorted
         ]
         print(f"Total structured proxies gathered and sorted: {len(proxy_list)}")
-        print(proxy_list)
     except Exception as e:
         print(f"Error filtering or sorting proxy list: {e}")
         proxy_list = []        
@@ -87,7 +86,7 @@ for proxy_info in proxy_list:
         print("Connecting natively from USA...")
 
     try:
-        result = fetch_url_list(headers=headers, proxies=proxies_config)
+        result = fetch_url_list(proxies=proxies_config)
         
         # Skips to next proxy if result is invalid, empty, or lacks required keys
         if not result:
@@ -113,4 +112,4 @@ for proxy_info in proxy_list:
         print(f"Connection failed: {e}")
 
 if not success:
-    print(f"All attempts failed or returned empty data for {country}. No files were created or modified.")
+    print(f"All attempts failed or returned empty data for {country.upper()}. No files were created or modified.")
