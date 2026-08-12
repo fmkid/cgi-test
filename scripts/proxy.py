@@ -82,7 +82,7 @@ for proxy_info in proxy_list:
             "http": proxy_info["url"],
             "https": proxy_info["url"]
         }
-        print(f"Trying API connection via {proxy_url}")
+        print(f"Trying API connection via {proxy_info['url']}")
     else:
         print("Connecting natively from USA...")
 
