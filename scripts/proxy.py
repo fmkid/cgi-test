@@ -7,9 +7,9 @@ import urllib3
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
-def fetch_url_list(url, timeout=8, verify=False, headers=None, proxies=None):
+def fetch_url_list(url=TARGET_URL, timeout=8, verify=False, headers=None, proxies=None):
     try:
-        response = requests.get(url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
+        response = requests.get(url=url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
         response.raise_for_status()  
         json_data = response.json()
         
@@ -73,6 +73,7 @@ if country != "us":
         proxy_list = []        
 
 success = False
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 for proxy_info in proxy_list:
@@ -88,27 +89,27 @@ for proxy_info in proxy_list:
     else:
         print("Connecting natively from USA...")
 
-    try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-        result = fetch_url_list(TARGET_URL, headers=headers, proxies=proxies_config)
+    result = fetch_url_list(headers=headers, proxies=proxies_config)
+    print(len(result))
 
-        # Skips to next proxy if result is invalid, empty, or lacks required keys
-        if not result:
-            print("No valid data or empty list received. Trying next proxy...")
+    # Skips to next proxy if result is invalid, empty, or lacks required keys
+    if not result:
+        print("No valid data or empty list received. Trying next proxy...")
+        continue
+
+    if country != "us":
+        us_list = fetch_url_list()
+            
+        if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
+            print(f"List for {country.upper()} is the same than US. Trying next proxy...")
             continue
 
-        if country != "us":
-            us_list = fetch_url_list(TARGET_URL, headers=headers)
-            
-            if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
-                print(f"List for {country.upper()} is the same than US. Trying next proxy...")
-                continue
-
+    try:
         os.makedirs("lists", exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(filtered_list, f, indent=4, ensure_ascii=False)
+            json.dump(result, f, indent=4, ensure_ascii=False)
             
-        print(f"Success! Saved '{file_path}' containing {len(filtered_list)} elements.")
+        print(f"Success! Saved '{file_path}' containing {len(result)} elements.")
         success = True
         break
         
