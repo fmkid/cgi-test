@@ -52,7 +52,7 @@ if country != "us":
     try:
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 40.0], 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 50.0], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
   
