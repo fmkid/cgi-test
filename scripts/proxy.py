@@ -8,21 +8,18 @@ TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
 def fetch_url_list(url=TARGET_URL, timeout=8, verify=False, headers=None, proxies=None):
-    try:
-        response = requests.get(url=url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
-        response.raise_for_status()  
-        json_data = response.json()
+    response = requests.get(url=url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
+    response.raise_for_status()  
+    json_data = response.json()
         
-        if not isinstance(json_data, list):
-            return []
+    if not isinstance(json_data, list):
+        return []
             
-        return [
-            {"_id": item["_id"], "name": item["name"]}
-            for item in json_data 
-            if isinstance(item, dict) and "_id" in item and "name" in item
-        ]
-    except Exception as e:
-        return e
+    return [
+        {"_id": item["_id"], "name": item["name"]}
+        for item in json_data 
+        if isinstance(item, dict) and "_id" in item and "name" in item
+    ]
 
 #=========================================================================================================
 
@@ -81,10 +78,9 @@ for proxy_info in proxy_list:
     proxies_config = None
     
     if proxy_info:
-        proxy_url = proxy_info["url"]
         proxies_config = {
-            "http": proxy_url,
-            "https": proxy_url
+            "http": proxy_info["url"],
+            "https": proxy_info["url"]
         }
         print(f"Trying API connection via {proxy_url}")
     else:
@@ -101,7 +97,7 @@ for proxy_info in proxy_list:
         if country != "us":
             us_list = fetch_url_list()
             
-            if us_list != [] and result[0]["_id"] == us_list[0]["_id"]:
+            if us_list != [] and result[0] == us_list[0]:
                 print(f"List for {country.upper()} is the same than US. Trying next proxy...")
                 continue
 
