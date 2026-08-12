@@ -59,7 +59,7 @@ if country != "us":
         proxy_list = [
             {
                 "url": p["url"],
-                "latency": p["latency_ms"],
+                "latency": f"{p['latency_ms']}ms",
                 "uptime": f"{p['uptime_percent']}%"
             }
             for p in raw_data_sorted
@@ -81,7 +81,7 @@ for proxy_info in proxy_list:
             "http": proxy_info["url"],
             "https": proxy_info["url"]
         }
-        proxy_info_txt = f"{proxy_info['url']} ({proxy_info['latency']}ms - {proxy_info['uptime']}%)"
+        proxy_info_txt = f"{proxy_info['url']} ({proxy_info['latency']} - {proxy_info['uptime']})"
         print(f"Trying API connection via {proxy_info_txt}")
     else:
         print("Connecting natively from USA...")
