@@ -96,7 +96,7 @@ for proxy_info in proxy_list:
         if country != "us":
             us_list = fetch_url_list()
             
-            if us_list != [] and result[0] == us_list[0]:
+            if us_list and result[0] == us_list[0]:
                 print(f"List for {country.upper()} is the same than US. Trying next proxy...")
                 continue
 
