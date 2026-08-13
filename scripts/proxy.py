@@ -3,12 +3,15 @@ import os
 import json
 import requests
 import urllib3
+from datetime import datetime, timezone
 
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
-def fetch_url_list(url=TARGET_URL, timeout=10, verify=False, headers=None, proxies=None):
-    response = requests.get(url=url, timeout=timeout, proxies=proxies, verify=verify, headers=headers)
+def fetch_url_list(proxies=None, headers=None):
+    current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    url = f"{TARGET_URL}?start={current_time}&stop={current_time}"
+    response = requests.get(url=url, timeout=10, verify=False, proxies=proxies, headers=headers)
     response.raise_for_status()  
     json_data = response.json()
         
@@ -16,7 +19,11 @@ def fetch_url_list(url=TARGET_URL, timeout=10, verify=False, headers=None, proxi
         return []
             
     return [
-        {"_id": item["_id"], "name": item["name"]}
+        {
+            "_id": item["_id"],
+            "name": item["name"],
+            "ep_id": item["timelines"][0]["episode"]["_id"] if "timelines" in item else None
+        }
         for item in json_data 
         if isinstance(item, dict) and "_id" in item and "name" in item
     ]
@@ -43,7 +50,6 @@ if country != "us":
             url_end = f"{proto}/" if proto != "all" else ""
             global_url = f"{PROXY_BASE_URL}/{country}/{url_end}data.json"
             raw_data.extend(requests.get(global_url, timeout=10).json())
-            print(len(raw_data))
         except Exception:
             continue  
 
