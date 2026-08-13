@@ -1,13 +1,19 @@
 import asyncio
+import httpx
 import json
 import os
-import httpx
+import re
 from datetime import datetime, timezone
 
 BASE_URL = os.environ.get("API_URL")
 TOTAL_IDS = 15000
 CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
+
+def gen_ep_id(val1, val2, val3, val4):
+    t = [val1, val2, val3, val4]
+    t = re.sub(r'\s+', '_', "_".join(t.lower()).encode('ascii', 'ignore').decode()
+    return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
 
 
 def get_country_codes():
@@ -70,7 +76,12 @@ async def fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids,
                 data = response.json()
                 if "_id" in data and "name" in data and "timelines" in data:
                     item_id = data["_id"]
-                    ep_id = data["timelines"][0]["episode"]["_id"]
+                    ep_id = gen_ep_id(
+                        data["timelines"][0]["episode"]["name"],
+                        data["timelines"][0]["episode"]["number"],
+                        data["timelines"][0]["episode"]["season"],
+                        data["timelines"][0]["episode"]["duration"]
+                    )
                     
                     if item_id in existing_ids or ep_id in existing_ep_ids:
                         return
