@@ -42,7 +42,7 @@ if country != "us":
             raw_data = []
             for ctry in country_list:
                 global_url = f"{PROXY_BASE_URL}/{ctry}/{proto}/data.json"
-                raw_data.append(requests.get(global_url, timeout=8).json())
+                raw_data.extend(requests.get(global_url, timeout=8).json())
 
             # Using dict assignment automatically removes duplicates by key (IP:Port)
             for p in raw_data:
