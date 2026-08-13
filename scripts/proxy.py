@@ -10,7 +10,7 @@ TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
 def gen_ep_id(val1, val2, val3, val4):
-    t = [val1, val2, val3, val4]
+    t = [srt(val1), str(val2), str(val3), str(val4)]
     t = re.sub(r'\s+', '_', "_".join(t).lower().encode('ascii', 'ignore').decode())
     return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
 
