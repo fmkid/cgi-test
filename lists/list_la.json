@@ -1,802 +1,1002 @@
 [
     {
         "_id": "5dcb62e63d4d8f0009f36881",
-        "name": "Pluto TV Cine Acción"
+        "name": "Pluto TV Cine Acción",
+        "ep_id": "5fa45f3c6492fa001d027443"
     },
     {
         "_id": "5dcdde78f080d900098550e4",
-        "name": "Pluto TV Cine Comedia"
+        "name": "Pluto TV Cine Comedia",
+        "ep_id": "6a22f11adee9a631d0cf1427"
     },
     {
         "_id": "5dcddf1ed95e740009fef7ab",
-        "name": "Pluto TV Cine Terror"
+        "name": "Pluto TV Cine Terror",
+        "ep_id": "5fda40bcaabcdd001aaf482c"
     },
     {
         "_id": "5dcddfcb229eff00091b6bdf",
-        "name": "Pluto TV Cine Drama"
+        "name": "Pluto TV Cine Drama",
+        "ep_id": "656f466224664a001350cc75"
     },
     {
         "_id": "5dcde0657444a40009cd2422",
-        "name": "Pluto TV Estilo de Vida"
+        "name": "Pluto TV Estilo de Vida",
+        "ep_id": "5e3ac260176d3b29742c0d7f"
     },
     {
         "_id": "5dcde07af1c85b0009b18651",
-        "name": "Pluto TV Deportes"
+        "name": "Pluto TV Deportes",
+        "ep_id": "699c6301003970d0e6315efc"
     },
     {
         "_id": "5dcde0cc2efd2700090b7ff4",
-        "name": "Pluto TV Novelas"
+        "name": "Pluto TV Novelas",
+        "ep_id": "656f7cca12fb500013a00288"
     },
     {
         "_id": "5dcde1317578340009b751d0",
-        "name": "Pluto TV Series"
+        "name": "Pluto TV Series",
+        "ep_id": "6081cf40732128001a1d092c"
     },
     {
         "_id": "5dcde17bf6591d0009839e02",
-        "name": "Pluto TV Anime"
+        "name": "Pluto TV Anime",
+        "ep_id": "69e65cfe24d9b7beb5ec4287"
     },
     {
         "_id": "5dcde197f6591d0009839e04",
-        "name": "Pluto TV Reality"
+        "name": "Pluto TV Reality",
+        "ep_id": "5e2e3b282a91e8249f2344d6"
     },
     {
         "_id": "5dcde27ffae9520009c0c75a",
-        "name": "Pluto TV Investiga"
+        "name": "Pluto TV Investiga",
+        "ep_id": "67aba8b52f84c60aad71782f"
     },
     {
         "_id": "5dcde2ac4bc6c500094ab45b",
-        "name": "Pluto TV Junior"
+        "name": "Pluto TV Junior",
+        "ep_id": "6070be718119a5001a738b88"
     },
     {
         "_id": "5dcde2f53449c50009b2b4dc",
-        "name": "Pluto TV Misterios"
+        "name": "Pluto TV Misterios",
+        "ep_id": "64ff36ce98020f00084a54d3"
     },
     {
         "_id": "5dcde437229eff00091b6c30",
-        "name": "Pluto TV Cine Estelar"
+        "name": "Pluto TV Cine Estelar",
+        "ep_id": "6925d821232b4e31aa3595e7"
     },
     {
         "_id": "5dd6d935d000120009bc1132",
-        "name": "Pluto TV  Competencias"
+        "name": "Pluto TV  Competencias",
+        "ep_id": "5ecd79ebdd6d8f001b5cd4e9"
     },
     {
         "_id": "5dd6dae8ce788b0009eaf77b",
-        "name": "Pluto TV Kids"
+        "name": "Pluto TV Kids",
+        "ep_id": "6733585e3b8ac6001359b24d"
     },
     {
         "_id": "5dd6dc7480e3550009133d4a",
-        "name": "Pluto TV Velocidad"
+        "name": "Pluto TV Velocidad",
+        "ep_id": "61e19235f72e7b001a6ee621"
     },
     {
         "_id": "5dd6ddb30a1d8a000908ed4c",
-        "name": "Pluto TV Cine Familia"
+        "name": "Pluto TV Cine Familia",
+        "ep_id": "5fda40aaaabcdd001aaf4668"
     },
     {
         "_id": "5dd6ed41526c77000941411c",
-        "name": "Pluto TV Pre-Navidad"
+        "name": "Pluto TV Pre-Navidad",
+        "ep_id": "668419cef86814001347bb71"
     },
     {
         "_id": "5dd7ea2aeab5230009986735",
-        "name": "Pluto TV Cine Romance"
+        "name": "Pluto TV Cine Romance",
+        "ep_id": "64132abf3603f9001a16b41c"
     },
     {
         "_id": "5dd837642c6e9300098ad484",
-        "name": "Pluto TV Series Latinas"
+        "name": "Pluto TV Series Latinas",
+        "ep_id": "6602e9fc5e29420013e73c5a"
     },
     {
         "_id": "5dd85eac039bba0009e86d1d",
-        "name": "Pluto TV Naturaleza"
+        "name": "Pluto TV Naturaleza",
+        "ep_id": "640793a74e878b0013655fb8"
     },
     {
         "_id": "5ddc266f80e3550009136843",
-        "name": "Pluto TV Aventura"
+        "name": "Pluto TV Aventura",
+        "ep_id": "65b11b395884b4001382b8b7"
     },
     {
         "_id": "5ddc4e8bcbb9010009b4e84f",
-        "name": "Pluto TV Cine Suspenso"
+        "name": "Pluto TV Cine Suspenso",
+        "ep_id": "63ceba41e8fb16001a943c70"
     },
     {
         "_id": "5ddc503ac7ef120009b101a2",
-        "name": "Pluto TV Documentales"
+        "name": "Pluto TV Documentales",
+        "ep_id": "6a2aef397918fece01fa69bf"
     },
     {
         "_id": "5ddd7c348520b40009c347e2",
-        "name": "Nickelodeon Clásico"
+        "name": "Nickelodeon Clásico",
+        "ep_id": "5e2f28aee3a8122904e6e7df"
     },
     {
         "_id": "5ddd7cb2cbb9010009b4fe32",
-        "name": "Nick Jr. Club"
+        "name": "Nick Jr. Club",
+        "ep_id": "680b7b632472a7200a090438"
     },
     {
         "_id": "5de5758e1a30dc00094fcd6c",
-        "name": "Pluto TV Historia"
+        "name": "Pluto TV Historia",
+        "ep_id": "5fb2d75bfd17cc001a0155da"
     },
     {
         "_id": "5de802659167b10009e7deba",
-        "name": "Pluto TV Series Retro"
+        "name": "Pluto TV Series Retro",
+        "ep_id": "64a2f086fdd8620013eca8c4"
     },
     {
         "_id": "5de91b7ea86ee60009d89e75",
-        "name": "MTV Reality"
+        "name": "MTV Reality",
+        "ep_id": "685172b021f49d1b9d24af5c"
     },
     {
         "_id": "5defde6d6c07b50009cf0757",
-        "name": "Pluto TV  Nuestro Cine"
+        "name": "Pluto TV  Nuestro Cine",
+        "ep_id": "60d49aa289632c0013eada08"
     },
     {
         "_id": "5df265697ec3510009df1ef0",
-        "name": "Pluto TV Vida Real"
+        "name": "Pluto TV Vida Real",
+        "ep_id": "656f33f61311360013afe572"
     },
     {
         "_id": "5dfcde52d28b09000a42d7a2",
-        "name": "Pluto TV A La Mexicana"
+        "name": "Pluto TV A La Mexicana",
+        "ep_id": "66fe9829a88a1900135aadaa"
     },
     {
         "_id": "5e3ddbd27091820009f86dd9",
-        "name": "MasterChef México"
+        "name": "MasterChef México",
+        "ep_id": "68ac6c84e5ae05a89051568b"
     },
     {
         "_id": "5e46e64dc73db400094b5f0b",
-        "name": "Minuto Para Ganar"
+        "name": "Minuto Para Ganar",
+        "ep_id": "5e4ad1626a7897f246064648"
     },
     {
         "_id": "5e67d41b93312100076f3fca",
-        "name": "Los archivos del FBI"
+        "name": "Los archivos del FBI",
+        "ep_id": "5e504c689018b9c443cb473d"
     },
     {
         "_id": "5e8397936791b30007ebb5a7",
-        "name": "Pluto TV Humor"
+        "name": "Pluto TV Humor",
+        "ep_id": "5f176fd9333fb50013fbd2aa"
     },
     {
         "_id": "5e972a21ad709d00074195ba",
-        "name": "Estrellas de Acción"
+        "name": "Estrellas de Acción",
+        "ep_id": "66a7d1a62fca0600131c856a"
     },
     {
         "_id": "5e98a911c881310007d7aae2",
-        "name": "MTV Ridiculousness"
+        "name": "MTV Ridiculousness",
+        "ep_id": "687619b424918d4300d79840"
     },
     {
         "_id": "5e98b0447665f200078caded",
-        "name": "Pluto TV Peleas"
+        "name": "Pluto TV Peleas",
+        "ep_id": "6482390d17da09001a99bbf7"
     },
     {
         "_id": "5ea71d48af1d0b0007d837f4",
-        "name": "The New Detectives"
+        "name": "The New Detectives",
+        "ep_id": "5e504df733df6ec456e45664"
     },
     {
         "_id": "5ea7215005d66d0007e8128a",
-        "name": "Rugrats"
+        "name": "Rugrats",
+        "ep_id": "62c5ad5a5d2a8500132b61b2"
     },
     {
         "_id": "5ebac49ce4dc8b00078b23bc",
-        "name": "Babyfirst"
+        "name": "Babyfirst",
+        "ep_id": "5f32e9134fd476001b736abb"
     },
     {
         "_id": "5ebacbcae43a6d000787b88e",
-        "name": "The Pet Collective"
+        "name": "The Pet Collective",
+        "ep_id": "68dabb9ba44f8dcccd058102"
     },
     {
         "_id": "5ebaccf1734aaf0007142c86",
-        "name": "FailArmy"
+        "name": "FailArmy",
+        "ep_id": "68e250a133c9798391c3fb2f"
     },
     {
         "_id": "5ec5761aabe4690007f6e047",
-        "name": "Pluto TV Star Trek"
+        "name": "Pluto TV Star Trek",
+        "ep_id": "68ed0fbc6fe1b6a13d6b2d44"
     },
     {
         "_id": "5ed6828192e8b3000743ef61",
-        "name": "Wipe Out"
+        "name": "Wipe Out",
+        "ep_id": "5e3ac24a176d3b29742c09fe"
     },
     {
         "_id": "5ee92e72fb286e0007285fec",
-        "name": "Naruto"
+        "name": "Naruto",
+        "ep_id": "5e94c8e9efdfd8001a54f99e"
     },
     {
         "_id": "5efb8c19b2678b000780d032",
-        "name": "Archivos Forenses"
+        "name": "Archivos Forenses",
+        "ep_id": "5eb2f0fee0cf89001aa21bfe"
     },
     {
         "_id": "5f230e416b68ff00075b0139",
-        "name": "Misterios Medicos"
+        "name": "Misterios Medicos",
+        "ep_id": "5f189c94333fb50013fbe9f5"
     },
     {
         "_id": "5f23102d5e239d00074b092a",
-        "name": "Empeños a lo bestia"
+        "name": "Empeños a lo bestia",
+        "ep_id": "5f638b145e6bed001a9cfd3c"
     },
     {
         "_id": "5f2817d3d7573a00080f9175",
-        "name": "Pluto TV Sci-Fi"
+        "name": "Pluto TV Sci-Fi",
+        "ep_id": "62fff9d642b796001bc271fb"
     },
     {
         "_id": "5f4d3696d938c900072679fd",
-        "name": "Historias de Ultratumba"
+        "name": "Historias de Ultratumba",
+        "ep_id": "62def4e5d7fb2b001384d3f7"
     },
     {
         "_id": "5f4d3d06fb60d8000781fce8",
-        "name": "El Reino Infantil"
+        "name": "El Reino Infantil",
+        "ep_id": "65d3a69f03625d00134fddbd"
     },
     {
         "_id": "5f4fed840a2764000720d966",
-        "name": "Paisajes por Stingray"
+        "name": "Paisajes por Stingray",
+        "ep_id": "6189249c35f3910007f5c21c"
     },
     {
         "_id": "5f610042272f68000867685b",
-        "name": "Misterios sin Resolver"
+        "name": "Misterios sin Resolver",
+        "ep_id": "5f8887ea4510e5001a9396e0"
     },
     {
         "_id": "5f85ca40eda1b10007b967cd",
-        "name": "Conciertos por Stingray"
+        "name": "Conciertos por Stingray",
+        "ep_id": "67bf9f4df40fa9996d592225"
     },
     {
         "_id": "5f85cf621d6d2200079f1de0",
-        "name": "Karaoke por Stingray"
+        "name": "Karaoke por Stingray",
+        "ep_id": "64b588feaab9ce0008f40edb"
     },
     {
         "_id": "5f998c1fc54853000797bacd",
-        "name": "Tastemade"
+        "name": "Tastemade",
+        "ep_id": "5fdd3129735b4a0007530f4d"
     },
     {
         "_id": "5f9992c685a2a80007fa414a",
-        "name": "Dog el cazarrecompensas"
+        "name": "Dog el cazarrecompensas",
+        "ep_id": "5f85c61db93a07001a85db31"
     },
     {
         "_id": "5fab088b3279760007d4e4fd",
-        "name": "MTV Pluto TV"
+        "name": "MTV Pluto TV",
+        "ep_id": "666312611c02820013efe953"
     },
     {
         "_id": "5fab09a8749b1a00077d35d2",
-        "name": "Nickelodeon Teen"
+        "name": "Nickelodeon Teen",
+        "ep_id": "68247013faaa60cd7df5ab25"
     },
     {
         "_id": "5fcea93ffcf94500071c4b2f",
-        "name": "Kenan y Kel"
+        "name": "Kenan y Kel",
+        "ep_id": "5f47dc71ca824d000783a917"
     },
     {
         "_id": "5fceaab478f2af00080ff51f",
-        "name": "Yu-Gi-Oh"
+        "name": "Yu-Gi-Oh",
+        "ep_id": "687e4eecdf1220b535fc31bd"
     },
     {
         "_id": "5ff3934600d4c7000733ff49",
-        "name": "Pluto TV E-Sports"
+        "name": "Pluto TV E-Sports",
+        "ep_id": "6303c58ece5c48001b1e391a"
     },
     {
         "_id": "5ff4b9ccf938f8000779eb99",
-        "name": "One Piece"
+        "name": "One Piece",
+        "ep_id": "60195f1b00da4e00138c1134"
     },
     {
         "_id": "5ff608e60e2996000768c366",
-        "name": "Tokusato"
+        "name": "Tokusato",
+        "ep_id": "6745e564a7fde50013c6d905"
     },
     {
         "_id": "5ffcc21a432945000762d06b",
-        "name": "Comedy Central Pluto TV"
+        "name": "Comedy Central Pluto TV",
+        "ep_id": "6a593e417bf1845f19d5c053"
     },
     {
         "_id": "6047fabfce6e8e00070bcc9f",
-        "name": "MTV Biggest Pop"
+        "name": "MTV Biggest Pop",
+        "ep_id": "609d8b3ff5038e0007b8fedd"
     },
     {
         "_id": "604bdf4e6d0abc0007ba77ad",
-        "name": "Sin Tetas No Hay Paraíso"
+        "name": "Sin Tetas No Hay Paraíso",
+        "ep_id": "5edfffe96e0047001cb87ba6"
     },
     {
         "_id": "609059dc63be6e0007b4eca6",
-        "name": "Pluto TV Cine Clásico"
+        "name": "Pluto TV Cine Clásico",
+        "ep_id": "669919018dfe2a0013ba597c"
     },
     {
         "_id": "6095ad97351eb0000754c1e6",
-        "name": "Hells Kitchen"
+        "name": "Hells Kitchen",
+        "ep_id": "6176bd734f409e001a4a60b0"
     },
     {
         "_id": "609ae5cd48d3200007b0a98e",
-        "name": "Comedy Central South Park"
+        "name": "Comedy Central South Park",
+        "ep_id": "61cdd52704ff25001a47e1ac"
     },
     {
         "_id": "60e5ea9a9bb4200008376f76",
-        "name": "Motorvision TV"
+        "name": "Motorvision TV",
+        "ep_id": "608c1e3d27a22300132d3132"
     },
     {
         "_id": "61099f2b40d0640007fc5aa2",
-        "name": "El Encantador de Perros"
+        "name": "El Encantador de Perros",
+        "ep_id": "614ddbc573f7ab0013aca60f"
     },
     {
         "_id": "6109a9f5531b840007a4a187",
-        "name": "Cazador de Homicidas"
+        "name": "Cazador de Homicidas",
+        "ep_id": "626010c7228ab000133ee397"
     },
     {
         "_id": "6109ab25b84d6a0007504886",
-        "name": "Pluto TV Mi Obsesión Favorita"
+        "name": "Pluto TV Mi Obsesión Favorita",
+        "ep_id": "61717233b8333a001ad8f877"
     },
     {
         "_id": "6185a9a88b2ce30007de5128",
-        "name": "Pluto TV Dramas Coreanos"
+        "name": "Pluto TV Dramas Coreanos",
+        "ep_id": "65a6d39d478df60013232da5"
     },
     {
         "_id": "619d59b7cbef25000728221c",
-        "name": "Euronews Español"
+        "name": "Euronews Español",
+        "ep_id": "61c20ae88bb1830008e41966"
     },
     {
         "_id": "619d5e6a093e7c0007489211",
-        "name": "Baby Shark TV"
+        "name": "Baby Shark TV",
+        "ep_id": "641c74f21a5081001a4a7583"
     },
     {
         "_id": "61a52615cbef2500072876e2",
-        "name": "Acapulco Shore Pluto TV"
+        "name": "Acapulco Shore Pluto TV",
+        "ep_id": "67b349986b3c7d04544e6338"
     },
     {
         "_id": "61b793ccf571b80007b7a610",
-        "name": "Adrenalina Pura TV"
+        "name": "Adrenalina Pura TV",
+        "ep_id": "6a6f4175d2c6d79d8cc77afd"
     },
     {
         "_id": "620fd9f4afb9a80007a9c6d5",
-        "name": "MTV Teen Mom"
+        "name": "MTV Teen Mom",
+        "ep_id": "68371360cf5ae3a5088b5787"
     },
     {
         "_id": "620ff0a01f9e8700076c6f9d",
-        "name": "Nickelodeon iCarly"
+        "name": "Nickelodeon iCarly",
+        "ep_id": "62431fa7ff21e500131f1e09"
     },
     {
         "_id": "62154548a2be360007cb02f0",
-        "name": "Ice Pilots"
+        "name": "Ice Pilots",
+        "ep_id": "620692d4a1a84900140767c7"
     },
     {
         "_id": "62310d5a5dc9550007c6f580",
-        "name": "CBS News 24/7"
+        "name": "CBS News 24/7",
+        "ep_id": "6659c9eaf8681400135d2554"
     },
     {
         "_id": "624af40c004f8000079b784d",
-        "name": "Pluto TV Cine Crimen"
+        "name": "Pluto TV Cine Crimen",
+        "ep_id": "679795a8ad4ffc001421050c"
     },
     {
         "_id": "6254598f5083f800076d8563",
-        "name": "Bob Esponja Pantalones Cuadrados"
+        "name": "Bob Esponja Pantalones Cuadrados",
+        "ep_id": "67ad2f24d10c4a43ee3f14ce"
     },
     {
         "_id": "625461ef01f27a0007976ad1",
-        "name": "MTV Catfish"
+        "name": "MTV Catfish",
+        "ep_id": "685415d9069aec0976471afc"
     },
     {
         "_id": "626c2ed933a2890007e91422",
-        "name": "Death Note"
+        "name": "Death Note",
+        "ep_id": "5e73b72967bbf8001aad22fb"
     },
     {
         "_id": "62b218fc511d4b00070ddc0c",
-        "name": "MTV Flow Latino"
+        "name": "MTV Flow Latino",
+        "ep_id": "669e7d8ca1b69e0008340c1e"
     },
     {
         "_id": "62c5d80dc6de440007e033eb",
-        "name": "Runtime"
+        "name": "Runtime",
+        "ep_id": "6a6500f7e65bfef07bd2f658"
     },
     {
         "_id": "62d0895ebe7a970008785244",
-        "name": "Daria"
+        "name": "Daria",
+        "ep_id": "5e20e38fc35ec50fb8edcfb2"
     },
     {
         "_id": "62d08af527ce19000731eaa0",
-        "name": "La Familia del Barrio"
+        "name": "La Familia del Barrio",
+        "ep_id": "5f17580e6ebd4d0013288461"
     },
     {
         "_id": "631fb6be21b7440007b9f606",
-        "name": "Hechizada"
+        "name": "Hechizada",
+        "ep_id": "60a569c4c304b20013b122f6"
     },
     {
         "_id": "6320d2755e54db000783fd87",
-        "name": "Claro Sports Mexico"
+        "name": "Claro Sports Mexico",
+        "ep_id": "687fe00d9017101f056a7324"
     },
     {
         "_id": "6320ddef274b1b0007b2ee88",
-        "name": "Revive Gran Hermano"
+        "name": "Revive Gran Hermano",
+        "ep_id": "64ee2deaa5aa6e00131c57f5"
     },
     {
         "_id": "63211ba9cad976000794f988",
-        "name": "La Selección"
+        "name": "La Selección",
+        "ep_id": "5eb420b22b4983001ab132bc"
     },
     {
         "_id": "6322099c822bbc00074857db",
-        "name": "Los Padrinos Mágicos"
+        "name": "Los Padrinos Mágicos",
+        "ep_id": "631b95a58e148500139653da"
     },
     {
         "_id": "638693db857364000781b471",
-        "name": "MTV Con Mi Ex"
+        "name": "MTV Con Mi Ex",
+        "ep_id": "6363e2b31ac5b40013b2aed6"
     },
     {
         "_id": "639751f81a36b400072b8f5a",
-        "name": "Vive Kanal D Drama"
+        "name": "Vive Kanal D Drama",
+        "ep_id": "654303fbe2a2d8001a1e19aa"
     },
     {
         "_id": "63a084934734f30007457b2c",
-        "name": "Smithsonian Channel Pluto TV"
+        "name": "Smithsonian Channel Pluto TV",
+        "ep_id": "641090484e878b0013990801"
     },
     {
         "_id": "63d2c140c111bc0008cb890b",
-        "name": "TeleFórmula"
+        "name": "TeleFórmula",
+        "ep_id": "651725dd727df0001a069c5a"
     },
     {
         "_id": "63dac1b78795f300086d5ca6",
-        "name": "TikTok Radio en Español"
+        "name": "TikTok Radio en Español",
+        "ep_id": "687041ce3484d60732eb0204"
     },
     {
         "_id": "63dd5d7a4e83e700088fbca8",
-        "name": "Las Tortugas Ninja"
+        "name": "Las Tortugas Ninja",
+        "ep_id": "640213eb56842c001450e895"
     },
     {
         "_id": "63eb9255c111bc0008fe6ec4",
-        "name": "CSI: Miami"
+        "name": "CSI: Miami",
+        "ep_id": "63bc1fada6bb3b0014760bf4"
     },
     {
         "_id": "63eb947c4e83e70008ab877b",
-        "name": "NCIS"
+        "name": "NCIS",
+        "ep_id": "64428e7c737654001d1eafee"
     },
     {
         "_id": "63eb95baa99571000898a078",
-        "name": "MacGyver"
+        "name": "MacGyver",
+        "ep_id": "64513c13188649001ad699b1"
     },
     {
         "_id": "63f7e3f9dff38e00082a57af",
-        "name": "ITV Deportes"
+        "name": "ITV Deportes",
+        "ep_id": "64a6c1edd264b00013918216"
     },
     {
         "_id": "64025592953da40008bf9238",
-        "name": "Obsesión por los Autos"
+        "name": "Obsesión por los Autos",
+        "ep_id": "5e2bb95b6e5734eacaabfcc7"
     },
     {
         "_id": "6419ab7c9189ce000865a469",
-        "name": "COPS"
+        "name": "COPS",
+        "ep_id": "64480724c6f09e001b100ed5"
     },
     {
         "_id": "64510d3ad3fdde00080951f2",
-        "name": "MTV Drag"
+        "name": "MTV Drag",
+        "ep_id": "6638db1af78a85000900e468"
     },
     {
         "_id": "645952687cb4b100084ed52e",
-        "name": "Nickelodeon Toons"
+        "name": "Nickelodeon Toons",
+        "ep_id": "68246ab19eed174f7fb8ddae"
     },
     {
         "_id": "645d1abbe1979c0008779d5a",
-        "name": "Archivos Extraterrestres"
+        "name": "Archivos Extraterrestres",
+        "ep_id": "60feff39b93efb0013878107"
     },
     {
         "_id": "64666345f3f5b1000882bfb4",
-        "name": "Captain Tsubasa"
+        "name": "Captain Tsubasa",
+        "ep_id": "646cb78e17da09001a364868"
     },
     {
         "_id": "646ccc7a2858cb0008127367",
-        "name": "Azteca UNO -1 hora"
+        "name": "Azteca UNO -1 hora",
+        "ep_id": "65cbbadeec452d0008acf20d"
     },
     {
         "_id": "646ccd3681844c000974d6f4",
-        "name": "ADN Noticias"
+        "name": "ADN Noticias",
+        "ep_id": "684b6ce86fcd1eb88e481867"
     },
     {
         "_id": "646ccdd0939a5900088a1980",
-        "name": "Corazón"
+        "name": "Corazón",
+        "ep_id": "664f5d77f9992200084b5c31"
     },
     {
         "_id": "646cce4d1593940008a33f09",
-        "name": "Azteca Internacional"
+        "name": "Azteca Internacional",
+        "ep_id": "680bd24898ff6e71a1cb55e6"
     },
     {
         "_id": "6474a7958e3c0a0008b97cae",
-        "name": "Pluto TV Novelas de México"
+        "name": "Pluto TV Novelas de México",
+        "ep_id": "68fa550ec59f905cb0aefd3d"
     },
     {
         "_id": "6474a86917f5e100089a0c1c",
-        "name": "Pluto TV Novelas de Venezuela"
+        "name": "Pluto TV Novelas de Venezuela",
+        "ep_id": "695fd8c76a5d6e386051753f"
     },
     {
         "_id": "6479ff1c17f5e10008ad2797",
-        "name": "Pluto TV Series de Acción"
+        "name": "Pluto TV Series de Acción",
+        "ep_id": "69986bb4eff94c5fe3d99626"
     },
     {
         "_id": "6495af324c014a000842e923",
-        "name": "Desafío Super Humanos"
+        "name": "Desafío Super Humanos",
+        "ep_id": "64df9149e675cb001311d8de"
     },
     {
         "_id": "64c92fea3c3344000869e8a9",
-        "name": "Naruto Shippuden"
+        "name": "Naruto Shippuden",
+        "ep_id": "6a10ceaf1718969e36782aac"
     },
     {
         "_id": "64e35aff6b1fdb0008ea8441",
-        "name": "Imagen TV+"
+        "name": "Imagen TV+",
+        "ep_id": "65a07509a620e30008478388"
     },
     {
         "_id": "64f6163a30ab3300083d870e",
-        "name": "PFL MMA"
+        "name": "PFL MMA",
+        "ep_id": "69d58cc9a68b1a2a81f84f68"
     },
     {
         "_id": "64fb1f6e6625510008c00848",
-        "name": "Homeful"
+        "name": "Homeful",
+        "ep_id": "65cbedecb65b870013473a00"
     },
     {
         "_id": "64ff270f30ab3300084e259c",
-        "name": "Rookie Blue: Policías Novatos"
+        "name": "Rookie Blue: Policías Novatos",
+        "ep_id": "64b6d9e32273310013522f78"
     },
     {
         "_id": "652e91fd6208700008dcaf7b",
-        "name": "Canal 6 CdMX"
+        "name": "Canal 6 CdMX",
+        "ep_id": "6a6403ac925ff998a65b602e"
     },
     {
         "_id": "652e922db4b047000825f975",
-        "name": "Milenio Televisión"
+        "name": "Milenio Televisión",
+        "ep_id": "65d5fae8ea323e00130b73cd"
     },
     {
         "_id": "655f626d57fe4a00085c7c3e",
-        "name": "Pluto TV Series de Comedia"
+        "name": "Pluto TV Series de Comedia",
+        "ep_id": "66db1906a0ed4700134e519a"
     },
     {
         "_id": "655f62ff954b020008c91ec6",
-        "name": "Pluto TV Series de Crimen"
+        "name": "Pluto TV Series de Crimen",
+        "ep_id": "68488ec1590c735140101627"
     },
     {
         "_id": "655f636d954b020008c93299",
-        "name": "Pluto TV Series de Drama"
+        "name": "Pluto TV Series de Drama",
+        "ep_id": "66d0cda24d30430013146e14"
     },
     {
         "_id": "65662f8a2c46f300088a84cc",
-        "name": "Pluto TV Series de Sci-Fi"
+        "name": "Pluto TV Series de Sci-Fi",
+        "ep_id": "69ba8f89a5502149b7b516a7"
     },
     {
         "_id": "656e2536fbc15b00084ae29d",
-        "name": "Mi Coche Clásico"
+        "name": "Mi Coche Clásico",
+        "ep_id": "65b144ff70ac4400132f07db"
     },
     {
         "_id": "656f37f257fe4a000884dfee",
-        "name": "Boruto: Naruto Next Generations"
+        "name": "Boruto: Naruto Next Generations",
+        "ep_id": "65242bfe939c4b001a30f374"
     },
     {
         "_id": "65cf60d166eec80008724e6f",
-        "name": "Azteca Deportes Premium"
+        "name": "Azteca Deportes Premium",
+        "ep_id": "682e1de21295f983475e463f"
     },
     {
         "_id": "65d916a2f7f0af0008b6540d",
-        "name": "Hunter x Hunter"
+        "name": "Hunter x Hunter",
+        "ep_id": "64c4066a74cd18001a8cdeea"
     },
     {
         "_id": "65df7272ec9fda0008b7a970",
-        "name": "South Park: Colección Kenny"
+        "name": "South Park: Colección Kenny",
+        "ep_id": "61cdd56e04ff25001a47f151"
     },
     {
         "_id": "65df72db18036500081a8292",
-        "name": "South Park: Colección Stan"
+        "name": "South Park: Colección Stan",
+        "ep_id": "62792dc1a6d563001300a5fe"
     },
     {
         "_id": "65df731cec9fda0008b7aa8d",
-        "name": "South Park: Colección Cartman"
+        "name": "South Park: Colección Cartman",
+        "ep_id": "61cdd52704ff25001a47e174"
     },
     {
         "_id": "65df73520d4561000817c29b",
-        "name": "South Park: Colección Kyle"
+        "name": "South Park: Colección Kyle",
+        "ep_id": "60d1ef9afb352f001a64aa13"
     },
     {
         "_id": "662bf39756fc840008f25cb9",
-        "name": "Sony One Escape Perfecto"
+        "name": "Sony One Escape Perfecto",
+        "ep_id": "69b659d032eb9227dd554f5b"
     },
     {
         "_id": "6647c02422494d000804b13a",
-        "name": "Sony One Shark Tank México"
+        "name": "Sony One Shark Tank México",
+        "ep_id": "69c431cb0b6c04b3e65a5f13"
     },
     {
         "_id": "6661d5424b10960008599fa3",
-        "name": "Pluto TV Dramas Coreanos Teen"
+        "name": "Pluto TV Dramas Coreanos Teen",
+        "ep_id": "66e050fa38c4a000133e495d"
     },
     {
         "_id": "66997d18a1b69e00082ee85f",
-        "name": "FIFA+"
+        "name": "FIFA+",
+        "ep_id": "6a6c2612fb2bd7ef0803afc8"
     },
     {
         "_id": "66a01b52a4ee27000808ea36",
-        "name": "MTV Rocks"
+        "name": "MTV Rocks",
+        "ep_id": "66993c9117101c0013f36d15"
     },
     {
         "_id": "66a11a21a79dea0008aa90ca",
-        "name": "MTV Classic"
+        "name": "MTV Classic",
+        "ep_id": "66993cd0dc6f2f00134ce60f"
     },
     {
         "_id": "66a92375cd0d31000847b219",
-        "name": "Monstruos de Rio"
+        "name": "Monstruos de Rio",
+        "ep_id": "680b9ea956ff83bcd67eb403"
     },
     {
         "_id": "66b26665d512590008c507b7",
-        "name": "Inuyasha"
+        "name": "Inuyasha",
+        "ep_id": "64ad91b2fdd862001323d751"
     },
     {
         "_id": "66b3af1c3a4ad200081c7d03",
-        "name": "Z Nation"
+        "name": "Z Nation",
+        "ep_id": "66a26f97dc6f2f0013b2b640"
     },
     {
         "_id": "66c790f780a0af0008583aa4",
-        "name": "JoJo’s Bizarre Adventure"
+        "name": "JoJo’s Bizarre Adventure",
+        "ep_id": "65c2831a7905980013edf581"
     },
     {
         "_id": "66c79221b1a34600087e264d",
-        "name": "Hey Arnold!"
+        "name": "Hey Arnold!",
+        "ep_id": "62ed3bbb20b977001ee96f54"
     },
     {
         "_id": "670ed8dfc7626f000884c3a8",
-        "name": "Pluto TV Cine Estelar"
+        "name": "Pluto TV Cine Estelar",
+        "ep_id": "5e6a42b6e2fa10001becd269"
     },
     {
         "_id": "670edb8149c4060008e3aec8",
-        "name": "Pluto TV Cine Acción"
+        "name": "Pluto TV Cine Acción",
+        "ep_id": "62869a609f694b001379ac4d"
     },
     {
         "_id": "673f7446030a2c0008231bc3",
-        "name": "C4 en Alerta"
+        "name": "C4 en Alerta",
+        "ep_id": "67d47b957dcea87be75076b0"
     },
     {
         "_id": "6759ee82bd523200083b4f0f",
-        "name": "Avatar: La Leyenda de Aang"
+        "name": "Avatar: La Leyenda de Aang",
+        "ep_id": "65c4de6b70ac440013c04f67"
     },
     {
         "_id": "6764203df433320008836bc6",
-        "name": "Los Asesinatos de Midsomer"
+        "name": "Los Asesinatos de Midsomer",
+        "ep_id": "63b6e5a1d5762100130193f2"
     },
     {
         "_id": "677d93afe650a700081e5f18",
-        "name": "Popeye"
+        "name": "Popeye",
+        "ep_id": "5e6bdc2389acba001abc2392"
     },
     {
         "_id": "678029c654f43dad4b5c1ec0",
-        "name": "Bromas Gags - Just for Laughs"
+        "name": "Bromas Gags - Just for Laughs",
+        "ep_id": "67aecac7fcecda97ebbc6584"
     },
     {
         "_id": "67813f893886aa863497733d",
-        "name": "Red Bull TV"
+        "name": "Red Bull TV",
+        "ep_id": "67b364fbf77b5e1d233d9d94"
     },
     {
         "_id": "678533155e0e6a000828cd48",
-        "name": "Untold Stories of the ER"
+        "name": "Untold Stories of the ER",
+        "ep_id": "5f1b50a8fe225e0013a8f65c"
     },
     {
         "_id": "678aa0b3680721c77c5035dd",
-        "name": "The Walking Dead by AMC"
+        "name": "The Walking Dead by AMC",
+        "ep_id": "68bb1a37ffda357d9d4f2747"
     },
     {
         "_id": "67a52c8397782f00081879aa",
-        "name": "Top Barça"
+        "name": "Top Barça",
+        "ep_id": "6a5b97a38620a3e20323d4cf"
     },
     {
         "_id": "67a52cd4ec91870008a62164",
-        "name": "UFC"
+        "name": "UFC",
+        "ep_id": "67b8cf3ce8aa778a16b48d79"
     },
     {
         "_id": "67d9b0ebc290c9499046e88f",
-        "name": "RCN Noticias"
+        "name": "RCN Noticias",
+        "ep_id": "68065ac48e4b08935e0654ad"
     },
     {
         "_id": "67e5941f0812459cb682d9c6",
-        "name": "Relic Hunter"
+        "name": "Relic Hunter",
+        "ep_id": "60900590e63e660013135947"
     },
     {
         "_id": "67f95fa76b11614ab0caaef3",
-        "name": "Hechiceras"
+        "name": "Hechiceras",
+        "ep_id": "68c9828eb76cf0ad371f6944"
     },
     {
         "_id": "67f960680072d6b187a0682e",
-        "name": "Números"
+        "name": "Números",
+        "ep_id": "68236415a9356a3062def631"
     },
     {
         "_id": "6806d519fea7414f33f57016",
-        "name": "Pluto TV Cine Inspirador"
+        "name": "Pluto TV Cine Inspirador",
+        "ep_id": "60f096c80bb675001323d553"
     },
     {
         "_id": "6806d570c178637410ae4962",
-        "name": "Pluto TV Series de Otros Continentes"
+        "name": "Pluto TV Series de Otros Continentes",
+        "ep_id": "67d2e919174f833db28c1133"
     },
     {
         "_id": "680bdaf54d7cf165c705f91e",
-        "name": "Zona Investigación TV"
+        "name": "Zona Investigación TV",
+        "ep_id": "681d0e0653182e868c627cf0"
     },
     {
         "_id": "681ba2729624e6275efe0044",
-        "name": "NatureTime"
+        "name": "NatureTime",
+        "ep_id": "688a47cd70aa7a53dcdc2aba"
     },
     {
         "_id": "68224482c5d53e1351aaf2f2",
-        "name": "Canal Claro"
+        "name": "Canal Claro",
+        "ep_id": "6977eb218c4cf95f2a82ad92"
     },
     {
         "_id": "6824cda00101510f9eeaa011",
-        "name": "Nickelodeon Clásico"
+        "name": "Nickelodeon Clásico",
+        "ep_id": "6824874f80b266522010f566"
     },
     {
         "_id": "6851b909954170e0128bc71d",
-        "name": "MTV Ink Master"
+        "name": "MTV Ink Master",
+        "ep_id": "6a5790510cbe9fec861ea26c"
     },
     {
         "_id": "6868152657543d1f8be4ece3",
-        "name": "Concert Channel"
+        "name": "Concert Channel",
+        "ep_id": "6a66adb31de8a69a119a4757"
     },
     {
         "_id": "686eed4c677f2f98b4a1ccd4",
-        "name": "Pluto TV Novelas de Otros Continentes"
+        "name": "Pluto TV Novelas de Otros Continentes",
+        "ep_id": "68346e861426f2773e9fa616"
     },
     {
         "_id": "6870072ca9d5c45c3e9466f1",
-        "name": "Pokémon"
+        "name": "Pokémon",
+        "ep_id": "68a484d64d15bfbcee47ed15"
     },
     {
         "_id": "6894fc3f66f164e402f4fd14",
-        "name": "Dulce by elGourmet"
+        "name": "Dulce by elGourmet",
+        "ep_id": "68ac7cafe5ae05a89060ffb2"
     },
     {
         "_id": "6894febddbd49c964f3b66c8",
-        "name": "Plato del Dia by elGourmet"
+        "name": "Plato del Dia by elGourmet",
+        "ep_id": "6a4684cb3630c7ab4aa7979e"
     },
     {
         "_id": "68a3a97fd8f7693ae3f8575f",
-        "name": "Los Pitufos"
+        "name": "Los Pitufos",
+        "ep_id": "691b2e9f69032f4edff27660"
     },
     {
         "_id": "68b784d03e17b7676a0378f7",
-        "name": "Shockwave"
+        "name": "Shockwave",
+        "ep_id": "6a021323163f325335459863"
     },
     {
         "_id": "68b88712e777774982269ce9",
-        "name": "Tastemade Viajes"
+        "name": "Tastemade Viajes",
+        "ep_id": "68c34c26f89c82a68b632f67"
     },
     {
         "_id": "68b887c2e77777498226a0de",
-        "name": "Tastemade Hogar"
+        "name": "Tastemade Hogar",
+        "ep_id": "68c35703508ba507f02ae16c"
     },
     {
         "_id": "68ba0910e1d03fec7d5c084f",
-        "name": "Al Ritmo del Jaripeo"
+        "name": "Al Ritmo del Jaripeo",
+        "ep_id": "6903c5533e293afc37c200e6"
     },
     {
         "_id": "68ffc086a530e036bc8f0305",
-        "name": "Mi Bella Genio"
+        "name": "Mi Bella Genio",
+        "ep_id": "60a2705eb93944000775e2fb"
     },
     {
         "_id": "697c9bc2a7ce9d5a3d83504a",
-        "name": "Dr. G"
+        "name": "Dr. G",
+        "ep_id": "68de883183275eb994f8f188"
     },
     {
         "_id": "698a45156dc3c71eb1ba6599",
-        "name": "Pluto TV Amor y Mentiras"
+        "name": "Pluto TV Amor y Mentiras",
+        "ep_id": "64d1490c445a8a0013d97278"
     },
     {
         "_id": "699763d184235f26d5056002",
-        "name": "Enchufe.TV"
+        "name": "Enchufe.TV",
+        "ep_id": "63f78bf43fde0200078aae1d"
     },
     {
         "_id": "699769fa19ac123965833fd3",
-        "name": "Cuando los Ángeles Caen"
+        "name": "Cuando los Ángeles Caen",
+        "ep_id": "69c61a2726eeec8415445e2e"
     },
     {
         "_id": "69b32974814d27f4aed90fdd",
-        "name": "Madre"
+        "name": "Madre",
+        "ep_id": "69ba92cb0e11c84e72ae74e0"
     },
     {
         "_id": "69de4ad924a6d521f8b0a348",
-        "name": "RCN Más"
+        "name": "RCN Más",
+        "ep_id": "69ec4393f22f20f76801f8f0"
     },
     {
         "_id": "69fca9dd14a5dfae8875a3be",
-        "name": "Survivor México"
+        "name": "Survivor México",
+        "ep_id": "6a0dfc41f667431af6d5fc9b"
     },
     {
         "_id": "69fca9f9b9c0f0d444f631ca",
-        "name": "Mr. Bean Animated"
+        "name": "Mr. Bean Animated",
+        "ep_id": "5e0fc90cd78344b4ec61b4d4"
     },
     {
         "_id": "69fcaa71ea95ffff0987f555",
-        "name": "MasterChef Colombia"
+        "name": "MasterChef Colombia",
+        "ep_id": "5e3ac20f176d3b29742bff5c"
     },
     {
         "_id": "69fcaa88e022927e1c94c533",
-        "name": "MasterChef Argentina"
+        "name": "MasterChef Argentina",
+        "ep_id": "68e6864ce75d6b4e6f041220"
     },
     {
         "_id": "69fcaaa1853a01a827bcd056",
-        "name": "I Shouldn't Be Alive"
+        "name": "I Shouldn't Be Alive",
+        "ep_id": "6a05f048cc7c5ceb20329c02"
     },
     {
         "_id": "69fcdc73488e575cff213adc",
-        "name": "Hermanos a la Obra"
+        "name": "Hermanos a la Obra",
+        "ep_id": "6a27117cdb369c4511e90444"
     },
     {
         "_id": "6a15f7770ed14e790bab6449",
-        "name": "Blue Bloods"
+        "name": "Blue Bloods",
+        "ep_id": "6a3d45457918fece01832385"
     }
 ]
