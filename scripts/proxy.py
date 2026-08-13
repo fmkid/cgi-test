@@ -35,11 +35,14 @@ if country != "us":
     print(f"Fetching and combining free live proxies for {country.upper()}...")
     unique_proxies = {}
     protocols = ["http", "https", "socks4", "socks5"]
+    country_list = [country] if country != "la" else ["ar", "cl", "co", "mx", "ve"]
     
     for proto in protocols:
         try:
-            global_url = f"{PROXY_BASE_URL}/{country}/{proto}/data.json"
-            raw_data = requests.get(global_url, timeout=8).json()
+            raw_data = []
+            for ctry in country_list:
+                global_url = f"{PROXY_BASE_URL}/{ctry}/{proto}/data.json"
+                raw_data.append(requests.get(global_url, timeout=8).json())
 
             # Using dict assignment automatically removes duplicates by key (IP:Port)
             for p in raw_data:
