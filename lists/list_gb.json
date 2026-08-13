@@ -1,826 +1,1032 @@
 [
     {
         "_id": "5ad8d3a31b95267e225e4e09",
-        "name": "Pluto TV Movies"
+        "name": "Pluto TV Movies",
+        "ep_id": "5ee384bed6ea68001ad8183b"
     },
     {
         "_id": "5ad8d54be738977e2c310940",
-        "name": "Pluto TV Kids"
+        "name": "Pluto TV Kids",
+        "ep_id": "630de6d755ecdb0013cc93dd"
     },
     {
         "_id": "5ad8d796e738977e2c31094a",
-        "name": "World Poker Tour"
+        "name": "World Poker Tour",
+        "ep_id": "6762af5d3eea5000134f005c"
     },
     {
         "_id": "5bb5c137fd5928058cd3a21f",
-        "name": "Pluto TV Inside+"
+        "name": "Pluto TV Inside+",
+        "ep_id": "617ba0858285ee001a0781a3"
     },
     {
         "_id": "5bd05b4694d45d266bc951f2",
-        "name": "Unsolved Mysteries"
+        "name": "Unsolved Mysteries",
+        "ep_id": "5bc61c6b7d6c31761aeb964b"
     },
     {
         "_id": "5bd8186d53ed2c6334ea0855",
-        "name": "Pluto TV Reality"
+        "name": "Pluto TV Reality",
+        "ep_id": "64de0e95c94b15001331d333"
     },
     {
         "_id": "5bd833b41843b56328bac189",
-        "name": "Mythbusters"
+        "name": "Mythbusters",
+        "ep_id": "5f0d6ac31df496001b02990c"
     },
     {
         "_id": "5bd8371b1843b56328bac33d",
-        "name": "Pluto TV Crime+"
+        "name": "Pluto TV Crime+",
+        "ep_id": "5b191367b0875c36c90cd7cd"
     },
     {
         "_id": "5c363c2411c5ca053f198f97",
-        "name": "Pluto TV Comedy Movies"
+        "name": "Pluto TV Comedy Movies",
+        "ep_id": "5b3b040d0ae07befc8177dc8"
     },
     {
         "_id": "5c45f216e909d90674242965",
-        "name": "Pluto TV Romance+"
+        "name": "Pluto TV Romance+",
+        "ep_id": "5c52f1d3964f84e41e0a51a6"
     },
     {
         "_id": "5c5c2b9d8002db3c3e0b1c6d",
-        "name": "Pluto TV Retro Toons"
+        "name": "Pluto TV Retro Toons",
+        "ep_id": "691b6a1530e0de160704a821"
     },
     {
         "_id": "5c5c2e9d8002db3c3e0b1c72",
-        "name": "Homes Under Hammer"
+        "name": "Homes Under Hammer",
+        "ep_id": "664d9cc2b18d700008008794"
     },
     {
         "_id": "5c5c31f2f21b553c1f673fb0",
-        "name": "Pluto TV Cult Films"
+        "name": "Pluto TV Cult Films",
+        "ep_id": "5b1912efb0875c36c90cc41a"
     },
     {
         "_id": "5ca1da6c593a5d78f0e7edce",
-        "name": "Euronews"
+        "name": "Euronews",
+        "ep_id": "613b1b867418100007c4f4ae"
     },
     {
         "_id": "5ca1df0d50be2571e393ad31",
-        "name": "Deadly Women"
+        "name": "Deadly Women",
+        "ep_id": "5f0d54c4f76d00001aec9b24"
     },
     {
         "_id": "5cb6f6f9a461406ffe4022cf",
-        "name": "FBI Files"
+        "name": "FBI Files",
+        "ep_id": "5b190f1cb0875c36c90c74b7"
     },
     {
         "_id": "5d134a74ca91eedee1630faa",
-        "name": "Pluto TV Classic TV"
+        "name": "Pluto TV Classic TV",
+        "ep_id": "685e53ae9017101f0544458a"
     },
     {
         "_id": "5d2c571faeb3e2738ae27933",
-        "name": "5 Cops"
+        "name": "5 Cops",
+        "ep_id": "61d851fcfef5db001a06c603"
     },
     {
         "_id": "5d4ae94ef1a1bbb350ca41bb",
-        "name": "Pluto TV Conspiracy"
+        "name": "Pluto TV Conspiracy",
+        "ep_id": "68c2e9a706254fd0f62e028d"
     },
     {
         "_id": "5d4af1803e7983b391d73b13",
-        "name": "Pluto TV History"
+        "name": "Pluto TV History",
+        "ep_id": "5fb62cea9143a60013998cdf"
     },
     {
         "_id": "5d4af2ffa9506ab29cf38c38",
-        "name": "Pluto TV Paranormal"
+        "name": "Pluto TV Paranormal",
+        "ep_id": "68c01b1db76cf0ad371328f0"
     },
     {
         "_id": "5d4bdb635ce813b38639e6a3",
-        "name": "Pluto TV Westerns"
+        "name": "Pluto TV Westerns",
+        "ep_id": "68666a12cb153898344b3361"
     },
     {
         "_id": "5d767790d0438aceb41d03ae",
-        "name": "Pluto TV Crime"
+        "name": "Pluto TV Crime",
+        "ep_id": "5fab9f1a93fb64001a7795fb"
     },
     {
         "_id": "5d9492c77ea6f99188738ff1",
-        "name": "Pluto TV Science"
+        "name": "Pluto TV Science",
+        "ep_id": "6a31136f0eeacb3723df4ff7"
     },
     {
         "_id": "5dbc2f98777f2e0009934ae7",
-        "name": "Pluto TV Space"
+        "name": "Pluto TV Space",
+        "ep_id": "5b191356b0875c36c90cd557"
     },
     {
         "_id": "5dbfeb961b411c00090b52b3",
-        "name": "Pluto TV Action"
+        "name": "Pluto TV Action",
+        "ep_id": "5e4a46202e863de9e270c31b"
     },
     {
         "_id": "5dbfedccc563080009b60f4a",
-        "name": "Pluto TV Thrillers"
+        "name": "Pluto TV Thrillers",
+        "ep_id": "6639e7ffc306f10014acaff7"
     },
     {
         "_id": "5dc02a44a9518600094273ac",
-        "name": "Pluto TV Sci-Fi"
+        "name": "Pluto TV Sci-Fi",
+        "ep_id": "5b190f2eb0875c36c90c7585"
     },
     {
         "_id": "5dc2ba1a9c91420009db4858",
-        "name": "Nosey"
+        "name": "Nosey",
+        "ep_id": "5bae6823b630c743b5e6dd51"
     },
     {
         "_id": "5dc2c00abfed110009d97243",
-        "name": "Pluto TV Sherlock"
+        "name": "Pluto TV Sherlock",
+        "ep_id": "5df0a3746bd4152513aa3765"
     },
     {
         "_id": "5dc3fc6b9133f500099c7d98",
-        "name": "Pluto TV Family Movie Club"
+        "name": "Pluto TV Family Movie Club",
+        "ep_id": "5faba11a584f69001a662332"
     },
     {
         "_id": "5ddf8ea0d000120009bcad83",
-        "name": "Pluto TV Animals"
+        "name": "Pluto TV Animals",
+        "ep_id": "5fa2d471740902001a978d4d"
     },
     {
         "_id": "5ddf901280e3550009139c86",
-        "name": "5 Exploring Britain"
+        "name": "5 Exploring Britain",
+        "ep_id": "5d3b3655359626e32b78c35b"
     },
     {
         "_id": "5ddf91149880d60009d35d27",
-        "name": "Pluto TV Drama"
+        "name": "Pluto TV Drama",
+        "ep_id": "663cb2f241d4c70014e6e073"
     },
     {
         "_id": "5ddf930548ff9b00090d5686",
-        "name": "Pluto TV Food"
+        "name": "Pluto TV Food",
+        "ep_id": "69fb1c61df4ded48bc6976e3"
     },
     {
         "_id": "5e393d5c696b3b0009775c8b",
-        "name": "The New Detectives"
+        "name": "The New Detectives",
+        "ep_id": "5b191368b0875c36c90cd816"
     },
     {
         "_id": "5e6f38792075160007d85823",
-        "name": "Hell's Kitchen"
+        "name": "Hell's Kitchen",
+        "ep_id": "66edce60a0ed4700134a5821"
     },
     {
         "_id": "5e8db96bccae160007c71eec",
-        "name": "Andromeda"
+        "name": "Andromeda",
+        "ep_id": "5eb7e2c5d6ea50001a322bb4"
     },
     {
         "_id": "5e9ed47c26ebb000074af566",
-        "name": "Sensing Murder"
+        "name": "Sensing Murder",
+        "ep_id": "5ea2aec00c8fd6001ad85d5d"
     },
     {
         "_id": "5f27bbe4779de70007a6d1c1",
-        "name": "Ghost Hunters"
+        "name": "Ghost Hunters",
+        "ep_id": "5f2084f1f3de6600138e987b"
     },
     {
         "_id": "5f3d26ac23a7c800073f128a",
-        "name": "Pluto TV Motor+"
+        "name": "Pluto TV Motor+",
+        "ep_id": "68beeaad8eef10068fb2e474"
     },
     {
         "_id": "5f3d279ab48c0200072df9d0",
-        "name": "Pluto TV Paranormal+"
+        "name": "Pluto TV Paranormal+",
+        "ep_id": "65363e81a78f0d001a0126c2"
     },
     {
         "_id": "5f6b535a278bfe000799484a",
-        "name": "Dog The Bounty Hunter"
+        "name": "Dog The Bounty Hunter",
+        "ep_id": "5be32436750eda7fef8d7fd3"
     },
     {
         "_id": "5f6b54b9e67cf60007d4cef1",
-        "name": "Duck Dynasty"
+        "name": "Duck Dynasty",
+        "ep_id": "5c4900013e0fe08225bd12d3"
     },
     {
         "_id": "600acaff5f2d6e000745effb",
-        "name": "Pluto TV Tough Jobs"
+        "name": "Pluto TV Tough Jobs",
+        "ep_id": "63f88570f9b2f60014e1f3b5"
     },
     {
         "_id": "604f8f8622166000071a929f",
-        "name": "BET Pluto TV"
+        "name": "BET Pluto TV",
+        "ep_id": "6421882e8cd0fd001adbf9c4"
     },
     {
         "_id": "60804d85858bd00007c5d591",
-        "name": "Paranormal State"
+        "name": "Paranormal State",
+        "ep_id": "5b190c9fb0875c36c90c2dea"
     },
     {
         "_id": "6081648340382e0007f73d45",
-        "name": "Most Haunted"
+        "name": "Most Haunted",
+        "ep_id": "632c11a17a31e800133c5f30"
     },
     {
         "_id": "6081738748d3200007afb24b",
-        "name": "Highway to Heaven"
+        "name": "Highway to Heaven",
+        "ep_id": "60a371ea41fc48001328433a"
     },
     {
         "_id": "60817936fd2d70000763d2b2",
-        "name": "Wild at Heart"
+        "name": "Wild at Heart",
+        "ep_id": "60a2878425dd17001328ca9e"
     },
     {
         "_id": "60e452730e76f20007598de8",
-        "name": "Homicide Hunter"
+        "name": "Homicide Hunter",
+        "ep_id": "6149aa9bf3d10f0016f450ff"
     },
     {
         "_id": "611f85396abc84000738417b",
-        "name": "Beyond Belief: Fact or Fiction"
+        "name": "Beyond Belief: Fact or Fiction",
+        "ep_id": "5f6c61816c03610013aba6f1"
     },
     {
         "_id": "612cda102f5f18000705e0bf",
-        "name": "Pluto TV Horror"
+        "name": "Pluto TV Horror",
+        "ep_id": "6110fbd9cfc2d60014009391"
     },
     {
         "_id": "612f761008a9e50007984ba0",
-        "name": "Pluto TV Animation"
+        "name": "Pluto TV Animation",
+        "ep_id": "63624d498515d300131c4449"
     },
     {
         "_id": "61559552dd585f0007321eca",
-        "name": "Bloomberg TV+"
+        "name": "Bloomberg TV+",
+        "ep_id": "61793d7bfd078b000701558c"
     },
     {
         "_id": "615af74dfe3d8e0007524511",
-        "name": "On The Case"
+        "name": "On The Case",
+        "ep_id": "617ab4f2829284001a95c373"
     },
     {
         "_id": "619247c34a270700077c8415",
-        "name": "Pluto TV Sci-fi Series"
+        "name": "Pluto TV Sci-fi Series",
+        "ep_id": "65a7c417a40ff7001327abca"
     },
     {
         "_id": "61c49f1495f417000731cef0",
-        "name": "Inside Crime"
+        "name": "Inside Crime",
+        "ep_id": "61f1157579ba2f001aabe204"
     },
     {
         "_id": "61c4a09d6c959f0007189c93",
-        "name": "Mystery TV"
+        "name": "Mystery TV",
+        "ep_id": "66168d67a7a31d00171a4f78"
     },
     {
         "_id": "622f48de713e510007f85808",
-        "name": "Dynasty"
+        "name": "Dynasty",
+        "ep_id": "66432d3ec306f10014e27e0d"
     },
     {
         "_id": "622f498d119b4c000719c0b7",
-        "name": "Judge Judy"
+        "name": "Judge Judy",
+        "ep_id": "68fa175efa0f5ccff56f5ddd"
     },
     {
         "_id": "6231eb3865be650007f59595",
-        "name": "CBS News 24/7"
+        "name": "CBS News 24/7",
+        "ep_id": "6659c9ebf8681400135d26dc"
     },
     {
         "_id": "623c492627cb540007ca55c7",
-        "name": "5 on Pluto TV"
+        "name": "5 on Pluto TV",
+        "ep_id": "5d3b363d359626e32b78c2c7"
     },
     {
         "_id": "624edee2d6394a0007efcac4",
-        "name": "MTV Pluto TV"
+        "name": "MTV Pluto TV",
+        "ep_id": "62c2a52109f31a00137497fa"
     },
     {
         "_id": "62556bfa3261a300076b0baa",
-        "name": "Arthur"
+        "name": "Arthur",
+        "ep_id": "62d1147d80410e0013d6dfa3"
     },
     {
         "_id": "625e8cb585ef320007806caf",
-        "name": "Pluto TV Britain at War"
+        "name": "Pluto TV Britain at War",
+        "ep_id": "66c5eead94a1840013064c07"
     },
     {
         "_id": "625eaebc2a73a00007d3f855",
-        "name": "Catfish"
+        "name": "Catfish",
+        "ep_id": "62c2a52109f31a00137497fa"
     },
     {
         "_id": "62794647e3cbcb000757dc65",
-        "name": "Pluto TV Action+"
+        "name": "Pluto TV Action+",
+        "ep_id": "616ebb75a6e392001bc2a8f6"
     },
     {
         "_id": "62ab579258cb950007811aad",
-        "name": "Mission Impossible"
+        "name": "Mission Impossible",
+        "ep_id": "6647330faf79c700131fa7eb"
     },
     {
         "_id": "62ac405b3874370007419b7f",
-        "name": "Barney & Friends"
+        "name": "Barney & Friends",
+        "ep_id": "6364dc473416c70013e2a62f"
     },
     {
         "_id": "62ac50e92c48f900071444c9",
-        "name": "Auction Hunters"
+        "name": "Auction Hunters",
+        "ep_id": "677cf85f0283a60013351880"
     },
     {
         "_id": "62cbdc45d3cb9f0007128df4",
-        "name": "Pluto TV Christmas in Summer"
+        "name": "Pluto TV Christmas in Summer",
+        "ep_id": "5c082e19d763a63ed99a0b42"
     },
     {
         "_id": "62d550d81054990007db7798",
-        "name": "Teen Mom"
+        "name": "Teen Mom",
+        "ep_id": "62aaf268a0bf2600133b0db8"
     },
     {
         "_id": "62e9184439d80c00076e166d",
-        "name": "Aftershock"
+        "name": "Aftershock",
+        "ep_id": "696f966bcfcbd725c75af409"
     },
     {
         "_id": "62f53dc6ee9a0400071dc22b",
-        "name": "Pluto TV Sitcoms"
+        "name": "Pluto TV Sitcoms",
+        "ep_id": "642193a264898f001ad6ae51"
     },
     {
         "_id": "6304f8d5ffb61000071ab478",
-        "name": "CSI: Crime Scene Investigation"
+        "name": "CSI: Crime Scene Investigation",
+        "ep_id": "68b025d7e5ae05a8909a11b6"
     },
     {
         "_id": "6304fb268bd95300072d2198",
-        "name": "True Crime UK"
+        "name": "True Crime UK",
+        "ep_id": "682164b603a2ab14dacaace0"
     },
     {
         "_id": "6319ee0cf78bb10007ee5e6b",
-        "name": "World War TV"
+        "name": "World War TV",
+        "ep_id": "6881f611cb1538983443b3f4"
     },
     {
         "_id": "6319f06067a3ee000708af95",
-        "name": "Haunt TV"
+        "name": "Haunt TV",
+        "ep_id": "66f11bce73aa510013d7ec1b"
     },
     {
         "_id": "63693fa2bfa0690007ebc880",
-        "name": "Wicked Tuna"
+        "name": "Wicked Tuna",
+        "ep_id": "6388a813f429ea001422a0af"
     },
     {
         "_id": "63808dc806aa4700075f319a",
-        "name": "Pluto TV Investigation"
+        "name": "Pluto TV Investigation",
+        "ep_id": "659d6d810726640013584212"
     },
     {
         "_id": "639b558c73423d00071ce624",
-        "name": "More TV Crime"
+        "name": "More TV Crime",
+        "ep_id": "64e36b18177f70001395dfe4"
     },
     {
         "_id": "63c1384e829c850007922ca4",
-        "name": "5 Emergency Rescue"
+        "name": "5 Emergency Rescue",
+        "ep_id": "60c20510ea5a42001368624a"
     },
     {
         "_id": "63d000ef4e83e700086e0d6c",
-        "name": "Scorpion"
+        "name": "Scorpion",
+        "ep_id": "64258505559c07001a672692"
     },
     {
         "_id": "63d91cc58795f30008678e9d",
-        "name": "Bloodline Detectives"
+        "name": "Bloodline Detectives",
+        "ep_id": "68860e8699a2f3e74a0edb0e"
     },
     {
         "_id": "63d91d2560bc8f0008a225e4",
-        "name": "FIFA+"
+        "name": "FIFA+",
+        "ep_id": "6a6c2609fb2bd7ef0803a5aa"
     },
     {
         "_id": "63d91d624e83e7000881ca8c",
-        "name": "Escape to the Country"
+        "name": "Escape to the Country",
+        "ep_id": "667e9aa622acab0008b49d99"
     },
     {
         "_id": "63fe2ec4dff38e000835f786",
-        "name": "Rookie Blue"
+        "name": "Rookie Blue",
+        "ep_id": "6433f8e1dd38b4001a271317"
     },
     {
         "_id": "6401d85a49839300087b116c",
-        "name": "Moviesphere"
+        "name": "Moviesphere",
+        "ep_id": "69c6b7bc615bba1ee0167861"
     },
     {
         "_id": "645e00d5d3fdde000829463a",
-        "name": "More TV Sci-fi"
+        "name": "More TV Sci-fi",
+        "ep_id": "691c7f1162d408b3b7b34c47"
     },
     {
         "_id": "6462190b7cb4b1000862dd60",
-        "name": "Pluto TV Alien Invasion"
+        "name": "Pluto TV Alien Invasion",
+        "ep_id": "5b190d14b0875c36c90c3da4"
     },
     {
         "_id": "6490254fd2c47c00083a5743",
-        "name": "That's 80s"
+        "name": "That's 80s",
+        "ep_id": "65324e57bdf3cf0008858990"
     },
     {
         "_id": "64b67593798def00088e506e",
-        "name": "Pluto TV Action"
+        "name": "Pluto TV Action",
+        "ep_id": "616ebb75a6e392001bc2a8f6"
     },
     {
         "_id": "64c0d6765dc1660008a3e033",
-        "name": "U&Transport"
+        "name": "U&Transport",
+        "ep_id": "68d58b355af694325f0571b3"
     },
     {
         "_id": "64c0d697b0cf5c000824e5d9",
-        "name": "U&The Past"
+        "name": "U&The Past",
+        "ep_id": "694038ee779bf41d1d3248b4"
     },
     {
         "_id": "64c0d6b424ade50008bc8883",
-        "name": "U&Real Heroes"
+        "name": "U&Real Heroes",
+        "ep_id": "68d784d9a44f8dcccd2ac25c"
     },
     {
         "_id": "64c0d6f34096290008132d6b",
-        "name": "U&Laughs"
+        "name": "U&Laughs",
+        "ep_id": "69286fcdd405d15a95746b88"
     },
     {
         "_id": "64c37e47dac71b000809abab",
-        "name": "Evidence of Evil"
+        "name": "Evidence of Evil",
+        "ep_id": "65687a1e6207440014731341"
     },
     {
         "_id": "64c37e710e086a0009e824ab",
-        "name": "That's 70s"
+        "name": "That's 70s",
+        "ep_id": "66474ce5b18d700008f71565"
     },
     {
         "_id": "64edf6eaa7ec0d000812f58c",
-        "name": "South Park"
+        "name": "South Park",
+        "ep_id": "66991463e7bace0009c514be"
     },
     {
         "_id": "64ff1d92d545e9000877fba4",
-        "name": "A Haunting"
+        "name": "A Haunting",
+        "ep_id": "6058c27406e132001a6ea761"
     },
     {
         "_id": "650315163a0d700008bb07f8",
-        "name": "Criminal Confessions"
+        "name": "Criminal Confessions",
+        "ep_id": "66a10a0b17101c00134811f0"
     },
     {
         "_id": "65031534d545e9000881ed10",
-        "name": "British Screen Classics"
+        "name": "British Screen Classics",
+        "ep_id": "68c1de50d2b4de67e64eb8ec"
     },
     {
         "_id": "6514346fa76507000887d441",
-        "name": "Confess by Nosey"
+        "name": "Confess by Nosey",
+        "ep_id": "6878e38c63893d441e393a3b"
     },
     {
         "_id": "654a44d2f9cc82000868522e",
-        "name": "Gamera"
+        "name": "Gamera",
+        "ep_id": "6a6098116d305c2ad5bd62a4"
     },
     {
         "_id": "655b7cbb2c46f300086f0afa",
-        "name": "Pluto TV Snooker 900"
+        "name": "Pluto TV Snooker 900",
+        "ep_id": "6a7357ddcd7852640be65fb8"
     },
     {
         "_id": "6568a78d635c3c0008765f41",
-        "name": "That's Rock"
+        "name": "That's Rock",
+        "ep_id": "657c194e32c1b30008a31527"
     },
     {
         "_id": "656df2849d5ac400083be647",
-        "name": "5 Trucking Hell"
+        "name": "5 Trucking Hell",
+        "ep_id": "65ae2d29d22ce500148e552d"
     },
     {
         "_id": "656df599c0fc8800089c75ab",
-        "name": "Avatar"
+        "name": "Avatar",
+        "ep_id": "65648285c347d50013987f1a"
     },
     {
         "_id": "656ef4af4261ca00083c8f37",
-        "name": "Totally Turtles"
+        "name": "Totally Turtles",
+        "ep_id": "65aa8769e764c000149911db"
     },
     {
         "_id": "65819f83a620e300080f692a",
-        "name": "Weird or What? With William Shatner"
+        "name": "Weird or What? With William Shatner",
+        "ep_id": "61f24ee7dd104a001a80f125"
     },
     {
         "_id": "65819fc1b9adc4000813f37d",
-        "name": "History Hunters"
+        "name": "History Hunters",
+        "ep_id": "69df4df124d9b7beb50a5400"
     },
     {
         "_id": "65a6a5e90c7ff50008cb9815",
-        "name": "Funny AF"
+        "name": "Funny AF",
+        "ep_id": "6644c7651123970014e0d9ac"
     },
     {
         "_id": "65a6a7a00c7ff50008cba07b",
-        "name": "Pluto TV Crime Drama"
+        "name": "Pluto TV Crime Drama",
+        "ep_id": "6878c90640ba1d87cd408de6"
     },
     {
         "_id": "65a7ab137bdc8d0008487dfb",
-        "name": "Pluto TV Erotica"
+        "name": "Pluto TV Erotica",
+        "ep_id": "69d673ae7701dc746db1609b"
     },
     {
         "_id": "65a7af553af63d000828acca",
-        "name": "Cash In The Attic"
+        "name": "Cash In The Attic",
+        "ep_id": "677fdd6e3cefa0033948114c"
     },
     {
         "_id": "65a7b01907e03a0008913e8f",
-        "name": "Best of Dr. Phil"
+        "name": "Best of Dr. Phil",
+        "ep_id": "6810da299f0436e1ab4089f2"
     },
     {
         "_id": "65a7b04e7bdc8d0008488307",
-        "name": "True Crime Now"
+        "name": "True Crime Now",
+        "ep_id": "69653812a6c400fd418c5256"
     },
     {
         "_id": "65a7b0814a10d800085ff2df",
-        "name": "Pluto TV PetrolHeads"
+        "name": "Pluto TV PetrolHeads",
+        "ep_id": "650d7ef34827fc001a7c9592"
     },
     {
         "_id": "65b14aae0cb1a100087a216e",
-        "name": "DAZN Ringside"
+        "name": "DAZN Ringside",
+        "ep_id": "65d5c4664e017400089add3c"
     },
     {
         "_id": "65c4960d11ced7000812c433",
-        "name": "Geordie Shore"
+        "name": "Geordie Shore",
+        "ep_id": "669e50cd9322c00013a96ef1"
     },
     {
         "_id": "660be37e7bcd860008793a6a",
-        "name": "Bondi Rescue"
+        "name": "Bondi Rescue",
+        "ep_id": "662bb45206839f0008d259fa"
     },
     {
         "_id": "660c209e19ca71000846cf38",
-        "name": "That's 90s00s"
+        "name": "That's 90s00s",
+        "ep_id": "6752c219030a2c000853f412"
     },
     {
         "_id": "660e5dc60cd4630008f6198a",
-        "name": "JAG"
+        "name": "JAG",
+        "ep_id": "663c8f7641d4c70014e5d7bc"
     },
     {
         "_id": "661cf62d24e1d000087dae0d",
-        "name": "COPS"
+        "name": "COPS",
+        "ep_id": "5fa26eb36dcbef001bf4fcea"
     },
     {
         "_id": "66276091cee0d900085fe053",
-        "name": "Sabrina The Teenage Witch"
+        "name": "Sabrina The Teenage Witch",
+        "ep_id": "663c84262833ae0013b38d6c"
     },
     {
         "_id": "6627621d56fc840008e47c90",
-        "name": "Tennis Channel"
+        "name": "Tennis Channel",
+        "ep_id": "68c3c76c6523408b1453b463"
     },
     {
         "_id": "664c94e80120f40008b860f0",
-        "name": "POP"
+        "name": "POP",
+        "ep_id": "683f2b830d69b4d35448b7bd"
     },
     {
         "_id": "667d664815f35c00089489bf",
-        "name": "Corner Gas"
+        "name": "Corner Gas",
+        "ep_id": "66d1848c73aa510013583712"
     },
     {
         "_id": "6683cd71a1d7ad000866ec6a",
-        "name": "Pokémon"
+        "name": "Pokémon",
+        "ep_id": "67209917a2922a00138bd0f4"
     },
     {
         "_id": "6695294632e25300084bb61b",
-        "name": "Sister, Sister"
+        "name": "Sister, Sister",
+        "ep_id": "642188cc559c07001a525a31"
     },
     {
         "_id": "66a10eacfe11e500084c6925",
-        "name": "Flashpoint"
+        "name": "Flashpoint",
+        "ep_id": "66d80b42d99fc70013a84152"
     },
     {
         "_id": "66a10eeb46762a0008201e85",
-        "name": "Teletubbies"
+        "name": "Teletubbies",
+        "ep_id": "67517410882f6d0013bd72ba"
     },
     {
         "_id": "66ba1e23d2d50d00084a1e57",
-        "name": "Crimes That Shook Britain"
+        "name": "Crimes That Shook Britain",
+        "ep_id": "61f1157579ba2f001aabe204"
     },
     {
         "_id": "66ba1e4446762a000855cd87",
-        "name": "Girlfriends"
+        "name": "Girlfriends",
+        "ep_id": "64218e37559c07001a52c9ca"
     },
     {
         "_id": "66c45afaa72e7b0008a2b153",
-        "name": "CNNi"
+        "name": "CNNi",
+        "ep_id": "690961f1d70c07ace8c43d06"
     },
     {
         "_id": "66d717d2abec540008ba7ec4",
-        "name": "Pluto TV 80's Action"
+        "name": "Pluto TV 80's Action",
+        "ep_id": "6723a3e18d00c60014ae3ec5"
     },
     {
         "_id": "66d82143abec540008bd2b1c",
-        "name": "Project Runway"
+        "name": "Project Runway",
+        "ep_id": "66e41fc811ff7d000809d81a"
     },
     {
         "_id": "66d885aef0f17500084b6750",
-        "name": "PGA TOUR"
+        "name": "PGA TOUR",
+        "ep_id": "68a88803a64d66fd0b79fba5"
     },
     {
         "_id": "66dff9d46ad04d0008fda4de",
-        "name": "CNN Headlines International"
+        "name": "CNN Headlines International",
+        "ep_id": "681e3c5802c81f7418f721e6"
     },
     {
         "_id": "66e06576abec540008cc17a9",
-        "name": "The Graham Norton Show"
+        "name": "The Graham Norton Show",
+        "ep_id": "67dd6af646d66c4aa013c047"
     },
     {
         "_id": "66ebf9bc55567d0008de3b29",
-        "name": "The Hotel Inspector"
+        "name": "The Hotel Inspector",
+        "ep_id": "66ffae5c565d3a0008945dcd"
     },
     {
         "_id": "66ed3e9d5e4a6e0008b346e0",
-        "name": "UFC"
+        "name": "UFC",
+        "ep_id": "67d9a49aa1609bdb5248f4bc"
     },
     {
         "_id": "66f1331f9409630008077623",
-        "name": "Earth: Final Conflict"
+        "name": "Earth: Final Conflict",
+        "ep_id": "6140a73aaeae500014d5a47f"
     },
     {
         "_id": "66f135b45e4a6e0008b80606",
-        "name": "Antiques Road Trip"
+        "name": "Antiques Road Trip",
+        "ep_id": "6706630174980f0013f053c8"
     },
     {
         "_id": "66f137cb483d460008ece053",
-        "name": "Rugby Pass TV"
+        "name": "Rugby Pass TV",
+        "ep_id": "6a745b67e65bfef07b4b19ba"
     },
     {
         "_id": "66fd37885049580008d295b6",
-        "name": "AWSN"
+        "name": "AWSN",
+        "ep_id": "6a7ad6eaf672c3d2df403ae5"
     },
     {
         "_id": "67063e78b2ffb10008195d08",
-        "name": "MODUS Super Series Darts"
+        "name": "MODUS Super Series Darts",
+        "ep_id": "67e2e200e8cf626542922d79"
     },
     {
         "_id": "672cb91149c40600081cbee5",
-        "name": "Whose Line Is It Anyway?"
+        "name": "Whose Line Is It Anyway?",
+        "ep_id": "6720cfdfad16fb0013c331a5"
     },
     {
         "_id": "677fb08f5b68381e2dbfd5af",
-        "name": "The Bionic Woman"
+        "name": "The Bionic Woman",
+        "ep_id": "68b304792eb4d0c1a487d42c"
     },
     {
         "_id": "677fb0b33a225c2d0d8a17be",
-        "name": "Xena: Warrior Princess"
+        "name": "Xena: Warrior Princess",
+        "ep_id": "68b552f999a2f3e74a046aa8"
     },
     {
         "_id": "677fb0e93a225c2d0d8a45bf",
-        "name": "Northern Exposure"
+        "name": "Northern Exposure",
+        "ep_id": "68ff67b13fb09016da2859ef"
     },
     {
         "_id": "677fb115a4af36ad50113e56",
-        "name": "The Real Housewives"
+        "name": "The Real Housewives",
+        "ep_id": "691b6b503fb09016da9ce264"
     },
     {
         "_id": "677fb137a5d8215f99b9cc06",
-        "name": "Top Chef"
+        "name": "Top Chef",
+        "ep_id": "6a59f6693630c7ab4a2d79c7"
     },
     {
         "_id": "677fb3432952c1163bf1a539",
-        "name": "Million Dollar Listing"
+        "name": "Million Dollar Listing",
+        "ep_id": "699baf96704dcd7b4d0ebbef"
     },
     {
         "_id": "67d4548f798df95b8e5e6d5d",
-        "name": "Melrose Place VIDAA TEST"
+        "name": "Melrose Place VIDAA TEST",
+        "ep_id": "663cb2f541d4c70014e6e168"
     },
     {
         "_id": "67d45617552472c78d0fd8c0",
-        "name": "Dog Whisperer VIDAA TEST"
+        "name": "Dog Whisperer VIDAA TEST",
+        "ep_id": "611292393ef27200134e8f5a"
     },
     {
         "_id": "680bb31c56ff83bcd685d64e",
-        "name": "Farscape"
+        "name": "Farscape",
+        "ep_id": "65646d1fb8262d0013e01239"
     },
     {
         "_id": "682453731295f98347e92da8",
-        "name": "River Monsters"
+        "name": "River Monsters",
+        "ep_id": "6a0c91f4114ca7fcbe086fab"
     },
     {
         "_id": "6824563bfaaa60cd7deff5ad",
-        "name": "Love After Lock Up"
+        "name": "Love After Lock Up",
+        "ep_id": "6a798578323bf2ec8c66c31b"
     },
     {
         "_id": "682456eb31bbd3e002d8c06b",
-        "name": "AMC Reality"
+        "name": "AMC Reality",
+        "ep_id": "6a798560323bf2ec8c666a8d"
     },
     {
         "_id": "68503d3bc692373f0158c43f",
-        "name": "Hawaii Five-O"
+        "name": "Hawaii Five-O",
+        "ep_id": "687df9534f8d4a9917155c0f"
     },
     {
         "_id": "68503d585965a2fd49fc2f0b",
-        "name": "MacGyver"
+        "name": "MacGyver",
+        "ep_id": "68629cd59017101f05ebb8d8"
     },
     {
         "_id": "6850408053d981d1fdb01696",
-        "name": "Taxi"
+        "name": "Taxi",
+        "ep_id": "685e7498cfeec4dc2c6f430f"
     },
     {
         "_id": "68504098f212bedacf63a7e1",
-        "name": "Touched by an Angel"
+        "name": "Touched by an Angel",
+        "ep_id": "685e5bdc31b6562298d0d76e"
     },
     {
         "_id": "685041d936c9361b1921c26c",
-        "name": "Pluto TV Fantasy & Horror"
+        "name": "Pluto TV Fantasy & Horror",
+        "ep_id": "68caa4ee71d0752d87848c16"
     },
     {
         "_id": "6850426e53d981d1fdb0d966",
-        "name": "Matlock"
+        "name": "Matlock",
+        "ep_id": "6645d3dc3b5b100014fe2c84"
     },
     {
         "_id": "6852811933a52de120f8b89d",
-        "name": "Mayday Air Disaster"
+        "name": "Mayday Air Disaster",
+        "ep_id": "68df86dee466f791b556c806"
     },
     {
         "_id": "6852854bce36f0644f37d765",
-        "name": "A New Life in the Sun"
+        "name": "A New Life in the Sun",
+        "ep_id": "68dbae59e75d6b4e6f8c2777"
     },
     {
         "_id": "685aa802fb6023de7cc56357",
-        "name": "Dominance FC TV"
+        "name": "Dominance FC TV",
+        "ep_id": "68a83af0a1ac0c90f29f7fe8"
     },
     {
         "_id": "686fc8fe1889b4ad04604704",
-        "name": "Icons Unearthed+"
+        "name": "Icons Unearthed+",
+        "ep_id": "68e8dec16fe1b6a13d0f8cdc"
     },
     {
         "_id": "68b5a7b69ac85c428f54c441",
-        "name": "Curzon"
+        "name": "Curzon",
+        "ep_id": "6938221163142c96a917d7ae"
     },
     {
         "_id": "68b5a97fc8ef6afa31138718",
-        "name": "The Smurfs"
+        "name": "The Smurfs",
+        "ep_id": "68f228c633c979839108c096"
     },
     {
         "_id": "68c82005be767928b4a8ef0c",
-        "name": "I Survived..."
+        "name": "I Survived...",
+        "ep_id": "699302e4c84badbe81268c9b"
     },
     {
         "_id": "68c8201b1e5aaf77c47d9605",
-        "name": "Ice Road Truckers"
+        "name": "Ice Road Truckers",
+        "ep_id": "6936feb982c5f9296dc78542"
     },
     {
         "_id": "68c8202f5ec82769fdfcd0a2",
-        "name": "Chaos on Cam"
+        "name": "Chaos on Cam",
+        "ep_id": "6932b5e682c5f9296df3a6ee"
     },
     {
         "_id": "68c8203efef6d8a2a6f13906",
-        "name": "60 Days in Jail"
+        "name": "60 Days in Jail",
+        "ep_id": "6993075c549ca315132b69a1"
     },
     {
         "_id": "68c820525ec82769fdfcd104",
-        "name": "Wrestling Legends TV"
+        "name": "Wrestling Legends TV",
+        "ep_id": "6958b2daf65a7c96c62fb58f"
     },
     {
         "_id": "68d113f9184f1a0620c8101c",
-        "name": "Medical Detectives"
+        "name": "Medical Detectives",
+        "ep_id": "65af8e2aecf2e5001306125d"
     },
     {
         "_id": "68e38aaf8082ad3760def7bc",
-        "name": "Hercules: The Legendary Journeys"
+        "name": "Hercules: The Legendary Journeys",
+        "ep_id": "6904b106e75d6b4e6fc45eff"
     },
     {
         "_id": "68e38b005c876cf730fcbf0f",
-        "name": "Six Million Dollar Man"
+        "name": "Six Million Dollar Man",
+        "ep_id": "6904848071d0752d87671d1d"
     },
     {
         "_id": "68e38b6e20115bbaf9c91083",
-        "name": "The Incredible Hulk"
+        "name": "The Incredible Hulk",
+        "ep_id": "6904844371d0752d876608ae"
     },
     {
         "_id": "68e3b6112baff9f069d02540",
-        "name": "Relic Hunter"
+        "name": "Relic Hunter",
+        "ep_id": "616ec9f4d4b818001a6ba2f4"
     },
     {
         "_id": "68e3bffe1cfcd7541d59090f",
-        "name": "Most Haunted: Unseen"
+        "name": "Most Haunted: Unseen",
+        "ep_id": "68d42e6883275eb994d8b63d"
     },
     {
         "_id": "68e3c18130ee729844af1fca",
-        "name": "Monkey"
+        "name": "Monkey",
+        "ep_id": "6932edd48e21e6575a770072"
     },
     {
         "_id": "68e3c37c19f32ffa27bae948",
-        "name": "Unsolved Mysteries with Dennis Farina"
+        "name": "Unsolved Mysteries with Dennis Farina",
+        "ep_id": "5c1cad206dd18bfa66a7ffe5"
     },
     {
         "_id": "68e8ffee9d1d49e672fe790f",
-        "name": "The Yellow Couch with Jeremy Lynch"
+        "name": "The Yellow Couch with Jeremy Lynch",
+        "ep_id": "690867a70d91d4fa1ac46772"
     },
     {
         "_id": "6900997e043e3df1897d017f",
-        "name": "Ironside"
+        "name": "Ironside",
+        "ep_id": "6936c1ac8e21e6575afa90a9"
     },
     {
         "_id": "69038c2ee0e0c5f8208c033a",
-        "name": "Murdertown"
+        "name": "Murdertown",
+        "ep_id": "693a9d2e63142c96a9264507"
     },
     {
         "_id": "690dc8ed1ee9b6ac66607ce2",
-        "name": "America's Funniest Home Videos"
+        "name": "America's Funniest Home Videos",
+        "ep_id": "6917005d74601d957a0f3a48"
     },
     {
         "_id": "691b453846ca5e6d1665f03b",
-        "name": "Meet, Marry, Murder"
+        "name": "Meet, Marry, Murder",
+        "ep_id": "6530f17f8026ff001a894d05"
     },
     {
         "_id": "692ebafce72f03e07e7df985",
-        "name": "Pluto TV American True Crime"
+        "name": "Pluto TV American True Crime",
+        "ep_id": "61b72ac837f2a80013d8e963"
     },
     {
         "_id": "694178a8026be6e9d3ea7d7a",
-        "name": "Mona The Vampire"
+        "name": "Mona The Vampire",
+        "ep_id": "68f37e76d279ff480545d2fb"
     },
     {
         "_id": "6960c5a906d76f50db2816dc",
-        "name": "Cagney & Lacey"
+        "name": "Cagney & Lacey",
+        "ep_id": "6203b85384ef4e001385e661"
     },
     {
         "_id": "696e024a7e92438c27a425a8",
-        "name": "Rally TV"
+        "name": "Rally TV",
+        "ep_id": "69a6cea94b1996b7d1335d89"
     },
     {
         "_id": "6981cc6a644861a57c3bd8ad",
-        "name": "Shockwave"
+        "name": "Shockwave",
+        "ep_id": "69d9db1a04373dddddf9c5db"
     },
     {
         "_id": "698a040b48d98175cb870fc5",
-        "name": "Hoarders"
+        "name": "Hoarders",
+        "ep_id": "69ddd8a63312e3048e7220dc"
     },
     {
         "_id": "69b422590306b277746f48cb",
-        "name": "The Raccoons"
+        "name": "The Raccoons",
+        "ep_id": "69f9fd847b310cf6d5f09d3a"
     },
     {
         "_id": "69b91797611b4a9fce103037",
-        "name": "That Peter Crouch Podcast"
+        "name": "That Peter Crouch Podcast",
+        "ep_id": "6a195f7b9465b986496b2584"
     },
     {
         "_id": "69b917d632eb9227dd6b427e",
-        "name": "The Therapy Crouch"
+        "name": "The Therapy Crouch",
+        "ep_id": "6a1960851a1e887021117660"
     },
     {
         "_id": "69c3c6c912e978ee49277dc7",
-        "name": "That's 60s"
+        "name": "That's 60s",
+        "ep_id": "6a50c7ba6b6cb3bb81feff1d"
     },
     {
         "_id": "69c6a93486431735d974bc2a",
-        "name": "Deal Masters"
+        "name": "Deal Masters",
+        "ep_id": "69e8c7b9fe5af3622312c9ab"
     },
     {
         "_id": "69d51f98fcb9bf5e303ca0c1",
-        "name": "Dinner Date"
+        "name": "Dinner Date",
+        "ep_id": "69d4c8f97f004573be5c0282"
     },
     {
         "_id": "6a1ea2d1eddc28f7681e518e",
-        "name": "The Walking Dead Universe"
+        "name": "The Walking Dead Universe",
+        "ep_id": "6a74b0d02cfd341eb50f8586"
     },
     {
         "_id": "6a300571cdfd39da91df9159",
-        "name": "Pluto TV Crime Thrillers"
+        "name": "Pluto TV Crime Thrillers",
+        "ep_id": "5df0a3746bd4152513aa3765"
     },
     {
         "_id": "6a3a463fd7a42182ccd2d0b1",
-        "name": "Sam and Colby"
+        "name": "Sam and Colby",
+        "ep_id": "6a6097a86d305c2ad5adf05c"
     }
 ]
