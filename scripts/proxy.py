@@ -22,10 +22,10 @@ def fetch_url_list(proxies=None, headers=None):
         {
             "_id": item["_id"],
             "name": item["name"],
-            "ep_id": item["timelines"][0]["episode"]["_id"] if "timelines" in item else None
+            "ep_id": item["timelines"][0]["episode"]["_id"]
         }
         for item in json_data 
-        if isinstance(item, dict) and "_id" in item and "name" in item
+        if isinstance(item, dict) and "_id" in item and "name" in item and "timelines" in item
     ]
 
 #=====================================================================================================
