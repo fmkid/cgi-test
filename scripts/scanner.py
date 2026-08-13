@@ -11,7 +11,7 @@ CONCURRENCY_LIMIT = 100
 OUTPUT_PATH = "lists/list_all.json"
 
 def gen_ep_id(val1, val2, val3, val4):
-    t = [val1, val2, val3, val4]
+    t = [str(val1), str(val2), str(val3), str(val4)]
     t = re.sub(r'\s+', '_', "_".join(t).lower().encode('ascii', 'ignore').decode())
     return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
 
