@@ -28,7 +28,7 @@ def fetch_url_list(proxies=None, headers=None):
     return [
         {
             "_id": item["_id"],
-            "name": item["name"].removeprefix("OO: ").removeprefix("Pluto TV "),
+            "name": item["name"].removeprefix("OO:").removeprefix("Pluto TV").strip(),
             "ep_id": gen_ep_id(
                 item["timelines"][0]["episode"]["name"],
                 item["timelines"][0]["episode"]["number"],
