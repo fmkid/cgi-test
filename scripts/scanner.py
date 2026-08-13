@@ -44,7 +44,7 @@ def load_existing_country_data():
                             unified_results.append({
                                 "_id": item_id,
                                 "name": str(item["name"]),
-                                "region": region_code if region_code != "CO" else "LA" 
+                                "region": region_code
                             })
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
