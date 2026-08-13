@@ -11,7 +11,7 @@ PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
 def gen_ep_id(val1, val2, val3, val4):
     t = [val1, val2, val3, val4]
-    t = re.sub(r'\s+', '_', "_".join(t.lower()).encode('ascii', 'ignore').decode())
+    t = re.sub(r'\s+', '_', "_".join(t).lower().encode('ascii', 'ignore').decode())
     return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
 
 
@@ -55,12 +55,12 @@ if country != "us":
     unique_proxies = {}
     protocols = ["all", "http", "https", "socks4", "socks5"]  
     raw_data = []
-    country = "mx" if country == "la" else country
+    country_tmp = "mx" if country == "la" else country
     
     for proto in protocols:
         try:
             url_end = f"{proto}/" if proto != "all" else ""
-            global_url = f"{PROXY_BASE_URL}/{country}/{url_end}data.json"
+            global_url = f"{PROXY_BASE_URL}/{country_tmp}/{url_end}data.json"
             raw_data.extend(requests.get(global_url, timeout=10).json())
         except Exception:
             continue  
