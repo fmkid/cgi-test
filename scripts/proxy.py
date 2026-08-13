@@ -1,12 +1,19 @@
 import sys
 import os
 import json
+import re
 import requests
 import urllib3
 from datetime import datetime, timezone
 
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
+
+def gen_ep_id(val1, val2, val3, val4):
+    t = [val1, val2, val3, val4]
+    t = re.sub(r'\s+', '_', "_".join(t.lower()).encode('ascii', 'ignore').decode()
+    return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
+
 
 def fetch_url_list(proxies=None, headers=None):
     current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
@@ -22,7 +29,12 @@ def fetch_url_list(proxies=None, headers=None):
         {
             "_id": item["_id"],
             "name": item["name"],
-            "ep_id": item["timelines"][0]["episode"]["_id"]
+            "ep_id": gen_ep_id(
+                item["timelines"][0]["episode"]["name"],
+                item["timelines"][0]["episode"]["number"],
+                item["timelines"][0]["episode"]["season"],
+                item["timelines"][0]["episode"]["duration"]
+            )
         }
         for item in json_data 
         if isinstance(item, dict) and "_id" in item and "name" in item and "timelines" in item
