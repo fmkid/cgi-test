@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import httpx
+from datetime import datetime, timezone
 
 BASE_URL = os.environ.get("API_URL")
 TOTAL_IDS = 15000
@@ -22,6 +23,7 @@ def get_country_codes():
 
 def load_existing_country_data():
     existing_ids = set()
+    existing_ep_ids = set()
     unified_results = []
     
     country_codes = get_country_codes()
@@ -37,10 +39,12 @@ def load_existing_country_data():
             with open(file_path, "r", encoding="utf-8") as f:
                 country_data = json.load(f)
                 for item in country_data:
-                    if isinstance(item, dict) and "_id" in item and "name" in item:
-                        item_id = str(item["_id"])
-                        if item_id not in existing_ids:
+                    if isinstance(item, dict) and "_id" in item and "name" in item and "ep_id" in item:
+                        item_id = item["_id"]
+                        ep_id = item["ep_id"]
+                        if item_id not in existing_ids and ep_id and ep_id not in existing_ep_ids :
                             existing_ids.add(item_id)
+                            existing_ep_ids.add(ep_id)
                             unified_results.append({
                                 "_id": item_id,
                                 "name": str(item["name"]),
@@ -50,12 +54,13 @@ def load_existing_country_data():
             print(f"Error reading {file_path}: {e}")
             
     print(f"Loaded {len(existing_ids)} unique items from specified country lists.")
-    return scan, existing_ids, unified_results
+    return scan, existing_ids, existing_ep_ids, unified_results
 
 
-async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker):
+async def fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids, max_valid_id_tracker):
     async with semaphore:
-        url = f"{BASE_URL}/{i}"
+        current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+        url = f"{BASE_URL}/{i}?start={current_time}&stop={current_time}"
         try:
             response = await client.get(url, timeout=5.0)
             if response.status_code == 200:
@@ -63,13 +68,15 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
                     max_valid_id_tracker[0] = i
                     
                 data = response.json()
-                if "_id" in data and "name" in data:
-                    item_id = str(data["_id"])
+                if "_id" in data and "name" in data and "timelines" in data:
+                    item_id = data["_id"]
+                    ep_id = data["timelines"][0]["episode"]["_id"] if "timelines" in data else None
                     
-                    if item_id in existing_ids:
+                    if item_id in existing_ids or not ep_id or ep_id in existing_ep_ids:
                         return
                         
                     existing_ids.add(item_id)
+                    existing_ep_ids.add(ep_id)
                     results.append({
                         "_id": item_id,
                         "name": str(data["name"]),
@@ -80,7 +87,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tra
 
 
 async def main():
-    scan, existing_ids, results = load_existing_country_data()
+    scan, existing_ids, existing_ep_ids, results = load_existing_country_data()
     print(f"Scan?: {scan}")
 
     if scan:
@@ -91,7 +98,7 @@ async def main():
 
         async with httpx.AsyncClient() as client:
             tasks = [
-                fetch_id(client, semaphore, i, results, existing_ids, max_valid_id_tracker)
+                fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids, max_valid_id_tracker)
                 for i in range(0, TOTAL_IDS + 1)
             ]
             await asyncio.gather(*tasks)
