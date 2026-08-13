@@ -44,14 +44,14 @@ if country != "us":
             try:
                 global_url = f"{PROXY_BASE_URL}/{ctry}/{url_end}data.json"
                 raw_data.extend(requests.get(global_url, timeout=8).json())
+            except Exception:
+                continue
 
     # Using dict assignment automatically removes duplicates by key (IP:Port)
     for p in raw_data:
         key = f"{proto if proto != 'https' else 'http'}://{p['ip']}:{p['port']}"
         p["url"] = key
         unique_proxies[key] = p
-    except Exception:
-        continue
 
     try:
         # Sort the deduplicated unique values directly
