@@ -53,7 +53,7 @@ def load_existing_country_data():
                             existing_ep_ids.add(ep_id)
                             unified_results.append({
                                 "_id": item_id,
-                                "name": item["name"],
+                                "name": item["name"].removeprefix("OO:").removeprefix("Pluto TV").strip(),
                                 "region": region_code
                             })
         except Exception as e:
@@ -90,7 +90,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids,
                     existing_ep_ids.add(ep_id)
                     results.append({
                         "_id": item_id,
-                        "name": data["name"].removeprefix("OO: ").removeprefix("Pluto TV "),
+                        "name": data["name"].removeprefix("OO:").removeprefix("Pluto TV").strip(),
                         "region": "ANY"
                     })
         except Exception:
