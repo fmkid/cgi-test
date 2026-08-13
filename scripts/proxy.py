@@ -34,23 +34,24 @@ proxy_list = [None]
 if country != "us":
     print(f"Fetching and combining free live proxies for {country.upper()}...")
     unique_proxies = {}
-    protocols = ["http", "https", "socks4", "socks5"]
-    country_list = [country] if country != "la" else ["ar", "cl", "co", "mx", "ve"]
+    protocols = ["all", "http", "https", "socks4", "socks5"]
+    country_list = [country] if country != "la" else ["ar", "cl", "co", "mx", "ve"]  
+    raw_data = []
     
-    for proto in protocols:
-        try:
-            raw_data = []
-            for ctry in country_list:
-                global_url = f"{PROXY_BASE_URL}/{ctry}/{proto}/data.json"
+    for ctry in country_list:
+        for proto in protocols:
+            url_end = f"{proto}/" if proto != "all" else ""
+            try:
+                global_url = f"{PROXY_BASE_URL}/{ctry}/{url_end}data.json"
                 raw_data.extend(requests.get(global_url, timeout=8).json())
 
-            # Using dict assignment automatically removes duplicates by key (IP:Port)
-            for p in raw_data:
-                key = f"{proto if proto != 'https' else 'http'}://{p['ip']}:{p['port']}"
-                p["url"] = key
-                unique_proxies[key] = p
-        except Exception:
-            continue
+    # Using dict assignment automatically removes duplicates by key (IP:Port)
+    for p in raw_data:
+        key = f"{proto if proto != 'https' else 'http'}://{p['ip']}:{p['port']}"
+        p["url"] = key
+        unique_proxies[key] = p
+    except Exception:
+        continue
 
     try:
         # Sort the deduplicated unique values directly
