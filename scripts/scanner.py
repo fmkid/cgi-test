@@ -42,12 +42,12 @@ def load_existing_country_data():
                     if isinstance(item, dict) and "_id" in item and "name" in item and "ep_id" in item:
                         item_id = item["_id"]
                         ep_id = item["ep_id"]
-                        if item_id not in existing_ids and ep_id and ep_id not in existing_ep_ids :
+                        if item_id not in existing_ids and ep_id not in existing_ep_ids :
                             existing_ids.add(item_id)
                             existing_ep_ids.add(ep_id)
                             unified_results.append({
                                 "_id": item_id,
-                                "name": str(item["name"]),
+                                "name": item["name"],
                                 "region": region_code
                             })
         except Exception as e:
@@ -70,16 +70,16 @@ async def fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids,
                 data = response.json()
                 if "_id" in data and "name" in data and "timelines" in data:
                     item_id = data["_id"]
-                    ep_id = data["timelines"][0]["episode"]["_id"] if "timelines" in data else None
+                    ep_id = data["timelines"][0]["episode"]["_id"]
                     
-                    if item_id in existing_ids or not ep_id or ep_id in existing_ep_ids:
+                    if item_id in existing_ids or ep_id in existing_ep_ids:
                         return
                         
                     existing_ids.add(item_id)
                     existing_ep_ids.add(ep_id)
                     results.append({
                         "_id": item_id,
-                        "name": str(data["name"]),
+                        "name": data["name"],
                         "region": "ANY"
                     })
         except Exception:
