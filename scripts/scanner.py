@@ -90,7 +90,7 @@ async def fetch_id(client, semaphore, i, results, existing_ids, existing_ep_ids,
                     existing_ep_ids.add(ep_id)
                     results.append({
                         "_id": item_id,
-                        "name": data["name"],
+                        "name": data["name"].removeprefix("OO: ").removeprefix("Pluto TV "),
                         "region": "ANY"
                     })
         except Exception:
