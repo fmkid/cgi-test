@@ -1,15 +1,5 @@
 [
     {
-        "_id": "5dd6d935d000120009bc1132",
-        "name": " Competencias",
-        "region": "LA"
-    },
-    {
-        "_id": "5defde6d6c07b50009cf0757",
-        "name": " Nuestro Cine",
-        "region": "LA"
-    },
-    {
         "_id": "62ba60f059624e000781c436",
         "name": "00s Replay",
         "region": "US"
@@ -25,21 +15,6 @@
         "region": "IT"
     },
     {
-        "_id": "5a03d844d3e90a0dffb9c856",
-        "name": "2001 Live Stream Test",
-        "region": "ANY"
-    },
-    {
-        "_id": "5db21838d5f34a0009349ce8",
-        "name": "2005 Live Stream Test",
-        "region": "ANY"
-    },
-    {
-        "_id": "5db218801b411c00090a6dc2",
-        "name": "2006 Live Stream Test",
-        "region": "ANY"
-    },
-    {
         "_id": "5db2270bd9a5de00097b7d8f",
         "name": "2007 Live Stream Test",
         "region": "ANY"
@@ -52,11 +27,6 @@
     {
         "_id": "5db229ecd5f34a000934a100",
         "name": "2009 Live Stream Test",
-        "region": "ANY"
-    },
-    {
-        "_id": "63e2bdc0a9957100088495cc",
-        "name": "2010  Live Stream Test",
         "region": "ANY"
     },
     {
@@ -95,23 +65,13 @@
         "region": "ANY"
     },
     {
-        "_id": "686cffbf3ffa5e0c91cdcfb3",
-        "name": "21 Jump Street",
-        "region": "ANY"
-    },
-    {
-        "_id": "699c169077cdde1f05252eb9",
-        "name": "21 Jump Street",
-        "region": "ANY"
-    },
-    {
         "_id": "699c15a9f0b71f2e2eec4393",
         "name": "21 Jump Street",
         "region": "ANY"
     },
     {
-        "_id": "699c162a684d0f308795258f",
-        "name": "21 Jump Street",
+        "_id": "6720bc6cdaad7f000872a6e2",
+        "name": "2900 Happiness",
         "region": "ANY"
     },
     {
@@ -122,11 +82,6 @@
     {
         "_id": "679ac8451e1af8000862ed3e",
         "name": "3002 Live Stream Test",
-        "region": "ANY"
-    },
-    {
-        "_id": "679ac5fb5434e30008d5e2af",
-        "name": "3003 Live Stream Test",
         "region": "ANY"
     },
     {
@@ -152,11 +107,6 @@
     {
         "_id": "679ac712e9b95200082e0fd3",
         "name": "3008 Live Stream Test",
-        "region": "ANY"
-    },
-    {
-        "_id": "679ac7281e1af8000862ebec",
-        "name": "3009 Live Stream Test",
         "region": "ANY"
     },
     {
@@ -225,8 +175,8 @@
         "region": "ANY"
     },
     {
-        "_id": "69989a5051df9542f2bc8341",
-        "name": "3027 SIM TEST",
+        "_id": "69989a590c8827936ba20ccd",
+        "name": "3028 SIM TEST",
         "region": "ANY"
     },
     {
@@ -340,6 +290,11 @@
         "region": "ANY"
     },
     {
+        "_id": "65b915780cb1a1000889b837",
+        "name": "3point.dk",
+        "region": "ANY"
+    },
+    {
         "_id": "6176f39e709f160007ec61c3",
         "name": "48 Hours",
         "region": "US"
@@ -355,13 +310,13 @@
         "region": "AU"
     },
     {
-        "_id": "6346935b94aa8c0007c5b7a2",
+        "_id": "634690323ce5fa0007c621f2",
         "name": "48 Hours",
         "region": "ANY"
     },
     {
-        "_id": "634690323ce5fa0007c621f2",
-        "name": "48 Hours",
+        "_id": "69afed76958a20b22a4e3d1b",
+        "name": "48 hours",
         "region": "ANY"
     },
     {
@@ -415,6 +370,11 @@
         "region": "ANY"
     },
     {
+        "_id": "66d717d2abec540008ba7ec4",
+        "name": "80's Action",
+        "region": "GB"
+    },
+    {
         "_id": "5ca525b650be2571e3943c63",
         "name": "80s Rewind",
         "region": "US"
@@ -423,6 +383,11 @@
         "_id": "6452c814939a590008567a3b",
         "name": "90's Kids",
         "region": "US"
+    },
+    {
+        "_id": "65a67dd13af63d0008257f17",
+        "name": "90210",
+        "region": "ANY"
     },
     {
         "_id": "6452c77ed3fdde00080eb3a8",
@@ -485,11 +450,6 @@
         "region": "GB"
     },
     {
-        "_id": "691b3669c48674840c3b832a",
-        "name": "ANIME GO!",
-        "region": "ANY"
-    },
-    {
         "_id": "6793eaa4bc03978b9bc63db1",
         "name": "ANIME x HIDIVE",
         "region": "US"
@@ -525,7 +485,12 @@
         "region": "US"
     },
     {
-        "_id": "65004605110545000842035d",
+        "_id": "5dbfeb961b411c00090b52b3",
+        "name": "Action",
+        "region": "GB"
+    },
+    {
+        "_id": "61c0b0688a80a4000703fbcb",
         "name": "Action",
         "region": "ANY"
     },
@@ -540,6 +505,11 @@
         "region": "CA"
     },
     {
+        "_id": "62794647e3cbcb000757dc65",
+        "name": "Action+",
+        "region": "GB"
+    },
+    {
         "_id": "67517fae5534bb0008187997",
         "name": "Actualidad 360",
         "region": "ES"
@@ -548,6 +518,11 @@
         "_id": "656e2a4b4261ca00083aa99e",
         "name": "Acumuladores Obsessivos",
         "region": "BR"
+    },
+    {
+        "_id": "64305eab82a18e0008a16bb7",
+        "name": "Ad Ops Test Channel 2",
+        "region": "ANY"
     },
     {
         "_id": "588ab071bd82011653e19e34",
@@ -573,6 +548,11 @@
         "_id": "65bcf7b7d77d450008b3c495",
         "name": "Adult Animation",
         "region": "AU"
+    },
+    {
+        "_id": "67f68bd2135aeda9ddf0ef54",
+        "name": "Adult Animation",
+        "region": "ANY"
     },
     {
         "_id": "69d7ebb726eeec84158e28cb",
@@ -602,6 +582,11 @@
     {
         "_id": "6915e0eda570568f53435398",
         "name": "Afterwork TV",
+        "region": "ANY"
+    },
+    {
+        "_id": "69690c6ea1b03f531587d2c2",
+        "name": "Akiba Anime",
         "region": "ANY"
     },
     {
@@ -640,9 +625,19 @@
         "region": "IT"
     },
     {
+        "_id": "6462190b7cb4b1000862dd60",
+        "name": "Alien Invasion",
+        "region": "GB"
+    },
+    {
         "_id": "650999b86a841400083bd1ab",
         "name": "Alien Invasion",
         "region": "ANY"
+    },
+    {
+        "_id": "6806d65e84f24b70109485fa",
+        "name": "Aliens",
+        "region": "BR"
     },
     {
         "_id": "69b03041cafd86d9dc5763c3",
@@ -662,11 +657,6 @@
     {
         "_id": "6577224bb3801200084865d6",
         "name": "All exclusive",
-        "region": "ANY"
-    },
-    {
-        "_id": "622f6e1e2792150007e0b2ff",
-        "name": "Alle hassen Chris",
         "region": "ANY"
     },
     {
@@ -705,7 +695,7 @@
         "region": "CA"
     },
     {
-        "_id": "6464cc595a0cd500088c7749",
+        "_id": "6464cdcaee6a2f000822a7a8",
         "name": "America's Next Top Model",
         "region": "ANY"
     },
@@ -733,6 +723,11 @@
         "_id": "6408ae8f9b39550008caf94f",
         "name": "American Pickers",
         "region": "CA"
+    },
+    {
+        "_id": "692ebafce72f03e07e7df985",
+        "name": "American True Crime",
+        "region": "GB"
     },
     {
         "_id": "698a45156dc3c71eb1ba6599",
@@ -775,11 +770,6 @@
         "region": "ANY"
     },
     {
-        "_id": "617807a1a3a6160007f615e4",
-        "name": "Andromeda",
-        "region": "ANY"
-    },
-    {
         "_id": "6178156e54712100072d6b2b",
         "name": "Andromeda",
         "region": "ANY"
@@ -790,19 +780,44 @@
         "region": "CA"
     },
     {
+        "_id": "6964b8447d2afdec4f9389aa",
+        "name": "Anger Management",
+        "region": "ANY"
+    },
+    {
+        "_id": "6964b77dff4f2148e520fa9b",
+        "name": "Anger Management",
+        "region": "ANY"
+    },
+    {
         "_id": "6964b7e007ea70192df28d43",
         "name": "Anger Management",
         "region": "ANY"
     },
     {
-        "_id": "6964b6f5f7f6b0334bbf6cdb",
-        "name": "Anger Management",
-        "region": "ANY"
+        "_id": "6474aa984cfc2c0008883a92",
+        "name": "Animais",
+        "region": "BR"
     },
     {
         "_id": "600ae6a78d801e0007117d21",
         "name": "Animales",
         "region": "ES"
+    },
+    {
+        "_id": "5ddf8ea0d000120009bcad83",
+        "name": "Animals",
+        "region": "GB"
+    },
+    {
+        "_id": "5d767ae7b456c8cf265ce922",
+        "name": "Animals",
+        "region": "ANY"
+    },
+    {
+        "_id": "612f761008a9e50007984ba0",
+        "name": "Animation",
+        "region": "GB"
     },
     {
         "_id": "5dcde17bf6591d0009839e02",
@@ -830,24 +845,24 @@
         "region": "CA"
     },
     {
+        "_id": "5f12136385bccc00070142ed",
+        "name": "Anime",
+        "region": "BR"
+    },
+    {
         "_id": "65b90daed77d450008a43345",
         "name": "Anime",
         "region": "IT"
     },
     {
-        "_id": "67ed8c15c84f951267dbebc2",
-        "name": "Anime Comedy",
-        "region": "ANY"
+        "_id": "604b79c558393100078faeef",
+        "name": "Anime Ação",
+        "region": "BR"
     },
     {
         "_id": "67ed8f7e443f0671bc2b2368",
         "name": "Anime Movies",
         "region": "US"
-    },
-    {
-        "_id": "69aadcdb6c0414a7ecb56ede",
-        "name": "Anime Retro",
-        "region": "ANY"
     },
     {
         "_id": "69173ce8abd4703b27f71d44",
@@ -868,11 +883,6 @@
         "_id": "66f135b45e4a6e0008b80606",
         "name": "Antiques Road Trip",
         "region": "GB"
-    },
-    {
-        "_id": "6364f6cd308d210007b5eee9",
-        "name": "Antiques Road Trip",
-        "region": "ANY"
     },
     {
         "_id": "5ce44810b421747ae467b7cd",
@@ -900,12 +910,7 @@
         "region": "CA"
     },
     {
-        "_id": "61c0ac242bb0cf0007015f89",
-        "name": "Are You The One?",
-        "region": "ANY"
-    },
-    {
-        "_id": "61c1db8ed6d97900076ea15c",
+        "_id": "61c091c39863900007ac9e8f",
         "name": "Are You The One?",
         "region": "ANY"
     },
@@ -940,13 +945,18 @@
         "region": "GB"
     },
     {
-        "_id": "62da7380478a5b0007e610d9",
+        "_id": "62da7159ca8f220008032730",
         "name": "Auction Hunters",
         "region": "ANY"
     },
     {
         "_id": "62da73c4ec46c000070f4cb1",
         "name": "Auction Hunters",
+        "region": "ANY"
+    },
+    {
+        "_id": "67be5e95095aea2ec8bc32fa",
+        "name": "Audio Description Enablement VLL Test",
         "region": "ANY"
     },
     {
@@ -1110,6 +1120,16 @@
         "region": "BR"
     },
     {
+        "_id": "638a221858d59200078493bb",
+        "name": "BRAZIL AD Test 4 – BET Awards 2026",
+        "region": "ANY"
+    },
+    {
+        "_id": "66abe856fe11e500086578b9",
+        "name": "BRAZIL AD Test 5 - WQS",
+        "region": "ANY"
+    },
+    {
         "_id": "5812bfbe4ced4f7b601b12e6",
         "name": "BUZZR",
         "region": "US"
@@ -1153,6 +1173,11 @@
         "_id": "654932fa4d6d8f00084c4723",
         "name": "Bad Girls Club",
         "region": "US"
+    },
+    {
+        "_id": "663b9dc7cb3ea10008f1a0ce",
+        "name": "Bang Bang",
+        "region": "BR"
     },
     {
         "_id": "60a3d889a5b3690008dc7fe8",
@@ -1205,6 +1230,11 @@
         "region": "ANY"
     },
     {
+        "_id": "650998fa98020f00085fd326",
+        "name": "Beavis and Butt-Head",
+        "region": "ANY"
+    },
+    {
         "_id": "6486e8328e3c0a0008e5686c",
         "name": "Beavis and Butt-Head",
         "region": "ANY"
@@ -1225,7 +1255,7 @@
         "region": "AU"
     },
     {
-        "_id": "672e16f5daad7f0008929a0d",
+        "_id": "630348a54c48ce00077eb6c7",
         "name": "Becker",
         "region": "ANY"
     },
@@ -1265,13 +1295,23 @@
         "region": "ANY"
     },
     {
-        "_id": "69d7a0c04b31808da262933f",
+        "_id": "69d7a0e814c021370234de18",
         "name": "Best of Magnus Midtbø",
         "region": "ANY"
     },
     {
-        "_id": "69d7a0e814c021370234de18",
-        "name": "Best of Magnus Midtbø",
+        "_id": "65b1077e0d9ab40008245b20",
+        "name": "Best of Paradise Hotel: Kyssar & kärlek",
+        "region": "ANY"
+    },
+    {
+        "_id": "65e97d760d456100082da660",
+        "name": "Best of Paradise Hotel: Pandoras Ask",
+        "region": "ANY"
+    },
+    {
+        "_id": "65e97cd118036500082ed0ce",
+        "name": "Best of Paradise Hotel: Skolveckan",
         "region": "ANY"
     },
     {
@@ -1280,7 +1320,7 @@
         "region": "CA"
     },
     {
-        "_id": "630478cfdb5a4a0007ec255e",
+        "_id": "62beb692cda2b10007d5fd76",
         "name": "Best of The Drew Barrymore Show",
         "region": "ANY"
     },
@@ -1293,6 +1333,11 @@
         "_id": "5f4d83e0a382c00007bc02e7",
         "name": "Beverly Hills 90210",
         "region": "US"
+    },
+    {
+        "_id": "60afb576053df900076fa2f0",
+        "name": "Beverly Hills 90210",
+        "region": "ANY"
     },
     {
         "_id": "633dc392e0282400071b0d39",
@@ -1415,6 +1460,26 @@
         "region": "CA"
     },
     {
+        "_id": "6a0f0df0c3b940365926c3e9",
+        "name": "Body Bags",
+        "region": "ANY"
+    },
+    {
+        "_id": "6a0f0dd902b6c1c00aa51cb9",
+        "name": "Body Bags",
+        "region": "ANY"
+    },
+    {
+        "_id": "63c6a1c46d126a000760b91c",
+        "name": "Boligkjøp i blinde",
+        "region": "ANY"
+    },
+    {
+        "_id": "63c6a27a4faf1c0007b48f7b",
+        "name": "Boligkøb i blinde",
+        "region": "ANY"
+    },
+    {
         "_id": "68e9913c4a666b9054849832",
         "name": "Bonanza",
         "region": "US"
@@ -1470,8 +1535,13 @@
         "region": "US"
     },
     {
-        "_id": "67a09e25c070cf00083c40fa",
-        "name": "Britain's Next Top Model",
+        "_id": "625e8cb585ef320007806caf",
+        "name": "Britain at War",
+        "region": "GB"
+    },
+    {
+        "_id": "677e5a3d7bffa6000808dbf2",
+        "name": "Britische Serien",
         "region": "ANY"
     },
     {
@@ -1483,6 +1553,11 @@
         "_id": "65031534d545e9000881ed10",
         "name": "British Screen Classics",
         "region": "GB"
+    },
+    {
+        "_id": "6969fc329174e77a0eb53158",
+        "name": "Britit",
+        "region": "ANY"
     },
     {
         "_id": "65cba73611ced700082123bc",
@@ -1510,29 +1585,19 @@
         "region": "ANY"
     },
     {
-        "_id": "6964b9e19bf57be1537fc7d7",
-        "name": "Bull",
-        "region": "ANY"
-    },
-    {
         "_id": "62fb9c4539183b00076a3875",
         "name": "Busted at the Border",
         "region": "CA"
     },
     {
-        "_id": "63b579961bdba100071214cb",
-        "name": "C'est pas sorcier",
+        "_id": "63c6a7544faf1c0007b496d7",
+        "name": "Buying Blind Denmark",
         "region": "ANY"
     },
     {
         "_id": "673f7446030a2c0008231bc3",
         "name": "C4 en Alerta",
         "region": "LA"
-    },
-    {
-        "_id": "5f8eb66537867f0007146953",
-        "name": "CATFISH TV",
-        "region": "ANY"
     },
     {
         "_id": "6536725167bd1a00084481bc",
@@ -1563,11 +1628,6 @@
         "_id": "62310f66d5888f0007534342",
         "name": "CBS News 24/7",
         "region": "BR"
-    },
-    {
-        "_id": "640ae4876d549900084af535",
-        "name": "CBS News 24/7",
-        "region": "ANY"
     },
     {
         "_id": "60f75919718aed0007250d7a",
@@ -1705,11 +1765,6 @@
         "region": "ANY"
     },
     {
-        "_id": "6400bdb1219c4c00081751aa",
-        "name": "COPS",
-        "region": "ANY"
-    },
-    {
         "_id": "6400bc50953da40008b94668",
         "name": "COPS",
         "region": "ANY"
@@ -1780,6 +1835,11 @@
         "region": "LA"
     },
     {
+        "_id": "64b9370b409629000802d32b",
+        "name": "Canal UOL",
+        "region": "BR"
+    },
+    {
         "_id": "64666345f3f5b1000882bfb4",
         "name": "Captain Tsubasa",
         "region": "LA"
@@ -1843,6 +1903,11 @@
         "_id": "6093f9ed2c75660007322bb7",
         "name": "Catfish",
         "region": "IT"
+    },
+    {
+        "_id": "678e291e1cfc4aa96d64b5c5",
+        "name": "Catfish: OMG!",
+        "region": "ANY"
     },
     {
         "_id": "645a309c5a0cd5000873f609",
@@ -1930,11 +1995,6 @@
         "region": "CA"
     },
     {
-        "_id": "611e7f224676bf00076a4d8d",
-        "name": "Cheers",
-        "region": "ANY"
-    },
-    {
         "_id": "63e389dcc111bc0008ee5b8c",
         "name": "Cheers",
         "region": "ANY"
@@ -1963,6 +2023,11 @@
         "_id": "62fb6d4308f5ec0007453c09",
         "name": "Christmas 365",
         "region": "CA"
+    },
+    {
+        "_id": "62cbdc45d3cb9f0007128df4",
+        "name": "Christmas in Summer",
+        "region": "GB"
     },
     {
         "_id": "612e05b885183d0007958101",
@@ -2010,6 +2075,11 @@
         "region": "ES"
     },
     {
+        "_id": "5fa1612a669ba0000702017b",
+        "name": "Cine Clássicos",
+        "region": "BR"
+    },
+    {
         "_id": "5dcdde78f080d900098550e4",
         "name": "Cine Comedia",
         "region": "LA"
@@ -2018,6 +2088,21 @@
         "_id": "5f1ac8099c49f600076579b2",
         "name": "Cine Comedia",
         "region": "ES"
+    },
+    {
+        "_id": "5f12101f0b12f00007844c7c",
+        "name": "Cine Comédia",
+        "region": "BR"
+    },
+    {
+        "_id": "62545ed3dab4380007582f7c",
+        "name": "Cine Comédia Romântica",
+        "region": "BR"
+    },
+    {
+        "_id": "6479ff764f5ba5000878dfe2",
+        "name": "Cine Crime",
+        "region": "BR"
     },
     {
         "_id": "624af40c004f8000079b784d",
@@ -2033,6 +2118,11 @@
         "_id": "5f1ac947dcd00d0007937c08",
         "name": "Cine Drama",
         "region": "ES"
+    },
+    {
+        "_id": "5f1210d14ae1f80007bafb1d",
+        "name": "Cine Drama",
+        "region": "BR"
     },
     {
         "_id": "5dcde437229eff00091b6c30",
@@ -2060,9 +2150,19 @@
         "region": "LA"
     },
     {
+        "_id": "5f171f032cd22e0007f17f3d",
+        "name": "Cine Família",
+        "region": "BR"
+    },
+    {
         "_id": "6806d519fea7414f33f57016",
         "name": "Cine Inspirador",
         "region": "LA"
+    },
+    {
+        "_id": "5fa991b1f09e020007e78626",
+        "name": "Cine Inspiração",
+        "region": "BR"
     },
     {
         "_id": "5cf968040ab7d8f181e6a68b",
@@ -2075,9 +2175,19 @@
         "region": "LA"
     },
     {
+        "_id": "5f171f988ab9780007fa95ea",
+        "name": "Cine Romance",
+        "region": "BR"
+    },
+    {
         "_id": "5f1ac9a2d3611d0007a844bb",
         "name": "Cine Romántico",
         "region": "ES"
+    },
+    {
+        "_id": "5f120e94a5714d00074576a1",
+        "name": "Cine Sucessos",
+        "region": "BR"
     },
     {
         "_id": "5ddc4e8bcbb9010009b4e84f",
@@ -2088,6 +2198,11 @@
         "_id": "5dcddf1ed95e740009fef7ab",
         "name": "Cine Terror",
         "region": "LA"
+    },
+    {
+        "_id": "5f12111c9e6c2c00078ef3bb",
+        "name": "Cine Terror",
+        "region": "BR"
     },
     {
         "_id": "5d8d164d92e97a5e107638d2",
@@ -2140,13 +2255,8 @@
         "region": "IT"
     },
     {
-        "_id": "6a31608fac88749b9cb85dd8",
-        "name": "Ciné Charme by Pluto TV",
-        "region": "ANY"
-    },
-    {
-        "_id": "5f8ed0f17564a300082b676a",
-        "name": "Ciné by Pluto TV",
+        "_id": "5f8ed168f72fcd0007e56269",
+        "name": "Ciné Rétro by Pluto TV",
         "region": "ANY"
     },
     {
@@ -2168,6 +2278,11 @@
         "_id": "561c5b0dada51f8004c4d855",
         "name": "Classic Movies Channel",
         "region": "US"
+    },
+    {
+        "_id": "5d134a74ca91eedee1630faa",
+        "name": "Classic TV",
+        "region": "GB"
     },
     {
         "_id": "5f15e32b297f96000768f928",
@@ -2315,11 +2430,6 @@
         "region": "BR"
     },
     {
-        "_id": "6634b769cb3ea10008e5211f",
-        "name": "Comedy Central Roast",
-        "region": "ANY"
-    },
-    {
         "_id": "6641fd41b18d700008e7e2b8",
         "name": "Comedy Central Roast",
         "region": "ANY"
@@ -2335,11 +2445,6 @@
         "region": "BR"
     },
     {
-        "_id": "60c716084d842c00085f6e64",
-        "name": "Comedy Central South Park",
-        "region": "ANY"
-    },
-    {
         "_id": "5cf96dad1652631e36d43320",
         "name": "Comedy Central en español",
         "region": "US"
@@ -2350,9 +2455,29 @@
         "region": "CA"
     },
     {
+        "_id": "5c363c2411c5ca053f198f97",
+        "name": "Comedy Movies",
+        "region": "GB"
+    },
+    {
+        "_id": "69b968ba255fecb01f602257",
+        "name": "Comedy Therapie",
+        "region": "ANY"
+    },
+    {
+        "_id": "5dd6d935d000120009bc1132",
+        "name": "Competencias",
+        "region": "LA"
+    },
+    {
         "_id": "603fde9026ecbf0007752c2c",
         "name": "Competition",
         "region": "US"
+    },
+    {
+        "_id": "5f8eb91bb9b9e7000817e67f",
+        "name": "Comédie",
+        "region": "ANY"
     },
     {
         "_id": "6868152657543d1f8be4ece3",
@@ -2377,6 +2502,11 @@
     {
         "_id": "6514346fa76507000887d441",
         "name": "Confess by Nosey",
+        "region": "GB"
+    },
+    {
+        "_id": "5d4ae94ef1a1bbb350ca41bb",
+        "name": "Conspiracy",
         "region": "GB"
     },
     {
@@ -2405,6 +2535,11 @@
         "region": "US"
     },
     {
+        "_id": "5f1ef23020a5ac0007e5e8ea",
+        "name": "Cozinha",
+        "region": "BR"
+    },
+    {
         "_id": "693ae5dc587d9f5d9792e59c",
         "name": "Crazy Ex-Girlfriend",
         "region": "ANY"
@@ -2415,14 +2550,14 @@
         "region": "ANY"
     },
     {
-        "_id": "693ae5b792fad2e93412a2c7",
+        "_id": "693ae5660eedebc8d5db6579",
         "name": "Crazy Ex-Girlfriend",
         "region": "ANY"
     },
     {
-        "_id": "693ae5660eedebc8d5db6579",
-        "name": "Crazy Ex-Girlfriend",
-        "region": "ANY"
+        "_id": "5d767790d0438aceb41d03ae",
+        "name": "Crime",
+        "region": "GB"
     },
     {
         "_id": "6601948129adfd0008a1c0ba",
@@ -2430,7 +2565,7 @@
         "region": "CA"
     },
     {
-        "_id": "6578848a6e4f6a0008741910",
+        "_id": "6578875614fbe400086e319e",
         "name": "Crime 360",
         "region": "ANY"
     },
@@ -2443,6 +2578,11 @@
         "_id": "62e92708a7ce600007b2676a",
         "name": "Crime Drama",
         "region": "CA"
+    },
+    {
+        "_id": "65a6a7a00c7ff50008cba07b",
+        "name": "Crime Drama",
+        "region": "GB"
     },
     {
         "_id": "65c24f1aec452d0008989ee4",
@@ -2465,9 +2605,9 @@
         "region": "ANY"
     },
     {
-        "_id": "6426900ea3ade70008ffcb20",
-        "name": "Crime Scene Solvers",
-        "region": "ANY"
+        "_id": "6a300571cdfd39da91df9159",
+        "name": "Crime Thrillers",
+        "region": "GB"
     },
     {
         "_id": "66c3514421a4740008487dc7",
@@ -2478,6 +2618,11 @@
         "_id": "6703a96763292d000836b4fa",
         "name": "Crime Up Close",
         "region": "CA"
+    },
+    {
+        "_id": "5bd8371b1843b56328bac33d",
+        "name": "Crime+",
+        "region": "GB"
     },
     {
         "_id": "6732499ce40c4a0008bb9894",
@@ -2530,6 +2675,11 @@
         "region": "US"
     },
     {
+        "_id": "5c5c31f2f21b553c1f673fb0",
+        "name": "Cult Films",
+        "region": "GB"
+    },
+    {
         "_id": "5f1acd36779de70007a680d1",
         "name": "Curro Jiménez",
         "region": "ES"
@@ -2560,7 +2710,7 @@
         "region": "GB"
     },
     {
-        "_id": "64805922536e0c0008a1a1e6",
+        "_id": "648056f0f77b61000828f1ba",
         "name": "DAZN Ringside",
         "region": "ANY"
     },
@@ -2608,6 +2758,11 @@
         "_id": "651f239d9c7aeb0008286823",
         "name": "Dating Disasters",
         "region": "US"
+    },
+    {
+        "_id": "692edcff77f0147d69f19498",
+        "name": "Dating Naked UK",
+        "region": "ANY"
     },
     {
         "_id": "5ca1df0d50be2571e393ad31",
@@ -2670,18 +2825,13 @@
         "region": "ANY"
     },
     {
-        "_id": "689a0ab0f4af1aaca24530ae",
-        "name": "Den gode gerning",
-        "region": "ANY"
-    },
-    {
         "_id": "5dcde07af1c85b0009b18651",
         "name": "Deportes",
         "region": "LA"
     },
     {
-        "_id": "69b0167477cdde1f05c8a625",
-        "name": "Der Bergdoktor",
+        "_id": "62cebd7302478b00073a6b71",
+        "name": "Der Denver-Clan",
         "region": "ANY"
     },
     {
@@ -2690,9 +2840,9 @@
         "region": "LA"
     },
     {
-        "_id": "660d6bc10cd4630008f4a25a",
-        "name": "Det sene show med Christian Fuhlendorff",
-        "region": "ANY"
+        "_id": "655e5c4d2c46f3000877a54b",
+        "name": "Desenhos Clássicos",
+        "region": "BR"
     },
     {
         "_id": "629a066860ef810008267b70",
@@ -2722,6 +2872,11 @@
     {
         "_id": "69e0ff98549828202b3d752e",
         "name": "Diagnosis Murder",
+        "region": "ANY"
+    },
+    {
+        "_id": "66c6fc06489bab0008b6f9da",
+        "name": "Die Nanny",
         "region": "ANY"
     },
     {
@@ -2763,6 +2918,11 @@
         "_id": "64db2e0835425100080f2f5a",
         "name": "Diseño",
         "region": "ES"
+    },
+    {
+        "_id": "678f8676ad083171df19ca07",
+        "name": "Ditzel & Turbomodul",
+        "region": "ANY"
     },
     {
         "_id": "62e922f6675f71000736db3b",
@@ -2825,6 +2985,11 @@
         "region": "ANY"
     },
     {
+        "_id": "62b1e2498261390007f25c98",
+        "name": "Dokumentär",
+        "region": "ANY"
+    },
+    {
         "_id": "69f9c50202b6c1c00a213519",
         "name": "Dominance FC TV",
         "region": "ES"
@@ -2836,6 +3001,11 @@
     },
     {
         "_id": "685aaec481c345899e4458bb",
+        "name": "Dominance FC TV",
+        "region": "ANY"
+    },
+    {
+        "_id": "67a23b4e15d6eb000827a20d",
         "name": "Dominance FC TV",
         "region": "ANY"
     },
@@ -2880,9 +3050,19 @@
         "region": "ES"
     },
     {
+        "_id": "65a67c494a10d800085cab06",
+        "name": "Drake & Josh",
+        "region": "ANY"
+    },
+    {
         "_id": "5b4e92e4694c027be6ecece1",
         "name": "Drama",
         "region": "US"
+    },
+    {
+        "_id": "5ddf91149880d60009d35d27",
+        "name": "Drama",
+        "region": "GB"
     },
     {
         "_id": "62bdb0bcd707b9000739d2e5",
@@ -2920,13 +3100,8 @@
         "region": "IT"
     },
     {
-        "_id": "68f0fad2fae18f8db62a9f37",
-        "name": "Dynastiet",
-        "region": "ANY"
-    },
-    {
-        "_id": "68f0fb155d6fb43948165d32",
-        "name": "Dynastin",
+        "_id": "6866525c8a412a0e95c438b4",
+        "name": "Dyn Sport Mix",
         "region": "ANY"
     },
     {
@@ -2972,11 +3147,6 @@
     {
         "_id": "622f487722d9d400075f74dd",
         "name": "Ein Engel auf Erden",
-        "region": "ANY"
-    },
-    {
-        "_id": "67a324d221af380008105d6f",
-        "name": "Eine schrecklich nette Familie",
         "region": "ANY"
     },
     {
@@ -3060,9 +3230,19 @@
         "region": "ANY"
     },
     {
+        "_id": "63921a1bf76e7d0007c998a6",
+        "name": "Enquêtes de Choc",
+        "region": "ANY"
+    },
+    {
         "_id": "66335489307fa300082bd6e4",
         "name": "Eros",
         "region": "IT"
+    },
+    {
+        "_id": "65a7ab137bdc8d0008487dfb",
+        "name": "Erotica",
+        "region": "GB"
     },
     {
         "_id": "63d91d624e83e7000881ca8c",
@@ -3073,6 +3253,11 @@
         "_id": "5db09bdf4cd55800090c558a",
         "name": "Español CC Test",
         "region": "ANY"
+    },
+    {
+        "_id": "5f32d2db0af67400077f29c4",
+        "name": "Esportes",
+        "region": "BR"
     },
     {
         "_id": "656e2a81954b020008ed17a4",
@@ -3120,7 +3305,7 @@
         "region": "BR"
     },
     {
-        "_id": "697b5be36dc3c71eb14d728a",
+        "_id": "697b5a6c9567bf7b5f71a350",
         "name": "Everybody Hates Chris",
         "region": "ANY"
     },
@@ -3135,11 +3320,6 @@
         "region": "GB"
     },
     {
-        "_id": "61c0909b872c650008ed42e4",
-        "name": "Ex On The Beach",
-        "region": "ANY"
-    },
-    {
         "_id": "61c1d66518447e000717e4c2",
         "name": "Ex On The Beach",
         "region": "ANY"
@@ -3147,6 +3327,11 @@
     {
         "_id": "6732495dc7626f0008c71e7d",
         "name": "Expedientes Sobrenaturales",
+        "region": "ANY"
+    },
+    {
+        "_id": "5ad9b8551b95267e225e59c1",
+        "name": "Explore",
         "region": "ANY"
     },
     {
@@ -3170,13 +3355,13 @@
         "region": "GB"
     },
     {
-        "_id": "61814b9a9704450007e52316",
+        "_id": "61815067b9802500076e16e0",
         "name": "FBI Files",
         "region": "ANY"
     },
     {
-        "_id": "61815067b9802500076e16e0",
-        "name": "FBI Files",
+        "_id": "6790d6c7bc03978b9bfbfd44",
+        "name": "FBoy Island",
         "region": "ANY"
     },
     {
@@ -3310,6 +3495,11 @@
         "region": "US"
     },
     {
+        "_id": "5dc3fc6b9133f500099c7d98",
+        "name": "Family Movie Club",
+        "region": "GB"
+    },
+    {
         "_id": "5f77939a630f530007dde654",
         "name": "Family Ties",
         "region": "US"
@@ -3325,14 +3515,14 @@
         "region": "ANY"
     },
     {
-        "_id": "65cb8bd911ced7000820bff2",
-        "name": "Fangene på Fortet",
-        "region": "ANY"
-    },
-    {
         "_id": "5b64a245a202b3337f09e51d",
         "name": "Fantastic",
         "region": "US"
+    },
+    {
+        "_id": "685041d936c9361b1921c26c",
+        "name": "Fantasy & Horror",
+        "region": "GB"
     },
     {
         "_id": "680bb31c56ff83bcd685d64e",
@@ -3345,7 +3535,7 @@
         "region": "ANY"
     },
     {
-        "_id": "699c1c633d27d6da460bbcae",
+        "_id": "699c1b4c9c3b075ecd513139",
         "name": "Farscape",
         "region": "ANY"
     },
@@ -3353,6 +3543,16 @@
         "_id": "65775af3b3801200084a3aa4",
         "name": "Feel Good Drama",
         "region": "US"
+    },
+    {
+        "_id": "68ada46d5190a45dc9c45af1",
+        "name": "Ferne Galaxien",
+        "region": "ANY"
+    },
+    {
+        "_id": "5fa15ad6367e170007cdd098",
+        "name": "Ficção Científica",
+        "region": "BR"
     },
     {
         "_id": "608aa17fb9f4490007e6419a",
@@ -3363,6 +3563,11 @@
         "_id": "65158fe20371a8000868809a",
         "name": "Film",
         "region": "IT"
+    },
+    {
+        "_id": "61c09515fbb4b50007d221f5",
+        "name": "Film",
+        "region": "ANY"
     },
     {
         "_id": "699d87093d5dba980705cca8",
@@ -3425,8 +3630,28 @@
         "region": "BR"
     },
     {
+        "_id": "66c79a4262e5510008ff68a5",
+        "name": "Filmes Aventura",
+        "region": "BR"
+    },
+    {
+        "_id": "5f120f41b7d403000783a6d6",
+        "name": "Filmes Ação",
+        "region": "BR"
+    },
+    {
+        "_id": "5f5a545d0dbf7f0007c09408",
+        "name": "Filmes Nacionais",
+        "region": "BR"
+    },
+    {
         "_id": "5f171d3442a0500007362f22",
         "name": "Filmes Suspense",
+        "region": "BR"
+    },
+    {
+        "_id": "6806d62369aec5b19cd628c0",
+        "name": "Filmes de Luta",
         "region": "BR"
     },
     {
@@ -3460,19 +3685,14 @@
         "region": "ANY"
     },
     {
-        "_id": "698ddedba62a37ac6f06f031",
-        "name": "Flipper: The New Adventures",
-        "region": "ANY"
-    },
-    {
         "_id": "698dde17c7f3f49e64e3414a",
         "name": "Flipper: The New Adventures",
         "region": "ANY"
     },
     {
-        "_id": "62a0b2aff4cf470007e47e29",
-        "name": "Fluss-Monster",
-        "region": "ANY"
+        "_id": "5ddf930548ff9b00090d5686",
+        "name": "Food",
+        "region": "GB"
     },
     {
         "_id": "5dc280c9aa218c0009724b4b",
@@ -3495,11 +3715,6 @@
         "region": "IT"
     },
     {
-        "_id": "618124b2e53c8d00077b37f8",
-        "name": "Forensic Files",
-        "region": "ANY"
-    },
-    {
         "_id": "6181262dc68b92000780fed2",
         "name": "Forensic Files",
         "region": "ANY"
@@ -3508,11 +3723,6 @@
         "_id": "56171fafada51f8004c4b40f",
         "name": "Forever Kids",
         "region": "US"
-    },
-    {
-        "_id": "69b968e011fc7b9e27c0d958",
-        "name": "Fran: Beste Mama-Momente",
-        "region": "ANY"
     },
     {
         "_id": "68fbf8101d26140175db8b58",
@@ -3530,28 +3740,23 @@
         "region": "CA"
     },
     {
-        "_id": "6400c095498393000878a634",
-        "name": "Frasier",
-        "region": "ANY"
-    },
-    {
-        "_id": "67a2421297782f00080f240f",
-        "name": "Frasier: tähtivieraat",
-        "region": "ANY"
-    },
-    {
         "_id": "691e0561e32eb094b835c418",
         "name": "Fresh Movies by VVS Films",
         "region": "CA"
     },
     {
-        "_id": "69afee52684d0f30872ca43a",
+        "_id": "69afee7a3bd16a4ed071080d",
         "name": "From Dusk Till Dawn: The Series",
         "region": "ANY"
     },
     {
         "_id": "69afee21684d0f30872ca3e6",
         "name": "From Dusk Till Dawn: The Series",
+        "region": "ANY"
+    },
+    {
+        "_id": "61c19099bf8c520007a93cff",
+        "name": "Frusna Vägar",
         "region": "ANY"
     },
     {
@@ -3680,6 +3885,11 @@
         "region": "US"
     },
     {
+        "_id": "68d27437e6767bdeb23f0336",
+        "name": "Gigolos",
+        "region": "ANY"
+    },
+    {
         "_id": "66ba1e4446762a000855cd87",
         "name": "Girlfriends",
         "region": "GB"
@@ -3758,11 +3968,6 @@
         "_id": "62cc0120880c890007191016",
         "name": "Global News Winnipeg",
         "region": "CA"
-    },
-    {
-        "_id": "65e9b6fa66eec80008aea42f",
-        "name": "Glory Kickboxing",
-        "region": "ANY"
     },
     {
         "_id": "667f3852efa2a10008e1e514",
@@ -3865,6 +4070,11 @@
         "region": "ANY"
     },
     {
+        "_id": "68c01b9a6bdcf3b9a64febcc",
+        "name": "Harlequin",
+        "region": "ANY"
+    },
+    {
         "_id": "68c01c2474f43c4c1f99a91c",
         "name": "Harlequin",
         "region": "ANY"
@@ -3915,6 +4125,11 @@
         "region": "ES"
     },
     {
+        "_id": "664f10c4f9992200084a2f47",
+        "name": "Heiße Nächte Retro",
+        "region": "ANY"
+    },
+    {
         "_id": "5e6f38792075160007d85823",
         "name": "Hell's Kitchen",
         "region": "GB"
@@ -3925,7 +4140,7 @@
         "region": "IT"
     },
     {
-        "_id": "61c1871dac860c0007684974",
+        "_id": "61c194ff6f23a7000780073a",
         "name": "Hell's Kitchen",
         "region": "ANY"
     },
@@ -3985,9 +4200,9 @@
         "region": "US"
     },
     {
-        "_id": "5d767b1c126c65d0a307355f",
+        "_id": "5d4af1803e7983b391d73b13",
         "name": "History",
-        "region": "ANY"
+        "region": "GB"
     },
     {
         "_id": "69dd5d7bfcb9bf5e3063cb16",
@@ -3998,6 +4213,11 @@
         "_id": "65819fc1b9adc4000813f37d",
         "name": "History Hunters",
         "region": "GB"
+    },
+    {
+        "_id": "5f1ef1a8cec6be00072a7ac9",
+        "name": "História",
+        "region": "BR"
     },
     {
         "_id": "66e0b4a3f0f17500085cc268",
@@ -4070,11 +4290,6 @@
         "region": "ANY"
     },
     {
-        "_id": "619e21b213ef6b0007d8c17a",
-        "name": "Homicide Hunter",
-        "region": "ANY"
-    },
-    {
         "_id": "6267d4d1fb694f0007a6af0e",
         "name": "Horror",
         "region": "ES"
@@ -4088,6 +4303,11 @@
         "_id": "62ea3f8a38acc80007072d26",
         "name": "Horror",
         "region": "CA"
+    },
+    {
+        "_id": "612cda102f5f18000705e0bf",
+        "name": "Horror",
+        "region": "GB"
     },
     {
         "_id": "61c09e3ac210ed0007606620",
@@ -4115,11 +4335,6 @@
         "region": "ANY"
     },
     {
-        "_id": "671b4e47daad7f000868b840",
-        "name": "Horse & Country",
-        "region": "ANY"
-    },
-    {
         "_id": "671b4dc049c4060008f91d3a",
         "name": "Horse & Country",
         "region": "ANY"
@@ -4140,7 +4355,7 @@
         "region": "ANY"
     },
     {
-        "_id": "6634b8363d173b0008e31fbb",
+        "_id": "655ca968c917a5000830f8f5",
         "name": "Hot Ones",
         "region": "ANY"
     },
@@ -4160,11 +4375,6 @@
         "region": "LA"
     },
     {
-        "_id": "61c0974945b45d0007aaa5ac",
-        "name": "Humor",
-        "region": "ANY"
-    },
-    {
         "_id": "6501ad3a98020f0008503dba",
         "name": "Hundehviskeren",
         "region": "ANY"
@@ -4178,11 +4388,6 @@
         "_id": "65d9167818036500080e8780",
         "name": "Hunter x Hunter",
         "region": "BR"
-    },
-    {
-        "_id": "6618f54baec96800081525ec",
-        "name": "Håndbold Live",
-        "region": "ANY"
     },
     {
         "_id": "62442f28afe626000747f195",
@@ -4230,11 +4435,6 @@
         "region": "US"
     },
     {
-        "_id": "6915e0828643dc1657b640a9",
-        "name": "IS esittää: Sain sen videolle",
-        "region": "ANY"
-    },
-    {
         "_id": "63f7e3f9dff38e00082a57af",
         "name": "ITV Deportes",
         "region": "LA"
@@ -4251,16 +4451,6 @@
     },
     {
         "_id": "62cd9fee6187a70007784cdd",
-        "name": "Ice Pilots",
-        "region": "ANY"
-    },
-    {
-        "_id": "62cdaef300a4b3000739b1bf",
-        "name": "Ice Pilots",
-        "region": "ANY"
-    },
-    {
-        "_id": "62cd97fb9f8154000727516c",
         "name": "Ice Pilots",
         "region": "ANY"
     },
@@ -4325,11 +4515,6 @@
         "region": "CA"
     },
     {
-        "_id": "66f55d205e4a6e0008c2b92b",
-        "name": "Incroyables Transformations",
-        "region": "ANY"
-    },
-    {
         "_id": "60807fd5db701400078219c2",
         "name": "Ink Master",
         "region": "US"
@@ -4345,6 +4530,11 @@
         "region": "GB"
     },
     {
+        "_id": "5bb5c137fd5928058cd3a21f",
+        "name": "Inside+",
+        "region": "GB"
+    },
+    {
         "_id": "69162648d03565d6c8c8df97",
         "name": "Inspetor Bugiganga",
         "region": "BR"
@@ -4355,7 +4545,7 @@
         "region": "IT"
     },
     {
-        "_id": "691ed77b1308fa77bb2d5562",
+        "_id": "691ed78cc83327d400a36b86",
         "name": "Inter 24/7",
         "region": "ANY"
     },
@@ -4390,12 +4580,27 @@
         "region": "US"
     },
     {
+        "_id": "63808dc806aa4700075f319a",
+        "name": "Investigation",
+        "region": "GB"
+    },
+    {
+        "_id": "6683cd2fca74680008772545",
+        "name": "Investigation by Pluto TV",
+        "region": "ANY"
+    },
+    {
+        "_id": "5f32cf37c9ff2b00082adbc8",
+        "name": "Investigação",
+        "region": "BR"
+    },
+    {
         "_id": "6582f8dadfed030008e5a93d",
         "name": "Iron Chef",
         "region": "CA"
     },
     {
-        "_id": "682b3932faaa60cd7dbf87b4",
+        "_id": "682b385876963fba9abf0f26",
         "name": "Iron Chef",
         "region": "ANY"
     },
@@ -4425,18 +4630,23 @@
         "region": "ANY"
     },
     {
-        "_id": "654a4fc753fc9700083ae79f",
+        "_id": "654a4ab92c1d330008657ae5",
         "name": "JAG",
         "region": "ANY"
     },
     {
-        "_id": "660d6b3caec9680008f8debe",
+        "_id": "660d6b00635c75000828aa27",
         "name": "Jade Fever",
         "region": "ANY"
     },
     {
         "_id": "660d6ade0cd4630008f4a127",
         "name": "Jade Fever",
+        "region": "ANY"
+    },
+    {
+        "_id": "62e7babea3e6270007f5564a",
+        "name": "Jakt är Jakt",
         "region": "ANY"
     },
     {
@@ -4470,6 +4680,11 @@
         "region": "BR"
     },
     {
+        "_id": "655ca7aa635c3c000855d655",
+        "name": "John Wayne",
+        "region": "ANY"
+    },
+    {
         "_id": "66290356cee0d9000864766e",
         "name": "John Wayne",
         "region": "ANY"
@@ -4493,11 +4708,6 @@
         "_id": "6317ba014d4d040007227f72",
         "name": "Jovem Pan NEWS",
         "region": "BR"
-    },
-    {
-        "_id": "699762a0172a5c3296892d92",
-        "name": "Juana La Virgen",
-        "region": "ANY"
     },
     {
         "_id": "622f498d119b4c000719c0b7",
@@ -4530,6 +4740,11 @@
         "region": "ES"
     },
     {
+        "_id": "5f12141b146d760007934ea7",
+        "name": "Junior",
+        "region": "BR"
+    },
+    {
         "_id": "61c1d459fbb4b50007d24647",
         "name": "Juniorklubben",
         "region": "ANY"
@@ -4545,9 +4760,19 @@
         "region": "ANY"
     },
     {
+        "_id": "60afa1508284e60007163c08",
+        "name": "Juste pour Rire GAGS",
+        "region": "ANY"
+    },
+    {
         "_id": "6475bfec536e0c0008858e9f",
         "name": "K-Drama",
         "region": "ES"
+    },
+    {
+        "_id": "633ee9ba83c08f00076b60a6",
+        "name": "KFOOD",
+        "region": "BR"
     },
     {
         "_id": "632b619c8d2a6c0007ff534e",
@@ -4560,19 +4785,14 @@
         "region": "LA"
     },
     {
+        "_id": "604b99d633a72b00078e05ad",
+        "name": "Karaokê por Stingray",
+        "region": "BR"
+    },
+    {
         "_id": "60fb040d4795a6000762fe8f",
         "name": "Kartoon Channel!",
         "region": "US"
-    },
-    {
-        "_id": "67a23e59c070cf0008416afe",
-        "name": "Kellarin Kunkku: appiukon parhaat",
-        "region": "ANY"
-    },
-    {
-        "_id": "67a23eb59a300a00086f3b16",
-        "name": "Kellarin kunkku: tien päällä",
-        "region": "ANY"
     },
     {
         "_id": "5ffcc5130fd98c0007f2e216",
@@ -4585,17 +4805,12 @@
         "region": "LA"
     },
     {
-        "_id": "66c700e6fed35b000851b2c9",
-        "name": "Kesäleffat",
-        "region": "ANY"
-    },
-    {
         "_id": "65e6d18818036500082911b5",
         "name": "Key & Peele",
         "region": "ANY"
     },
     {
-        "_id": "65cba7573ba51e00084d76e1",
+        "_id": "65cba715dc10a40008034917",
         "name": "Key & Peele",
         "region": "ANY"
     },
@@ -4610,9 +4825,24 @@
         "region": "ES"
     },
     {
+        "_id": "5ad8d54be738977e2c310940",
+        "name": "Kids",
+        "region": "GB"
+    },
+    {
+        "_id": "5f1214a637c6fd00079c652f",
+        "name": "Kids",
+        "region": "BR"
+    },
+    {
         "_id": "609e7e423e9173000706a681",
         "name": "Kids Classics",
         "region": "ES"
+    },
+    {
+        "_id": "66c8cae7fed35b0008580ec0",
+        "name": "Kids Club",
+        "region": "BR"
     },
     {
         "_id": "5db0ad56edc89300090d2ebb",
@@ -4630,13 +4860,13 @@
         "region": "CA"
     },
     {
-        "_id": "6964b92b9174e77a0e7dbd81",
-        "name": "Klassiske dramaserier fra Viafree",
+        "_id": "65a63ff00d9ab400080b101c",
+        "name": "Klovn",
         "region": "ANY"
     },
     {
-        "_id": "65a63ff00d9ab400080b101c",
-        "name": "Klovn",
+        "_id": "69f0802b40ffd5e0717dd952",
+        "name": "Kommissar Rex",
         "region": "ANY"
     },
     {
@@ -4645,8 +4875,8 @@
         "region": "ANY"
     },
     {
-        "_id": "65dde5848145cb00083277f6",
-        "name": "KultKrimi: Derrick",
+        "_id": "65dde5ef28730900089af7cf",
+        "name": "KultKrimi: Der Alte",
         "region": "ANY"
     },
     {
@@ -4655,33 +4885,38 @@
         "region": "ANY"
     },
     {
-        "_id": "63dbe7ed51f5d000083e9499",
-        "name": "Kultfilm",
-        "region": "ANY"
-    },
-    {
         "_id": "5dde47b63585b500099f74ec",
         "name": "Kultfilme",
         "region": "ANY"
     },
     {
-        "_id": "63dbe8c8a9957100087798a3",
-        "name": "Kultfilmer",
+        "_id": "67090b9ba07d1a0008016a5d",
+        "name": "Kulttileffat",
         "region": "ANY"
     },
     {
-        "_id": "657c0954dfed030008d82ea1",
-        "name": "Kvart i Bold",
+        "_id": "653f6634cf3494000812f64a",
+        "name": "Kummeli esittää: Kontio & Parmas",
         "region": "ANY"
     },
     {
-        "_id": "5f3566e1a27d8600077f3ef4",
-        "name": "LATAM AD Test 2 - Auxiliar Libertadores",
+        "_id": "5e62525c8ed6220007ebd6f9",
+        "name": "LATAM AD Test 1 - UFC",
         "region": "ANY"
     },
     {
         "_id": "5e6256b351ff07000720ea71",
         "name": "LATAM AD Test 2 - Chile Libertadores",
+        "region": "ANY"
+    },
+    {
+        "_id": "5e6255be4809210008d4d05e",
+        "name": "LATAM AD Test 2 - ROLA Libertadores",
+        "region": "ANY"
+    },
+    {
+        "_id": "5f356ca39b4cfd00075771c1",
+        "name": "LATAM AD Test 6 - BET Awards",
         "region": "ANY"
     },
     {
@@ -4715,13 +4950,8 @@
         "region": "ES"
     },
     {
-        "_id": "667d3534ca74680008696051",
-        "name": "Ladykracher",
-        "region": "ANY"
-    },
-    {
-        "_id": "67090d89a07d1a0008016e65",
-        "name": "Lain nimessä",
+        "_id": "654a3fe6986ad20008a42add",
+        "name": "Langt fra Bryggen",
         "region": "ANY"
     },
     {
@@ -4740,11 +4970,6 @@
         "region": "US"
     },
     {
-        "_id": "60549c238c3f21000753d3e0",
-        "name": "Le miracle de l'amour",
-        "region": "ANY"
-    },
-    {
         "_id": "60a2837f8154ab0007c4dcdf",
         "name": "Le sorelle McLeod",
         "region": "IT"
@@ -4755,13 +4980,18 @@
         "region": "CA"
     },
     {
+        "_id": "642e987882a18e00089e3f8f",
+        "name": "Leffat",
+        "region": "ANY"
+    },
+    {
         "_id": "64808a8c536e0c0008a276d1",
         "name": "Legami Letali",
         "region": "IT"
     },
     {
-        "_id": "5f8edb6df1ebb800072edf10",
-        "name": "Les Nouveaux Detectives",
+        "_id": "66b228d4cd0d3100085d27b7",
+        "name": "Les Anges",
         "region": "ANY"
     },
     {
@@ -4782,11 +5012,6 @@
     {
         "_id": "69afeb8d3d5dba980794e499",
         "name": "Lexx",
-        "region": "ANY"
-    },
-    {
-        "_id": "68d276ce59fd82da32267d0d",
-        "name": "Liebe Sünde",
         "region": "ANY"
     },
     {
@@ -4920,18 +5145,13 @@
         "region": "IT"
     },
     {
-        "_id": "654a4cc3f91d250008ac11f6",
+        "_id": "655ca3d1fbc15b00081f1186",
         "name": "Love Boat",
         "region": "ANY"
     },
     {
-        "_id": "61c19bfb3bf4940007804d32",
-        "name": "Love Island Danmark",
-        "region": "ANY"
-    },
-    {
-        "_id": "62bed7cb3279cb0007735327",
-        "name": "Love Island UK",
+        "_id": "654a4cc3f91d250008ac11f6",
+        "name": "Love Boat",
         "region": "ANY"
     },
     {
@@ -4948,6 +5168,11 @@
         "_id": "683457e5f59cc6a13212fce4",
         "name": "Lupin",
         "region": "ES"
+    },
+    {
+        "_id": "61c18f62f5acaf0007f83135",
+        "name": "Lyxfällan",
+        "region": "ANY"
     },
     {
         "_id": "67f7d328efc5473b6b4ac5f4",
@@ -4973,11 +5198,6 @@
         "_id": "67063e78b2ffb10008195d08",
         "name": "MODUS Super Series Darts",
         "region": "GB"
-    },
-    {
-        "_id": "615c1e5ce3039400070a0547",
-        "name": "MOVIEDOME",
-        "region": "ANY"
     },
     {
         "_id": "545943f1c9f133a519bbac92",
@@ -5008,6 +5228,11 @@
         "_id": "65410176770cf1000866bf31",
         "name": "MTV Biggest Pop",
         "region": "CA"
+    },
+    {
+        "_id": "5f92b56a367e170007cd43f4",
+        "name": "MTV CLASSICS",
+        "region": "ANY"
     },
     {
         "_id": "625461ef01f27a0007976ad1",
@@ -5230,11 +5455,6 @@
         "region": "BR"
     },
     {
-        "_id": "654a59742c1d33000865a797",
-        "name": "MacGyver",
-        "region": "ANY"
-    },
-    {
         "_id": "69b32974814d27f4aed90fdd",
         "name": "Madre",
         "region": "LA"
@@ -5280,6 +5500,11 @@
         "region": "LA"
     },
     {
+        "_id": "61c19edbf535220007075c4e",
+        "name": "MasterChef Danmarks største madtalenter",
+        "region": "ANY"
+    },
+    {
         "_id": "5e3ddbd27091820009f86dd9",
         "name": "MasterChef México",
         "region": "LA"
@@ -5305,7 +5530,17 @@
         "region": "GB"
     },
     {
+        "_id": "66290ca45e23700008fd0b89",
+        "name": "Matlock",
+        "region": "ANY"
+    },
+    {
         "_id": "66290c12801af8000850c1a9",
+        "name": "Matlock",
+        "region": "ANY"
+    },
+    {
+        "_id": "66290a779e68c20008a18cf3",
         "name": "Matlock",
         "region": "ANY"
     },
@@ -5335,6 +5570,11 @@
         "region": "US"
     },
     {
+        "_id": "686e74c777ed3360cb6908bf",
+        "name": "Mayday: Catastrophe Aérienne",
+        "region": "ANY"
+    },
+    {
         "_id": "690cb9140d121b44ad925ac9",
         "name": "Mayday: Disastro Aereo",
         "region": "IT"
@@ -5342,6 +5582,11 @@
     {
         "_id": "63e3b33e8795f300087e6a46",
         "name": "Med kniven for struben",
+        "region": "ANY"
+    },
+    {
+        "_id": "66952e1ed512590008867b5a",
+        "name": "Mediano TV",
         "region": "ANY"
     },
     {
@@ -5395,14 +5640,14 @@
         "region": "GB"
     },
     {
-        "_id": "6864e8f264d94c1425fb4563",
-        "name": "Merhaba Türkische Serien",
-        "region": "ANY"
-    },
-    {
         "_id": "683457aebbc703dfd45a89eb",
         "name": "Merlí",
         "region": "ES"
+    },
+    {
+        "_id": "6304854ac6073d0007259fe1",
+        "name": "Merry Christmas from Viafree",
+        "region": "ANY"
     },
     {
         "_id": "63047bd6b0726b000795341d",
@@ -5465,6 +5710,11 @@
         "region": "US"
     },
     {
+        "_id": "61843f5e491af10007f7eefa",
+        "name": "Minha Obsessão Favorita",
+        "region": "BR"
+    },
+    {
         "_id": "5e46e64dc73db400094b5f0b",
         "name": "Minuto Para Ganar",
         "region": "LA"
@@ -5513,6 +5763,11 @@
         "_id": "5f4d882d5233170007ee880e",
         "name": "Misterios sin resolver",
         "region": "US"
+    },
+    {
+        "_id": "5fac52f142044f00078e2a51",
+        "name": "Mistérios",
+        "region": "BR"
     },
     {
         "_id": "62b5c5a064163d0007b2efe6",
@@ -5600,6 +5855,21 @@
         "region": "ES"
     },
     {
+        "_id": "68ac52fac9b5923e0585578b",
+        "name": "Motor",
+        "region": "ANY"
+    },
+    {
+        "_id": "68ac52b05190a45dc990ee39",
+        "name": "Motor",
+        "region": "ANY"
+    },
+    {
+        "_id": "5f3d26ac23a7c800073f128a",
+        "name": "Motor+",
+        "region": "GB"
+    },
+    {
         "_id": "60e5ea9a9bb4200008376f76",
         "name": "Motorvision TV",
         "region": "LA"
@@ -5615,9 +5885,14 @@
         "region": "CA"
     },
     {
-        "_id": "6a4436f8e7884b99f287c7b9",
+        "_id": "6a281c0302b6c1c00a1fe570",
         "name": "MovieSphere by Lionsgate",
         "region": "ANY"
+    },
+    {
+        "_id": "5ad8d3a31b95267e225e4e09",
+        "name": "Movies",
+        "region": "GB"
     },
     {
         "_id": "5c5c3b948002db3c3e0b262e",
@@ -5650,11 +5925,6 @@
         "region": "GB"
     },
     {
-        "_id": "617aad99b68ef100072608cd",
-        "name": "Mystery",
-        "region": "ANY"
-    },
-    {
         "_id": "61c4a09d6c959f0007189c93",
         "name": "Mystery TV",
         "region": "GB"
@@ -5673,11 +5943,6 @@
         "_id": "687fea9a4fa995eff284a1c8",
         "name": "Más adrenalina",
         "region": "US"
-    },
-    {
-        "_id": "60080e8a4bf36000076a81b1",
-        "name": "N24 Doku",
-        "region": "ANY"
     },
     {
         "_id": "65790d58dfed030008d03051",
@@ -5755,8 +6020,8 @@
         "region": "BR"
     },
     {
-        "_id": "68921b2f4fa995eff24df6c8",
-        "name": "NCIS: Det bedste med Tony & Ziva",
+        "_id": "6901d8e5a362b63a8ddd386e",
+        "name": "NCIS: Gibbsin parhaat",
         "region": "ANY"
     },
     {
@@ -5767,16 +6032,6 @@
     {
         "_id": "66fbf4d3d7de140008d41f5b",
         "name": "NCIS: Los Angeles",
-        "region": "ANY"
-    },
-    {
-        "_id": "69fca82ff6ac24413f5338fa",
-        "name": "NCIS: New Orleans",
-        "region": "ANY"
-    },
-    {
-        "_id": "68921f94ca35d59d3c64eeb6",
-        "name": "NCIS: Tonyn ja Zivan parhaat",
         "region": "ANY"
     },
     {
@@ -5863,6 +6118,21 @@
         "_id": "610a9ebe8c2ac2000734776e",
         "name": "Naturescape",
         "region": "IT"
+    },
+    {
+        "_id": "5f1213ba0ecebc00070e170f",
+        "name": "Natureza",
+        "region": "BR"
+    },
+    {
+        "_id": "64ad7394798def00087b2bfe",
+        "name": "Negócio Fechado",
+        "region": "BR"
+    },
+    {
+        "_id": "663b9de4f999220008230fa8",
+        "name": "Netmovies",
+        "region": "BR"
     },
     {
         "_id": "6500457d3efb510008315e59",
@@ -5990,11 +6260,6 @@
         "region": "IT"
     },
     {
-        "_id": "692ec6d82329c10c5166f436",
-        "name": "Nina",
-        "region": "ANY"
-    },
-    {
         "_id": "66ff0cf663292d0008320cf8",
         "name": "No Reservations",
         "region": "US"
@@ -6070,6 +6335,11 @@
         "region": "US"
     },
     {
+        "_id": "5f512365abe1f50007d3ff56",
+        "name": "Novelas",
+        "region": "BR"
+    },
+    {
         "_id": "6474a7958e3c0a0008b97cae",
         "name": "Novelas de México",
         "region": "LA"
@@ -6085,7 +6355,17 @@
         "region": "LA"
     },
     {
-        "_id": "63dbe78051f5d000083e9249",
+        "_id": "6a281d2bd1e6d3ba6b553c7c",
+        "name": "Novelíssima",
+        "region": "ANY"
+    },
+    {
+        "_id": "5defde6d6c07b50009cf0757",
+        "name": "Nuestro Cine",
+        "region": "LA"
+    },
+    {
+        "_id": "642e94c1af2bd90008852697",
         "name": "Numb3rs",
         "region": "ANY"
     },
@@ -6093,6 +6373,11 @@
         "_id": "67f960c5441853fe50e7afc1",
         "name": "Numbers",
         "region": "BR"
+    },
+    {
+        "_id": "62bebb3a67307900077a7f9d",
+        "name": "Numbers",
+        "region": "ANY"
     },
     {
         "_id": "67f960680072d6b187a0682e",
@@ -6140,7 +6425,7 @@
         "region": "GB"
     },
     {
-        "_id": "62cd971cec90c20007081050",
+        "_id": "62cdad7b5c38c00007f566c2",
         "name": "On the Case",
         "region": "ANY"
     },
@@ -6250,14 +6535,14 @@
         "region": "US"
     },
     {
+        "_id": "604a8dedbca75b0007b1c753",
+        "name": "Paisagens por Stingray",
+        "region": "BR"
+    },
+    {
         "_id": "5f4fed840a2764000720d966",
         "name": "Paisajes por Stingray",
         "region": "LA"
-    },
-    {
-        "_id": "61c19af83fae0a00078c8918",
-        "name": "Paradise Hotel",
-        "region": "ANY"
     },
     {
         "_id": "5cb0cae7a461406ffe3f5213",
@@ -6290,6 +6575,11 @@
         "region": "CA"
     },
     {
+        "_id": "5d4af2ffa9506ab29cf38c38",
+        "name": "Paranormal",
+        "region": "GB"
+    },
+    {
         "_id": "66c70033b1a34600087bb09a",
         "name": "Paranormal",
         "region": "IT"
@@ -6300,13 +6590,13 @@
         "region": "ANY"
     },
     {
-        "_id": "62b30beb81f89900071fc7b9",
-        "name": "Paranormal",
-        "region": "ANY"
-    },
-    {
         "_id": "60804d85858bd00007c5d591",
         "name": "Paranormal State",
+        "region": "GB"
+    },
+    {
+        "_id": "5f3d279ab48c0200072df9d0",
+        "name": "Paranormal+",
         "region": "GB"
     },
     {
@@ -6350,12 +6640,22 @@
         "region": "ANY"
     },
     {
+        "_id": "65a7b0814a10d800085ff2df",
+        "name": "PetrolHeads",
+        "region": "GB"
+    },
+    {
         "_id": "6565413e4261ca0008215320",
         "name": "Pickers & Pawn",
         "region": "US"
     },
     {
-        "_id": "61c1d6e1f5acaf0007f8381d",
+        "_id": "61c09a3894aa450007814aea",
+        "name": "Pimp My Ride",
+        "region": "ANY"
+    },
+    {
+        "_id": "61c091343bf4940007803e03",
         "name": "Pimp My Ride",
         "region": "ANY"
     },
@@ -6365,9 +6665,19 @@
         "region": "ES"
     },
     {
+        "_id": "66bb374ba4ee27000841a62c",
+        "name": "Pixel.tv",
+        "region": "ANY"
+    },
+    {
         "_id": "6894febddbd49c964f3b66c8",
         "name": "Plato del Dia by elGourmet",
         "region": "LA"
+    },
+    {
+        "_id": "662a6309307fa30008196b4e",
+        "name": "Plus Belle la Vie 2",
+        "region": "ANY"
     },
     {
         "_id": "66dad50215d2c60008d7afbd",
@@ -6375,499 +6685,14 @@
         "region": "CA"
     },
     {
-        "_id": "66d717d2abec540008ba7ec4",
-        "name": "Pluto TV 80's Action",
-        "region": "GB"
+        "_id": "67ed8c15c84f951267dbebc2",
+        "name": "Pluto TV Anime Comedy",
+        "region": "ANY"
     },
     {
-        "_id": "5dbfeb961b411c00090b52b3",
-        "name": "Pluto TV Action",
-        "region": "GB"
-    },
-    {
-        "_id": "62794647e3cbcb000757dc65",
-        "name": "Pluto TV Action+",
-        "region": "GB"
-    },
-    {
-        "_id": "6462190b7cb4b1000862dd60",
-        "name": "Pluto TV Alien Invasion",
-        "region": "GB"
-    },
-    {
-        "_id": "6806d65e84f24b70109485fa",
-        "name": "Pluto TV Aliens",
-        "region": "BR"
-    },
-    {
-        "_id": "692ebafce72f03e07e7df985",
-        "name": "Pluto TV American True Crime",
-        "region": "GB"
-    },
-    {
-        "_id": "6474aa984cfc2c0008883a92",
-        "name": "Pluto TV Animais",
-        "region": "BR"
-    },
-    {
-        "_id": "5ddf8ea0d000120009bcad83",
-        "name": "Pluto TV Animals",
-        "region": "GB"
-    },
-    {
-        "_id": "612f761008a9e50007984ba0",
-        "name": "Pluto TV Animation",
-        "region": "GB"
-    },
-    {
-        "_id": "5f12136385bccc00070142ed",
-        "name": "Pluto TV Anime",
-        "region": "BR"
-    },
-    {
-        "_id": "604b79c558393100078faeef",
-        "name": "Pluto TV Anime Ação",
-        "region": "BR"
-    },
-    {
-        "_id": "663b9dc7cb3ea10008f1a0ce",
-        "name": "Pluto TV Bang Bang",
-        "region": "BR"
-    },
-    {
-        "_id": "625e8cb585ef320007806caf",
-        "name": "Pluto TV Britain at War",
-        "region": "GB"
-    },
-    {
-        "_id": "64b9370b409629000802d32b",
-        "name": "Pluto TV Canal UOL",
-        "region": "BR"
-    },
-    {
-        "_id": "62cbdc45d3cb9f0007128df4",
-        "name": "Pluto TV Christmas in Summer",
-        "region": "GB"
-    },
-    {
-        "_id": "5fa1612a669ba0000702017b",
-        "name": "Pluto TV Cine Clássicos",
-        "region": "BR"
-    },
-    {
-        "_id": "5f12101f0b12f00007844c7c",
-        "name": "Pluto TV Cine Comédia",
-        "region": "BR"
-    },
-    {
-        "_id": "62545ed3dab4380007582f7c",
-        "name": "Pluto TV Cine Comédia Romântica",
-        "region": "BR"
-    },
-    {
-        "_id": "6479ff764f5ba5000878dfe2",
-        "name": "Pluto TV Cine Crime",
-        "region": "BR"
-    },
-    {
-        "_id": "5f1210d14ae1f80007bafb1d",
-        "name": "Pluto TV Cine Drama",
-        "region": "BR"
-    },
-    {
-        "_id": "5f171f032cd22e0007f17f3d",
-        "name": "Pluto TV Cine Família",
-        "region": "BR"
-    },
-    {
-        "_id": "5fa991b1f09e020007e78626",
-        "name": "Pluto TV Cine Inspiração",
-        "region": "BR"
-    },
-    {
-        "_id": "5f171f988ab9780007fa95ea",
-        "name": "Pluto TV Cine Romance",
-        "region": "BR"
-    },
-    {
-        "_id": "5f120e94a5714d00074576a1",
-        "name": "Pluto TV Cine Sucessos",
-        "region": "BR"
-    },
-    {
-        "_id": "5f12111c9e6c2c00078ef3bb",
-        "name": "Pluto TV Cine Terror",
-        "region": "BR"
-    },
-    {
-        "_id": "5d134a74ca91eedee1630faa",
-        "name": "Pluto TV Classic TV",
-        "region": "GB"
-    },
-    {
-        "_id": "5c363c2411c5ca053f198f97",
-        "name": "Pluto TV Comedy Movies",
-        "region": "GB"
-    },
-    {
-        "_id": "5d4ae94ef1a1bbb350ca41bb",
-        "name": "Pluto TV Conspiracy",
-        "region": "GB"
-    },
-    {
-        "_id": "5f1ef23020a5ac0007e5e8ea",
-        "name": "Pluto TV Cozinha",
-        "region": "BR"
-    },
-    {
-        "_id": "5d767790d0438aceb41d03ae",
-        "name": "Pluto TV Crime",
-        "region": "GB"
-    },
-    {
-        "_id": "65a6a7a00c7ff50008cba07b",
-        "name": "Pluto TV Crime Drama",
-        "region": "GB"
-    },
-    {
-        "_id": "6a300571cdfd39da91df9159",
-        "name": "Pluto TV Crime Thrillers",
-        "region": "GB"
-    },
-    {
-        "_id": "5bd8371b1843b56328bac33d",
-        "name": "Pluto TV Crime+",
-        "region": "GB"
-    },
-    {
-        "_id": "5c5c31f2f21b553c1f673fb0",
-        "name": "Pluto TV Cult Films",
-        "region": "GB"
-    },
-    {
-        "_id": "655e5c4d2c46f3000877a54b",
-        "name": "Pluto TV Desenhos Clássicos",
-        "region": "BR"
-    },
-    {
-        "_id": "5ddf91149880d60009d35d27",
-        "name": "Pluto TV Drama",
-        "region": "GB"
-    },
-    {
-        "_id": "65a7ab137bdc8d0008487dfb",
-        "name": "Pluto TV Erotica",
-        "region": "GB"
-    },
-    {
-        "_id": "5f32d2db0af67400077f29c4",
-        "name": "Pluto TV Esportes",
-        "region": "BR"
-    },
-    {
-        "_id": "5dc3fc6b9133f500099c7d98",
-        "name": "Pluto TV Family Movie Club",
-        "region": "GB"
-    },
-    {
-        "_id": "685041d936c9361b1921c26c",
-        "name": "Pluto TV Fantasy & Horror",
-        "region": "GB"
-    },
-    {
-        "_id": "5fa15ad6367e170007cdd098",
-        "name": "Pluto TV Ficção Científica",
-        "region": "BR"
-    },
-    {
-        "_id": "66c79a4262e5510008ff68a5",
-        "name": "Pluto TV Filmes Aventura",
-        "region": "BR"
-    },
-    {
-        "_id": "5f120f41b7d403000783a6d6",
-        "name": "Pluto TV Filmes Ação",
-        "region": "BR"
-    },
-    {
-        "_id": "5f5a545d0dbf7f0007c09408",
-        "name": "Pluto TV Filmes Nacionais",
-        "region": "BR"
-    },
-    {
-        "_id": "6806d62369aec5b19cd628c0",
-        "name": "Pluto TV Filmes de Luta",
-        "region": "BR"
-    },
-    {
-        "_id": "5ddf930548ff9b00090d5686",
-        "name": "Pluto TV Food",
-        "region": "GB"
-    },
-    {
-        "_id": "5d4af1803e7983b391d73b13",
-        "name": "Pluto TV History",
-        "region": "GB"
-    },
-    {
-        "_id": "5f1ef1a8cec6be00072a7ac9",
-        "name": "Pluto TV História",
-        "region": "BR"
-    },
-    {
-        "_id": "612cda102f5f18000705e0bf",
-        "name": "Pluto TV Horror",
-        "region": "GB"
-    },
-    {
-        "_id": "5bb5c137fd5928058cd3a21f",
-        "name": "Pluto TV Inside+",
-        "region": "GB"
-    },
-    {
-        "_id": "63808dc806aa4700075f319a",
-        "name": "Pluto TV Investigation",
-        "region": "GB"
-    },
-    {
-        "_id": "5f32cf37c9ff2b00082adbc8",
-        "name": "Pluto TV Investigação",
-        "region": "BR"
-    },
-    {
-        "_id": "5f12141b146d760007934ea7",
-        "name": "Pluto TV Junior",
-        "region": "BR"
-    },
-    {
-        "_id": "633ee9ba83c08f00076b60a6",
-        "name": "Pluto TV KFOOD",
-        "region": "BR"
-    },
-    {
-        "_id": "604b99d633a72b00078e05ad",
-        "name": "Pluto TV Karaokê por Stingray",
-        "region": "BR"
-    },
-    {
-        "_id": "5ad8d54be738977e2c310940",
-        "name": "Pluto TV Kids",
-        "region": "GB"
-    },
-    {
-        "_id": "5f1214a637c6fd00079c652f",
-        "name": "Pluto TV Kids",
-        "region": "BR"
-    },
-    {
-        "_id": "66c8cae7fed35b0008580ec0",
-        "name": "Pluto TV Kids Club",
-        "region": "BR"
-    },
-    {
-        "_id": "61843f5e491af10007f7eefa",
-        "name": "Pluto TV Minha Obsessão Favorita",
-        "region": "BR"
-    },
-    {
-        "_id": "5fac52f142044f00078e2a51",
-        "name": "Pluto TV Mistérios",
-        "region": "BR"
-    },
-    {
-        "_id": "5f3d26ac23a7c800073f128a",
-        "name": "Pluto TV Motor+",
-        "region": "GB"
-    },
-    {
-        "_id": "5ad8d3a31b95267e225e4e09",
-        "name": "Pluto TV Movies",
-        "region": "GB"
-    },
-    {
-        "_id": "5f1213ba0ecebc00070e170f",
-        "name": "Pluto TV Natureza",
-        "region": "BR"
-    },
-    {
-        "_id": "64ad7394798def00087b2bfe",
-        "name": "Pluto TV Negócio Fechado",
-        "region": "BR"
-    },
-    {
-        "_id": "663b9de4f999220008230fa8",
-        "name": "Pluto TV Netmovies",
-        "region": "BR"
-    },
-    {
-        "_id": "5f512365abe1f50007d3ff56",
-        "name": "Pluto TV Novelas",
-        "region": "BR"
-    },
-    {
-        "_id": "604a8dedbca75b0007b1c753",
-        "name": "Pluto TV Paisagens por Stingray",
-        "region": "BR"
-    },
-    {
-        "_id": "5d4af2ffa9506ab29cf38c38",
-        "name": "Pluto TV Paranormal",
-        "region": "GB"
-    },
-    {
-        "_id": "5f3d279ab48c0200072df9d0",
-        "name": "Pluto TV Paranormal+",
-        "region": "GB"
-    },
-    {
-        "_id": "65a7b0814a10d800085ff2df",
-        "name": "Pluto TV PetrolHeads",
-        "region": "GB"
-    },
-    {
-        "_id": "678fdf9e3de7c8cf948e8824",
-        "name": "Pluto TV Policial",
-        "region": "BR"
-    },
-    {
-        "_id": "5bd8186d53ed2c6334ea0855",
-        "name": "Pluto TV Reality",
-        "region": "GB"
-    },
-    {
-        "_id": "6102e04e9ab1db0007a980a1",
-        "name": "Pluto TV Record News",
-        "region": "BR"
-    },
-    {
-        "_id": "5c5c2b9d8002db3c3e0b1c6d",
-        "name": "Pluto TV Retro Toons",
-        "region": "GB"
-    },
-    {
-        "_id": "5f1212ad1728050007a523b8",
-        "name": "Pluto TV Retrô",
-        "region": "BR"
-    },
-    {
-        "_id": "5c45f216e909d90674242965",
-        "name": "Pluto TV Romance+",
-        "region": "GB"
-    },
-    {
-        "_id": "5dc02a44a9518600094273ac",
-        "name": "Pluto TV Sci-Fi",
-        "region": "GB"
-    },
-    {
-        "_id": "619247c34a270700077c8415",
-        "name": "Pluto TV Sci-fi Series",
-        "region": "GB"
-    },
-    {
-        "_id": "5d9492c77ea6f99188738ff1",
-        "name": "Pluto TV Science",
-        "region": "GB"
-    },
-    {
-        "_id": "5dc2c00abfed110009d97243",
-        "name": "Pluto TV Sherlock",
-        "region": "GB"
-    },
-    {
-        "_id": "604b91e0692f770007d9f33f",
-        "name": "Pluto TV Shows por Stingray",
-        "region": "BR"
-    },
-    {
-        "_id": "62f53dc6ee9a0400071dc22b",
-        "name": "Pluto TV Sitcoms",
-        "region": "GB"
-    },
-    {
-        "_id": "655b7cbb2c46f300086f0afa",
-        "name": "Pluto TV Snooker 900",
-        "region": "GB"
-    },
-    {
-        "_id": "5dbc2f98777f2e0009934ae7",
-        "name": "Pluto TV Space",
-        "region": "GB"
-    },
-    {
-        "_id": "5f99ac4fded33000078f29ab",
-        "name": "Pluto TV Star Trek",
-        "region": "BR"
-    },
-    {
-        "_id": "6474ab1da51cb80008bfb5f4",
-        "name": "Pluto TV Séries Ação",
-        "region": "BR"
-    },
-    {
-        "_id": "655e5bc94261ca000810cb17",
-        "name": "Pluto TV Séries Comédia",
-        "region": "BR"
-    },
-    {
-        "_id": "6474ab5cdc7a760008745008",
-        "name": "Pluto TV Séries Criminais",
-        "region": "BR"
-    },
-    {
-        "_id": "65f060d84e01740008d7421f",
-        "name": "Pluto TV Séries Drama",
-        "region": "BR"
-    },
-    {
-        "_id": "69c71615a8ef5d7f33e7322e",
-        "name": "Pluto TV Séries Família",
-        "region": "BR"
-    },
-    {
-        "_id": "691627e4a29a6123e400b3e0",
-        "name": "Pluto TV Séries Novelescas",
-        "region": "BR"
-    },
-    {
-        "_id": "63d2ba2f60bc8f0008981a0e",
-        "name": "Pluto TV Séries Sci-Fi",
-        "region": "BR"
-    },
-    {
-        "_id": "66aa67493a4ad2000806d91b",
-        "name": "Pluto TV Terror Trash",
-        "region": "BR"
-    },
-    {
-        "_id": "5dbfedccc563080009b60f4a",
-        "name": "Pluto TV Thrillers",
-        "region": "GB"
-    },
-    {
-        "_id": "600acaff5f2d6e000745effb",
-        "name": "Pluto TV Tough Jobs",
-        "region": "GB"
-    },
-    {
-        "_id": "6014761dfb91870008ea6463",
-        "name": "Pluto TV Turbo",
-        "region": "BR"
-    },
-    {
-        "_id": "5f32d432d612e50007e56133",
-        "name": "Pluto TV Viagens",
-        "region": "BR"
-    },
-    {
-        "_id": "5f32d4d9ec194100070c7449",
-        "name": "Pluto TV Vida Real",
-        "region": "BR"
-    },
-    {
-        "_id": "5d4bdb635ce813b38639e6a3",
-        "name": "Pluto TV Westerns",
-        "region": "GB"
+        "_id": "6a5520365badf45d3088b8d8",
+        "name": "Pluto TV Cine Trapalhões",
+        "region": "ANY"
     },
     {
         "_id": "6304f530440dc90007f514d3",
@@ -6910,6 +6735,16 @@
         "region": "US"
     },
     {
+        "_id": "678fdf9e3de7c8cf948e8824",
+        "name": "Policial",
+        "region": "BR"
+    },
+    {
+        "_id": "68de776ffae18f8db601d3e7",
+        "name": "Poliisit",
+        "region": "ANY"
+    },
+    {
         "_id": "677d93afe650a700081e5f18",
         "name": "Popeye",
         "region": "LA"
@@ -6938,16 +6773,6 @@
         "_id": "65eed4168b24c800080f3ebd",
         "name": "Prisoner: Cell Block H",
         "region": "AU"
-    },
-    {
-        "_id": "633b63436b2cf10007395684",
-        "name": "Product Feature Test Channel",
-        "region": "ANY"
-    },
-    {
-        "_id": "67d984c989788ef7f058b084",
-        "name": "Profiling Paris",
-        "region": "ANY"
     },
     {
         "_id": "68757c60552299d2b080eab6",
@@ -7040,7 +6865,7 @@
         "region": "CA"
     },
     {
-        "_id": "6964bb3640c8de392514a0c6",
+        "_id": "6964baa63dfd98e10945ac51",
         "name": "Rawhide",
         "region": "ANY"
     },
@@ -7085,9 +6910,9 @@
         "region": "CA"
     },
     {
-        "_id": "692ec3a76f84242a60f75f59",
-        "name": "Reality Awards",
-        "region": "ANY"
+        "_id": "5bd8186d53ed2c6334ea0855",
+        "name": "Reality",
+        "region": "GB"
     },
     {
         "_id": "65f96cd34e01740008ef1c97",
@@ -7108,6 +6933,11 @@
         "_id": "67a3b45a21af380008133aa4",
         "name": "Realmadrid TV",
         "region": "ANY"
+    },
+    {
+        "_id": "6102e04e9ab1db0007a980a1",
+        "name": "Record News",
+        "region": "BR"
     },
     {
         "_id": "67813f893886aa863497733d",
@@ -7140,13 +6970,8 @@
         "region": "IT"
     },
     {
-        "_id": "65e97880332fec00085a4636",
-        "name": "Reno 911",
-        "region": "ANY"
-    },
-    {
-        "_id": "65e9781a2873090008b48d8a",
-        "name": "Reno 911",
+        "_id": "699c18cbf2ad90a4792fd5b8",
+        "name": "Renegade",
         "region": "ANY"
     },
     {
@@ -7170,7 +6995,7 @@
         "region": "ANY"
     },
     {
-        "_id": "69a162eb762ae48b4302fb7c",
+        "_id": "69a164f76c0414a7ec68de54",
         "name": "Retake E-sport Live",
         "region": "ANY"
     },
@@ -7195,6 +7020,16 @@
         "region": "CA"
     },
     {
+        "_id": "5c5c2b9d8002db3c3e0b1c6d",
+        "name": "Retro Toons",
+        "region": "GB"
+    },
+    {
+        "_id": "5f1212ad1728050007a523b8",
+        "name": "Retrô",
+        "region": "BR"
+    },
+    {
         "_id": "6320ddef274b1b0007b2ee88",
         "name": "Revive Gran Hermano",
         "region": "LA"
@@ -7210,8 +7045,13 @@
         "region": "US"
     },
     {
-        "_id": "68dfa1e7fae18f8db6218703",
-        "name": "Ridiculousness - Nya avsnitt",
+        "_id": "68dfa160cc3c6cd90404d798",
+        "name": "Ridiculousness - Nye afsnit",
+        "region": "ANY"
+    },
+    {
+        "_id": "68dfa1a7fae18f8db6218222",
+        "name": "Ridiculousness - Nye episoder",
         "region": "ANY"
     },
     {
@@ -7240,13 +7080,8 @@
         "region": "ANY"
     },
     {
-        "_id": "692ec3f475169f09b5c0a8b3",
-        "name": "Robert Prisen",
-        "region": "ANY"
-    },
-    {
-        "_id": "6628e513cee0d90008639b46",
-        "name": "RoboCop",
+        "_id": "63a42df60cc44a0007dd47f8",
+        "name": "Robinson Ekspeditionen",
         "region": "ANY"
     },
     {
@@ -7270,8 +7105,13 @@
         "region": "AU"
     },
     {
-        "_id": "63a19da6847a090007f230da",
-        "name": "Romantik",
+        "_id": "5c45f216e909d90674242965",
+        "name": "Romance+",
+        "region": "GB"
+    },
+    {
+        "_id": "63a19bb5e6914b000721b5c0",
+        "name": "Romantikk",
         "region": "ANY"
     },
     {
@@ -7315,11 +7155,6 @@
         "region": "ES"
     },
     {
-        "_id": "64be635a40962900080aaca5",
-        "name": "Rules of Engagement",
-        "region": "ANY"
-    },
-    {
         "_id": "62c5d80dc6de440007e033eb",
         "name": "Runtime",
         "region": "LA"
@@ -7360,6 +7195,11 @@
         "region": "ANY"
     },
     {
+        "_id": "622f40c901d4b70007ad7609",
+        "name": "Sabrina - Total verhext!",
+        "region": "ANY"
+    },
+    {
         "_id": "66276091cee0d900085fe053",
         "name": "Sabrina The Teenage Witch",
         "region": "GB"
@@ -7371,11 +7211,6 @@
     },
     {
         "_id": "6512d72b473a540008592be5",
-        "name": "Sabrina the Teenage Witch",
-        "region": "ANY"
-    },
-    {
-        "_id": "6512ecf63a0d700008db506a",
         "name": "Sabrina the Teenage Witch",
         "region": "ANY"
     },
@@ -7425,6 +7260,11 @@
         "region": "IT"
     },
     {
+        "_id": "69b968a58323ef2714d1aa36",
+        "name": "Schnell ermittelt",
+        "region": "ANY"
+    },
+    {
         "_id": "5f2817d3d7573a00080f9175",
         "name": "Sci-Fi",
         "region": "LA"
@@ -7440,17 +7280,22 @@
         "region": "US"
     },
     {
+        "_id": "5dc02a44a9518600094273ac",
+        "name": "Sci-Fi",
+        "region": "GB"
+    },
+    {
         "_id": "61728bb9ee3773000840c1fa",
         "name": "Sci-Fi",
         "region": "IT"
     },
     {
-        "_id": "61f9597e78607000074f6c2a",
+        "_id": "61f957e051cca800076f2358",
         "name": "Sci-Fi",
         "region": "ANY"
     },
     {
-        "_id": "61f957e051cca800076f2358",
+        "_id": "61f9598588f86000078ee7d6",
         "name": "Sci-Fi",
         "region": "ANY"
     },
@@ -7460,14 +7305,19 @@
         "region": "CA"
     },
     {
+        "_id": "619247c34a270700077c8415",
+        "name": "Sci-fi Series",
+        "region": "GB"
+    },
+    {
         "_id": "563a970aa1a1f7fe7c9daad7",
         "name": "Science",
         "region": "US"
     },
     {
-        "_id": "5d767b4889bca2ce7b73ef2e",
+        "_id": "5d9492c77ea6f99188738ff1",
         "name": "Science",
-        "region": "ANY"
+        "region": "GB"
     },
     {
         "_id": "63d000ef4e83e700086e0d6c",
@@ -7475,17 +7325,12 @@
         "region": "GB"
     },
     {
-        "_id": "642e93c59b32b400094270a1",
-        "name": "Scorpion",
-        "region": "ANY"
-    },
-    {
-        "_id": "63a1c9c2847a090007f248da",
-        "name": "Scorpion",
-        "region": "ANY"
-    },
-    {
         "_id": "63a1c959d9dd51000825d659",
+        "name": "Scorpion",
+        "region": "ANY"
+    },
+    {
+        "_id": "63a1caefc8d285000799e8af",
         "name": "Scorpion",
         "region": "ANY"
     },
@@ -7497,6 +7342,11 @@
     {
         "_id": "688735087b2cf33d01a2d411",
         "name": "Sea Patrol",
+        "region": "ANY"
+    },
+    {
+        "_id": "69b14863dd687227e1e4b6b2",
+        "name": "Seaquest",
         "region": "ANY"
     },
     {
@@ -7518,11 +7368,6 @@
         "_id": "60b9ff2722bfa400072676ef",
         "name": "Serie",
         "region": "IT"
-    },
-    {
-        "_id": "5dc190f7bfed110009d934c3",
-        "name": "Serie",
-        "region": "ANY"
     },
     {
         "_id": "608aa777b907770007e5d05d",
@@ -7610,6 +7455,11 @@
         "region": "IT"
     },
     {
+        "_id": "5dc2c00abfed110009d97243",
+        "name": "Sherlock",
+        "region": "GB"
+    },
+    {
         "_id": "68b784d03e17b7676a0378f7",
         "name": "Shockwave",
         "region": "LA"
@@ -7630,6 +7480,16 @@
         "region": "IT"
     },
     {
+        "_id": "604b91e0692f770007d9f33f",
+        "name": "Shows por Stingray",
+        "region": "BR"
+    },
+    {
+        "_id": "697a34496f47f39d31ff8bde",
+        "name": "Si près de chez vous",
+        "region": "ANY"
+    },
+    {
         "_id": "604bdf4e6d0abc0007ba77ad",
         "name": "Sin Tetas No Hay Paraíso",
         "region": "LA"
@@ -7645,6 +7505,16 @@
         "region": "US"
     },
     {
+        "_id": "62f53dc6ee9a0400071dc22b",
+        "name": "Sitcoms",
+        "region": "GB"
+    },
+    {
+        "_id": "5d767ab2b456c8cf265ce921",
+        "name": "Sitcoms",
+        "region": "ANY"
+    },
+    {
         "_id": "68e38b005c876cf730fcbf0f",
         "name": "Six Million Dollar Man",
         "region": "GB"
@@ -7653,11 +7523,6 @@
         "_id": "67882c1c7b11714b795c2008",
         "name": "Sketchy AF",
         "region": "US"
-    },
-    {
-        "_id": "643810f2e8a4aa0008ccf575",
-        "name": "Skjønnhetsfellen Danmark",
-        "region": "ANY"
     },
     {
         "_id": "55b285cd2665de274553d66f",
@@ -7700,6 +7565,11 @@
         "region": "ANY"
     },
     {
+        "_id": "68adb11bf84960586ad4aae4",
+        "name": "Smurfarna",
+        "region": "ANY"
+    },
+    {
         "_id": "68adb0a9f84960586ad4a334",
         "name": "Smurfene",
         "region": "ANY"
@@ -7708,6 +7578,11 @@
         "_id": "69148c470155f9b136b5d856",
         "name": "Snooker 900",
         "region": "ES"
+    },
+    {
+        "_id": "655b7cbb2c46f300086f0afa",
+        "name": "Snooker 900",
+        "region": "GB"
     },
     {
         "_id": "69fca7fadf0b6d462c0a0ac3",
@@ -7760,17 +7635,17 @@
         "region": "ANY"
     },
     {
-        "_id": "61c098df897b9d00070375c8",
-        "name": "South Park",
-        "region": "ANY"
-    },
-    {
         "_id": "65df4bb6332fec000845e088",
         "name": "South Park 2",
         "region": "AU"
     },
     {
-        "_id": "660bff7dc8311c0008b4bdb4",
+        "_id": "660bff5724e1d000085b7c07",
+        "name": "South Park Armageddon",
+        "region": "ANY"
+    },
+    {
+        "_id": "660bff28516d260008479e23",
         "name": "South Park Armageddon",
         "region": "ANY"
     },
@@ -7788,11 +7663,6 @@
         "_id": "63d7a8e5a9957100086bfc23",
         "name": "South Park Versión Original",
         "region": "ES"
-    },
-    {
-        "_id": "65d87fcb66eec8000887f4aa",
-        "name": "South Park: Butters Collection",
-        "region": "ANY"
     },
     {
         "_id": "65df4934f7f0af0008c32545",
@@ -7845,7 +7715,12 @@
         "region": "BR"
     },
     {
-        "_id": "664f0ecc41af640008e37b43",
+        "_id": "664f0eea0120f40008bf97d6",
+        "name": "South Park: Into the Stars",
+        "region": "ANY"
+    },
+    {
+        "_id": "664f0eaa8ce31100088036bd",
         "name": "South Park: Into the Stars",
         "region": "ANY"
     },
@@ -7853,11 +7728,6 @@
         "_id": "65df47f428730900089f83ac",
         "name": "South Park: Kenny Collection",
         "region": "CA"
-    },
-    {
-        "_id": "65d880cea25d5e0008315b0a",
-        "name": "South Park: Kenny Collection",
-        "region": "ANY"
     },
     {
         "_id": "65df49b30d45610008172c5b",
@@ -7870,24 +7740,9 @@
         "region": "ANY"
     },
     {
-        "_id": "646b150a15939400089e2702",
-        "name": "South Park: Original Version",
-        "region": "ANY"
-    },
-    {
         "_id": "65df48ba28730900089f8480",
         "name": "South Park: Stan Collection",
         "region": "CA"
-    },
-    {
-        "_id": "65d881914e01740008a36603",
-        "name": "South Park: Stan Collection",
-        "region": "ANY"
-    },
-    {
-        "_id": "65d879e266eec8000887e91b",
-        "name": "South Park: Stan Collection",
-        "region": "ANY"
     },
     {
         "_id": "663115d923e24f000843b49c",
@@ -7895,9 +7750,19 @@
         "region": "CA"
     },
     {
+        "_id": "5dbc2f98777f2e0009934ae7",
+        "name": "Space",
+        "region": "GB"
+    },
+    {
         "_id": "69b3db5d61e8e298254c7108",
         "name": "Space Live",
         "region": "ES"
+    },
+    {
+        "_id": "69b3db536c0414a7ecf564fb",
+        "name": "Space Live",
+        "region": "ANY"
     },
     {
         "_id": "6a28960eee86450920a1cab3",
@@ -7970,6 +7835,11 @@
         "region": "US"
     },
     {
+        "_id": "5f99ac4fded33000078f29ab",
+        "name": "Star Trek",
+        "region": "BR"
+    },
+    {
         "_id": "6152ee71bf99590007893a11",
         "name": "Star Trek",
         "region": "ANY"
@@ -7980,14 +7850,14 @@
         "region": "ANY"
     },
     {
-        "_id": "6400c281dff38e00083f59da",
-        "name": "Star Trek Movies",
-        "region": "ANY"
-    },
-    {
         "_id": "6049295e7dcef800073c2499",
         "name": "Star Trek en español",
         "region": "US"
+    },
+    {
+        "_id": "69492467ae33e24d916e56cf",
+        "name": "Star Trek: Animation",
+        "region": "ANY"
     },
     {
         "_id": "65c69bbfd77d450008c7ffee",
@@ -8000,11 +7870,6 @@
         "region": "US"
     },
     {
-        "_id": "6a3160bd5304e3244427863d",
-        "name": "Star Trek: Kirks Missionen",
-        "region": "ANY"
-    },
-    {
         "_id": "6675c88da1d7ad00084762cb",
         "name": "Star Trek: The Motion Pictures",
         "region": "US"
@@ -8015,22 +7880,12 @@
         "region": "US"
     },
     {
-        "_id": "69776ce979545c21a1220bff",
-        "name": "Star Trek: The Next Generation",
-        "region": "ANY"
-    },
-    {
-        "_id": "693adecd09b38429bd5e651a",
+        "_id": "69776b58036e883f39e5ab8a",
         "name": "Star Trek: The Original Series",
         "region": "ANY"
     },
     {
         "_id": "693addd62bf6cf7414c4b2fc",
-        "name": "Star Trek: The Original Series",
-        "region": "ANY"
-    },
-    {
-        "_id": "693add137e308621c051e733",
         "name": "Star Trek: The Original Series",
         "region": "ANY"
     },
@@ -8048,11 +7903,6 @@
         "_id": "65cb73d33ba51e00084cabad",
         "name": "Star Trek: Voyager",
         "region": "IT"
-    },
-    {
-        "_id": "6790e4efbc03978b9bff0d8e",
-        "name": "Star Trek: Voyager",
-        "region": "ANY"
     },
     {
         "_id": "620bfa7df72827000703ddb1",
@@ -8140,13 +7990,13 @@
         "region": "LA"
     },
     {
-        "_id": "61c0ba0816e2fd00086cb6b1",
-        "name": "SvampBob Fyrkant",
+        "_id": "61c09ac98a80a4000703f992",
+        "name": "SvampeBob Firkant",
         "region": "ANY"
     },
     {
-        "_id": "61f128f68a1dfc00086470af",
-        "name": "Svenska Truckers",
+        "_id": "61c1921610d254000727eebd",
+        "name": "Svenska Hollywoodfruar",
         "region": "ANY"
     },
     {
@@ -8158,6 +8008,41 @@
         "_id": "683df56f5195c2a60a3f5559",
         "name": "Swerve Women’s Sports",
         "region": "US"
+    },
+    {
+        "_id": "6474ab1da51cb80008bfb5f4",
+        "name": "Séries Ação",
+        "region": "BR"
+    },
+    {
+        "_id": "655e5bc94261ca000810cb17",
+        "name": "Séries Comédia",
+        "region": "BR"
+    },
+    {
+        "_id": "6474ab5cdc7a760008745008",
+        "name": "Séries Criminais",
+        "region": "BR"
+    },
+    {
+        "_id": "65f060d84e01740008d7421f",
+        "name": "Séries Drama",
+        "region": "BR"
+    },
+    {
+        "_id": "69c71615a8ef5d7f33e7322e",
+        "name": "Séries Família",
+        "region": "BR"
+    },
+    {
+        "_id": "691627e4a29a6123e400b3e0",
+        "name": "Séries Novelescas",
+        "region": "BR"
+    },
+    {
+        "_id": "63d2ba2f60bc8f0008981a0e",
+        "name": "Séries Sci-Fi",
+        "region": "BR"
     },
     {
         "_id": "6578836cdfed030008ce5bdb",
@@ -8200,7 +8085,7 @@
         "region": "IT"
     },
     {
-        "_id": "63c95491808b740007608a74",
+        "_id": "63c95451d3485c0007734f55",
         "name": "Tareq Taylor's Nordic Cookery",
         "region": "ANY"
     },
@@ -8265,11 +8150,6 @@
         "region": "ANY"
     },
     {
-        "_id": "67f5095a3481170e6843d95d",
-        "name": "Tecknade klassiker",
-        "region": "ANY"
-    },
-    {
         "_id": "63eb944dc111bc0008fe7021",
         "name": "Teen",
         "region": "ES"
@@ -8305,7 +8185,7 @@
         "region": "IT"
     },
     {
-        "_id": "61c1e914bf8c520007a93ff1",
+        "_id": "61c09938e0d3a700072b68b1",
         "name": "Tegnefilm",
         "region": "ANY"
     },
@@ -8375,6 +8255,11 @@
         "region": "ES"
     },
     {
+        "_id": "65b923f90cb1a100088a03ab",
+        "name": "Terra Mater WILD",
+        "region": "ANY"
+    },
+    {
         "_id": "689240768e133a6939882975",
         "name": "Terraviva",
         "region": "ANY"
@@ -8383,6 +8268,16 @@
         "_id": "5c6dc88fcd232425a6e0f06e",
         "name": "Terror",
         "region": "US"
+    },
+    {
+        "_id": "66aa67493a4ad2000806d91b",
+        "name": "Terror Trash",
+        "region": "BR"
+    },
+    {
+        "_id": "65655a139d5ac400082301eb",
+        "name": "Test Channel 1080p resolution",
+        "region": "ANY"
     },
     {
         "_id": "65bcf9beec452d00088e68e5",
@@ -8425,11 +8320,6 @@
         "region": "ANY"
     },
     {
-        "_id": "69afec3af59c873b7b874520",
-        "name": "The 4400",
-        "region": "ANY"
-    },
-    {
         "_id": "5d81607ab737153ea3c1c80e",
         "name": "The Addams Family",
         "region": "US"
@@ -8453,11 +8343,6 @@
         "_id": "62e8d5369e48940007fc1dc1",
         "name": "The Asylum",
         "region": "IT"
-    },
-    {
-        "_id": "5f8ece1a89d79800072510e6",
-        "name": "The Asylum",
-        "region": "ANY"
     },
     {
         "_id": "6565fefdc917a50008485cc6",
@@ -8500,6 +8385,11 @@
         "region": "CA"
     },
     {
+        "_id": "65c377a53a116800078ce425",
+        "name": "The Daily Show",
+        "region": "ANY"
+    },
+    {
         "_id": "65c0978360eb870008bc9d5b",
         "name": "The Daily Show",
         "region": "ANY"
@@ -8540,16 +8430,6 @@
         "region": "ANY"
     },
     {
-        "_id": "61c1d56f28e94c0007827bdb",
-        "name": "The Hills",
-        "region": "ANY"
-    },
-    {
-        "_id": "61c09039ebd75200072587f9",
-        "name": "The Hills",
-        "region": "ANY"
-    },
-    {
         "_id": "68e40bc9a1646a6c555a7e85",
         "name": "The Hills / Laguna Beach",
         "region": "US"
@@ -8585,21 +8465,6 @@
         "region": "CA"
     },
     {
-        "_id": "693ae51f75432d022c7ff628",
-        "name": "The L Word",
-        "region": "ANY"
-    },
-    {
-        "_id": "693ae4ee25e9a6646b198fb0",
-        "name": "The L Word",
-        "region": "ANY"
-    },
-    {
-        "_id": "693ae48864476d678e9b6235",
-        "name": "The L Word",
-        "region": "ANY"
-    },
-    {
         "_id": "6989b64839dd847194cadcd7",
         "name": "The Librarians",
         "region": "ANY"
@@ -8618,6 +8483,11 @@
         "_id": "67c62ac2095aea2ec805eb34",
         "name": "The Martha Stewart Channel",
         "region": "US"
+    },
+    {
+        "_id": "69970db307ccf09a393b33bf",
+        "name": "The Millers",
+        "region": "ANY"
     },
     {
         "_id": "69afef233bd16a4ed07108e9",
@@ -8641,11 +8511,6 @@
     },
     {
         "_id": "686d01ad94a028da3aaca6b3",
-        "name": "The Nanny & Mr Sheffield - A Fine Romance",
-        "region": "ANY"
-    },
-    {
-        "_id": "686d0130ed17cf4c902cbd19",
         "name": "The Nanny & Mr Sheffield - A Fine Romance",
         "region": "ANY"
     },
@@ -8718,6 +8583,11 @@
         "_id": "677fb115a4af36ad50113e56",
         "name": "The Real Housewives",
         "region": "GB"
+    },
+    {
+        "_id": "677fb0231da79bfe4fb0bf4e",
+        "name": "The Real Housewives",
+        "region": "ANY"
     },
     {
         "_id": "5e825550e758c700077b0aef",
@@ -8795,12 +8665,7 @@
         "region": "CA"
     },
     {
-        "_id": "6964bca2a6c400fd418854a2",
-        "name": "The Wild Wild West",
-        "region": "ANY"
-    },
-    {
-        "_id": "6964bd5453dc20932040147a",
+        "_id": "6964bc3806d76f50db3e315e",
         "name": "The Wild Wild West",
         "region": "ANY"
     },
@@ -8845,9 +8710,19 @@
         "region": "US"
     },
     {
+        "_id": "5dbfedccc563080009b60f4a",
+        "name": "Thrillers",
+        "region": "GB"
+    },
+    {
         "_id": "62fb6da41afad500077e9178",
         "name": "Thrillers 365",
         "region": "CA"
+    },
+    {
+        "_id": "6964b9560e5b3f70cc9263bc",
+        "name": "Tidlösa klassiker från Viafree",
+        "region": "ANY"
     },
     {
         "_id": "69445a9a78c0c45b6c9aa8b9",
@@ -8865,6 +8740,16 @@
         "region": "LA"
     },
     {
+        "_id": "61c1a05ef30f5d0007e562f3",
+        "name": "Til Middag Hos",
+        "region": "ANY"
+    },
+    {
+        "_id": "69256bd7db5cc2f81d8a1a08",
+        "name": "Til julefrokost hos r8Dio",
+        "region": "ANY"
+    },
+    {
         "_id": "679a973a97782f0008ff4bb6",
         "name": "Times Brasil | CNBC",
         "region": "BR"
@@ -8880,8 +8765,8 @@
         "region": "CA"
     },
     {
-        "_id": "6810aace54c3b6934b1f0e5e",
-        "name": "Toimintasankarit",
+        "_id": "68f0f81ea25ba0aab3e66aba",
+        "name": "Tohtori tuli kaupunkiin",
         "region": "ANY"
     },
     {
@@ -8940,6 +8825,11 @@
         "region": "ANY"
     },
     {
+        "_id": "66a10384d5125900089dfd04",
+        "name": "Top Gear Challenge",
+        "region": "ANY"
+    },
+    {
         "_id": "64d160f53c785e0008df525e",
         "name": "Top Rank Classics",
         "region": "US"
@@ -8953,6 +8843,11 @@
         "_id": "62e9566e27ce19000732ec85",
         "name": "Tortues Ninja TV",
         "region": "CA"
+    },
+    {
+        "_id": "5f8ecc1b37867f00071469e9",
+        "name": "Tortues Ninja TV",
+        "region": "ANY"
     },
     {
         "_id": "5dae084727c8af0009fe40a4",
@@ -8980,11 +8875,6 @@
         "region": "GB"
     },
     {
-        "_id": "61c185e36faf920007f04b6e",
-        "name": "Totally Turtles",
-        "region": "ANY"
-    },
-    {
         "_id": "61c0bbd95df1da0007bed5a0",
         "name": "Totally Turtles",
         "region": "ANY"
@@ -9008,6 +8898,11 @@
         "_id": "65c69bf23ef47d0008583967",
         "name": "Tough Jobs",
         "region": "US"
+    },
+    {
+        "_id": "600acaff5f2d6e000745effb",
+        "name": "Tough Jobs",
+        "region": "GB"
     },
     {
         "_id": "63da36dea995710008727d4d",
@@ -9045,6 +8940,16 @@
         "region": "IT"
     },
     {
+        "_id": "61c0b438244e50000758083b",
+        "name": "True Crime",
+        "region": "ANY"
+    },
+    {
+        "_id": "61c097ec8bb1830008e3f962",
+        "name": "True Crime",
+        "region": "ANY"
+    },
+    {
         "_id": "69dd5d9dceddf13a1a7e39c2",
         "name": "True Crime Now",
         "region": "CA"
@@ -9065,19 +8970,24 @@
         "region": "AU"
     },
     {
+        "_id": "645cb7857cb4b1000859c57c",
+        "name": "True crime från Viaplay",
+        "region": "ANY"
+    },
+    {
         "_id": "673249ccc7626f0008c72076",
         "name": "TuDiscovery",
         "region": "ANY"
     },
     {
-        "_id": "5f997e44949bc70007a6941e",
-        "name": "Turma da Mônica",
+        "_id": "6014761dfb91870008ea6463",
+        "name": "Turbo",
         "region": "BR"
     },
     {
-        "_id": "699865ccac36b147e74619fe",
-        "name": "Téléréalité France",
-        "region": "ANY"
+        "_id": "5f997e44949bc70007a6941e",
+        "name": "Turma da Mônica",
+        "region": "BR"
     },
     {
         "_id": "64c0d6f34096290008132d6b",
@@ -9150,7 +9060,7 @@
         "region": "ANY"
     },
     {
-        "_id": "67f3fb1cdea1c5e0d588ac1b",
+        "_id": "67f3fb7d07d2ba4121bd0c8b",
         "name": "Ungdomsserier",
         "region": "ANY"
     },
@@ -9200,11 +9110,6 @@
         "region": "ANY"
     },
     {
-        "_id": "61813fbfa19d830007b456c2",
-        "name": "Unsolved Mysteries",
-        "region": "ANY"
-    },
-    {
         "_id": "68e3c37c19f32ffa27bae948",
         "name": "Unsolved Mysteries with Dennis Farina",
         "region": "GB"
@@ -9228,6 +9133,11 @@
         "_id": "5dd6dc7480e3550009133d4a",
         "name": "Velocidad",
         "region": "LA"
+    },
+    {
+        "_id": "677d3a424bd63600082f7baf",
+        "name": "Verdenskrigene",
+        "region": "ANY"
     },
     {
         "_id": "677d397b60fbeb00084b0bff",
@@ -9290,14 +9200,14 @@
         "region": "US"
     },
     {
-        "_id": "62beb44e3afd120007915d1b",
+        "_id": "62bebc3459624e00078209c3",
         "name": "Viafree Movies",
         "region": "ANY"
     },
     {
-        "_id": "62bebc3459624e00078209c3",
-        "name": "Viafree Movies",
-        "region": "ANY"
+        "_id": "5f32d432d612e50007e56133",
+        "name": "Viagens",
+        "region": "BR"
     },
     {
         "_id": "63c923944207be0007fd0887",
@@ -9310,9 +9220,19 @@
         "region": "LA"
     },
     {
+        "_id": "5f32d4d9ec194100070c7449",
+        "name": "Vida Real",
+        "region": "BR"
+    },
+    {
         "_id": "673249afc7626f0008c7205d",
         "name": "Vidas Extremas",
         "region": "US"
+    },
+    {
+        "_id": "69b0160da9b840a456a11b4a",
+        "name": "Vier Frauen und ein Todesfall",
+        "region": "ANY"
     },
     {
         "_id": "651d3e423099fc000841b0d6",
@@ -9323,16 +9243,6 @@
         "_id": "639751f81a36b400072b8f5a",
         "name": "Vive Kanal D Drama",
         "region": "LA"
-    },
-    {
-        "_id": "680291e38e1ff89c2427aefd",
-        "name": "Voyages & Saveurs",
-        "region": "ANY"
-    },
-    {
-        "_id": "632b642933a6280007aaf265",
-        "name": "WSB Atlanta",
-        "region": "ANY"
     },
     {
         "_id": "632b648c08cd050007d94114",
@@ -9346,6 +9256,11 @@
     },
     {
         "_id": "60afa749ac7f3200078adb40",
+        "name": "Walker Texas Ranger",
+        "region": "ANY"
+    },
+    {
+        "_id": "62a0aefc7c5f9f00075b4e24",
         "name": "Walker Texas Ranger",
         "region": "ANY"
     },
@@ -9365,14 +9280,14 @@
         "region": "US"
     },
     {
+        "_id": "61ea261c8874280007b4865f",
+        "name": "WeatherNation San Francisco",
+        "region": "ANY"
+    },
+    {
         "_id": "688a44cf5d73ec0a3f49718b",
         "name": "Weeds / Nurse Jackie",
         "region": "CA"
-    },
-    {
-        "_id": "642ad072283aa4000806148c",
-        "name": "Weihnachten im Sommer",
-        "region": "ANY"
     },
     {
         "_id": "65819f83a620e300080f692a",
@@ -9405,6 +9320,11 @@
         "region": "CA"
     },
     {
+        "_id": "5d4bdb635ce813b38639e6a3",
+        "name": "Westerns",
+        "region": "GB"
+    },
+    {
         "_id": "672cb91149c40600081cbee5",
         "name": "Whose Line Is It Anyway?",
         "region": "GB"
@@ -9430,34 +9350,19 @@
         "region": "IT"
     },
     {
+        "_id": "65253d66c52b3600083d8dd2",
+        "name": "Wicked Tuna",
+        "region": "ANY"
+    },
+    {
         "_id": "5d48678d34ceb37d3c458a55",
         "name": "Wild 'N Out",
         "region": "US"
     },
     {
-        "_id": "68c01732b3900870ec74766f",
-        "name": "Wild West",
-        "region": "ANY"
-    },
-    {
-        "_id": "68c01785b3900870ec7480e4",
-        "name": "Wild West",
-        "region": "ANY"
-    },
-    {
         "_id": "60817936fd2d70000763d2b2",
         "name": "Wild at Heart",
         "region": "GB"
-    },
-    {
-        "_id": "62beb0de371e6c000775930c",
-        "name": "Wildfire",
-        "region": "ANY"
-    },
-    {
-        "_id": "62b9b63d3bbe9000073c0a2d",
-        "name": "Wildfire",
-        "region": "ANY"
     },
     {
         "_id": "6972546cc62833833a187f50",
@@ -9478,11 +9383,6 @@
         "_id": "604f8125c6669b00077f7699",
         "name": "Wipeout",
         "region": "ES"
-    },
-    {
-        "_id": "6909e5c3a3a4b49706b8373b",
-        "name": "Wipeout",
-        "region": "ANY"
     },
     {
         "_id": "686d8dd294a028da3ac59566",
@@ -9525,12 +9425,12 @@
         "region": "IT"
     },
     {
-        "_id": "61781254560f2e00071b78ce",
+        "_id": "617805a67267650007573ffd",
         "name": "World Poker Tour",
         "region": "ANY"
     },
     {
-        "_id": "6177f8fdef21ab0007332b53",
+        "_id": "61781254560f2e00071b78ce",
         "name": "World Poker Tour",
         "region": "ANY"
     },
@@ -9545,7 +9445,7 @@
         "region": "US"
     },
     {
-        "_id": "6440f6e25a0cd500083b1ca4",
+        "_id": "66cf17adabec540008ab5c42",
         "name": "World of Love Island",
         "region": "ANY"
     },
@@ -9670,7 +9570,7 @@
         "region": "IT"
     },
     {
-        "_id": "61c185049e0bde0007820039",
+        "_id": "5e8b580a233dc90007f0cb9d",
         "name": "iCarly",
         "region": "ANY"
     },
@@ -9683,6 +9583,11 @@
         "_id": "6450209d939a5900084dba1d",
         "name": "iCarly TV",
         "region": "US"
+    },
+    {
+        "_id": "698ddf5a8c21a5f2d64c14a8",
+        "name": "r8Dio TV",
+        "region": "ANY"
     },
     {
         "_id": "65dded6966eec80008947157",
