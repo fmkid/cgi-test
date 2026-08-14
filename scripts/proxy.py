@@ -18,6 +18,7 @@ def gen_ep_id(*vals):
 
 
 def fetch_url_list(proxies=None, headers=None):
+    """Fetch URL list from the API and process channel data safely."""
     current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     url = f"{TARGET_URL}?start={current_time}&stop={current_time}"
     
@@ -34,22 +35,26 @@ def fetch_url_list(proxies=None, headers=None):
             continue
             
         timelines = item["timelines"]
-        if isinstance(timelines, list) and len(timelines) > 0 and "episode" in timelines:
-            episode = timelines["episode"]
-            result.append({
-                "_id": item["_id"],
-                "name": item["name"].removeprefix("OO:").removeprefix("Pluto TV").strip(),
-                "ep_id": gen_ep_id(
-                    episode.get("name", ""),
-                    episode.get("number", ""),
-                    episode.get("season", ""),
-                    episode.get("duration", "")
-                )
-            })
+        if isinstance(timelines, list) and len(timelines) > 0:
+            first_timeline = timelines[0]
+            if isinstance(first_timeline, dict) and "episode" in first_timeline:
+                episode = first_timeline["episode"]
+                if isinstance(episode, dict):
+                    result.append({
+                        "_id": item["_id"],
+                        "name": item["name"].removeprefix("OO:").removeprefix("Pluto TV").strip(),
+                        "ep_id": gen_ep_id(
+                            episode.get("name", ""),
+                            episode.get("number", ""),
+                            episode.get("season", ""),
+                            episode.get("duration", "")
+                        )
+                    })
     return result
 
 
 def get_proxy_list(country, uptime_limit=60.0, max_latency=999999):
+    """Fetch, filter, and sort free live proxies for the target country."""
     print(f"Fetching and combining free live proxies for {country.upper()}...")
     unique_proxies = {}
     country_tmp = "mx" if country == "la" else country
@@ -95,6 +100,7 @@ def get_proxy_list(country, uptime_limit=60.0, max_latency=999999):
 
 
 def save_json_file(file_path, data):
+    """Save data payload to destination JSON file."""
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
@@ -117,7 +123,6 @@ def main():
     except Exception as e:
         print(f"Warning: Could not fetch US list natively: {e}")
 
-    # Initialize as empty list to treat no-data/failures identically
     final_data = us_data if country == "us" else []
 
     if country != "us":
@@ -145,7 +150,6 @@ def main():
             except Exception as e:
                 print(f"Connection failed: {e}")
 
-    # Check truthiness: executes if list contains elements
     if final_data:
         save_json_file(file_path, final_data)
         print(f"Success! Saved '{file_path}' containing {len(final_data)} elements.")
