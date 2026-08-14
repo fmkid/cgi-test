@@ -21,7 +21,7 @@ def gen_ep_id(*vals):
 
 
 def try_append_item(item_id, ep_id, name, region, existing_ids, existing_ep_ids, results_list):
-    """Verifies duplicates, cleans the channel name, and appends to results."""
+    """Filter duplicates, clean name, and append to results."""
     if item_id in existing_ids or ep_id in existing_ep_ids:
         return False
         
@@ -37,19 +37,20 @@ def try_append_item(item_id, ep_id, name, region, existing_ids, existing_ep_ids,
 
 
 def check_files_changed(country_files):
-    """Returns True if any country file is newer than the consolidated list."""
+    """Check if any regional file is newer than the consolidated list."""
     if not os.path.exists(OUTPUT_PATH):
-        return True  # If consolidated file doesn't exist, we must run the process
+        return True
         
     consolidated_mtime = os.path.getmtime(OUTPUT_PATH)
     for file_path in country_files:
         if os.path.getmtime(file_path) > consolidated_mtime:
-            return True  # Found a recently modified file
+            return True
             
     return False
 
 
 def load_existing_country_data(country_files):
+    """Load and unify data from existing regional files."""
     existing_ids = set()
     existing_ep_ids = set()
     unified_results = []
@@ -74,6 +75,7 @@ def load_existing_country_data(country_files):
 
 
 async def fetch_id(client, semaphore, i):
+    """Fetch endpoint data and extract target fields safely."""
     async with semaphore:
         current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         url = f"{BASE_URL}/{i}?start={current_time}&stop={current_time}"
@@ -83,21 +85,26 @@ async def fetch_id(client, semaphore, i):
                 data = response.json()
                 if isinstance(data, dict) and "_id" in data and "name" in data and "timelines" in data:
                     timelines = data["timelines"]
-                    if isinstance(timelines, list) and len(timelines) > 0 and "episode" in timelines:
-                        episode = timelines["episode"]
-                        ep_id = gen_ep_id(
-                            episode.get("name", ""),
-                            episode.get("number", ""),
-                            episode.get("season", ""),
-                            episode.get("duration", "")
-                        )
-                        return i, data["_id"], ep_id, data["name"]
+                    
+                    if isinstance(timelines, list) and len(timelines) > 0:
+                        first_timeline = timelines[0]
+                        if isinstance(first_timeline, dict) and "episode" in first_timeline:
+                            episode = first_timeline["episode"]
+                            if isinstance(episode, dict):
+                                ep_id = gen_ep_id(
+                                    episode.get("name", ""),
+                                    episode.get("number", ""),
+                                    episode.get("season", ""),
+                                    episode.get("duration", "")
+                                )
+                                return i, data["_id"], ep_id, data["name"]
         except Exception:
             pass
     return i, None, None, None
 
 
 def save_json_file(file_path, data):
+    """Sort and save data to destination JSON file."""
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     sorted_data = sorted(
         data, 
@@ -109,13 +116,9 @@ def save_json_file(file_path, data):
 
 
 async def main():
-    # Direct assignment to the boolean scanning controller
     scan = "any" in os.environ.get("RAW_COUNTRY_CODES", "").lower()
-    
-    # Gather dynamic list files globally to use in checking modifications and loading data
     country_files = glob.glob("lists/list_[a-z][a-z].json")
 
-    # Smart shortcut condition: exit early if no scan is needed and files haven't changed
     if not scan and not check_files_changed(country_files):
         print("Scan is disabled and no country files have changed. Exiting without modifications.")
         sys.exit(0)
