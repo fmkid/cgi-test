@@ -36,15 +36,23 @@ def try_append_item(item_id, ep_id, name, region, existing_ids, existing_ep_ids,
     return True
 
 
-def load_existing_country_data():
+def check_files_changed(country_files):
+    """Returns True if any country file is newer than the consolidated list."""
+    if not os.path.exists(OUTPUT_PATH):
+        return True  # If consolidated file doesn't exist, we must run the process
+        
+    consolidated_mtime = os.path.getmtime(OUTPUT_PATH)
+    for file_path in country_files:
+        if os.path.getmtime(file_path) > consolidated_mtime:
+            return True  # Found a recently modified file
+            
+    return False
+
+
+def load_existing_country_data(country_files):
     existing_ids = set()
     existing_ep_ids = set()
     unified_results = []
-    
-    env_codes = os.environ.get("RAW_COUNTRY_CODES", "").lower()
-    scan = "any" in env_codes
-    
-    country_files = glob.glob("lists/list_[a-z][a-z].json")
     
     for file_path in country_files:
         region_code = os.path.basename(file_path)[5:7].upper()
@@ -62,10 +70,10 @@ def load_existing_country_data():
             print(f"Error reading {file_path}: {e}")
             
     print(f"Loaded {len(existing_ids)} unique items from discovered country lists.")
-    return scan, existing_ids, existing_ep_ids, unified_results
+    return existing_ids, existing_ep_ids, unified_results
 
 
-async def fetch_id(client, semaphore, lock, i, existing_ids, existing_ep_ids, results, max_valid_id_tracker):
+async def fetch_id(client, semaphore, i):
     async with semaphore:
         current_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         url = f"{BASE_URL}/{i}?start={current_time}&stop={current_time}"
@@ -83,14 +91,10 @@ async def fetch_id(client, semaphore, lock, i, existing_ids, existing_ep_ids, re
                             episode.get("season", ""),
                             episode.get("duration", "")
                         )
-                        
-                        async with lock:
-                            # Tracker updates inside lock using index referencing for stability
-                            if try_append_item(data["_id"], ep_id, data["name"], "ANY", existing_ids, existing_ep_ids, results):
-                                if i > max_valid_id_tracker[0]:
-                                    max_valid_id_tracker[0] = i
+                        return i, data["_id"], ep_id, data["name"]
         except Exception:
             pass
+    return i, None, None, None
 
 
 def save_json_file(file_path, data):
@@ -105,28 +109,41 @@ def save_json_file(file_path, data):
 
 
 async def main():
-    scan, existing_ids, existing_ep_ids, results = load_existing_country_data()
-    print(f"Scan?: {scan}")
+    # Direct assignment to the boolean scanning controller
+    scan = "any" in os.environ.get("RAW_COUNTRY_CODES", "").lower()
+    
+    # Gather dynamic list files globally to use in checking modifications and loading data
+    country_files = glob.glob("lists/list_[a-z][a-z].json")
+
+    # Smart shortcut condition: exit early if no scan is needed and files haven't changed
+    if not scan and not check_files_changed(country_files):
+        print("Scan is disabled and no country files have changed. Exiting without modifications.")
+        sys.exit(0)
+
+    print(f"Scan enabled?: {scan}")
+    existing_ids, existing_ep_ids, results = load_existing_country_data(country_files)
 
     if scan:
         print(f"Scanning {TOTAL_IDS} IDs...")
         semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
-        lock = asyncio.Lock()
-        
-        # Wrapped as a mutable single-element list to allow cross-task modifications
-        max_valid_id_tracker = [0]
+        max_valid_id = 0
 
         async with httpx.AsyncClient() as client:
-            tasks = [
-                fetch_id(client, semaphore, lock, i, existing_ids, existing_ep_ids, results, max_valid_id_tracker) 
-                for i in range(TOTAL_IDS + 1)
-            ]
-            await asyncio.gather(*tasks)
+            tasks = [fetch_id(client, semaphore, i) for i in range(TOTAL_IDS + 1)]
+            fetched_tasks = await asyncio.gather(*tasks)
+
+        for index, item_id, ep_id, name in fetched_tasks:
+            if item_id is None:
+                continue
+
+            if try_append_item(item_id, ep_id, name, "ANY", existing_ids, existing_ep_ids, results):
+                if index > max_valid_id:
+                    max_valid_id = index
 
         print(f"Scan finished. Total unified items in list: {len(results)}")
-        print(f"Highest valid endpoint ID found: {max_valid_id_tracker[0]}")
+        print(f"Highest valid endpoint ID found: {max_valid_id}")
     else:
-        print(f"Scan was not performed. Total unified items in list: {len(results)}")
+        print(f"Compiling consolidated list from files only. Total items: {len(results)}")
 
     save_json_file(OUTPUT_PATH, results)
 
