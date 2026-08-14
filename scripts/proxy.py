@@ -3,15 +3,16 @@ import os
 import json
 import re
 import requests
+import unicodedata
 import urllib3
 from datetime import datetime, timezone
 
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
 
-def gen_ep_id(val1, val2, val3, val4):
-    t = [str(val1), str(val2), str(val3), str(val4)]
-    t = re.sub(r'\s+', '_', "_".join(t).lower().encode('ascii', 'ignore').decode())
+def gen_ep_id(*vals):
+    t = unicodedata.normalize('NFKD', "_".join(map(str, vals)).lower())
+    t = re.sub(r'\s+', '_', t.encode('ascii', 'ignore').decode())
     return re.sub(r'_+', '_', re.sub(r'[^a-z0-9_]', '', t)).strip('_')
 
 
@@ -74,7 +75,7 @@ if country != "us":
             
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 50.0], 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 35.0], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
   
@@ -109,7 +110,7 @@ for proxy_info in proxy_list:
         print("Connecting natively from USA...")
 
     try:
-        result = fetch_url_list(proxies=proxies_config)
+        result = fetch_url_list(proxies_config, headers)
         
         # Skips to next proxy if result is invalid, empty, or lacks required keys
         if not result:
