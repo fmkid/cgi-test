@@ -110,7 +110,7 @@ for proxy_info in proxy_list:
         print("Connecting natively from USA...")
 
     try:
-        result = fetch_url_list(proxies_config, headers)
+        result = fetch_url_list(proxies_config)
         
         # Skips to next proxy if result is invalid, empty, or lacks required keys
         if not result:
