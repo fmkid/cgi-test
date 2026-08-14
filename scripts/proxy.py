@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 
 TARGET_URL = os.environ.get("API_URL")
 PROXY_BASE_URL = os.environ.get("PROXY_URL")
+UPTIME_LIMIT = 60.0
 
 def gen_ep_id(*vals):
     t = unicodedata.normalize('NFKD', "_".join(map(str, vals)).lower())
@@ -75,7 +76,7 @@ if country != "us":
             
         # Sort the deduplicated unique values directly
         raw_data_sorted = sorted(
-            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= 35.0], 
+            [p for p in unique_proxies.values() if p.get('uptime_percent', 0.0) >= UPTIME_LIMIT], 
             key=lambda p: (p.get('latency_ms', 999999), -p.get('uptime_percent', 0.0))
         )
   
@@ -93,7 +94,6 @@ if country != "us":
         proxy_list = []        
 
 success = False
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 for proxy_info in proxy_list:
