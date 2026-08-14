@@ -122,7 +122,7 @@ async def main():
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(sorted(results, key=lambda p: p["name"]), f, indent=4, ensure_ascii=False)
+        json.dump(sorted(results, key=lambda p: unicodedata.normalize('NFKD', p["name"].lower()).encode('ascii', 'ignore').decode()), f, indent=4, ensure_ascii=False)
 
     print(f"File saved to: {OUTPUT_PATH}")
 
