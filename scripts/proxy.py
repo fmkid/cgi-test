@@ -53,7 +53,7 @@ def fetch_url_list(proxies=None, headers=None):
     return result
 
 
-def get_proxy_list(country, uptime_limit=60.0, max_latency=999999):
+def get_proxy_list(country, uptime_limit=50.0, max_latency=999999):
     """Fetch, filter, and sort free live proxies for the target country."""
     print(f"Fetching and combining free live proxies for {country.upper()}...")
     unique_proxies = {}
