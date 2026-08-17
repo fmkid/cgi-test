@@ -1,0 +1,50 @@
+name: M3U Video Stream Health Scanner
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  push:
+    branches: [ "main", "test" ]
+  workflow_dispatch:
+
+env:
+  M3U_GITHUB_URL: ${{ vars.M3U_GITHUB_URL }}
+
+jobs:
+  scan-m3u-channels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: 'test'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests aiohttp
+
+      - name: Run Asynchronous M3U Scanner
+        run: python scripts/scanner_m3u.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          
+          git add lists/list_xx.json
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "Automated M3U health update [list_xx]"
+            
+            for i in {1..5}; do
+              git pull --rebase origin test && git push origin test && break || sleep 5
+            done
+          else
+            echo "No changes detected in the channel list."
+          fi
