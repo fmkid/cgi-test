@@ -99,23 +99,11 @@ async def verify_channel_health(session, semaphore, channel):
 
 
 async def evaluate_response(response, channel):
-    # Enforces strict content verification by analyzing headers and sniffing manifest payloads for valid data.
+    # Validates that the response is not an HTML error webpage disguised as a successful request.
     content_type = response.headers.get('Content-Type', '').lower()
     
+    # Reject web panels or provider error portals that return HTTP 200 but are text/html
     if "text/html" in content_type:
-        return None
-        
-    if any(x in content_type for x in ['mpegurl', 'application/x-mpegurl', 'application/vnd.apple.mpegurl']):
-        try:
-            text_sample = await response.text()
-            if not any(tag in text_sample for tag in ['#EXTINF', '#EXT-X-STREAM-INF', '#EXT-X-TARGETDURATION']):
-                return None
-        except Exception:
-            return None
-            
-    elif 'video/' in content_type:
-        pass
-    else:
         return None
 
     return {
