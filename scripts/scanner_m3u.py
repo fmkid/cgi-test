@@ -9,7 +9,6 @@ from urllib.parse import urlparse, urlunparse
 M3U_URL = os.environ.get("M3U_GITHUB_URL")
 CONCURRENCY_LIMIT = 50 
 
-# Globally compiled regex patterns for intensive loops
 RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
 RE_MULTI_UNDERSCORE = re.compile(r'_+')
@@ -91,7 +90,6 @@ async def verify_channel_health(session, semaphore, channel):
             try:
                 async with session.request(method, url, timeout=6, allow_redirects=True, ssl=False) as response:
                     if 200 <= response.status < 300:
-                        # Extra strict: drop any response that pretends to be video but carries empty content length
                         if method == 'get' and response.headers.get('Content-Length') == '0':
                             return None
                         return await evaluate_response(response, channel)
@@ -104,22 +102,17 @@ async def evaluate_response(response, channel):
     # Enforces strict content verification by analyzing headers and sniffing manifest payloads for valid data.
     content_type = response.headers.get('Content-Type', '').lower()
     
-    # Instant rejection if it resolves to an HTML landing page disguised as 200 OK
     if "text/html" in content_type:
         return None
         
-    # Deep Inspection for Playlist types (m3u8, mpegurl)
     if any(x in content_type for x in ['mpegurl', 'application/x-mpegurl', 'application/vnd.apple.mpegurl']):
         try:
-            # Safely fetch the first chunk of text to prevent loading large VOD files entirely into RAM
             text_sample = await response.text()
-            # Strict HLS Validation: Must have at least one valid video sequence tag or stream pointer
             if not any(tag in text_sample for tag in ['#EXTINF', '#EXT-X-STREAM-INF', '#EXT-X-TARGETDURATION']):
                 return None
         except Exception:
             return None
             
-    # Standard Validation for raw binary stream files (MP4, TS, MKV, etc.)
     elif 'video/' in content_type:
         pass
     else:
