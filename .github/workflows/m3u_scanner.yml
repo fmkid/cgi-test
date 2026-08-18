@@ -2,7 +2,7 @@ name: M3U Video Stream Health Scanner
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 23 * * *'
   push:
     branches: [ "main", "test" ]
   workflow_dispatch:
