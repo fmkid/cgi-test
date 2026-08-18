@@ -490,6 +490,11 @@
         "ep_id": "antena_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
+    },
+    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -873,6 +878,11 @@
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
         "name": "Primired",
         "ep_id": "primired"
+    },
+    {
+        "_id": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
+        "name": "Quantica TV | Argentina",
+        "ep_id": "quantica_tv_argentina"
     },
     {
         "_id": "https://stream2.xdevel.com/video0s975758-1048/stream/playlist.m3u8",
@@ -2305,6 +2315,11 @@
         "ep_id": "cgtn"
     },
     {
+        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+        "name": "5TV Corrientes",
+        "ep_id": "5tv_corrientes"
+    },
+    {
         "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
         "name": "Beats Radio",
         "ep_id": "beats_radio"
@@ -2335,11 +2350,6 @@
         "ep_id": "canal_13_la_rioja"
     },
     {
-        "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
-        "name": "Canal 21 TV",
-        "ep_id": "canal_21_tv"
-    },
-    {
         "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
         "name": "Chaco TV",
         "ep_id": "chaco_tv"
@@ -2353,6 +2363,11 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
+    },
+    {
+        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
+        "name": "NG Federal",
+        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2390,9 +2405,9 @@
         "ep_id": "tv_mana_argentina"
     },
     {
-        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
-        "name": "24/7 Canal de Noticias",
-        "ep_id": "247_canal_de_noticias"
+        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
+        "name": "Canal 9 Resistencia",
+        "ep_id": "canal_9_resistencia"
     },
     {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
