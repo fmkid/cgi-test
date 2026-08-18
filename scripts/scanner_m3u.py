@@ -13,13 +13,9 @@ CONCURRENCY_LIMIT = 50
 RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
 RE_MULTI_UNDERSCORE = re.compile(r'_+')
-
-# Metadata, country code, and channel number prefix cleaning regex patterns
 RE_BRACKETS = re.compile(r'[\(\[\{].*?[\)\]\}]')
 RE_COUNTRY_TAGS = re.compile(r'(?:^[a-zA-Z]{2,3}\s*[\|:\-\s]\s*)|(?:\s*[\|:\-\s]\s*[a-zA-Z]{2,3}$)')
 RE_CHANNEL_NUMBERS = re.compile(r'^\d+(?:\.\d+)?\s*[\|:\-\.\s]\s*')
-
-# Robust M3U pattern targeting channel name and stream URL
 M3U_PATTERN = re.compile(r'#EXTINF:.*?,([^\n]+)\n(?:#[^\n]*\n)*?(https?://[^\s]+)')
 
 
@@ -29,8 +25,7 @@ def clean_channel_name(val):
         return ""
     name = RE_BRACKETS.sub('', str(val))
     name = RE_COUNTRY_TAGS.sub('', name)
-    name = RE_CHANNEL_NUMBERS.sub('', name)
-    return name.strip()
+    return RE_CHANNEL_NUMBERS.sub('', name).strip()
 
 
 def gen_ep_id(val):
@@ -67,24 +62,20 @@ async def fetch_m3u_from_github(session):
 
     channels = []
     seen_base_urls = set()
-    normalized_content = m3u_content.replace('\r\n', '\n')
-    matches = M3U_PATTERN.findall(normalized_content)
+    matches = M3U_PATTERN.findall(m3u_content.replace('\r\n', '\n'))
     
-    for match in matches:
-        raw_name, url = match.strip(), match.strip()
-        
+    for raw_name, url in matches:
+        raw_name, url = raw_name.strip(), url.strip()
         if "pluto.tv" in url.lower():
             continue
             
         url_base = clean_url_base(url)
-        if url_base in seen_base_urls:
-            continue
-            
-        seen_base_urls.add(url_base)
-        channels.append({
-            "name": clean_channel_name(raw_name),
-            "url": url
-        })
+        if url_base not in seen_base_urls:
+            seen_base_urls.add(url_base)
+            channels.append({
+                "name": clean_channel_name(raw_name),
+                "url": url
+            })
         
     print(f"Primary Filter: Kept {len(channels)} unique channels out of {len(matches)} total entries.")
     return channels
@@ -94,19 +85,15 @@ async def verify_channel_health(session, semaphore, channel):
     # Tests a URL asynchronously using HEAD first, then falls back to a lightweight GET stream request.
     url = channel["url"]
     async with semaphore:
-        try:
-            async with session.head(url, timeout=6, allow_redirects=True, ssl=False) as response:
-                if 200 <= response.status < 300:
-                    return await evaluate_response(response, channel)
-                    
-            async with session.get(url, timeout=6, allow_redirects=True, ssl=False) as response:
-                if 200 <= response.status < 300:
-                    content_length = response.headers.get('Content-Length')
-                    if content_length is not None and int(content_length) == 0:
-                        return None
-                    return await evaluate_response(response, channel)
-        except Exception:
-            pass
+        for method in ['head', 'get']:
+            try:
+                async with session.request(method, url, timeout=6, allow_redirects=True, ssl=False) as response:
+                    if 200 <= response.status < 300:
+                        if method == 'get' and response.headers.get('Content-Length') == '0':
+                            return None
+                        return await evaluate_response(response, channel)
+            except Exception:
+                continue
     return None
 
 
@@ -140,14 +127,12 @@ async def process_all_channels():
         discarded_ep_id = 0
         
         for r in results:
-            if r is None:
-                continue
-            if r["ep_id"] in seen_ep_ids:
-                discarded_ep_id += 1
-                continue
-                
-            seen_ep_ids.add(r["ep_id"])
-            valid_channels.append(r)
+            if r is not None:
+                if r["ep_id"] in seen_ep_ids:
+                    discarded_ep_id += 1
+                else:
+                    seen_ep_ids.add(r["ep_id"])
+                    valid_channels.append(r)
             
         print(f"Secondary Filter: Discarded {discarded_ep_id} online channels due to duplicate ep_id.")
         return valid_channels
@@ -163,7 +148,6 @@ def save_json_file(file_path, data):
 def main():
     # Orchestrates the script execution steps from loading to validation and final storage.
     file_path = os.path.join("lists", "list_xx.json")
-    
     final_data = asyncio.run(process_all_channels())
 
     if final_data:
