@@ -97,7 +97,7 @@ async def fetch_id(client, semaphore, i):
                                     episode.get("season", ""),
                                     episode.get("duration", "")
                                 )
-                                return i, f'https://jmp2.uk/plu-{data["_id"]}.m3u8', ep_id, data["name"]
+                                return i, data["_id"], ep_id, data["name"]
         except Exception:
             pass
     return i, None, None, None
