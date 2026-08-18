@@ -14,7 +14,9 @@ RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
 RE_MULTI_UNDERSCORE = re.compile(r'_+')
 RE_BRACKETS = re.compile(r'[\(\[\{].*?[\)\]\}]')
-RE_COUNTRY_TAGS = re.compile(r'(?:^[a-zA-Z]{2,3}\s*[\|:\-\s]\s*)|(?:\s*[\|:\-\s]\s*[a-zA-Z]{2,3}$)')
+
+# FIX: Strict 2-letter country limit and enforces bounding spaces around separators to avoid breaking glued words like "Sci-Fi"
+RE_COUNTRY_TAGS = re.compile(r'(?:^[a-zA-Z]{2}\s+[\|:\-\s]\s*)|(?:\s*[\|:\-\s]\s+[a-zA-Z]{2}$)')
 RE_CHANNEL_NUMBERS = re.compile(r'^\d+(?:\.\d+)?\s*[\|:\-\.\s]\s*')
 M3U_PATTERN = re.compile(r'#EXTINF:.*?,([^\n]+)\n(?:#[^\n]*\n)*?(https?://[^\s]+)')
 
