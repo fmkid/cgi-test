@@ -1,13 +1,21 @@
-import os
-import json
-import re
 import asyncio
+import json
+import os
+import re
 import unicodedata
-import aiohttp
 from urllib.parse import urlparse, urlunparse
 
+import aiohttp
+import m3u8
+
 M3U_URL = os.environ.get("M3U_GITHUB_URL")
-CONCURRENCY_LIMIT = 50 
+CONCURRENCY_LIMIT = 50
+
+HEADERS = {
+    "User-Agent": "Roku/DVP-12.5 (501.25E04115A)-AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36",
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br"
+}
 
 RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
@@ -54,7 +62,7 @@ async def fetch_m3u_from_github(session):
         return []
     try:
         print("Fetching M3U list asynchronously from GitHub...")
-        async with session.get(M3U_URL, timeout=20) as response:
+        async with session.get(M3U_URL, timeout=20, headers=HEADERS) as response:
             response.raise_for_status()
             m3u_content = await response.text()
     except Exception as e:
@@ -83,53 +91,30 @@ async def fetch_m3u_from_github(session):
 
 
 async def verify_channel_health(session, semaphore, channel):
-    # Tests a URL asynchronously using HEAD first, then falls back to a lightweight GET stream request.
+    # Tests a URL using a single flexible GET request, ensuring deep compatibility with dynamic streaming hosts.
     url = channel["url"]
     async with semaphore:
-        for method in ['head', 'get']:
-            try:
-                async with session.request(method, url, timeout=15, allow_redirects=True, ssl=False) as response:
-                    if 200 <= response.status < 300:
-                        if method == 'get' and response.headers.get('Content-Length') == '0':
-                            return None
-                        return await evaluate_response(response, channel)
-            except Exception:
-                continue
+        try:
+            async with session.get(url, timeout=15, allow_redirects=True, ssl=False, headers=HEADERS) as response:
+                if 200 <= response.status < 300:
+                    content_type = response.headers.get('Content-Type', '').lower()
+                    if "text/html" in content_type:
+                        return None
+                        
+                    raw_text = await response.text()
+                    if not raw_text:
+                        return None
+                        
+                    playlist = m3u8.loads(raw_text, uri=url)
+                    if playlist.segments or playlist.playlists:
+                        return {
+                            "_id": url,
+                            "name": channel["name"],
+                            "ep_id": gen_ep_id(channel["name"])
+                        }
+        except Exception:
+            pass
     return None
-
-
-async def evaluate_response(response, channel):
-    # Analyzes available streaming data chunks using fluid readany to prevent buffering-related timeouts.
-    content_type = response.headers.get('Content-Type', '').lower()
-    
-    if "text/html" in content_type:
-        return None
-
-    try:
-        # FIX: readany() fetches whatever chunks are instantly ready, preventing slow-stream freezes
-        chunk = await response.content.readany()
-        if not chunk:
-            return None
-
-        if any(x in content_type for x in ['mpegurl', 'm3u8']) or chunk.startswith(b'#EXTM3U'):
-            chunk_text = chunk.decode('utf-8', errors='ignore')
-            has_segments = any(tag in chunk_text for tag in ['#EXTINF', '.ts', '.m3u8', '#EXT-X-STREAM-INF'])
-            if not has_segments:
-                return None
-        else:
-            is_ts = b'\x47' in chunk
-            is_mp4 = any(tag in chunk for tag in [b'ftyp', b'moov', b'mdat'])
-            if not (is_ts or is_mp4 or 'video/' in content_type or 'octet-stream' in content_type):
-                return None
-
-    except Exception:
-        return None
-
-    return {
-        "_id": channel["url"],
-        "name": channel["name"],
-        "ep_id": gen_ep_id(channel["name"])
-    }
 
 
 async def process_all_channels():
