@@ -88,7 +88,6 @@ async def verify_channel_health(session, semaphore, channel):
     async with semaphore:
         for method in ['head', 'get']:
             try:
-                # Enforced a higher 15-second timeout to tolerate slow-responding IPTV servers and streams
                 async with session.request(method, url, timeout=15, allow_redirects=True, ssl=False) as response:
                     if 200 <= response.status < 300:
                         if method == 'get' and response.headers.get('Content-Length') == '0':
@@ -100,15 +99,16 @@ async def verify_channel_health(session, semaphore, channel):
 
 
 async def evaluate_response(response, channel):
-    # Decodes and analyzes live media chunks or playlist texts to guarantee a playable video stream structure.
+    # Analyzes available streaming data chunks using fluid readany to prevent buffering-related timeouts.
     content_type = response.headers.get('Content-Type', '').lower()
     
     if "text/html" in content_type:
         return None
 
     try:
-        chunk = await response.content.read(2048)
-        if not chunk or len(chunk) < 128:
+        # FIX: readany() fetches whatever chunks are instantly ready, preventing slow-stream freezes
+        chunk = await response.content.readany()
+        if not chunk:
             return None
 
         if any(x in content_type for x in ['mpegurl', 'm3u8']) or chunk.startswith(b'#EXTM3U'):
@@ -117,9 +117,9 @@ async def evaluate_response(response, channel):
             if not has_segments:
                 return None
         else:
-            is_ts = chunk.count(b'\x47') >= 3 or chunk.startswith(b'\x47')
-            is_mp4 = b'ftyp' in chunk or b'moov' in chunk
-            if not (is_ts or is_mp4 or 'video/' in content_type):
+            is_ts = b'\x47' in chunk
+            is_mp4 = any(tag in chunk for tag in [b'ftyp', b'moov', b'mdat'])
+            if not (is_ts or is_mp4 or 'video/' in content_type or 'octet-stream' in content_type):
                 return None
 
     except Exception:
