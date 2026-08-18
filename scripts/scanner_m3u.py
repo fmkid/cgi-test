@@ -54,7 +54,7 @@ async def fetch_m3u_from_github(session):
         return []
     try:
         print("Fetching M3U list asynchronously from GitHub...")
-        async with session.get(M3U_URL, timeout=15) as response:
+        async with session.get(M3U_URL, timeout=20) as response:
             response.raise_for_status()
             m3u_content = await response.text()
     except Exception as e:
@@ -88,7 +88,8 @@ async def verify_channel_health(session, semaphore, channel):
     async with semaphore:
         for method in ['head', 'get']:
             try:
-                async with session.request(method, url, timeout=6, allow_redirects=True, ssl=False) as response:
+                # Enforced a higher 15-second timeout to tolerate slow-responding IPTV servers and streams
+                async with session.request(method, url, timeout=15, allow_redirects=True, ssl=False) as response:
                     if 200 <= response.status < 300:
                         if method == 'get' and response.headers.get('Content-Length') == '0':
                             return None
@@ -99,11 +100,29 @@ async def verify_channel_health(session, semaphore, channel):
 
 
 async def evaluate_response(response, channel):
-    # Validates that the response is not an HTML error webpage disguised as a successful request.
+    # Decodes and analyzes live media chunks or playlist texts to guarantee a playable video stream structure.
     content_type = response.headers.get('Content-Type', '').lower()
     
-    # Reject web panels or provider error portals that return HTTP 200 but are text/html
     if "text/html" in content_type:
+        return None
+
+    try:
+        chunk = await response.content.read(2048)
+        if not chunk or len(chunk) < 128:
+            return None
+
+        if any(x in content_type for x in ['mpegurl', 'm3u8']) or chunk.startswith(b'#EXTM3U'):
+            chunk_text = chunk.decode('utf-8', errors='ignore')
+            has_segments = any(tag in chunk_text for tag in ['#EXTINF', '.ts', '.m3u8', '#EXT-X-STREAM-INF'])
+            if not has_segments:
+                return None
+        else:
+            is_ts = chunk.count(b'\x47') >= 3 or chunk.startswith(b'\x47')
+            is_mp4 = b'ftyp' in chunk or b'moov' in chunk
+            if not (is_ts or is_mp4 or 'video/' in content_type):
+                return None
+
+    except Exception:
         return None
 
     return {
