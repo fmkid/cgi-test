@@ -16,23 +16,23 @@
     },
     {
         "_id": "https://estrellatv-oando.amagi.tv/playlistR720P.m3u8",
-        "name": "Estrella",
-        "ep_id": "estrella"
+        "name": "Estrella TV",
+        "ep_id": "estrella_tv"
     },
     {
         "_id": "https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8",
-        "name": "Mas",
-        "ep_id": "mas"
+        "name": "RCN Mas",
+        "ep_id": "rcn_mas"
     },
     {
         "_id": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8?PlaylistM3UCL",
-        "name": "40",
-        "ep_id": "40"
+        "name": "ADN 40",
+        "ep_id": "adn_40"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8?PlaylistM3UCL",
-        "name": "Noticias",
-        "ep_id": "noticias"
+        "name": "AMX Noticias",
+        "ep_id": "amx_noticias"
     },
     {
         "_id": "https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8?PlaylistM3UCL",
@@ -51,13 +51,13 @@
     },
     {
         "_id": "https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8?PlaylistM3UCL",
-        "name": "Saltillo",
-        "ep_id": "saltillo"
+        "name": "RCG 1 Saltillo",
+        "ep_id": "rcg_1_saltillo"
     },
     {
         "_id": "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL",
-        "name": "Queretaro",
-        "ep_id": "queretaro"
+        "name": "RTQ Queretaro",
+        "ep_id": "rtq_queretaro"
     },
     {
         "_id": "https://video1.getstreamhosting.com:1936/8116/8116/playlist.m3u8?PlaylistM3UCL",
@@ -71,23 +71,23 @@
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/gpacifico1/smil:gpculiacan.smil/playlist.m3u8?PlaylistM3UCL",
-        "name": "Culiacan",
-        "ep_id": "culiacan"
+        "name": "TVP Culiacan",
+        "ep_id": "tvp_culiacan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/gpacifico2/smil:mochis.smil/playlist.m3u8?PlaylistM3UCL",
-        "name": "Los Mochis",
-        "ep_id": "los_mochis"
+        "name": "TVP Los Mochis",
+        "ep_id": "tvp_los_mochis"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/gpacifico4/smil:mazatlan.smil/playlist.m3u8?PlaylistM3UCL",
-        "name": "Mazatlan",
-        "ep_id": "mazatlan"
+        "name": "TVP Mazatlan",
+        "ep_id": "tvp_mazatlan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/gpacifico3/smil:obregon.smil/playlist.m3u8?PlaylistM3UCL",
-        "name": "Obregon",
-        "ep_id": "obregon"
+        "name": "TVP Obregon",
+        "ep_id": "tvp_obregon"
     },
     {
         "_id": "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL",
@@ -101,13 +101,13 @@
     },
     {
         "_id": "https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8",
-        "name": "Caras",
-        "ep_id": "caras"
+        "name": "Caras TV",
+        "ep_id": "caras_tv"
     },
     {
         "_id": "https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8",
-        "name": "Boricua",
-        "ep_id": "boricua"
+        "name": "Boricua TV",
+        "ep_id": "boricua_tv"
     },
     {
         "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-juntos-ono/playlist.m3u8",
@@ -126,8 +126,8 @@
     },
     {
         "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
-        "name": "Wellbeing",
-        "ep_id": "wellbeing"
+        "name": "Wellbeing TV",
+        "ep_id": "wellbeing_tv"
     },
     {
         "_id": "https://distributionsjustepourrire-justforlaughsgags-1-es.samsung.wurl.tv/playlist.m3u8",
@@ -171,8 +171,8 @@
     },
     {
         "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal",
-        "ep_id": "taltal"
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
     },
     {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
@@ -181,8 +181,8 @@
     },
     {
         "_id": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
-        "name": "Mega Cine",
-        "ep_id": "mega_cine"
+        "name": "Mega Cine TV",
+        "ep_id": "mega_cine_tv"
     },
     {
         "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
@@ -218,11 +218,6 @@
         "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucinelatam-ono/playlist.m3u8",
         "name": "Free TV Estelar",
         "ep_id": "free_tv_estelar"
-    },
-    {
-        "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-chiquilines-ono/playlist.m3u8",
-        "name": "Free TV Live",
-        "ep_id": "free_tv_live"
     },
     {
         "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-horrorfy-ono/playlist.m3u8",
@@ -276,13 +271,13 @@
     },
     {
         "_id": "https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8",
-        "name": "time Network",
-        "ep_id": "time_network"
+        "name": "My time Network",
+        "ep_id": "my_time_network"
     },
     {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-cineestrella-lgus/playlist.m3u8",
-        "name": "Cine Estrella",
-        "ep_id": "cine_estrella"
+        "name": "Cine Estrella TV",
+        "ep_id": "cine_estrella_tv"
     },
     {
         "_id": "https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8",
@@ -291,8 +286,8 @@
     },
     {
         "_id": "https://xumo-xumoent-ch833-p47sj.fast.nbcuni.com/live/master.m3u8",
-        "name": "Lassie",
-        "ep_id": "lassie"
+        "name": "Lassie TV",
+        "ep_id": "lassie_tv"
     },
     {
         "_id": "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8",
@@ -306,8 +301,8 @@
     },
     {
         "_id": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
-        "name": "Radio 88 Stereo",
-        "ep_id": "radio_88_stereo"
+        "name": "Radio 88 Stereo CR",
+        "ep_id": "radio_88_stereo_cr"
     },
     {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-mmcfreetv-ono/playlist.m3u8",
@@ -321,33 +316,33 @@
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
-        "name": "Latino",
-        "ep_id": "latino"
+        "name": "VM Latino CR",
+        "ep_id": "vm_latino_cr"
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
-        "name": "Plancha TV",
-        "ep_id": "plancha_tv"
+        "name": "Soy Plancha TV CR",
+        "ep_id": "soy_plancha_tv_cr"
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
-        "name": "Vintage Music",
-        "ep_id": "vintage_music"
+        "name": "Vintage Music CR",
+        "ep_id": "vintage_music_cr"
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
-        "name": "Urbano TV",
-        "ep_id": "urbano_tv"
+        "name": "Urbano TV CR",
+        "ep_id": "urbano_tv_cr"
     },
     {
         "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
-        "name": "Video Tour Channel",
-        "ep_id": "video_tour_channel"
+        "name": "Video Tour Channel CR",
+        "ep_id": "video_tour_channel_cr"
     },
     {
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
-        "name": "Channel",
-        "ep_id": "channel"
+        "name": "IQ Channel",
+        "ep_id": "iq_channel"
     },
     {
         "_id": "https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/.m3u8",
@@ -356,8 +351,8 @@
     },
     {
         "_id": "https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/.m3u8",
-        "name": "Energy TV",
-        "ep_id": "energy_tv"
+        "name": "Energy TV DJ",
+        "ep_id": "energy_tv_dj"
     },
     {
         "_id": "https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8",
@@ -381,13 +376,13 @@
     },
     {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
-        "name": "TV",
-        "ep_id": "tv"
+        "name": "DBM TV",
+        "ep_id": "dbm_tv"
     },
     {
         "_id": "https://stream1.sersat.com/hls/garagetv.m3u8",
-        "name": "Garage",
-        "ep_id": "garage"
+        "name": "Garage TV",
+        "ep_id": "garage_tv"
     },
     {
         "_id": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
@@ -401,8 +396,8 @@
     },
     {
         "_id": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-        "name": "Bull",
-        "ep_id": "bull"
+        "name": "Red Bull TV",
+        "ep_id": "red_bull_tv"
     },
     {
         "_id": "https://pac12-roku-us.amagi.tv/playlist.m3u8",
@@ -416,8 +411,8 @@
     },
     {
         "_id": "https://1199970269.rsc.cdn77.org/FTF/FTF_SCTE.m3u8",
-        "name": "Sports",
-        "ep_id": "sports"
+        "name": "FTF Sports",
+        "ep_id": "ftf_sports"
     },
     {
         "_id": "https://2d006483e2aa43fe812f7b464cb2916d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Stadium/playlist.m3u8?ads.wurl_channel=160&ads.wurl_name=Stadium&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0",
@@ -440,104 +435,104 @@
         "ep_id": "canal_22"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8",
-        "name": "Mexiquense",
-        "ep_id": "mexiquense"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/chunklist_w376735839.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMS8yMDIyIDQ6MDg6MTEgQU0maGFzaF92YWx1ZT1ySG13SHNrSE5yTWx5RWJYcTQvZkhRPT0mdmFsaWRtaW51dGVzPTUmaWQ9",
         "name": "Mexiquense TV op2",
         "ep_id": "mexiquense_tv_op2"
     },
     {
         "_id": "http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/.m3u8",
-        "name": "Canal 26",
-        "ep_id": "canal_26"
+        "name": "AGU: Canal 26",
+        "ep_id": "agu_canal_26"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8",
-        "name": "Canal 10",
-        "ep_id": "canal_10"
+        "name": "CHP: Canal 10",
+        "ep_id": "chp_canal_10"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8",
-        "name": "CANAL 44",
-        "ep_id": "canal_44"
+        "name": "CHH: CANAL 44",
+        "ep_id": "chh_canal_44"
     },
     {
         "_id": "https://cdn.jwplayer.com/manifests/bez1terN.m3u8",
-        "name": "Efekto",
-        "ep_id": "efekto"
+        "name": "CMX: Efekto TV",
+        "ep_id": "cmx_efekto_tv"
     },
     {
         "_id": "http://204.12.193.98:1935/TvHD/canal10/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
+        "name": "DUR: Canal 10 Durango",
+        "ep_id": "dur_canal_10_durango"
     },
     {
         "_id": "https://5f2c1b0d880e5.streamlock.net/tv42/smil:tv42.smil/chunklist_w2048905456_b3428000_sleng.m3u8",
-        "name": "TV Cuatro 4.2 Cultura",
-        "ep_id": "tv_cuatro_42_cultura"
+        "name": "GUA: TV Cuatro 4.2 Cultura",
+        "ep_id": "gua_tv_cuatro_42_cultura"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videocbtv/chunklist_w233916547.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MTY6MTYgUE0maGFzaF92YWx1ZT1TRG9tVW16WXcxdldkdkQ5N3VwdjlnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
-        "name": "CBTV Michoacan",
-        "ep_id": "cbtv_michoacan"
+        "name": "MIC: CBTV Michoacan",
+        "ep_id": "mic_cbtv_michoacan"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/canal6mich2/videocanal6mich2/chunklist_w119129650.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MjA6MzUgUE0maGFzaF92YWx1ZT1pLyttRnh1STUrS1gwNFdWZnFnbGRnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
-        "name": "Canal 6",
-        "ep_id": "canal_6"
+        "name": "MIC: Canal 6",
+        "ep_id": "mic_canal_6"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/canal6mich/videocanal6mich/playlist.m3u8",
-        "name": "Media Group Radio",
-        "ep_id": "media_group_radio"
+        "name": "MIC: Media Group Radio",
+        "ep_id": "mic_media_group_radio"
     },
     {
         "_id": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8",
-        "name": "NTV Nayarit",
-        "ep_id": "ntv_nayarit"
+        "name": "NAY: 8 NTV Nayarit",
+        "ep_id": "nay_8_ntv_nayarit"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/chunklist_w2067160029.m3u8",
-        "name": "Nueve",
-        "ep_id": "nueve"
+        "name": "SLP: Nueve TV",
+        "ep_id": "slp_nueve_tv"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8",
-        "name": "TVP Mazatlan",
-        "ep_id": "tvp_mazatlan"
+        "name": "SIN: TVP Mazatlan",
+        "ep_id": "sin_tvp_mazatlan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8",
-        "name": "TVP Culiacan",
-        "ep_id": "tvp_culiacan"
+        "name": "SIN: TVP Culiacan",
+        "ep_id": "sin_tvp_culiacan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico2/smil:mochis.smil/playlist.m3u8",
-        "name": "TVP Los Mochis",
-        "ep_id": "tvp_los_mochis"
+        "name": "SIN: TVP Los Mochis",
+        "ep_id": "sin_tvp_los_mochis"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/chunklist_w1903526755_b1428000_sleng.m3u8",
-        "name": "TVP Cd. Obregon",
-        "ep_id": "tvp_cd_obregon"
+        "name": "SON: TVP Cd. Obregon",
+        "ep_id": "son_tvp_cd_obregon"
     },
     {
         "_id": "http://s5.mexside.net:1935/telemax/telemax/chunklist_w586584359.m3u8",
-        "name": "Telemax Sonora",
-        "ep_id": "telemax_sonora"
+        "name": "SON: Telemax Sonora",
+        "ep_id": "son_telemax_sonora"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8",
-        "name": "TVMAS Veracruz",
-        "ep_id": "tvmas_veracruz"
+        "name": "VER: TVMAS Veracruz",
+        "ep_id": "ver_tvmas_veracruz"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
-        "name": "Antena",
-        "ep_id": "antena"
+        "name": "Antena TV",
+        "ep_id": "antena_tv"
+    },
+    {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -576,8 +571,8 @@
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8",
-        "name": "TV Michoacan",
-        "ep_id": "tv_michoacan"
+        "name": "CB TV Michoacan",
+        "ep_id": "cb_tv_michoacan"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
@@ -635,14 +630,19 @@
         "ep_id": "raly_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
+        "name": "RTG",
+        "ep_id": "rtg"
+    },
+    {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
-        "name": "Televisión Canal 26.1",
-        "ep_id": "television_canal_261"
+        "name": "SET Televisión Canal 26.1",
+        "ep_id": "set_television_canal_261"
     },
     {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal2/playlist.m3u8",
-        "name": "Televisión Canal 26.2",
-        "ep_id": "television_canal_262"
+        "name": "SET Televisión Canal 26.2",
+        "ep_id": "set_television_canal_262"
     },
     {
         "_id": "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8",
@@ -676,48 +676,48 @@
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
-        "name": "Cuatro 4.1",
-        "ep_id": "cuatro_41"
+        "name": "TV Cuatro 4.1",
+        "ep_id": "tv_cuatro_41"
     },
     {
         "_id": "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8",
-        "name": "Cuatro 4.2",
-        "ep_id": "cuatro_42"
+        "name": "TV Cuatro 4.2",
+        "ep_id": "tv_cuatro_42"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8",
-        "name": "Cuatro 4.3",
-        "ep_id": "cuatro_43"
+        "name": "TV Cuatro 4.3",
+        "ep_id": "tv_cuatro_43"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv44gto/tv44gto.smil/.m3u8",
-        "name": "Cuatro 4.4",
-        "ep_id": "cuatro_44"
+        "name": "TV Cuatro 4.4",
+        "ep_id": "tv_cuatro_44"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8",
-        "name": "Lobo Durango",
-        "ep_id": "lobo_durango"
+        "name": "TV Lobo Durango",
+        "ep_id": "tv_lobo_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3u8",
-        "name": "Mar La Paz",
-        "ep_id": "mar_la_paz"
+        "name": "TV Mar La Paz",
+        "ep_id": "tv_mar_la_paz"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playlist.m3u8",
-        "name": "Mar Los Cabos",
-        "ep_id": "mar_los_cabos"
+        "name": "TV Mar Los Cabos",
+        "ep_id": "tv_mar_los_cabos"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8",
-        "name": "Mar Puerto Vallarta",
-        "ep_id": "mar_puerto_vallarta"
+        "name": "TV Mar Puerto Vallarta",
+        "ep_id": "tv_mar_puerto_vallarta"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8",
-        "name": "UJAT",
-        "ep_id": "ujat"
+        "name": "TV UJAT",
+        "ep_id": "tv_ujat"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8",
@@ -731,8 +731,8 @@
     },
     {
         "_id": "https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8",
-        "name": "Media TV",
-        "ep_id": "media_tv"
+        "name": "VB Media TV",
+        "ep_id": "vb_media_tv"
     },
     {
         "_id": "https://cloudvideo.servers10.com:8081/8016/index.m3u8",
@@ -806,8 +806,8 @@
     },
     {
         "_id": "https://amg01024-olympusat-cinereallatam-ono-ad-z5.amagi.tv/playlist/amg01024-olympusat-cinereallatam-ono/cb553d167c6c64879ad43e63d9ef41a0d22411fc087a8d6933fb4b926bc10f41e2e5af97b20cac7822fb0fd87f0b66411f21c118de751fc7c76adf046727486b9898b37bd9981208a2ae56687fe525564eff0f10ce254136d8bb425c8764b72c4812bd593c1b63dcb80cb0270094d21788797a8baddf68687d5b0dcc5779df9a1be090a11f1c9e3df2f83e7eaf1b448efc5fc3fc2687d180188012c6369e4acccfa5a9eb2ab4f0d336fc33d46e71324c7c9d933786da62a6c8937f389f685a207431b79abdb31469ec364258ebb1caaf75c000da8637845f22a90cea0fee4e827fbe19b4bb01efbaacc80c472ba1c14f7769a3eaadc5ff3025b465feb1b3b3191b98f2073643c779aa414159c0a7b77eeac21185f820baa47b123cd5924089efd8e987b384449937cfc6f8c2752820620011c85cb28a52d93cd37ca4cb6157363947a2971bcb8ac05320775c879410f2011ebcefbdd992645ccb640814ec69dd2947068c313c2ce37da1c8693bd8760bd66068af0c638544a9ec7af7a5d8b70768ec88c618bc0586b40ec1b805ac632e5c70c598587057457ad9e06701356a8341e193ecf3720c34daadbd94a9523c1477145d1c9be39513f1ef90736a7ca65222733a05059a76ba03b5065b052bdd089daf0679b7e8404797cfc0cec90decaa9cb9c5b0e741ad76d0c08f4145597742cdfe81bb0ca9dba356ef2c433e5b50851d6d40bc7d282a6f4b7e84ebeb43cb846da93722376ad1e9553661ecb4d46be9f34bfa6698f830bc83c35fc3afae1b519c76c46b75cf85843ea8bfc8af3b7eb430da92c79e8007bc93fae7f5568cb0723aab9158030e3543498da351e756bad0a5e4228e3597ae6214c955b486eabfda6719b2df1a737b3e5c197b5d613f4c96ee95324e2ab7fc35f007b7bb0ce7121d731842dd890f11d4b8264ccc642e31e586c299a8cc0c08853fa520873071d53d6419e8c23ce594a1b3adf5097a3499e0e51dc1e4e2e6e1d9d02f72076d4aeae7564772de29e8cc4aa19a1472eb869cf69809b370f13eaf8ba624876df59bbc5716f75fb30575485c915036ff4dea/150/1920x1080_5824280/index.m3u8",
-        "name": "Cine Real",
-        "ep_id": "cine_real"
+        "name": "Cine Real | USA",
+        "ep_id": "cine_real_usa"
     },
     {
         "_id": "https://paneltv.stream:19360/classicchannel/classicchannel.m3u8",
@@ -821,8 +821,8 @@
     },
     {
         "_id": "https://envivo.cncity.live/hls/envivo.m3u8",
-        "name": "City | Chile",
-        "ep_id": "city_chile"
+        "name": "CN City | Chile",
+        "ep_id": "cn_city_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -841,8 +841,8 @@
     },
     {
         "_id": "https://mix.fachacarlos1.workers.dev/playlist.m3u8",
-        "name": "TV Estacion Mix | Argentina",
-        "ep_id": "tv_estacion_mix_argentina"
+        "name": "DJ TV Estacion Mix | Argentina",
+        "ep_id": "dj_tv_estacion_mix_argentina"
     },
     {
         "_id": "https://cloudvideo.servers10.com:8081/8020/tracks-v1a1/mono.m3u8",
@@ -851,8 +851,8 @@
     },
     {
         "_id": "https://kali.vdopanel.com:3074/stream/play.m3u8",
-        "name": "Magic | Argentina",
-        "ep_id": "magic_argentina"
+        "name": "El Magic | Argentina",
+        "ep_id": "el_magic_argentina"
     },
     {
         "_id": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
@@ -866,13 +866,13 @@
     },
     {
         "_id": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
-        "name": "Frecuencia Musical Tv",
-        "ep_id": "frecuencia_musical_tv"
+        "name": "Frecuencia Musical Tv | USA",
+        "ep_id": "frecuencia_musical_tv_usa"
     },
     {
         "_id": "https://s2.tvdatta.com:3307/live/fmtvmatrizlive.m3u8",
-        "name": "Frecuencia Musical Tv op2",
-        "ep_id": "frecuencia_musical_tv_op2"
+        "name": "Frecuencia Musical Tv op2 | USA",
+        "ep_id": "frecuencia_musical_tv_op2_usa"
     },
     {
         "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
@@ -891,8 +891,8 @@
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-        "name": "TV | Argentina",
-        "ep_id": "tv_argentina"
+        "name": "Neo TV | Argentina",
+        "ep_id": "neo_tv_argentina"
     },
     {
         "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
@@ -906,18 +906,18 @@
     },
     {
         "_id": "https://lightning-now70s-samsungnz.amagi.tv/playlist720p.m3u8",
-        "name": "70",
-        "ep_id": "70"
+        "name": "Now 70",
+        "ep_id": "now_70"
     },
     {
         "_id": "https://lightning-now80s-samsungnz.amagi.tv/playlist720p.m3u8",
-        "name": "80",
-        "ep_id": "80"
+        "name": "Now 80",
+        "ep_id": "now_80"
     },
     {
         "_id": "https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8",
-        "name": "Rock",
-        "ep_id": "rock"
+        "name": "Now Rock",
+        "ep_id": "now_rock"
     },
     {
         "_id": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
@@ -926,8 +926,8 @@
     },
     {
         "_id": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
-        "name": "Kids",
-        "ep_id": "kids"
+        "name": "PBS Kids  | USA",
+        "ep_id": "pbs_kids_usa"
     },
     {
         "_id": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=dem0pRideTVweb",
@@ -1036,13 +1036,13 @@
     },
     {
         "_id": "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
-        "name": "en Espanol | Rusia",
-        "ep_id": "en_espanol_rusia"
+        "name": "RT en Espanol | Rusia",
+        "ep_id": "rt_en_espanol_rusia"
     },
     {
         "_id": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
-        "name": "BULL TV | Austria",
-        "ep_id": "bull_tv_austria"
+        "name": "RED BULL TV | Austria",
+        "ep_id": "red_bull_tv_austria"
     },
     {
         "_id": "http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8",
@@ -1051,13 +1051,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA370000104",
-        "name": "News 24/7",
-        "ep_id": "news_247"
+        "name": "CBS News 24/7",
+        "ep_id": "cbs_news_247"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC4400003OU",
-        "name": "News",
-        "ep_id": "news"
+        "name": "CBC News",
+        "ep_id": "cbc_news"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3400011A8",
@@ -1066,8 +1066,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA3000041ZP",
-        "name": "Movie",
-        "ep_id": "movie"
+        "name": "Movie Hub",
+        "ep_id": "movie_hub"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3000007MT",
@@ -1081,8 +1081,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ22000130U",
-        "name": "Mysteries",
-        "ep_id": "mysteries"
+        "name": "MHz Mysteries",
+        "ep_id": "mhz_mysteries"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBB4800005VO",
+        "name": "CBS Sports HQ",
+        "ep_id": "cbs_sports_hq"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD12000255B",
@@ -1091,8 +1096,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA300034DB",
-        "name": "Insider",
-        "ep_id": "insider"
+        "name": "Pac-12 Insider",
+        "ep_id": "pac12_insider"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4100001KP",
@@ -1101,8 +1106,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US4600010KE",
-        "name": "World Tour",
-        "ep_id": "world_tour"
+        "name": "DP World Tour",
+        "ep_id": "dp_world_tour"
     },
     {
         "_id": "https://jmp2.uk/stvp-US600011Q2",
@@ -1121,8 +1126,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC3200019WF",
-        "name": "NHRA",
-        "ep_id": "nhra"
+        "name": "NHRA TV",
+        "ep_id": "nhra_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD4200011W4",
@@ -1141,13 +1146,18 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US2500009PQ",
-        "name": "x Tyler Perry Comedy",
-        "ep_id": "x_tyler_perry_comedy"
+        "name": "BET x Tyler Perry Comedy",
+        "ep_id": "bet_x_tyler_perry_comedy"
     },
     {
         "_id": "https://jmp2.uk/stvp-US350000563",
-        "name": "Comedy",
-        "ep_id": "comedy"
+        "name": "GET Comedy",
+        "ep_id": "get_comedy"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-US4500009VV",
+        "name": "BBC Comedy",
+        "ep_id": "bbc_comedy"
     },
     {
         "_id": "https://jmp2.uk/stvp-US170002608",
@@ -1171,8 +1181,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ30000039U",
-        "name": "Bar Comedy",
-        "ep_id": "bar_comedy"
+        "name": "Dry Bar Comedy",
+        "ep_id": "dry_bar_comedy"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD7000145C",
@@ -1196,13 +1206,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB520002173",
-        "name": "Road Truckers",
-        "ep_id": "road_truckers"
+        "name": "Ice Road Truckers",
+        "ep_id": "ice_road_truckers"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB5200020Z0",
-        "name": "Men",
-        "ep_id": "men"
+        "name": "Ax Men",
+        "ep_id": "ax_men"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD27000156I",
@@ -1226,23 +1236,23 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US700005ID",
-        "name": "Superstar Central",
-        "ep_id": "superstar_central"
+        "name": "WWE Superstar Central",
+        "ep_id": "wwe_superstar_central"
     },
     {
         "_id": "https://jmp2.uk/stvp-US130000639",
-        "name": "Genealogy",
-        "ep_id": "genealogy"
+        "name": "PBS Genealogy",
+        "ep_id": "pbs_genealogy"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2600024EO",
-        "name": "Depth with Graham Bensinger",
-        "ep_id": "depth_with_graham_bensinger"
+        "name": "In Depth with Graham Bensinger",
+        "ep_id": "in_depth_with_graham_bensinger"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB32000251N",
-        "name": "TODAY All",
-        "ep_id": "today_all"
+        "name": "TODAY All Day",
+        "ep_id": "today_all_day"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB1900006NY",
@@ -1256,8 +1266,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US1300003SW",
-        "name": "Billboard",
-        "ep_id": "billboard"
+        "name": "Billboard TV",
+        "ep_id": "billboard_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3504701A",
@@ -1266,8 +1276,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA300032J7",
-        "name": "SOUL",
-        "ep_id": "soul"
+        "name": "FOX SOUL",
+        "ep_id": "fox_soul"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD70000412",
@@ -1306,8 +1316,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC4400006BR",
-        "name": "Haunt",
-        "ep_id": "haunt"
+        "name": "Haunt TV",
+        "ep_id": "haunt_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4200004KK",
@@ -1321,8 +1331,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ17000014C",
-        "name": "Asylum",
-        "ep_id": "asylum"
+        "name": "The Asylum",
+        "ep_id": "the_asylum"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC100001175",
@@ -1396,8 +1406,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD1200009JI",
-        "name": "History & Warfare",
-        "ep_id": "history_warfare"
+        "name": "History & Warfare Now",
+        "ep_id": "history_warfare_now"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC39000204J",
@@ -1416,8 +1426,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB800001O7",
-        "name": "Digital Studios",
-        "ep_id": "digital_studios"
+        "name": "PBS Digital Studios",
+        "ep_id": "pbs_digital_studios"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4500002UB",
@@ -1426,8 +1436,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US2900013AY",
-        "name": "Wheels Action",
-        "ep_id": "wheels_action"
+        "name": "Hot Wheels Action",
+        "ep_id": "hot_wheels_action"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4100025G5",
@@ -1471,18 +1481,18 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300016AK",
-        "name": "and Roll",
-        "ep_id": "and_roll"
+        "name": "Rev and Roll",
+        "ep_id": "rev_and_roll"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB3600001R6",
-        "name": "Junior",
-        "ep_id": "junior"
+        "name": "TG Junior",
+        "ep_id": "tg_junior"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300019OU",
-        "name": "Babies Channel",
-        "ep_id": "babies_channel"
+        "name": "All Babies Channel",
+        "ep_id": "all_babies_channel"
     },
     {
         "_id": "https://jmp2.uk/stvp-US3400003HI",
@@ -1491,8 +1501,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300013KV",
-        "name": "Sensical",
-        "ep_id": "sensical"
+        "name": "Sensical Jr",
+        "ep_id": "sensical_jr"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2900015RO",
@@ -1511,8 +1521,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA2300001S8",
-        "name": "LEGO Channel",
-        "ep_id": "lego_channel"
+        "name": "The LEGO Channel",
+        "ep_id": "the_lego_channel"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300020PM",
@@ -1526,8 +1536,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US1000003G8",
-        "name": "Gi",
-        "ep_id": "gi"
+        "name": "Yu-Gi-Oh",
+        "ep_id": "yugioh"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD12000239N",
@@ -1536,8 +1546,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD12000153A",
-        "name": "pocket.watch Game",
-        "ep_id": "pocketwatch_game"
+        "name": "pocket.watch Game-On",
+        "ep_id": "pocketwatch_gameon"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2200007QG",
@@ -1566,8 +1576,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US4600005ST",
-        "name": "MMA En Español",
-        "ep_id": "mma_en_espanol"
+        "name": "CG MMA En Español",
+        "ep_id": "cg_mma_en_espanol"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2700004DX",
@@ -1626,8 +1636,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US2200005Y2",
-        "name": "Canal",
-        "ep_id": "canal"
+        "name": "Canal ViX",
+        "ep_id": "canal_vix"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2200004HD",
@@ -1636,23 +1646,23 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB44000099N",
-        "name": "Novelas de romance",
-        "ep_id": "novelas_de_romance"
+        "name": "ViX Novelas de romance",
+        "ep_id": "vix_novelas_de_romance"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD17000172A",
-        "name": "Marías",
-        "ep_id": "marias"
+        "name": "Las 3 Marías",
+        "ep_id": "las_3_marias"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC2100012EJ",
-        "name": "Grandes Parejas",
-        "ep_id": "grandes_parejas"
+        "name": "ViX Grandes Parejas",
+        "ep_id": "vix_grandes_parejas"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC2100011WI",
-        "name": "Villanos de Novela",
-        "ep_id": "villanos_de_novela"
+        "name": "ViX Villanos de Novela",
+        "ep_id": "vix_villanos_de_novela"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD1700018II",
@@ -1671,8 +1681,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD2700005KL",
-        "name": "Cine de",
-        "ep_id": "cine_de"
+        "name": "Cine de Oro",
+        "ep_id": "cine_de_oro"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA3800001E0",
@@ -1681,8 +1691,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US1700019P7",
-        "name": "Coreano by CJ",
-        "ep_id": "coreano_by_cj"
+        "name": "Coreano by CJ ENM",
+        "ep_id": "coreano_by_cj_enm"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300004RH",
@@ -1741,18 +1751,18 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-US39000038W",
-        "name": "K-POP by CJ",
-        "ep_id": "kpop_by_cj"
+        "name": "K-POP by CJ ENM",
+        "ep_id": "kpop_by_cj_enm"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3000013FJ",
-        "name": "KPOP",
-        "ep_id": "kpop"
+        "name": "NEW KPOP",
+        "ep_id": "new_kpop"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500016NH",
-        "name": "Stingray Today's K",
-        "ep_id": "stingray_todays_k"
+        "name": "Stingray Today's K-Pop",
+        "ep_id": "stingray_todays_kpop"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500025GS",
@@ -1781,13 +1791,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500009Y3",
-        "name": "Stingray Today's Latin",
-        "ep_id": "stingray_todays_latin"
+        "name": "Stingray Today's Latin Pop",
+        "ep_id": "stingray_todays_latin_pop"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500010MT",
-        "name": "Stingray Hip",
-        "ep_id": "stingray_hip"
+        "name": "Stingray Hip Hop",
+        "ep_id": "stingray_hip_hop"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4700002UF",
@@ -1851,13 +1861,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500013DG",
-        "name": "Stingray",
-        "ep_id": "stingray"
+        "name": "Stingray Spa",
+        "ep_id": "stingray_spa"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES26000068D",
-        "name": "Estilo y Vida – Rakuten",
-        "ep_id": "estilo_y_vida_rakuten"
+        "name": "Estilo y Vida – Rakuten TV",
+        "ep_id": "estilo_y_vida_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD3000002GP",
@@ -1871,13 +1881,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES3800002V5",
-        "name": "Dhar Mann",
-        "ep_id": "dhar_mann"
+        "name": "Dhar Mann TV",
+        "ep_id": "dhar_mann_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES4300001K6",
-        "name": "Chicas Guapas",
-        "ep_id": "chicas_guapas"
+        "name": "Chicas Guapas TV",
+        "ep_id": "chicas_guapas_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES26000025M",
@@ -1886,8 +1896,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES4100001XD",
-        "name": "Mark Rober",
-        "ep_id": "mark_rober"
+        "name": "Mark Rober TV",
+        "ep_id": "mark_rober_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC3500002PW",
@@ -1941,8 +1951,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2900002JG",
-        "name": "Gipsy Kings - Rakuten",
-        "ep_id": "gipsy_kings_rakuten"
+        "name": "Los Gipsy Kings - Rakuten TV",
+        "ep_id": "los_gipsy_kings_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES260000968",
@@ -1951,23 +1961,28 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD3400001AA",
-        "name": "Negocios",
-        "ep_id": "negocios"
+        "name": "Negocios TV",
+        "ep_id": "negocios_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD190000137",
-        "name": "Headlines",
-        "ep_id": "headlines"
+        "name": "CNN Headlines",
+        "ep_id": "cnn_headlines"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2300004XW",
-        "name": "Jazeera",
-        "ep_id": "jazeera"
+        "name": "Al Jazeera",
+        "ep_id": "al_jazeera"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ESBC400003YM",
+        "name": "NBC News NOW",
+        "ep_id": "nbc_news_now"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES3400004SS",
-        "name": "News International",
-        "ep_id": "news_international"
+        "name": "Sky News International",
+        "ep_id": "sky_news_international"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD1100001PQ",
@@ -1996,8 +2011,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600005G9",
-        "name": "Crimen - Rakuten",
-        "ep_id": "crimen_rakuten"
+        "name": "Crimen - Rakuten TV",
+        "ep_id": "crimen_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES45000012U",
@@ -2016,13 +2031,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD130000205",
-        "name": "Pitufo",
-        "ep_id": "pitufo"
+        "name": "Pitufo TV",
+        "ep_id": "pitufo_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD5100001G0",
-        "name": "SuperToons",
-        "ep_id": "supertoons"
+        "name": "SuperToons TV",
+        "ep_id": "supertoons_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD2300003S5",
@@ -2036,8 +2051,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES260001081",
-        "name": "Familia - Rakuten",
-        "ep_id": "familia_rakuten"
+        "name": "En Familia - Rakuten TV",
+        "ep_id": "en_familia_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC1700004PX",
@@ -2051,13 +2066,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600013H4",
-        "name": "Películas Top - Rakuten",
-        "ep_id": "peliculas_top_rakuten"
+        "name": "Películas Top - Rakuten TV",
+        "ep_id": "peliculas_top_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600012C9",
-        "name": "Películas Románticas - Rakuten",
-        "ep_id": "peliculas_romanticas_rakuten"
+        "name": "Películas Románticas - Rakuten TV",
+        "ep_id": "peliculas_romanticas_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES900002ZD",
@@ -2066,8 +2081,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES260000700",
-        "name": "Comedia - Rakuten",
-        "ep_id": "comedia_rakuten"
+        "name": "Comedia - Rakuten TV",
+        "ep_id": "comedia_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES300007KS",
@@ -2096,8 +2111,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES3000008O8",
-        "name": "Cine Español - Rakuten",
-        "ep_id": "cine_espanol_rakuten"
+        "name": "Cine Español - Rakuten TV",
+        "ep_id": "cine_espanol_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC40000248",
@@ -2106,8 +2121,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES500004NO",
-        "name": "Fi - Rakuten",
-        "ep_id": "fi_rakuten"
+        "name": "Sci-Fi - Rakuten TV",
+        "ep_id": "scifi_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD800001RJ",
@@ -2116,8 +2131,8 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES4100002WB",
-        "name": "Thrillers - Rakuten",
-        "ep_id": "thrillers_rakuten"
+        "name": "Thrillers - Rakuten TV",
+        "ep_id": "thrillers_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES300006QJ",
@@ -2126,13 +2141,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600003UM",
-        "name": "Películas de Drama - Rakuten",
-        "ep_id": "peliculas_de_drama_rakuten"
+        "name": "Películas de Drama - Rakuten TV",
+        "ep_id": "peliculas_de_drama_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600004BD",
-        "name": "Acción - Rakuten",
-        "ep_id": "accion_rakuten"
+        "name": "Acción - Rakuten TV",
+        "ep_id": "accion_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC2100002LV",
@@ -2146,33 +2161,33 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC2100001IU",
-        "name": "Vevo",
-        "ep_id": "vevo"
+        "name": "Vevo Pop",
+        "ep_id": "vevo_pop"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD2300004Y7",
-        "name": "Música",
-        "ep_id": "musica"
+        "name": "Sol Música",
+        "ep_id": "sol_musica"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBA1500001C4",
-        "name": "Deluxe Lounge",
-        "ep_id": "deluxe_lounge"
+        "name": "Deluxe Lounge HD",
+        "ep_id": "deluxe_lounge_hd"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC27000040I",
-        "name": "GoUSA",
-        "ep_id": "gousa"
+        "name": "GoUSA TV",
+        "ep_id": "gousa_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES24000028L",
-        "name": "Pilots",
-        "ep_id": "pilots"
+        "name": "Ice Pilots",
+        "ep_id": "ice_pilots"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES1600002QL",
-        "name": "Fiebre del Jade",
-        "ep_id": "fiebre_del_jade"
+        "name": "La Fiebre del Jade",
+        "ep_id": "la_fiebre_del_jade"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2800002MM",
@@ -2216,13 +2231,13 @@
     },
     {
         "_id": "https://jmp2.uk/stvp-ESAJ4500016BH",
-        "name": "Pet Collective",
-        "ep_id": "pet_collective"
+        "name": "The Pet Collective",
+        "ep_id": "the_pet_collective"
     },
     {
         "_id": "https://top-movies-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5983/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=5983&ads.rtv_channel_name=top-movies-rakuten-tv_es&ads.rtv_content_id=5983&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=59537d01-a75b-4540-ba03-975af0665f31&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=5983&publishing_platform_id=5&tenant_identifier=rtv",
-        "name": "Pelis",
-        "ep_id": "pelis"
+        "name": "Pelis Top",
+        "ep_id": "pelis_top"
     },
     {
         "_id": "https://action-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6069&ads.rtv_channel_name=action-rakuten-tv_es&ads.rtv_content_id=6069&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=4cfdafa5-7224-4e57-984b-28107cc5a97f&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6069&publishing_platform_id=5&tenant_identifier=rtv",
@@ -2251,8 +2266,8 @@
     },
     {
         "_id": "https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6740&ads.rtv_channel_name=sci-fi-rakuten-tv_es&ads.rtv_content_id=6740&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=a6dd781c-4281-42f4-840d-64ab9b55d8c8&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6740&publishing_platform_id=5&tenant_identifier=rtv",
-        "name": "Fi",
-        "ep_id": "fi"
+        "name": "Sci-Fi",
+        "ep_id": "scifi"
     },
     {
         "_id": "https://thriller-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6480/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6480&ads.rtv_channel_name=thriller-rakuten-tv_es&ads.rtv_content_id=6480&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=a3cb69dc-13b0-4f77-bfdb-735c958516b8&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6480&publishing_platform_id=5&tenant_identifier=rtv",
@@ -2281,13 +2296,13 @@
     },
     {
         "_id": "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8?ads_amagi_channel_id=847&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB17&ads_content_genre=sports%2Caction&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=4802&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=21e2c88e-b019-4f8c-b7ac-e6ebe5b3dda6&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
-        "name": "FUEL",
-        "ep_id": "fuel"
+        "name": "FUEL TV",
+        "ep_id": "fuel_tv"
     },
     {
         "_id": "https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=7&ads.rtv_content_id=3722&ads.rtv_content_language=en&ads.rtvid=271859&ads.streaming_id=c9aaf5c8-3515-4397-8f12-5a1dafb15371&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&ads.wurl_channel_id=967",
-        "name": "World Billiards",
-        "ep_id": "world_billiards"
+        "name": "World Billiards TV",
+        "ep_id": "world_billiards_tv"
     },
     {
         "_id": "https://amg01935-amg01935c1-amgplt0165.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0165/playlist.m3u8?ads_amagi_channel_id=985&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB17&ads_content_genre=sports&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_content_id=7182&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=ff9732d3-41a4-46aa-8d23-37501144dae0&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
@@ -2301,8 +2316,8 @@
     },
     {
         "_id": "https://gipsy-kings-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6752/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6752&ads.rtv_channel_name=gipsy-kings-rakuten-tv_es&ads.rtv_content_id=6752&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=4f766b9d-7f4c-4d64-98cd-1fc0ab425c64&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6752&publishing_platform_id=5&tenant_identifier=rtv",
-        "name": "Gipsy Kings",
-        "ep_id": "gipsy_kings"
+        "name": "Los Gipsy Kings",
+        "ep_id": "los_gipsy_kings"
     },
     {
         "_id": "https://854164eda2f94a29ba557d887890363c.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_TravelXPES/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=outdoors%2Chobbies&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=7&ads.rtv_content_id=5756&ads.rtv_content_language=es&ads.rtvid=271859&ads.streaming_id=686c6c0e-ca87-4a90-ae1a-a45777f26dad&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&ads.wurl_channel_id=1613",
@@ -2311,28 +2326,28 @@
     },
     {
         "_id": "https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8?ads_amagi_channel_id=711&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_content_id=2268&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=988d4b14-0a9b-4061-925c-063cd49f7d4a&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
-        "name": "Qwest",
-        "ep_id": "qwest"
+        "name": "Qwest TV",
+        "ep_id": "qwest_tv"
     },
     {
         "_id": "https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8?ads_amagi_channel_id=869&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5284&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=85a72260-293c-41a1-ba07-f4912265bddb&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
-        "name": "70s",
-        "ep_id": "70s"
+        "name": "NOW 70s",
+        "ep_id": "now_70s"
     },
     {
         "_id": "https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8?ads_amagi_channel_id=871&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5318&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=9ed41ddb-9492-486f-8047-e663eb175e55&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
-        "name": "80s",
-        "ep_id": "80s"
+        "name": "NOW 80s",
+        "ep_id": "now_80s"
     },
     {
         "_id": "https://family-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_id=6205&ads.rtv_channel_name=family-rakuten-tv_es&ads.rtv_content_id=6205&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=08cd2c86-0643-4912-8e53-176a7fd84650&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6205&publishing_platform_id=5&tenant_identifier=rtv",
-        "name": "Familia",
-        "ep_id": "familia"
+        "name": "En Familia",
+        "ep_id": "en_familia"
     },
     {
         "_id": "https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=children%2Canimation&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=7&ads.rtv_content_id=3619&ads.rtv_content_language=en&ads.rtvid=271859&ads.streaming_id=ba96603e-52c8-42ed-a5b9-48d8092c56dd&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&ads.wurl_channel_id=696",
-        "name": "Baby Shark",
-        "ep_id": "baby_shark"
+        "name": "Baby Shark TV",
+        "ep_id": "baby_shark_tv"
     },
     {
         "_id": "https://69fc67603f914d73988ff4dc54a202c8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-es_CopsEnEspanol/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=action%2Ccrime%2Creality&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_content_id=6696&ads.rtv_content_language=es&ads.rtvid=271859&ads.streaming_id=0a1d392f-5a23-40d0-9c2f-c9ab40b2cdc6&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&ads.wurl_channel_id=1470",
@@ -2416,8 +2431,8 @@
     },
     {
         "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
-        "name": "Federal",
-        "ep_id": "federal"
+        "name": "NG Federal",
+        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2431,8 +2446,8 @@
     },
     {
         "_id": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
-        "name": "",
-        "ep_id": ""
+        "name": "RTN",
+        "ep_id": "rtn"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8",
@@ -2441,8 +2456,8 @@
     },
     {
         "_id": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
-        "name": "Maná Argentina",
-        "ep_id": "mana_argentina"
+        "name": "TV Maná Argentina",
+        "ep_id": "tv_mana_argentina"
     },
     {
         "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
@@ -2490,14 +2505,19 @@
         "ep_id": "disney_jr_latin_america_south"
     },
     {
+        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
+        "name": "TyC Sports USA",
+        "ep_id": "tyc_sports_usa"
+    },
+    {
         "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "Television",
-        "ep_id": "television"
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
-        "name": "Radio TV",
-        "ep_id": "radio_tv"
+        "name": "AE Radio TV",
+        "ep_id": "ae_radio_tv"
     },
     {
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
@@ -2548,6 +2568,16 @@
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
         "name": "U Los Lagos TV",
         "ep_id": "u_los_lagos_tv"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
+        "name": "UTV",
+        "ep_id": "utv"
+    },
+    {
+        "_id": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
+        "name": "Canal 10 CR",
+        "ep_id": "canal_10_cr"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
@@ -2675,6 +2705,11 @@
         "ep_id": "caracol_local"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0aw/index.m3u8",
+        "name": "CARACOL SRT",
+        "ep_id": "caracol_srt"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
         "name": "CARTOON NETWORK ENVIADO",
         "ep_id": "cartoon_network_enviado"
@@ -2731,8 +2766,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a08a/index.m3u8",
-        "name": "ENVIADO",
-        "ep_id": "enviado"
+        "name": "CNN ENVIADO",
+        "ep_id": "cnn_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fn/index.m3u8",
@@ -2740,9 +2775,14 @@
         "ep_id": "colombeia"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0e3/index.m3u8",
+        "name": "COMEDY",
+        "ep_id": "comedy"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0fq/index.m3u8",
-        "name": "CONCIENCIA",
-        "ep_id": "conciencia"
+        "name": "CONCIENCIA TV",
+        "ep_id": "conciencia_tv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dr/index.m3u8",
@@ -2751,13 +2791,13 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a094/index.m3u8",
-        "name": "Cinecanal",
-        "ep_id": "cinecanal"
+        "name": "Cinecanal HD",
+        "ep_id": "cinecanal_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07i/index.m3u8",
-        "name": "Comedy Central",
-        "ep_id": "comedy_central"
+        "name": "Comedy Central HD",
+        "ep_id": "comedy_central_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0au/index.m3u8",
@@ -2766,13 +2806,13 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0e0/index.m3u8",
-        "name": "DEPELICULAS",
-        "ep_id": "depeliculas"
+        "name": "DEPELICULAS SRT",
+        "ep_id": "depeliculas_srt"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a086/index.m3u8",
-        "name": "HD",
-        "ep_id": "hd"
+        "name": "DHE HD",
+        "ep_id": "dhe_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c4/index.m3u8",
@@ -2781,8 +2821,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c5/index.m3u8",
-        "name": "DISCOVERY",
-        "ep_id": "discovery"
+        "name": "DISCOVERY ID",
+        "ep_id": "discovery_id"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dn/index.m3u8",
@@ -2801,13 +2841,18 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a071/index.m3u8",
-        "name": "Discovery H&H",
-        "ep_id": "discovery_hh"
+        "name": "Discovery H&H HD",
+        "ep_id": "discovery_hh_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09a/index.m3u8",
+        "name": "Discovery HD",
+        "ep_id": "discovery_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a070/index.m3u8",
-        "name": "Discovery Kids",
-        "ep_id": "discovery_kids"
+        "name": "Discovery Kids HD",
+        "ep_id": "discovery_kids_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c2/index.m3u8",
@@ -2821,8 +2866,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
-        "name": "MUNDO EL CAMPO",
-        "ep_id": "mundo_el_campo"
+        "name": "EL MUNDO EL CAMPO",
+        "ep_id": "el_mundo_el_campo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09s/index.m3u8",
@@ -2855,9 +2900,19 @@
         "ep_id": "espn_2"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a08z/index.m3u8",
+        "name": "ESPN 2 HD",
+        "ep_id": "espn_2_hd"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0b3/index.m3u8",
         "name": "ESPN 3",
         "ep_id": "espn_3"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a07f/index.m3u8",
+        "name": "ESPN 3 HD",
+        "ep_id": "espn_3_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09b/index.m3u8",
@@ -2886,8 +2941,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a08y/index.m3u8",
-        "name": "ESPN",
-        "ep_id": "espn"
+        "name": "ESPN HD",
+        "ep_id": "espn_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0bv/index.m3u8",
@@ -2951,18 +3006,23 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0g0/index.m3u8",
-        "name": "HOGAR TV",
-        "ep_id": "hogar_tv"
+        "name": "HOGAR TV HD",
+        "ep_id": "hogar_tv_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a081/index.m3u8",
-        "name": "SRT",
-        "ep_id": "srt"
+        "name": "HTV SRT EN",
+        "ep_id": "htv_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
         "name": "History2",
         "ep_id": "history2"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a07j/index.m3u8",
+        "name": "ID HD",
+        "ep_id": "id_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cs/index.m3u8",
@@ -2971,8 +3031,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a083/index.m3u8",
-        "name": "Kanal D Drama",
-        "ep_id": "kanal_d_drama"
+        "name": "Kanal D Drama HD",
+        "ep_id": "kanal_d_drama_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c6/index.m3u8",
@@ -2981,8 +3041,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dp/index.m3u8",
-        "name": "KALLE",
-        "ep_id": "kalle"
+        "name": "LA KALLE",
+        "ep_id": "la_kalle"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ai/index.m3u8",
@@ -3026,8 +3086,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0a6/index.m3u8",
-        "name": "24",
-        "ep_id": "24"
+        "name": "NTN 24",
+        "ep_id": "ntn_24"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0a8/index.m3u8",
@@ -3036,8 +3096,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a093/index.m3u8",
-        "name": "Geo",
-        "ep_id": "geo"
+        "name": "Nat Geo HD",
+        "ep_id": "nat_geo_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c7/index.m3u8",
@@ -3046,48 +3106,48 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07l/index.m3u8",
-        "name": "Nick",
-        "ep_id": "nick"
+        "name": "Nick HD",
+        "ep_id": "nick_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
-        "name": "1",
-        "ep_id": "1"
+        "name": "OLE 1",
+        "ep_id": "ole_1"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
-        "name": "2",
-        "ep_id": "2"
+        "name": "OLE 2.2",
+        "ep_id": "ole_22"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a06u/index.m3u8",
-        "name": "Paramount",
-        "ep_id": "paramount"
+        "name": "Paramount HD",
+        "ep_id": "paramount_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0az/index.m3u8",
-        "name": "ENVIO SEÑAL",
-        "ep_id": "envio_senal"
+        "name": "RCN ENVIO SEÑAL",
+        "ep_id": "rcn_envio_senal"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09l/index.m3u8",
-        "name": "LOCAL",
-        "ep_id": "local"
+        "name": "RCN LOCAL",
+        "ep_id": "rcn_local"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0a7/index.m3u8",
-        "name": "NOVELAS",
-        "ep_id": "novelas"
+        "name": "RCN NOVELAS",
+        "ep_id": "rcn_novelas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ec/index.m3u8",
-        "name": "RUMBA",
-        "ep_id": "rumba"
+        "name": "RUMBA TV",
+        "ep_id": "rumba_tv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fy/index.m3u8",
-        "name": "RUMBA TV",
-        "ep_id": "rumba_tv"
+        "name": "RUMBA TV HD",
+        "ep_id": "rumba_tv_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hv/index.m3u8",
@@ -3111,8 +3171,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a096/index.m3u8",
-        "name": "SPACE SRT",
-        "ep_id": "space_srt"
+        "name": "SPACE SRT EN",
+        "ep_id": "space_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cl/index.m3u8",
@@ -3171,8 +3231,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fz/index.m3u8",
-        "name": "TELENOSTALGIA",
-        "ep_id": "telenostalgia"
+        "name": "TELENOSTALGIA HD",
+        "ep_id": "telenostalgia_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ar/index.m3u8",
@@ -3220,9 +3280,19 @@
         "ep_id": "tlt"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
+        "name": "TNT Novelas HD",
+        "ep_id": "tnt_novelas_hd"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a098/index.m3u8",
-        "name": "SERIES SRT",
-        "ep_id": "series_srt"
+        "name": "TNT SERIES SRT EN",
+        "ep_id": "tnt_series_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a097/index.m3u8",
+        "name": "TNT SRT EN",
+        "ep_id": "tnt_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
@@ -3231,8 +3301,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
-        "name": "NACIONAL SIN TRANS",
-        "ep_id": "nacional_sin_trans"
+        "name": "TRO NACIONAL SIN TRANS",
+        "ep_id": "tro_nacional_sin_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ci/index.m3u8",
@@ -3241,13 +3311,13 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fj/index.m3u8",
-        "name": "AGRO",
-        "ep_id": "agro"
+        "name": "TV AGRO HD",
+        "ep_id": "tv_agro_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fp/index.m3u8",
-        "name": "FAMB",
-        "ep_id": "famb"
+        "name": "TV FAMB",
+        "ep_id": "tv_famb"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0e5/index.m3u8",
@@ -3281,8 +3351,8 @@
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
-        "name": "SPORT MAS  LOCAL",
-        "ep_id": "sport_mas_local"
+        "name": "WIN SPORT MAS  LOCAL",
+        "ep_id": "win_sport_mas_local"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cc/index.m3u8",
@@ -3290,9 +3360,19 @@
         "ep_id": "winsport"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a06v/index.m3u8",
+        "name": "Win Sports+ HD",
+        "ep_id": "win_sports_hd"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0dw/index.m3u8",
         "name": "ZOOM",
         "ep_id": "zoom"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
+        "name": "cinecanal",
+        "ep_id": "cinecanal"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
@@ -3310,6 +3390,11 @@
         "ep_id": "lifetime"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
+        "name": "paramount",
+        "ep_id": "paramount"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
         "name": "starchannel",
         "ep_id": "starchannel"
@@ -3323,6 +3408,16 @@
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
         "name": "warner",
         "ep_id": "warner"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0hh/index.m3u8",
+        "name": "ABN SRT",
+        "ep_id": "abn_srt"
+    },
+    {
+        "_id": "https://jireh-10-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/tvmas/livestream0/chunks.m3u8?dpssid=b2105023887169ce9bd2c6a2e&sid=ba5t1l1xb297314216469ce9c570f1e1&ndvc=0",
+        "name": "TV+ HD",
+        "ep_id": "tv_hd"
     },
     {
         "_id": "http://23.237.104.106:8080/USA_BUZZR/index.m3u8",
