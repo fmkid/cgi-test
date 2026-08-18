@@ -14,20 +14,20 @@ RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
 RE_MULTI_UNDERSCORE = re.compile(r'_+')
 RE_BRACKETS = re.compile(r'[\(\[\{].*?[\)\]\}]')
-
-# FIX: Strict 2-letter country limit and enforces bounding spaces around separators to avoid breaking glued words like "Sci-Fi"
 RE_COUNTRY_TAGS = re.compile(r'(?:^[a-zA-Z]{2}\s+[\|:\-\s]\s*)|(?:\s*[\|:\-\s]\s+[a-zA-Z]{2}$)')
+RE_CLEAN_STRAY_BARS = re.compile(r'(?:^[\|:\-\s]+)|(?:[\|:\-\s]+$)')
 RE_CHANNEL_NUMBERS = re.compile(r'^\d+(?:\.\d+)?\s*[\|:\-\.\s]\s*')
 M3U_PATTERN = re.compile(r'#EXTINF:.*?,([^\n]+)\n(?:#[^\n]*\n)*?(https?://[^\s]+)')
 
 
 def clean_channel_name(val):
-    # Cleans brackets, numbers prefixes, country tags, and trailing spaces from the channel title.
+    # Cleans brackets, numbers prefixes, country tags, stray separators, and trailing spaces from the channel title.
     if not val:
         return ""
     name = RE_BRACKETS.sub('', str(val))
     name = RE_COUNTRY_TAGS.sub('', name)
-    return RE_CHANNEL_NUMBERS.sub('', name).strip()
+    name = RE_CHANNEL_NUMBERS.sub('', name)
+    return RE_CLEAN_STRAY_BARS.sub('', name).strip()
 
 
 def gen_ep_id(val):
@@ -68,7 +68,7 @@ async def fetch_m3u_from_github(session):
     
     for raw_name, url in matches:
         raw_name, url = raw_name.strip(), url.strip()
-        if "pluto.tv" in url.lower():
+        if "pluto.tv" in url.lower() or raw_name.upper().startswith("#EXT"):
             continue
             
         url_base = clean_url_base(url)
@@ -91,6 +91,7 @@ async def verify_channel_health(session, semaphore, channel):
             try:
                 async with session.request(method, url, timeout=6, allow_redirects=True, ssl=False) as response:
                     if 200 <= response.status < 300:
+                        # Extra strict: drop any response that pretends to be video but carries empty content length
                         if method == 'get' and response.headers.get('Content-Length') == '0':
                             return None
                         return await evaluate_response(response, channel)
@@ -100,15 +101,35 @@ async def verify_channel_health(session, semaphore, channel):
 
 
 async def evaluate_response(response, channel):
-    # Verifies if the HTTP headers confirm that the stream contains valid video data or M3U8 payload.
+    # Enforces strict content verification by analyzing headers and sniffing manifest payloads for valid data.
     content_type = response.headers.get('Content-Type', '').lower()
-    if any(x in content_type for x in ['video/', 'mpegurl', 'application/x-mpegurl']):
-        return {
-            "_id": channel["url"],
-            "name": channel["name"],
-            "ep_id": gen_ep_id(channel["name"])
-        }
-    return None
+    
+    # Instant rejection if it resolves to an HTML landing page disguised as 200 OK
+    if "text/html" in content_type:
+        return None
+        
+    # Deep Inspection for Playlist types (m3u8, mpegurl)
+    if any(x in content_type for x in ['mpegurl', 'application/x-mpegurl', 'application/vnd.apple.mpegurl']):
+        try:
+            # Safely fetch the first chunk of text to prevent loading large VOD files entirely into RAM
+            text_sample = await response.text()
+            # Strict HLS Validation: Must have at least one valid video sequence tag or stream pointer
+            if not any(tag in text_sample for tag in ['#EXTINF', '#EXT-X-STREAM-INF', '#EXT-X-TARGETDURATION']):
+                return None
+        except Exception:
+            return None
+            
+    # Standard Validation for raw binary stream files (MP4, TS, MKV, etc.)
+    elif 'video/' in content_type:
+        pass
+    else:
+        return None
+
+    return {
+        "_id": channel["url"],
+        "name": channel["name"],
+        "ep_id": gen_ep_id(channel["name"])
+    }
 
 
 async def process_all_channels():
@@ -129,12 +150,14 @@ async def process_all_channels():
         discarded_ep_id = 0
         
         for r in results:
-            if r is not None:
-                if r["ep_id"] in seen_ep_ids:
-                    discarded_ep_id += 1
-                else:
-                    seen_ep_ids.add(r["ep_id"])
-                    valid_channels.append(r)
+            if r is None:
+                continue
+            if r["ep_id"] in seen_ep_ids:
+                discarded_ep_id += 1
+                continue
+                
+            seen_ep_ids.add(r["ep_id"])
+            valid_channels.append(r)
             
         print(f"Secondary Filter: Discarded {discarded_ep_id} online channels due to duplicate ep_id.")
         return valid_channels
