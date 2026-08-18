@@ -9,18 +9,35 @@ from urllib.parse import urlparse, urlunparse
 M3U_URL = os.environ.get("M3U_GITHUB_URL")
 CONCURRENCY_LIMIT = 50 
 
-# Globally compiled regex patterns to save CPU cycles inside intensive loops
+# Globally compiled regex patterns for intensive loops
 RE_SPACES = re.compile(r'\s+')
 RE_CLEAN = re.compile(r'[^a-z0-9_]')
 RE_MULTI_UNDERSCORE = re.compile(r'_+')
-M3U_PATTERN = re.compile(r'#EXTINF:.*?,(.*?)\n(https?://[^\s]+)')
+
+# Metadata, country code, and channel number prefix cleaning regex patterns
+RE_BRACKETS = re.compile(r'[\(\[\{].*?[\)\]\}]')
+RE_COUNTRY_TAGS = re.compile(r'(?:^[a-zA-Z]{2,3}\s*[\|:\-\s]\s*)|(?:\s*[\|:\-\s]\s*[a-zA-Z]{2,3}$)')
+RE_CHANNEL_NUMBERS = re.compile(r'^\d+(?:\.\d+)?\s*[\|:\-\.\s]\s*')
+
+# Robust M3U pattern targeting channel name and stream URL
+M3U_PATTERN = re.compile(r'#EXTINF:.*?,([^\n]+)\n(?:#[^\n]*\n)*?(https?://[^\s]+)')
+
+
+def clean_channel_name(val):
+    # Cleans brackets, numbers prefixes, country tags, and trailing spaces from the channel title.
+    if not val:
+        return ""
+    name = RE_BRACKETS.sub('', str(val))
+    name = RE_COUNTRY_TAGS.sub('', name)
+    name = RE_CHANNEL_NUMBERS.sub('', name)
+    return name.strip()
 
 
 def gen_ep_id(val):
-    # Generates a lowercase alphanumeric ID separated by underscores based on the channel name.
+    # Generates a lowercase alphanumeric ID separated by underscores based on the already cleaned channel name.
     if not val:
         return ""
-    t = unicodedata.normalize('NFKD', str(val).lower())
+    t = unicodedata.normalize('NFKD', val.lower())
     t = RE_SPACES.sub('_', t.encode('ascii', 'ignore').decode())
     return RE_MULTI_UNDERSCORE.sub('_', RE_CLEAN.sub('', t)).strip('_')
 
@@ -54,13 +71,20 @@ async def fetch_m3u_from_github(session):
     matches = M3U_PATTERN.findall(normalized_content)
     
     for match in matches:
-        name, url = match[0].strip(), match[1].strip()
+        raw_name, url = match.strip(), match.strip()
+        
+        if "pluto.tv" in url.lower():
+            continue
+            
         url_base = clean_url_base(url)
         if url_base in seen_base_urls:
             continue
             
         seen_base_urls.add(url_base)
-        channels.append({"name": name, "url": url})
+        channels.append({
+            "name": clean_channel_name(raw_name),
+            "url": url
+        })
         
     print(f"Primary Filter: Kept {len(channels)} unique channels out of {len(matches)} total entries.")
     return channels
@@ -77,6 +101,9 @@ async def verify_channel_health(session, semaphore, channel):
                     
             async with session.get(url, timeout=6, allow_redirects=True, ssl=False) as response:
                 if 200 <= response.status < 300:
+                    content_length = response.headers.get('Content-Length')
+                    if content_length is not None and int(content_length) == 0:
+                        return None
                     return await evaluate_response(response, channel)
         except Exception:
             pass
