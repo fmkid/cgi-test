@@ -135,16 +135,6 @@
         "ep_id": "just_for_laughs"
     },
     {
-        "_id": "https://59ec5453559f0.streamlock.net/Latino/smil:VIVALIVE/playlist.m3u8",
-        "name": "Miami TV Latino",
-        "ep_id": "miami_tv_latino"
-    },
-    {
-        "_id": "https://59ec5453559f0.streamlock.net/miamitvlife/smil:WEB/.m3u8",
-        "name": "Miami TV Life",
-        "ep_id": "miami_tv_life"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
         "name": "Realities",
         "ep_id": "realities"
@@ -168,6 +158,11 @@
         "_id": "https://moonbug-rokuus.amagi.tv/playlist.m3u8",
         "name": "Moonbug",
         "ep_id": "moonbug"
+    },
+    {
+        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
     },
     {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
@@ -303,16 +298,6 @@
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
         "name": "IQ Channel",
         "ep_id": "iq_channel"
-    },
-    {
-        "_id": "https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/.m3u8",
-        "name": "Energy TV Music",
-        "ep_id": "energy_tv_music"
-    },
-    {
-        "_id": "https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/.m3u8",
-        "name": "Energy TV DJ",
-        "ep_id": "energy_tv_dj"
     },
     {
         "_id": "https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8",
@@ -958,11 +943,6 @@
         "_id": "https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8",
         "name": "Wording TV HD | Brasil",
         "ep_id": "wording_tv_hd_brasil"
-    },
-    {
-        "_id": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
-        "name": "CGTN en Espanol | China",
-        "ep_id": "cgtn_en_espanol_china"
     },
     {
         "_id": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
@@ -2340,14 +2320,14 @@
         "ep_id": "canal_7_jujuy"
     },
     {
-        "_id": "https://stream.arcast.live/ahora/ahora/playlist.m3u8",
-        "name": "Canal 9 Litoral",
-        "ep_id": "canal_9_litoral"
-    },
-    {
         "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
         "name": "Canal 13 La Rioja",
         "ep_id": "canal_13_la_rioja"
+    },
+    {
+        "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
+        "name": "Canal 21 TV",
+        "ep_id": "canal_21_tv"
     },
     {
         "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
@@ -2403,6 +2383,11 @@
         "_id": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
         "name": "TV Maná Argentina",
         "ep_id": "tv_mana_argentina"
+    },
+    {
+        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
+        "name": "24/7 Canal de Noticias",
+        "ep_id": "247_canal_de_noticias"
     },
     {
         "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
@@ -3213,6 +3198,11 @@
         "_id": "http://181.78.8.199:8000/play/a0fs/index.m3u8",
         "name": "TLT",
         "ep_id": "tlt"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
+        "name": "TNT NOVELAS",
+        "ep_id": "tnt_novelas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
