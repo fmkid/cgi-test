@@ -135,6 +135,11 @@
         "ep_id": "just_for_laughs"
     },
     {
+        "_id": "https://59ec5453559f0.streamlock.net/Latino/smil:VIVALIVE/playlist.m3u8",
+        "name": "Miami TV Latino",
+        "ep_id": "miami_tv_latino"
+    },
+    {
         "_id": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
         "name": "Realities",
         "ep_id": "realities"
@@ -298,6 +303,16 @@
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
         "name": "IQ Channel",
         "ep_id": "iq_channel"
+    },
+    {
+        "_id": "https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/.m3u8",
+        "name": "Energy TV Music",
+        "ep_id": "energy_tv_music"
+    },
+    {
+        "_id": "https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/.m3u8",
+        "name": "Energy TV DJ",
+        "ep_id": "energy_tv_dj"
     },
     {
         "_id": "https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8",
@@ -615,6 +630,11 @@
         "ep_id": "tele_yucatan"
     },
     {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -680,34 +700,9 @@
         "ep_id": "vision_television"
     },
     {
-        "_id": "https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=W3bEnerG33k2026",
-        "name": "EnerGeek Retro | Chile",
-        "ep_id": "energeek_retro_chile"
-    },
-    {
-        "_id": "https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=W3bEnerG33k2026",
-        "name": "Energeek Radio TV | Chile",
-        "ep_id": "energeek_radio_tv_chile"
-    },
-    {
-        "_id": "https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=W3bEnerG33k2026",
-        "name": "Fanpop TV | Chile",
-        "ep_id": "fanpop_tv_chile"
-    },
-    {
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
-    },
-    {
-        "_id": "http://animezonetv.net:81/live_hls/animetest/index.m3u8",
-        "name": "Anime XTV | Republica Dominicana",
-        "ep_id": "anime_xtv_republica_dominicana"
-    },
-    {
-        "_id": "http://146.19.49.197:81/live/animextv_hi/index.m3u8",
-        "name": "Anime XTV op2 | Republica Dominicana",
-        "ep_id": "anime_xtv_op2_republica_dominicana"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -743,11 +738,6 @@
         "_id": "https://paneltv.stream:19360/chilevisual/chilevisual.m3u8",
         "name": "Chilevisual | Chile",
         "ep_id": "chilevisual_chile"
-    },
-    {
-        "_id": "https://paneltv.stream:19360/classicchannel/classicchannel.m3u8",
-        "name": "Classic Channel HD | Chile",
-        "ep_id": "classic_channel_hd_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
@@ -853,11 +843,6 @@
         "_id": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
         "name": "PBS Kids  | USA",
         "ep_id": "pbs_kids_usa"
-    },
-    {
-        "_id": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=dem0pRideTVweb",
-        "name": "Pride Tv | Chile",
-        "ep_id": "pride_tv_chile"
     },
     {
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
