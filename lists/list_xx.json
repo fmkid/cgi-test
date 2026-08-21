@@ -400,6 +400,11 @@
         "ep_id": "mexiquense_tv_op2"
     },
     {
+        "_id": "http://streamingcws10.com:1935/telemetrika/videotelemetrika/playlist.m3u8",
+        "name": "AGU: Presumiendo Mexico",
+        "ep_id": "agu_presumiendo_mexico"
+    },
+    {
         "_id": "http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/.m3u8",
         "name": "AGU: Canal 26",
         "ep_id": "agu_canal_26"
@@ -485,6 +490,11 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
+    },
+    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -533,6 +543,11 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8",
         "name": "CB TV Michoacan",
         "ep_id": "cb_tv_michoacan"
+    },
+    {
+        "_id": "http://190.61.90.17:40000/play/a0hk/index.m3u8",
+        "name": "Exa TV",
+        "ep_id": "exa_tv"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
@@ -630,11 +645,6 @@
         "ep_id": "tele_yucatan"
     },
     {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
-    },
-    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -703,6 +713,11 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
+    },
+    {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -1495,11 +1510,6 @@
         "ep_id": "wapa"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USBB3200016HO",
-        "name": "Telemundo Al Día",
-        "ep_id": "telemundo_al_dia"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USAJ2200020N4",
         "name": "Estrella News",
         "ep_id": "estrella_news"
@@ -2080,11 +2090,6 @@
         "ep_id": "deluxe_lounge_hd"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBC27000040I",
-        "name": "GoUSA TV",
-        "ep_id": "gousa_tv"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES24000028L",
         "name": "Ice Pilots",
         "ep_id": "ice_pilots"
@@ -2300,11 +2305,6 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8",
-        "name": "Canal 7 Jujuy",
-        "ep_id": "canal_7_jujuy"
-    },
-    {
         "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
         "name": "Canal 13 La Rioja",
         "ep_id": "canal_13_la_rioja"
@@ -2345,19 +2345,9 @@
         "ep_id": "powerhd"
     },
     {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-        "name": "Radio TV Neuquén",
-        "ep_id": "radio_tv_neuquen"
-    },
-    {
         "_id": "http://204.199.3.2/.m3u8",
         "name": "Radiocanal San Francisco",
         "ep_id": "radiocanal_san_francisco"
-    },
-    {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
-        "name": "RTN",
-        "ep_id": "rtn"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8",
@@ -2403,6 +2393,11 @@
         "_id": "https://cloud.tvomix.com/URBANMIX/index.m3u8",
         "name": "Urban Mix",
         "ep_id": "urban_mix"
+    },
+    {
+        "_id": "https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8",
+        "name": "X Level Media",
+        "ep_id": "x_level_media"
     },
     {
         "_id": "http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD",
@@ -2478,6 +2473,11 @@
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
         "name": "UTV",
         "ep_id": "utv"
+    },
+    {
+        "_id": "http://45.185.163.75:8000/play/a0gv/index.m3u8",
+        "name": "Etc TV | Chile",
+        "ep_id": "etc_tv_chile"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
