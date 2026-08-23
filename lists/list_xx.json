@@ -520,11 +520,6 @@
         "ep_id": "canal_26_aguascalientes"
     },
     {
-        "_id": "https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8",
-        "name": "Canal 33 Tijuana",
-        "ep_id": "canal_33_tijuana"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8",
         "name": "Canal 44 Ciudad Juárez",
         "ep_id": "canal_44_ciudad_juarez"
@@ -570,11 +565,6 @@
         "ep_id": "jalisco_tv"
     },
     {
-        "_id": "https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8",
-        "name": "Lobo TV",
-        "ep_id": "lobo_tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8",
         "name": "Monte Maria",
         "ep_id": "monte_maria"
@@ -608,11 +598,6 @@
         "_id": "https://cloudvideo.servers10.com:8081/8072/index.m3u8",
         "name": "Raly TV",
         "ep_id": "raly_tv"
-    },
-    {
-        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
-        "name": "RTG",
-        "ep_id": "rtg"
     },
     {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
@@ -720,11 +705,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -735,14 +715,14 @@
         "ep_id": "canal_15_dtp_honduras"
     },
     {
-        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
-        "name": "Canal 4 San Juan | Argentina",
-        "ep_id": "canal_4_san_juan_argentina"
-    },
-    {
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
         "name": "Canal 5 Vision Latina",
         "ep_id": "canal_5_vision_latina"
+    },
+    {
+        "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
+        "name": "Canal 6 Digital | Argentina",
+        "ep_id": "canal_6_digital_argentina"
     },
     {
         "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
@@ -755,9 +735,9 @@
         "ep_id": "chile_channel_chile"
     },
     {
-        "_id": "https://paneltv.stream:19360/chilevisual/chilevisual.m3u8",
-        "name": "Chilevisual | Chile",
-        "ep_id": "chilevisual_chile"
+        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
+        "name": "Click TV | Chile",
+        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -828,11 +808,6 @@
         "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
         "name": "Neox | Argentina",
         "ep_id": "neox_argentina"
-    },
-    {
-        "_id": "https://videohd.live:19360/8076/8076.m3u8",
-        "name": "Norte Informativo TV | Costa Rica",
-        "ep_id": "norte_informativo_tv_costa_rica"
     },
     {
         "_id": "https://lightning-now70s-samsungnz.amagi.tv/playlist720p.m3u8",
@@ -2305,11 +2280,6 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
         "name": "Canal 21 TV",
         "ep_id": "canal_21_tv"
@@ -2418,11 +2388,6 @@
         "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
         "name": "TyC Sports USA",
         "ep_id": "tyc_sports_usa"
-    },
-    {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
@@ -3140,16 +3105,6 @@
         "ep_id": "teleislas"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a07t/index.m3u8",
-        "name": "TELENOSTALGIA ENVIADO",
-        "ep_id": "telenostalgia_enviado"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fz/index.m3u8",
-        "name": "TELENOSTALGIA HD",
-        "ep_id": "telenostalgia_hd"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ar/index.m3u8",
         "name": "TELENOVELAS",
         "ep_id": "telenovelas"
@@ -3280,11 +3235,6 @@
         "ep_id": "winsport"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a06v/index.m3u8",
-        "name": "Win Sports+ HD",
-        "ep_id": "win_sports_hd"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0dw/index.m3u8",
         "name": "ZOOM",
         "ep_id": "zoom"
@@ -3318,11 +3268,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
         "name": "starchannel",
         "ep_id": "starchannel"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
-        "name": "telemundo",
-        "ep_id": "telemundo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
