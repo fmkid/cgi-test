@@ -490,11 +490,6 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
-        "name": "15TV",
-        "ep_id": "15tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -743,6 +738,11 @@
         "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
         "name": "Canal 6 Digital | Argentina",
         "ep_id": "canal_6_digital_argentina"
+    },
+    {
+        "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
+        "name": "Caracola TV | Chile",
+        "ep_id": "caracola_tv_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
@@ -2435,11 +2435,6 @@
         "ep_id": "atacama_noticias"
     },
     {
-        "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
-        "name": "Atacama TV",
-        "ep_id": "atacama_tv"
-    },
-    {
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
@@ -3200,11 +3195,6 @@
         "ep_id": "tlt"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
-        "name": "TNT NOVELAS",
-        "ep_id": "tnt_novelas"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
         "name": "TNT Novelas HD",
         "ep_id": "tnt_novelas_hd"
@@ -3318,11 +3308,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
         "name": "starchannel",
         "ep_id": "starchannel"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
-        "name": "telemundo",
-        "ep_id": "telemundo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
