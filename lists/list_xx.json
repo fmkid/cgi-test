@@ -165,11 +165,6 @@
         "ep_id": "moonbug"
     },
     {
-        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal TV",
-        "ep_id": "taltal_tv"
-    },
-    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -490,14 +485,14 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
+    },
+    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
-    },
-    {
-        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -723,11 +718,6 @@
         "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
         "name": "Canal 15 DTP  | Honduras",
         "ep_id": "canal_15_dtp_honduras"
-    },
-    {
-        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
-        "name": "Canal 4 San Juan | Argentina",
-        "ep_id": "canal_4_san_juan_argentina"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
@@ -1333,11 +1323,6 @@
         "_id": "https://jmp2.uk/stvp-USBC39000204J",
         "name": "Military Heroes",
         "ep_id": "military_heroes"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC2100013WI",
-        "name": "TED",
-        "ep_id": "ted"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3400014LK",
@@ -2435,6 +2420,11 @@
         "ep_id": "atacama_noticias"
     },
     {
+        "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
+        "name": "Atacama TV",
+        "ep_id": "atacama_tv"
+    },
+    {
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
@@ -2493,11 +2483,6 @@
         "_id": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
         "name": "Canal 10 CR",
         "ep_id": "canal_10_cr"
-    },
-    {
-        "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
-        "name": "Best Clasicos",
-        "ep_id": "best_clasicos"
     },
     {
         "_id": "https://e46fa4a445464f8a9150fa7d510eb85c.mediatailor.us-west-2.amazonaws.com/v1/manifest/2d2d0d97b0e548f025b2598a69b55bf30337aa0e/npp/7ad7548f-cc44-4a1b-9aff-34610417fe1b/4.m3u8",
@@ -3195,6 +3180,11 @@
         "ep_id": "tlt"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
+        "name": "TNT NOVELAS",
+        "ep_id": "tnt_novelas"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
         "name": "TNT Novelas HD",
         "ep_id": "tnt_novelas_hd"
@@ -3308,6 +3298,11 @@
         "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
         "name": "starchannel",
         "ep_id": "starchannel"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
+        "name": "telemundo",
+        "ep_id": "telemundo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
