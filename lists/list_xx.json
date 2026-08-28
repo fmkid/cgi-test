@@ -165,6 +165,11 @@
         "ep_id": "moonbug"
     },
     {
+        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
+    },
+    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -535,11 +540,6 @@
         "ep_id": "cb_tv_michoacan"
     },
     {
-        "_id": "http://190.61.90.17:40000/play/a0hk/index.m3u8",
-        "name": "Exa TV",
-        "ep_id": "exa_tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
         "name": "Expresa TV",
         "ep_id": "expresa_tv"
@@ -635,6 +635,11 @@
         "ep_id": "tele_yucatan"
     },
     {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -673,11 +678,6 @@
         "_id": "https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8",
         "name": "TV Mar Puerto Vallarta",
         "ep_id": "tv_mar_puerto_vallarta"
-    },
-    {
-        "_id": "https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8",
-        "name": "TV UJAT",
-        "ep_id": "tv_ujat"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8",
@@ -738,11 +738,6 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
-    },
-    {
-        "_id": "https://paneltv.stream:19360/chilevisual/chilevisual.m3u8",
-        "name": "Chilevisual | Chile",
-        "ep_id": "chilevisual_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
@@ -2405,11 +2400,6 @@
         "ep_id": "tyc_sports_usa"
     },
     {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
-    },
-    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2460,11 +2450,6 @@
         "ep_id": "tevex"
     },
     {
-        "_id": "http://tv.ulagos.cl/web/live.m3u8",
-        "name": "U Los Lagos TV",
-        "ep_id": "u_los_lagos_tv"
-    },
-    {
         "_id": "https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8",
         "name": "UMAGTV 2",
         "ep_id": "umagtv_2"
@@ -2483,6 +2468,11 @@
         "_id": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
         "name": "Canal 10 CR",
         "ep_id": "canal_10_cr"
+    },
+    {
+        "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
+        "name": "Best Clasicos",
+        "ep_id": "best_clasicos"
     },
     {
         "_id": "https://e46fa4a445464f8a9150fa7d510eb85c.mediatailor.us-west-2.amazonaws.com/v1/manifest/2d2d0d97b0e548f025b2598a69b55bf30337aa0e/npp/7ad7548f-cc44-4a1b-9aff-34610417fe1b/4.m3u8",
