@@ -175,11 +175,6 @@
         "ep_id": "zaz"
     },
     {
-        "_id": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
-        "name": "Mega Cine TV",
-        "ep_id": "mega_cine_tv"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
         "name": "Entretencion",
         "ep_id": "entretencion"
@@ -540,6 +535,11 @@
         "ep_id": "cb_tv_michoacan"
     },
     {
+        "_id": "http://190.61.90.17:40000/play/a0hk/index.m3u8",
+        "name": "Exa TV",
+        "ep_id": "exa_tv"
+    },
+    {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
         "name": "Expresa TV",
         "ep_id": "expresa_tv"
@@ -718,6 +718,11 @@
         "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
         "name": "Canal 15 DTP  | Honduras",
         "ep_id": "canal_15_dtp_honduras"
+    },
+    {
+        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
+        "name": "Canal 4 San Juan | Argentina",
+        "ep_id": "canal_4_san_juan_argentina"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
@@ -2265,11 +2270,6 @@
         "ep_id": "cgtn"
     },
     {
-        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
-        "name": "5TV Corrientes",
-        "ep_id": "5tv_corrientes"
-    },
-    {
         "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
         "name": "Beats Radio",
         "ep_id": "beats_radio"
@@ -2308,11 +2308,6 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
-    },
-    {
-        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
-        "name": "NG Federal",
-        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2355,11 +2350,6 @@
         "ep_id": "247_canal_de_noticias"
     },
     {
-        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
-        "name": "Canal 9 Resistencia",
-        "ep_id": "canal_9_resistencia"
-    },
-    {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
         "name": "Canal Orbe 21",
         "ep_id": "canal_orbe_21"
@@ -2398,6 +2388,11 @@
         "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
         "name": "TyC Sports USA",
         "ep_id": "tyc_sports_usa"
+    },
+    {
+        "_id": "https://videohd.live:19360/8008/8008.m3u8",
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
@@ -3168,11 +3163,6 @@
         "_id": "http://181.78.8.199:8000/play/a0fs/index.m3u8",
         "name": "TLT",
         "ep_id": "tlt"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
-        "name": "TNT NOVELAS",
-        "ep_id": "tnt_novelas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
