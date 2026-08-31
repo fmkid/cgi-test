@@ -165,11 +165,6 @@
         "ep_id": "moonbug"
     },
     {
-        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal TV",
-        "ep_id": "taltal_tv"
-    },
-    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -605,11 +600,6 @@
         "ep_id": "raly_tv"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
-        "name": "RTG",
-        "ep_id": "rtg"
-    },
-    {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
         "name": "SET Televisión Canal 26.1",
         "ep_id": "set_television_canal_261"
@@ -708,11 +698,6 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
-    },
-    {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -2305,11 +2290,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2405,11 +2385,6 @@
         "ep_id": "disney_jr_latin_america_south"
     },
     {
-        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
-        "name": "TyC Sports USA",
-        "ep_id": "tyc_sports_usa"
-    },
-    {
         "_id": "https://videohd.live:19360/8008/8008.m3u8",
         "name": "TIV Television",
         "ep_id": "tiv_television"
@@ -2428,6 +2403,11 @@
         "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
         "name": "Atacama TV",
         "ep_id": "atacama_tv"
+    },
+    {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
