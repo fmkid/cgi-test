@@ -165,6 +165,11 @@
         "ep_id": "moonbug"
     },
     {
+        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
+    },
+    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -600,6 +605,11 @@
         "ep_id": "raly_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
+        "name": "RTG",
+        "ep_id": "rtg"
+    },
+    {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
         "name": "SET Televisión Canal 26.1",
         "ep_id": "set_television_canal_261"
@@ -633,6 +643,11 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
         "name": "Tele Yucatan",
         "ep_id": "tele_yucatan"
+    },
+    {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
@@ -2290,6 +2305,11 @@
         "ep_id": "canal_21_tv"
     },
     {
+        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+        "name": "Chaco TV",
+        "ep_id": "chaco_tv"
+    },
+    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2405,6 +2425,11 @@
         "ep_id": "atacama_tv"
     },
     {
+        "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
+        "name": "Aysen TV",
+        "ep_id": "aysen_tv"
+    },
+    {
         "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
         "name": "Juntos TV",
         "ep_id": "juntos_tv"
@@ -2435,9 +2460,9 @@
         "ep_id": "tevex"
     },
     {
-        "_id": "https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8",
-        "name": "UMAGTV 2",
-        "ep_id": "umagtv_2"
+        "_id": "http://tv.ulagos.cl/web/live.m3u8",
+        "name": "U Los Lagos TV",
+        "ep_id": "u_los_lagos_tv"
     },
     {
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
