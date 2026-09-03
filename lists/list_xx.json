@@ -490,11 +490,6 @@
         "ep_id": "15tv"
     },
     {
-        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
-        "name": "Antena TV",
-        "ep_id": "antena_tv"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
         "name": "Canal 10 Durango",
         "ep_id": "canal_10_durango"
@@ -710,11 +705,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -818,11 +808,6 @@
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
         "name": "Kpop Tv Play | Brasil",
         "ep_id": "kpop_tv_play_brasil"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-        "name": "Neo TV | Argentina",
-        "ep_id": "neo_tv_argentina"
     },
     {
         "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
@@ -2325,11 +2310,6 @@
         "ep_id": "cosmos_tv"
     },
     {
-        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
-        "name": "NG Federal",
-        "ep_id": "ng_federal"
-    },
-    {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
         "name": "Power Max Radio TV",
         "ep_id": "power_max_radio_tv"
@@ -2423,6 +2403,11 @@
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
         "name": "Atacama Noticias",
         "ep_id": "atacama_noticias"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
+        "name": "Atacama TV",
+        "ep_id": "atacama_tv"
     },
     {
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
