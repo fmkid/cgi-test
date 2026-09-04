@@ -95,6 +95,11 @@
         "ep_id": "tvp_obregon"
     },
     {
+        "_id": "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL",
+        "name": "UMTV",
+        "ep_id": "umtv"
+    },
+    {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
         "name": "Kanal D",
         "ep_id": "kanal_d"
@@ -490,6 +495,11 @@
         "ep_id": "15tv"
     },
     {
+        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
+        "name": "Antena TV",
+        "ep_id": "antena_tv"
+    },
+    {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
         "name": "Canal 10 Durango",
         "ep_id": "canal_10_durango"
@@ -518,11 +528,6 @@
         "_id": "http://45.181.87.106/CANAL5HD/index.m3u8",
         "name": "Canal 5",
         "ep_id": "canal_5"
-    },
-    {
-        "_id": "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8",
-        "name": "Canal 5 TV Cozumel",
-        "ep_id": "canal_5_tv_cozumel"
     },
     {
         "_id": "https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8",
@@ -795,11 +800,6 @@
         "ep_id": "frecuencia_musical_tv_op2_usa"
     },
     {
-        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
-        "name": "FS1 | Austria",
-        "ep_id": "fs1_austria"
-    },
-    {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
         "name": "Iquique Tv | Chile",
         "ep_id": "iquique_tv_chile"
@@ -808,6 +808,11 @@
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
         "name": "Kpop Tv Play | Brasil",
         "ep_id": "kpop_tv_play_brasil"
+    },
+    {
+        "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
+        "name": "Neo TV | Argentina",
+        "ep_id": "neo_tv_argentina"
     },
     {
         "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
@@ -838,11 +843,6 @@
         "_id": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
         "name": "Orbit TV op2 | Republica Dominicana",
         "ep_id": "orbit_tv_op2_republica_dominicana"
-    },
-    {
-        "_id": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
-        "name": "PBS Kids  | USA",
-        "ep_id": "pbs_kids_usa"
     },
     {
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
@@ -2390,6 +2390,11 @@
         "ep_id": "disney_jr_latin_america_south"
     },
     {
+        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
+        "name": "TyC Sports USA",
+        "ep_id": "tyc_sports_usa"
+    },
+    {
         "_id": "https://videohd.live:19360/8008/8008.m3u8",
         "name": "TIV Television",
         "ep_id": "tiv_television"
@@ -2548,11 +2553,6 @@
         "_id": "http://181.78.8.199:8000/play/a0d2/index.m3u8",
         "name": "CANAL CONGRE NACIONAL SIN TRANS",
         "ep_id": "canal_congre_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0di/index.m3u8",
-        "name": "CANAL CONGRESO TRANS",
-        "ep_id": "canal_congreso_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0as/index.m3u8",
