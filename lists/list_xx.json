@@ -95,11 +95,6 @@
         "ep_id": "tvp_obregon"
     },
     {
-        "_id": "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL",
-        "name": "UMTV",
-        "ep_id": "umtv"
-    },
-    {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
         "name": "Kanal D",
         "ep_id": "kanal_d"
@@ -525,9 +520,14 @@
         "ep_id": "canal_44_ciudad_juarez"
     },
     {
-        "_id": "http://45.181.87.106/CANAL5HD/index.m3u8",
+        "_id": "http://190.11.225.124:5000/live/canal5_hd/playlist.m3u8",
         "name": "Canal 5",
         "ep_id": "canal_5"
+    },
+    {
+        "_id": "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8",
+        "name": "Canal 5 TV Cozumel",
+        "ep_id": "canal_5_tv_cozumel"
     },
     {
         "_id": "https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8",
@@ -798,6 +798,11 @@
         "_id": "https://s2.tvdatta.com:3307/live/fmtvmatrizlive.m3u8",
         "name": "Frecuencia Musical Tv op2 | USA",
         "ep_id": "frecuencia_musical_tv_op2_usa"
+    },
+    {
+        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
+        "name": "FS1 | Austria",
+        "ep_id": "fs1_austria"
     },
     {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
@@ -3010,6 +3015,11 @@
         "ep_id": "paramount_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0az/index.m3u8",
+        "name": "RCN ENVIO SEÑAL",
+        "ep_id": "rcn_envio_senal"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a09l/index.m3u8",
         "name": "RCN LOCAL",
         "ep_id": "rcn_local"
@@ -3253,11 +3263,6 @@
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
         "name": "cinecanal",
         "ep_id": "cinecanal"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
-        "name": "comedycentral",
-        "ep_id": "comedycentral"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
