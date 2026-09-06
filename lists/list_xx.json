@@ -95,6 +95,11 @@
         "ep_id": "tvp_obregon"
     },
     {
+        "_id": "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL",
+        "name": "UMTV",
+        "ep_id": "umtv"
+    },
+    {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
         "name": "Kanal D",
         "ep_id": "kanal_d"
@@ -3263,6 +3268,11 @@
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
         "name": "cinecanal",
         "ep_id": "cinecanal"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
+        "name": "comedycentral",
+        "ep_id": "comedycentral"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
