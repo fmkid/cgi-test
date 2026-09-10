@@ -130,11 +130,6 @@
         "ep_id": "just_for_laughs"
     },
     {
-        "_id": "https://59ec5453559f0.streamlock.net/miamitvlife/smil:WEB/.m3u8",
-        "name": "Miami TV Life",
-        "ep_id": "miami_tv_life"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
         "name": "Realities",
         "ep_id": "realities"
@@ -298,16 +293,6 @@
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
         "name": "IQ Channel",
         "ep_id": "iq_channel"
-    },
-    {
-        "_id": "https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/.m3u8",
-        "name": "Energy TV Music",
-        "ep_id": "energy_tv_music"
-    },
-    {
-        "_id": "https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/.m3u8",
-        "name": "Energy TV DJ",
-        "ep_id": "energy_tv_dj"
     },
     {
         "_id": "https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8",
@@ -708,6 +693,11 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
+    },
+    {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -2420,6 +2410,16 @@
         "ep_id": "aysen_tv"
     },
     {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
+    },
+    {
+        "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
+        "name": "Pichilemu TV",
+        "ep_id": "pichilemu_tv"
+    },
+    {
         "_id": "https://v4.tustreaming.cl/restaurandovida/index.m3u8",
         "name": "Restaurando Vidas Internacional",
         "ep_id": "restaurando_vidas_internacional"
@@ -2485,7 +2485,7 @@
         "ep_id": "antv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0am/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
         "name": "AXN",
         "ep_id": "axn"
     },
@@ -2578,6 +2578,16 @@
         "_id": "http://181.78.8.199:8000/play/a0aw/index.m3u8",
         "name": "CARACOL SRT",
         "ep_id": "caracol_srt"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
+        "name": "CARTOON NETWORK ENVIADO",
+        "ep_id": "cartoon_network_enviado"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09f/index.m3u8",
+        "name": "CARTOONITO ENVIADO",
+        "ep_id": "cartoonito_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09p/index.m3u8",
@@ -2750,9 +2760,24 @@
         "ep_id": "entreteiment"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0b1/index.m3u8",
+        "name": "ESPN 1",
+        "ep_id": "espn_1"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0b2/index.m3u8",
+        "name": "ESPN 2",
+        "ep_id": "espn_2"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a08z/index.m3u8",
         "name": "ESPN 2 HD",
         "ep_id": "espn_2_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0b3/index.m3u8",
+        "name": "ESPN 3",
+        "ep_id": "espn_3"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07f/index.m3u8",
@@ -2780,9 +2805,24 @@
         "ep_id": "espn_7hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0do/index.m3u8",
+        "name": "ESPN EXTRA",
+        "ep_id": "espn_extra"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a08y/index.m3u8",
         "name": "ESPN HD",
         "ep_id": "espn_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0bv/index.m3u8",
+        "name": "ESPN5",
+        "ep_id": "espn5"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0bw/index.m3u8",
+        "name": "ESPN6",
+        "ep_id": "espn6"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0bx/index.m3u8",
@@ -2838,6 +2878,11 @@
         "_id": "http://181.78.8.199:8000/play/a0g0/index.m3u8",
         "name": "HOGAR TV HD",
         "ep_id": "hogar_tv_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a081/index.m3u8",
+        "name": "HTV SRT EN",
+        "ep_id": "htv_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
@@ -2925,6 +2970,11 @@
         "ep_id": "nat_geo_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0c7/index.m3u8",
+        "name": "Natgeo",
+        "ep_id": "natgeo"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a07l/index.m3u8",
         "name": "Nick HD",
         "ep_id": "nick_hd"
@@ -2988,6 +3038,11 @@
         "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
         "name": "SONY MUVIES",
         "ep_id": "sony_muvies"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a096/index.m3u8",
+        "name": "SPACE SRT EN",
+        "ep_id": "space_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cl/index.m3u8",
@@ -3105,6 +3160,21 @@
         "ep_id": "tnt_novelas_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a098/index.m3u8",
+        "name": "TNT SERIES SRT EN",
+        "ep_id": "tnt_series_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a097/index.m3u8",
+        "name": "TNT SRT EN",
+        "ep_id": "tnt_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
+        "name": "TOONCAST ENVIADO",
+        "ep_id": "tooncast_enviado"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
         "name": "TRO NACIONAL SIN TRANS",
         "ep_id": "tro_nacional_sin_trans"
@@ -3170,9 +3240,19 @@
         "ep_id": "zoom"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
+        "name": "cinecanal",
+        "ep_id": "cinecanal"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
         "name": "comedycentral",
         "ep_id": "comedycentral"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
+        "name": "history",
+        "ep_id": "history"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
@@ -3183,6 +3263,16 @@
         "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
         "name": "paramount",
         "ep_id": "paramount"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
+        "name": "starchannel",
+        "ep_id": "starchannel"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
+        "name": "telemundo",
+        "ep_id": "telemundo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
