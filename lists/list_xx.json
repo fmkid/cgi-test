@@ -40,6 +40,11 @@
         "ep_id": "conecta_tv"
     },
     {
+        "_id": "https://pistream.ddns.net/hls/stream.m3u8?PlaylistM3UCL",
+        "name": "GikTVMX",
+        "ep_id": "giktvmx"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/mexiquense/videomexiquense/playlist.m3u8?PlaylistM3UCL",
         "name": "Mexiquense TV",
         "ep_id": "mexiquense_tv"
@@ -160,6 +165,11 @@
         "ep_id": "moonbug"
     },
     {
+        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
+    },
+    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -258,11 +268,6 @@
         "_id": "https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8",
         "name": "Portal FoxMix",
         "ep_id": "portal_foxmix"
-    },
-    {
-        "_id": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
-        "name": "Radio 88 Stereo CR",
-        "ep_id": "radio_88_stereo_cr"
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
@@ -705,11 +710,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -923,11 +923,6 @@
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
         "name": "Voice Over Radio TV | Costa Rica",
         "ep_id": "voice_over_radio_tv_costa_rica"
-    },
-    {
-        "_id": "https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8",
-        "name": "Wording TV HD | Brasil",
-        "ep_id": "wording_tv_hd_brasil"
     },
     {
         "_id": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
@@ -2435,6 +2430,16 @@
         "ep_id": "restaurando_vidas_internacional"
     },
     {
+        "_id": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
+        "name": "SoloBáilalo",
+        "ep_id": "solobailalo"
+    },
+    {
+        "_id": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
+        "name": "Televida",
+        "ep_id": "televida"
+    },
+    {
         "_id": "https://v4.tustreaming.cl/tevexinter/index.m3u8",
         "name": "Tevex",
         "ep_id": "tevex"
@@ -2520,11 +2525,6 @@
         "ep_id": "bitme"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0e8/index.m3u8",
-        "name": "CABLE NOTICIAS",
-        "ep_id": "cable_noticias"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
         "name": "CANAL 1 NACIONAL SIN TRANS",
         "ep_id": "canal_1_nacional_sin_trans"
@@ -2548,6 +2548,11 @@
         "_id": "http://181.78.8.199:8000/play/a0d2/index.m3u8",
         "name": "CANAL CONGRE NACIONAL SIN TRANS",
         "ep_id": "canal_congre_nacional_sin_trans"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0as/index.m3u8",
+        "name": "CANAL DE LAS ESTRELLAS",
+        "ep_id": "canal_de_las_estrellas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cy/index.m3u8",
@@ -2745,11 +2750,6 @@
         "ep_id": "encoder_de_8p"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ht/index.m3u8",
-        "name": "ENCODER DE 8P 2",
-        "ep_id": "encoder_de_8p_2"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0dq/index.m3u8",
         "name": "ENLACE",
         "ep_id": "enlace"
@@ -2885,11 +2885,6 @@
         "ep_id": "htv_srt_en"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
-        "name": "History2",
-        "ep_id": "history2"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a07j/index.m3u8",
         "name": "ID HD",
         "ep_id": "id_hd"
@@ -2920,11 +2915,6 @@
         "ep_id": "meridiano"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ad/index.m3u8",
-        "name": "MTV",
-        "ep_id": "mtv"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a09u/index.m3u8",
         "name": "MUSICA HITS",
         "ep_id": "musica_hits"
@@ -2945,11 +2935,6 @@
         "ep_id": "musica_salsa"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0a0/index.m3u8",
-        "name": "NICKJR",
-        "ep_id": "nickjr"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0a6/index.m3u8",
         "name": "NTN 24",
         "ep_id": "ntn_24"
@@ -2968,11 +2953,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c7/index.m3u8",
         "name": "Natgeo",
         "ep_id": "natgeo"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a07l/index.m3u8",
-        "name": "Nick HD",
-        "ep_id": "nick_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
@@ -3083,11 +3063,6 @@
         "_id": "http://181.78.8.199:8000/play/a0g7/index.m3u8",
         "name": "TELEHIT MUSICA",
         "ep_id": "telehit_musica"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0dx/index.m3u8",
-        "name": "TELEISLAS",
-        "ep_id": "teleislas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07t/index.m3u8",
@@ -3215,11 +3190,6 @@
         "ep_id": "venevision"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
-        "name": "WIN SPORT MAS  LOCAL",
-        "ep_id": "win_sport_mas_local"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0cc/index.m3u8",
         "name": "WINSPORT",
         "ep_id": "winsport"
@@ -3243,11 +3213,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
         "name": "history",
         "ep_id": "history"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
-        "name": "lifetime",
-        "ep_id": "lifetime"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
