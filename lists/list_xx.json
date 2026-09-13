@@ -270,6 +270,11 @@
         "ep_id": "portal_foxmix"
     },
     {
+        "_id": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
+        "name": "Radio 88 Stereo CR",
+        "ep_id": "radio_88_stereo_cr"
+    },
+    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
         "name": "VM Latino CR",
         "ep_id": "vm_latino_cr"
@@ -335,11 +340,6 @@
         "ep_id": "dbm_tv"
     },
     {
-        "_id": "https://stream1.sersat.com/hls/garagetv.m3u8",
-        "name": "Garage TV",
-        "ep_id": "garage_tv"
-    },
-    {
         "_id": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
         "name": "UFC",
         "ep_id": "ufc"
@@ -395,19 +395,9 @@
         "ep_id": "mexiquense_tv_op2"
     },
     {
-        "_id": "http://streamingcws10.com:1935/telemetrika/videotelemetrika/playlist.m3u8",
-        "name": "AGU: Presumiendo Mexico",
-        "ep_id": "agu_presumiendo_mexico"
-    },
-    {
         "_id": "http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/.m3u8",
         "name": "AGU: Canal 26",
         "ep_id": "agu_canal_26"
-    },
-    {
-        "_id": "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8",
-        "name": "CHP: Canal 10",
-        "ep_id": "chp_canal_10"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8",
@@ -488,11 +478,6 @@
         "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
         "name": "15TV",
         "ep_id": "15tv"
-    },
-    {
-        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
-        "name": "Antena TV",
-        "ep_id": "antena_tv"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
@@ -923,6 +908,11 @@
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
         "name": "Voice Over Radio TV | Costa Rica",
         "ep_id": "voice_over_radio_tv_costa_rica"
+    },
+    {
+        "_id": "https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8",
+        "name": "Wording TV HD | Brasil",
+        "ep_id": "wording_tv_hd_brasil"
     },
     {
         "_id": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
@@ -2525,6 +2515,11 @@
         "ep_id": "bitme"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0e8/index.m3u8",
+        "name": "CABLE NOTICIAS",
+        "ep_id": "cable_noticias"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
         "name": "CANAL 1 NACIONAL SIN TRANS",
         "ep_id": "canal_1_nacional_sin_trans"
@@ -2750,6 +2745,11 @@
         "ep_id": "encoder_de_8p"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0ht/index.m3u8",
+        "name": "ENCODER DE 8P 2",
+        "ep_id": "encoder_de_8p_2"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0dq/index.m3u8",
         "name": "ENLACE",
         "ep_id": "enlace"
@@ -2885,6 +2885,11 @@
         "ep_id": "htv_srt_en"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
+        "name": "History2",
+        "ep_id": "history2"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a07j/index.m3u8",
         "name": "ID HD",
         "ep_id": "id_hd"
@@ -2915,6 +2920,11 @@
         "ep_id": "meridiano"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0ad/index.m3u8",
+        "name": "MTV",
+        "ep_id": "mtv"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a09u/index.m3u8",
         "name": "MUSICA HITS",
         "ep_id": "musica_hits"
@@ -2935,6 +2945,11 @@
         "ep_id": "musica_salsa"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0a0/index.m3u8",
+        "name": "NICKJR",
+        "ep_id": "nickjr"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0a6/index.m3u8",
         "name": "NTN 24",
         "ep_id": "ntn_24"
@@ -2953,6 +2968,11 @@
         "_id": "http://181.78.8.199:8000/play/a0c7/index.m3u8",
         "name": "Natgeo",
         "ep_id": "natgeo"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a07l/index.m3u8",
+        "name": "Nick HD",
+        "ep_id": "nick_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
@@ -3063,6 +3083,11 @@
         "_id": "http://181.78.8.199:8000/play/a0g7/index.m3u8",
         "name": "TELEHIT MUSICA",
         "ep_id": "telehit_musica"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0dx/index.m3u8",
+        "name": "TELEISLAS",
+        "ep_id": "teleislas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07t/index.m3u8",
@@ -3190,6 +3215,11 @@
         "ep_id": "venevision"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
+        "name": "WIN SPORT MAS  LOCAL",
+        "ep_id": "win_sport_mas_local"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0cc/index.m3u8",
         "name": "WINSPORT",
         "ep_id": "winsport"
@@ -3215,6 +3245,11 @@
         "ep_id": "history"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
+        "name": "lifetime",
+        "ep_id": "lifetime"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
         "name": "paramount",
         "ep_id": "paramount"
@@ -3223,11 +3258,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c9/index.m3u8",
         "name": "starchannel",
         "ep_id": "starchannel"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
-        "name": "telemundo",
-        "ep_id": "telemundo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
