@@ -335,6 +335,11 @@
         "ep_id": "deluxe_dance_germany"
     },
     {
+        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
+        "name": "Deluxe Music Germany",
+        "ep_id": "deluxe_music_germany"
+    },
+    {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
         "name": "DBM TV",
         "ep_id": "dbm_tv"
@@ -640,11 +645,6 @@
         "ep_id": "tele_yucatan"
     },
     {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
-    },
-    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -710,11 +710,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -743,11 +738,6 @@
         "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
         "name": "Caracola TV | Chile",
         "ep_id": "caracola_tv_chile"
-    },
-    {
-        "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
-        "name": "Chile Channel | Chile",
-        "ep_id": "chile_channel_chile"
     },
     {
         "_id": "https://paneltv.stream:19360/chilevisual/chilevisual.m3u8",
@@ -798,6 +788,11 @@
         "_id": "https://s2.tvdatta.com:3307/live/fmtvmatrizlive.m3u8",
         "name": "Frecuencia Musical Tv op2 | USA",
         "ep_id": "frecuencia_musical_tv_op2_usa"
+    },
+    {
+        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
+        "name": "FS1 | Austria",
+        "ep_id": "fs1_austria"
     },
     {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
@@ -2275,6 +2270,11 @@
         "ep_id": "5tv_corrientes"
     },
     {
+        "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
+        "name": "Beats Radio",
+        "ep_id": "beats_radio"
+    },
+    {
         "_id": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
         "name": "Cadena 103",
         "ep_id": "cadena_103"
@@ -2303,6 +2303,11 @@
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
+    },
+    {
+        "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
+        "name": "Cosmos TV",
+        "ep_id": "cosmos_tv"
     },
     {
         "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
@@ -2408,6 +2413,11 @@
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
         "name": "Atacama Noticias",
         "ep_id": "atacama_noticias"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
+        "name": "Atacama TV",
+        "ep_id": "atacama_tv"
     },
     {
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
@@ -2563,6 +2573,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cy/index.m3u8",
         "name": "CANALES NACIONALES",
         "ep_id": "canales_nacionales"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cx/index.m3u8",
+        "name": "CANALESTRELLAS",
+        "ep_id": "canalestrellas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d0/index.m3u8",
