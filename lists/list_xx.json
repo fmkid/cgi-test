@@ -170,11 +170,6 @@
         "ep_id": "moonbug"
     },
     {
-        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal TV",
-        "ep_id": "taltal_tv"
-    },
-    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -480,6 +475,11 @@
         "ep_id": "sin_tvp_los_mochis"
     },
     {
+        "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/chunklist_w1903526755_b1428000_sleng.m3u8",
+        "name": "SON: TVP Cd. Obregon",
+        "ep_id": "son_tvp_cd_obregon"
+    },
+    {
         "_id": "http://s5.mexside.net:1935/telemax/telemax/chunklist_w586584359.m3u8",
         "name": "SON: Telemax Sonora",
         "ep_id": "son_telemax_sonora"
@@ -493,6 +493,11 @@
         "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
         "name": "15TV",
         "ep_id": "15tv"
+    },
+    {
+        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
+        "name": "Antena TV",
+        "ep_id": "antena_tv"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
@@ -750,11 +755,6 @@
         "ep_id": "chilevisual_chile"
     },
     {
-        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
-        "name": "Click TV | Chile",
-        "ep_id": "click_tv_chile"
-    },
-    {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
         "name": "Colosal TV | Costa Rica",
         "ep_id": "colosal_tv_costa_rica"
@@ -813,11 +813,6 @@
         "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
         "name": "Neo TV | Argentina",
         "ep_id": "neo_tv_argentina"
-    },
-    {
-        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
-        "name": "Neox | Argentina",
-        "ep_id": "neox_argentina"
     },
     {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
@@ -2283,11 +2278,6 @@
         "_id": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
         "name": "Canal 4 Posadas",
         "ep_id": "canal_4_posadas"
-    },
-    {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
     },
     {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
