@@ -275,6 +275,11 @@
         "ep_id": "radio_88_stereo_cr"
     },
     {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
+        "name": "VM Latino CR",
+        "ep_id": "vm_latino_cr"
+    },
+    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
         "name": "Soy Plancha TV CR",
         "ep_id": "soy_plancha_tv_cr"
@@ -483,6 +488,11 @@
         "_id": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8",
         "name": "VER: TVMAS Veracruz",
         "ep_id": "ver_tvmas_veracruz"
+    },
+    {
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
@@ -700,11 +710,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -790,6 +795,11 @@
         "ep_id": "frecuencia_musical_tv_op2_usa"
     },
     {
+        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
+        "name": "FS1 | Austria",
+        "ep_id": "fs1_austria"
+    },
+    {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
         "name": "Iquique Tv | Chile",
         "ep_id": "iquique_tv_chile"
@@ -803,6 +813,11 @@
         "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
         "name": "Neo TV | Argentina",
         "ep_id": "neo_tv_argentina"
+    },
+    {
+        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
+        "name": "Neox | Argentina",
+        "ep_id": "neox_argentina"
     },
     {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
@@ -2255,11 +2270,6 @@
         "ep_id": "5tv_corrientes"
     },
     {
-        "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
-        "name": "Beats Radio",
-        "ep_id": "beats_radio"
-    },
-    {
         "_id": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
         "name": "Cadena 103",
         "ep_id": "cadena_103"
@@ -2385,11 +2395,6 @@
         "ep_id": "tyc_sports_usa"
     },
     {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
-    },
-    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2408,11 +2413,6 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
-    },
-    {
-        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
-        "name": "Juntos TV",
-        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2630,6 +2630,11 @@
         "ep_id": "city_enviado"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0eg/index.m3u8",
+        "name": "CITY ENVIADO ENVIAR",
+        "ep_id": "city_enviado_enviar"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0dt/index.m3u8",
         "name": "CNN",
         "ep_id": "cnn"
@@ -2653,11 +2658,6 @@
         "_id": "http://181.78.8.199:8000/play/a0fq/index.m3u8",
         "name": "CONCIENCIA TV",
         "ep_id": "conciencia_tv"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0dr/index.m3u8",
-        "name": "CRISTOVISION",
-        "ep_id": "cristovision"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a094/index.m3u8",
@@ -3215,6 +3215,11 @@
         "ep_id": "univision"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0cp/index.m3u8",
+        "name": "Venevision",
+        "ep_id": "venevision"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
         "name": "WIN SPORT MAS  LOCAL",
         "ep_id": "win_sport_mas_local"
@@ -3268,6 +3273,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
         "name": "warner",
         "ep_id": "warner"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0hh/index.m3u8",
+        "name": "ABN SRT",
+        "ep_id": "abn_srt"
     },
     {
         "_id": "https://jireh-10-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/tvmas/livestream0/chunks.m3u8?dpssid=b2105023887169ce9bd2c6a2e&sid=ba5t1l1xb297314216469ce9c570f1e1&ndvc=0",
