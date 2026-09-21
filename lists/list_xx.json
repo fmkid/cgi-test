@@ -490,11 +490,6 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
-        "name": "15TV",
-        "ep_id": "15tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -710,6 +705,11 @@
         "ep_id": "anime_tv_brasil"
     },
     {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
+    },
+    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -718,11 +718,6 @@
         "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
         "name": "Canal 15 DTP  | Honduras",
         "ep_id": "canal_15_dtp_honduras"
-    },
-    {
-        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
-        "name": "Canal 4 San Juan | Argentina",
-        "ep_id": "canal_4_san_juan_argentina"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
@@ -743,11 +738,6 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
-    },
-    {
-        "_id": "https://paneltv.stream:19360/chilevisual/chilevisual.m3u8",
-        "name": "Chilevisual | Chile",
-        "ep_id": "chilevisual_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
@@ -795,11 +785,6 @@
         "ep_id": "frecuencia_musical_tv_op2_usa"
     },
     {
-        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
-        "name": "FS1 | Austria",
-        "ep_id": "fs1_austria"
-    },
-    {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
         "name": "Iquique Tv | Chile",
         "ep_id": "iquique_tv_chile"
@@ -843,11 +828,6 @@
         "_id": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
         "name": "Orbit TV op2 | Republica Dominicana",
         "ep_id": "orbit_tv_op2_republica_dominicana"
-    },
-    {
-        "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
-        "name": "Primired",
-        "ep_id": "primired"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
@@ -928,11 +908,6 @@
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
         "name": "Voice Over Radio TV | Costa Rica",
         "ep_id": "voice_over_radio_tv_costa_rica"
-    },
-    {
-        "_id": "https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8",
-        "name": "Wording TV HD | Brasil",
-        "ep_id": "wording_tv_hd_brasil"
     },
     {
         "_id": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
@@ -2870,11 +2845,6 @@
         "ep_id": "history1"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
-        "name": "HISTORY2 INTERNO",
-        "ep_id": "history2_interno"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0g0/index.m3u8",
         "name": "HOGAR TV HD",
         "ep_id": "hogar_tv_hd"
@@ -2883,11 +2853,6 @@
         "_id": "http://181.78.8.199:8000/play/a081/index.m3u8",
         "name": "HTV SRT EN",
         "ep_id": "htv_srt_en"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
-        "name": "History2",
-        "ep_id": "history2"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07j/index.m3u8",
@@ -2908,11 +2873,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c6/index.m3u8",
         "name": "KanalDrama",
         "ep_id": "kanaldrama"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0ai/index.m3u8",
-        "name": "LIFETIME INTERNO",
-        "ep_id": "lifetime_interno"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fr/index.m3u8",
@@ -2980,11 +2940,6 @@
         "ep_id": "ole_1"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
-        "name": "OLE 2.2",
-        "ep_id": "ole_22"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a06u/index.m3u8",
         "name": "Paramount HD",
         "ep_id": "paramount_hd"
@@ -3030,7 +2985,7 @@
         "ep_id": "sony_channel"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0e7/index.m3u8",
         "name": "SONY MUVIES",
         "ep_id": "sony_muvies"
     },
@@ -3248,11 +3203,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
         "name": "history",
         "ep_id": "history"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
-        "name": "lifetime",
-        "ep_id": "lifetime"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
