@@ -525,6 +525,11 @@
         "ep_id": "canal_33_tijuana"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8",
+        "name": "Canal 44 Ciudad Juárez",
+        "ep_id": "canal_44_ciudad_juarez"
+    },
+    {
         "_id": "http://190.11.225.124:5000/live/canal5_hd/playlist.m3u8",
         "name": "Canal 5",
         "ep_id": "canal_5"
@@ -745,6 +750,11 @@
         "ep_id": "chile_channel_chile"
     },
     {
+        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
+        "name": "Click TV | Chile",
+        "ep_id": "click_tv_chile"
+    },
+    {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
         "name": "Colosal TV | Costa Rica",
         "ep_id": "colosal_tv_costa_rica"
@@ -853,11 +863,6 @@
         "_id": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
         "name": "Retro Music Tv | Checoslovaquia",
         "ep_id": "retro_music_tv_checoslovaquia"
-    },
-    {
-        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
-        "name": "Retro Play TV | Chile",
-        "ep_id": "retro_play_tv_chile"
     },
     {
         "_id": "https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8",
@@ -2255,6 +2260,16 @@
         "ep_id": "cgtn"
     },
     {
+        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+        "name": "5TV Corrientes",
+        "ep_id": "5tv_corrientes"
+    },
+    {
+        "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
+        "name": "Beats Radio",
+        "ep_id": "beats_radio"
+    },
+    {
         "_id": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
         "name": "Cadena 103",
         "ep_id": "cadena_103"
@@ -2275,11 +2290,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2288,6 +2298,11 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
+    },
+    {
+        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
+        "name": "NG Federal",
+        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2328,6 +2343,11 @@
         "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
         "name": "24/7 Canal de Noticias",
         "ep_id": "247_canal_de_noticias"
+    },
+    {
+        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
+        "name": "Canal 9 Resistencia",
+        "ep_id": "canal_9_resistencia"
     },
     {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
@@ -2388,6 +2408,11 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
+    },
+    {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
