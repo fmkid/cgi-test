@@ -865,6 +865,11 @@
         "ep_id": "retro_music_tv_checoslovaquia"
     },
     {
+        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
+        "name": "Retro Play TV | Chile",
+        "ep_id": "retro_play_tv_chile"
+    },
+    {
         "_id": "https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8",
         "name": "Retro Plus Tv | Chile",
         "ep_id": "retro_plus_tv_chile"
@@ -2260,11 +2265,6 @@
         "ep_id": "cgtn"
     },
     {
-        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
-        "name": "5TV Corrientes",
-        "ep_id": "5tv_corrientes"
-    },
-    {
         "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
         "name": "Beats Radio",
         "ep_id": "beats_radio"
@@ -2290,6 +2290,11 @@
         "ep_id": "canal_21_tv"
     },
     {
+        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+        "name": "Chaco TV",
+        "ep_id": "chaco_tv"
+    },
+    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2298,11 +2303,6 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
-    },
-    {
-        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
-        "name": "NG Federal",
-        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2345,11 +2345,6 @@
         "ep_id": "247_canal_de_noticias"
     },
     {
-        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
-        "name": "Canal 9 Resistencia",
-        "ep_id": "canal_9_resistencia"
-    },
-    {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
         "name": "Canal Orbe 21",
         "ep_id": "canal_orbe_21"
@@ -2390,14 +2385,14 @@
         "ep_id": "tyc_sports_usa"
     },
     {
+        "_id": "https://videohd.live:19360/8008/8008.m3u8",
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
+    },
+    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
-    },
-    {
-        "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
-        "name": "Atacama Noticias",
-        "ep_id": "atacama_noticias"
     },
     {
         "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
