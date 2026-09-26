@@ -620,11 +620,6 @@
         "ep_id": "set_television_canal_262"
     },
     {
-        "_id": "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8",
-        "name": "Señal España",
-        "ep_id": "senal_espana"
-    },
-    {
         "_id": "https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8",
         "name": "SIZART Canal 24",
         "ep_id": "sizart_canal_24"
@@ -638,11 +633,6 @@
         "_id": "https://servilive.com:3879/live/telesaltillolive.m3u8",
         "name": "Tele Saltillo",
         "ep_id": "tele_saltillo"
-    },
-    {
-        "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
-        "name": "Tele Yucatan",
-        "ep_id": "tele_yucatan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
@@ -783,6 +773,11 @@
         "_id": "https://s2.tvdatta.com:3307/live/fmtvmatrizlive.m3u8",
         "name": "Frecuencia Musical Tv op2 | USA",
         "ep_id": "frecuencia_musical_tv_op2_usa"
+    },
+    {
+        "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
+        "name": "FS1 | Austria",
+        "ep_id": "fs1_austria"
     },
     {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
@@ -2255,6 +2250,11 @@
         "ep_id": "5tv_corrientes"
     },
     {
+        "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
+        "name": "Beats Radio",
+        "ep_id": "beats_radio"
+    },
+    {
         "_id": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
         "name": "Cadena 103",
         "ep_id": "cadena_103"
@@ -2305,29 +2305,19 @@
         "ep_id": "powerhd"
     },
     {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-        "name": "Radio TV Neuquén",
-        "ep_id": "radio_tv_neuquen"
-    },
-    {
         "_id": "http://204.199.3.2/.m3u8",
         "name": "Radiocanal San Francisco",
         "ep_id": "radiocanal_san_francisco"
     },
     {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
-        "name": "RTN",
-        "ep_id": "rtn"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8",
-        "name": "TeleJunín",
-        "ep_id": "telejunin"
-    },
-    {
         "_id": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
         "name": "TV Maná Argentina",
         "ep_id": "tv_mana_argentina"
+    },
+    {
+        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
+        "name": "24/7 Canal de Noticias",
+        "ep_id": "247_canal_de_noticias"
     },
     {
         "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
@@ -2373,11 +2363,6 @@
         "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
         "name": "TyC Sports USA",
         "ep_id": "tyc_sports_usa"
-    },
-    {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
@@ -3228,6 +3213,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cc/index.m3u8",
         "name": "WINSPORT",
         "ep_id": "winsport"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0dw/index.m3u8",
+        "name": "ZOOM",
+        "ep_id": "zoom"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
