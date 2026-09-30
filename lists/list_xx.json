@@ -280,24 +280,9 @@
         "ep_id": "radio_88_stereo_cr"
     },
     {
-        "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
-        "name": "VM Latino CR",
-        "ep_id": "vm_latino_cr"
-    },
-    {
-        "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
-        "name": "Vintage Music CR",
-        "ep_id": "vintage_music_cr"
-    },
-    {
         "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
         "name": "Urbano TV CR",
         "ep_id": "urbano_tv_cr"
-    },
-    {
-        "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
-        "name": "Video Tour Channel CR",
-        "ep_id": "video_tour_channel_cr"
     },
     {
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
@@ -500,6 +485,11 @@
         "ep_id": "antena_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
+    },
+    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -628,11 +618,6 @@
         "_id": "https://servilive.com:3879/live/telesaltillolive.m3u8",
         "name": "Tele Saltillo",
         "ep_id": "tele_saltillo"
-    },
-    {
-        "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
-        "name": "Tele Yucatan",
-        "ep_id": "tele_yucatan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
@@ -2340,11 +2325,6 @@
         "ep_id": "canal_9_resistencia"
     },
     {
-        "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
-        "name": "Canal Orbe 21",
-        "ep_id": "canal_orbe_21"
-    },
-    {
         "_id": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
         "name": "Cumbia Mix",
         "ep_id": "cumbia_mix"
@@ -2760,11 +2740,6 @@
         "ep_id": "espn_1"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0b2/index.m3u8",
-        "name": "ESPN 2",
-        "ep_id": "espn_2"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a08z/index.m3u8",
         "name": "ESPN 2 HD",
         "ep_id": "espn_2_hd"
@@ -2808,11 +2783,6 @@
         "_id": "http://181.78.8.199:8000/play/a08y/index.m3u8",
         "name": "ESPN HD",
         "ep_id": "espn_hd"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0bv/index.m3u8",
-        "name": "ESPN5",
-        "ep_id": "espn5"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0bw/index.m3u8",
