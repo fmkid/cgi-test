@@ -475,16 +475,6 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
-        "name": "15TV",
-        "ep_id": "15tv"
-    },
-    {
-        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
-        "name": "Antena TV",
-        "ep_id": "antena_tv"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
         "name": "Canal 10 Durango",
         "ep_id": "canal_10_durango"
@@ -693,6 +683,11 @@
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
+    },
+    {
+        "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
+        "name": "Canal 15 DTP  | Honduras",
+        "ep_id": "canal_15_dtp_honduras"
     },
     {
         "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
@@ -1498,11 +1493,6 @@
         "_id": "https://jmp2.uk/stvp-US2200005Y2",
         "name": "Canal ViX",
         "ep_id": "canal_vix"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200004HD",
-        "name": "Angelique",
-        "ep_id": "angelique"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB44000099N",
@@ -2710,6 +2700,11 @@
         "ep_id": "discoveryhh"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
+        "name": "Discoverykids",
+        "ep_id": "discoverykids"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
         "name": "EL MUNDO EL CAMPO",
         "ep_id": "el_mundo_el_campo"
@@ -2845,6 +2840,11 @@
         "ep_id": "history1"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
+        "name": "HISTORY2 INTERNO",
+        "ep_id": "history2_interno"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0g0/index.m3u8",
         "name": "HOGAR TV HD",
         "ep_id": "hogar_tv_hd"
@@ -2853,6 +2853,11 @@
         "_id": "http://181.78.8.199:8000/play/a081/index.m3u8",
         "name": "HTV SRT EN",
         "ep_id": "htv_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cq/index.m3u8",
+        "name": "History2",
+        "ep_id": "history2"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a07j/index.m3u8",
@@ -2873,6 +2878,11 @@
         "_id": "http://181.78.8.199:8000/play/a0c6/index.m3u8",
         "name": "KanalDrama",
         "ep_id": "kanaldrama"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0ai/index.m3u8",
+        "name": "LIFETIME INTERNO",
+        "ep_id": "lifetime_interno"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fr/index.m3u8",
@@ -2940,6 +2950,11 @@
         "ep_id": "ole_1"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
+        "name": "OLE 2.2",
+        "ep_id": "ole_22"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a06u/index.m3u8",
         "name": "Paramount HD",
         "ep_id": "paramount_hd"
@@ -2960,16 +2975,6 @@
         "ep_id": "rcn_novelas"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ec/index.m3u8",
-        "name": "RUMBA TV",
-        "ep_id": "rumba_tv"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fy/index.m3u8",
-        "name": "RUMBA TV HD",
-        "ep_id": "rumba_tv_hd"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0hv/index.m3u8",
         "name": "SCI",
         "ep_id": "sci"
@@ -2985,7 +2990,7 @@
         "ep_id": "sony_channel"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0e7/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
         "name": "SONY MUVIES",
         "ep_id": "sony_muvies"
     },
@@ -3078,6 +3083,11 @@
         "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
         "name": "TELEVISA 1",
         "ep_id": "televisa_1"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0av/index.m3u8",
+        "name": "TELEVISA CON ENTRETEIMENT",
+        "ep_id": "televisa_con_entreteiment"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0at/index.m3u8",
@@ -3198,6 +3208,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
         "name": "history",
         "ep_id": "history"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
+        "name": "lifetime",
+        "ep_id": "lifetime"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c8/index.m3u8",
