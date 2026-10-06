@@ -285,6 +285,11 @@
         "ep_id": "vm_latino_cr"
     },
     {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
+        "name": "Soy Plancha TV CR",
+        "ep_id": "soy_plancha_tv_cr"
+    },
+    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
         "name": "Vintage Music CR",
         "ep_id": "vintage_music_cr"
@@ -395,6 +400,11 @@
         "ep_id": "mexiquense_tv_op2"
     },
     {
+        "_id": "http://streamingcws10.com:1935/telemetrika/videotelemetrika/playlist.m3u8",
+        "name": "AGU: Presumiendo Mexico",
+        "ep_id": "agu_presumiendo_mexico"
+    },
+    {
         "_id": "http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/.m3u8",
         "name": "AGU: Canal 26",
         "ep_id": "agu_canal_26"
@@ -418,6 +428,11 @@
         "_id": "http://204.12.193.98:1935/TvHD/canal10/playlist.m3u8",
         "name": "DUR: Canal 10 Durango",
         "ep_id": "dur_canal_10_durango"
+    },
+    {
+        "_id": "https://5f2c1b0d880e5.streamlock.net/tv42/smil:tv42.smil/chunklist_w2048905456_b3428000_sleng.m3u8",
+        "name": "GUA: TV Cuatro 4.2 Cultura",
+        "ep_id": "gua_tv_cuatro_42_cultura"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videocbtv/chunklist_w233916547.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MTY6MTYgUE0maGFzaF92YWx1ZT1TRG9tVW16WXcxdldkdkQ5N3VwdjlnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
@@ -475,9 +490,14 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
+    },
+    {
+        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
+        "name": "Antena TV",
+        "ep_id": "antena_tv"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -528,11 +548,6 @@
         "_id": "https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8",
         "name": "ICRTV Colima",
         "ep_id": "icrtv_colima"
-    },
-    {
-        "_id": "https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8",
-        "name": "Jalisco TV",
-        "ep_id": "jalisco_tv"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8",
@@ -608,6 +623,11 @@
         "_id": "https://servilive.com:3879/live/telesaltillolive.m3u8",
         "name": "Tele Saltillo",
         "ep_id": "tele_saltillo"
+    },
+    {
+        "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
+        "name": "Tele Yucatan",
+        "ep_id": "tele_yucatan"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
@@ -698,11 +718,6 @@
         "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
         "name": "Canal 6 Digital | Argentina",
         "ep_id": "canal_6_digital_argentina"
-    },
-    {
-        "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
-        "name": "Caracola TV | Chile",
-        "ep_id": "caracola_tv_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
@@ -1493,6 +1508,11 @@
         "_id": "https://jmp2.uk/stvp-US2200005Y2",
         "name": "Canal ViX",
         "ep_id": "canal_vix"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-US2200004HD",
+        "name": "Angelique",
+        "ep_id": "angelique"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB44000099N",
@@ -2973,6 +2993,16 @@
         "_id": "http://181.78.8.199:8000/play/a0a7/index.m3u8",
         "name": "RCN NOVELAS",
         "ep_id": "rcn_novelas"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0ec/index.m3u8",
+        "name": "RUMBA TV",
+        "ep_id": "rumba_tv"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0fy/index.m3u8",
+        "name": "RUMBA TV HD",
+        "ep_id": "rumba_tv_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hv/index.m3u8",
