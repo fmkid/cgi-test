@@ -285,6 +285,11 @@
         "ep_id": "vm_latino_cr"
     },
     {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
+        "name": "Soy Plancha TV CR",
+        "ep_id": "soy_plancha_tv_cr"
+    },
+    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
         "name": "Vintage Music CR",
         "ep_id": "vintage_music_cr"
@@ -293,6 +298,11 @@
         "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
         "name": "Urbano TV CR",
         "ep_id": "urbano_tv_cr"
+    },
+    {
+        "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
+        "name": "Video Tour Channel CR",
+        "ep_id": "video_tour_channel_cr"
     },
     {
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
@@ -515,11 +525,6 @@
         "ep_id": "canal_44_ciudad_juarez"
     },
     {
-        "_id": "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8",
-        "name": "Canal 5 TV Cozumel",
-        "ep_id": "canal_5_tv_cozumel"
-    },
-    {
         "_id": "https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8",
         "name": "Canal Parlamento del Congreso de Jalisco",
         "ep_id": "canal_parlamento_del_congreso_de_jalisco"
@@ -625,6 +630,11 @@
         "ep_id": "tele_yucatan"
     },
     {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -690,6 +700,11 @@
         "ep_id": "anime_tv_brasil"
     },
     {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
+    },
+    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -718,11 +733,6 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
-    },
-    {
-        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
-        "name": "Click TV | Chile",
-        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -785,6 +795,11 @@
         "ep_id": "neo_tv_argentina"
     },
     {
+        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
+        "name": "Neox | Argentina",
+        "ep_id": "neox_argentina"
+    },
+    {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
         "name": "Norte Informativo TV | Costa Rica",
         "ep_id": "norte_informativo_tv_costa_rica"
@@ -833,21 +848,6 @@
         "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
         "name": "Retro Play TV | Chile",
         "ep_id": "retro_play_tv_chile"
-    },
-    {
-        "_id": "https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8",
-        "name": "Retro Plus Tv | Chile",
-        "ep_id": "retro_plus_tv_chile"
-    },
-    {
-        "_id": "https://scl.edge.grupoz.cl/retroplustvdos/live/playlist.m3u8",
-        "name": "Retro Plus Tv 2 TV | Chile",
-        "ep_id": "retro_plus_tv_2_tv_chile"
-    },
-    {
-        "_id": "https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8",
-        "name": "Retro Plus Tv 3 | Chile",
-        "ep_id": "retro_plus_tv_3_chile"
     },
     {
         "_id": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8",
@@ -2320,11 +2320,6 @@
         "ep_id": "canal_9_resistencia"
     },
     {
-        "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
-        "name": "Canal Orbe 21",
-        "ep_id": "canal_orbe_21"
-    },
-    {
         "_id": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
         "name": "Cumbia Mix",
         "ep_id": "cumbia_mix"
@@ -2393,11 +2388,6 @@
         "_id": "https://v4.tustreaming.cl/restaurandovida/index.m3u8",
         "name": "Restaurando Vidas Internacional",
         "ep_id": "restaurando_vidas_internacional"
-    },
-    {
-        "_id": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
-        "name": "SoloBáilalo",
-        "ep_id": "solobailalo"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
