@@ -495,11 +495,6 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
-        "name": "15TV",
-        "ep_id": "15tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -523,6 +518,11 @@
         "_id": "https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8",
         "name": "Canal 44 Ciudad Juárez",
         "ep_id": "canal_44_ciudad_juarez"
+    },
+    {
+        "_id": "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8",
+        "name": "Canal 5 TV Cozumel",
+        "ep_id": "canal_5_tv_cozumel"
     },
     {
         "_id": "https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8",
@@ -590,11 +590,6 @@
         "ep_id": "raly_tv"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
-        "name": "RTG",
-        "ep_id": "rtg"
-    },
-    {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
         "name": "SET Televisión Canal 26.1",
         "ep_id": "set_television_canal_261"
@@ -628,11 +623,6 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
         "name": "Tele Yucatan",
         "ep_id": "tele_yucatan"
-    },
-    {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
@@ -733,6 +723,11 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
+        "name": "Click TV | Chile",
+        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -2320,6 +2315,11 @@
         "ep_id": "canal_9_resistencia"
     },
     {
+        "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
+        "name": "Canal Orbe 21",
+        "ep_id": "canal_orbe_21"
+    },
+    {
         "_id": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
         "name": "Cumbia Mix",
         "ep_id": "cumbia_mix"
@@ -2350,11 +2350,6 @@
         "ep_id": "disney_jr_latin_america_south"
     },
     {
-        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
-        "name": "TyC Sports USA",
-        "ep_id": "tyc_sports_usa"
-    },
-    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2368,11 +2363,6 @@
         "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
         "name": "Atacama TV",
         "ep_id": "atacama_tv"
-    },
-    {
-        "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
-        "name": "Aysen TV",
-        "ep_id": "aysen_tv"
     },
     {
         "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
