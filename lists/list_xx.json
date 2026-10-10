@@ -40,11 +40,6 @@
         "ep_id": "conecta_tv"
     },
     {
-        "_id": "https://pistream.ddns.net/hls/stream.m3u8?PlaylistM3UCL",
-        "name": "GikTVMX",
-        "ep_id": "giktvmx"
-    },
-    {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/mexiquense/videomexiquense/playlist.m3u8?PlaylistM3UCL",
         "name": "Mexiquense TV",
         "ep_id": "mexiquense_tv"
@@ -63,11 +58,6 @@
         "_id": "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL",
         "name": "RTQ Queretaro",
         "ep_id": "rtq_queretaro"
-    },
-    {
-        "_id": "https://video1.getstreamhosting.com:1936/8116/8116/playlist.m3u8?PlaylistM3UCL",
-        "name": "Tempus Stream",
-        "ep_id": "tempus_stream"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4/smil:tv4.smil/playlist.m3u8?PlaylistM3UCL",
@@ -285,11 +275,6 @@
         "ep_id": "vm_latino_cr"
     },
     {
-        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
-        "name": "Soy Plancha TV CR",
-        "ep_id": "soy_plancha_tv_cr"
-    },
-    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
         "name": "Vintage Music CR",
         "ep_id": "vintage_music_cr"
@@ -495,6 +480,11 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
+    },
+    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -690,11 +680,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -863,11 +848,6 @@
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
         "name": "Telered | Costa Rica",
         "ep_id": "telered_costa_rica"
-    },
-    {
-        "_id": "https://k20.usastreams.com:8081/telesistema/index.m3u8",
-        "name": "Telesistema | Costa Rica",
-        "ep_id": "telesistema_costa_rica"
     },
     {
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
@@ -2315,11 +2295,6 @@
         "ep_id": "canal_9_resistencia"
     },
     {
-        "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
-        "name": "Canal Orbe 21",
-        "ep_id": "canal_orbe_21"
-    },
-    {
         "_id": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
         "name": "Cumbia Mix",
         "ep_id": "cumbia_mix"
@@ -2350,6 +2325,11 @@
         "ep_id": "disney_jr_latin_america_south"
     },
     {
+        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
+        "name": "TyC Sports USA",
+        "ep_id": "tyc_sports_usa"
+    },
+    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2365,9 +2345,9 @@
         "ep_id": "atacama_tv"
     },
     {
-        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
-        "name": "Juntos TV",
-        "ep_id": "juntos_tv"
+        "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
+        "name": "Aysen TV",
+        "ep_id": "aysen_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2855,7 +2835,7 @@
         "ep_id": "id_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ah/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0cs/index.m3u8",
         "name": "IVC",
         "ep_id": "ivc"
     },
@@ -3228,11 +3208,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
         "name": "telemundo",
         "ep_id": "telemundo"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
-        "name": "warner",
-        "ep_id": "warner"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hh/index.m3u8",
