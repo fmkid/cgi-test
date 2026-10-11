@@ -40,6 +40,11 @@
         "ep_id": "conecta_tv"
     },
     {
+        "_id": "https://pistream.ddns.net/hls/stream.m3u8?PlaylistM3UCL",
+        "name": "GikTVMX",
+        "ep_id": "giktvmx"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net:443/mexiquense/videomexiquense/playlist.m3u8?PlaylistM3UCL",
         "name": "Mexiquense TV",
         "ep_id": "mexiquense_tv"
@@ -58,6 +63,11 @@
         "_id": "https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL",
         "name": "RTQ Queretaro",
         "ep_id": "rtq_queretaro"
+    },
+    {
+        "_id": "https://video1.getstreamhosting.com:1936/8116/8116/playlist.m3u8?PlaylistM3UCL",
+        "name": "Tempus Stream",
+        "ep_id": "tempus_stream"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4/smil:tv4.smil/playlist.m3u8?PlaylistM3UCL",
@@ -275,6 +285,11 @@
         "ep_id": "vm_latino_cr"
     },
     {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
+        "name": "Soy Plancha TV CR",
+        "ep_id": "soy_plancha_tv_cr"
+    },
+    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
         "name": "Vintage Music CR",
         "ep_id": "vintage_music_cr"
@@ -288,11 +303,6 @@
         "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
         "name": "Video Tour Channel CR",
         "ep_id": "video_tour_channel_cr"
-    },
-    {
-        "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
-        "name": "IQ Channel",
-        "ep_id": "iq_channel"
     },
     {
         "_id": "https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/.m3u8",
@@ -318,11 +328,6 @@
         "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
         "name": "Deluxe Dance Germany",
         "ep_id": "deluxe_dance_germany"
-    },
-    {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
-        "name": "Deluxe Music Germany",
-        "ep_id": "deluxe_music_germany"
     },
     {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
@@ -490,6 +495,11 @@
         "ep_id": "antena_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
+    },
+    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -578,6 +588,11 @@
         "_id": "https://cloudvideo.servers10.com:8081/8072/index.m3u8",
         "name": "Raly TV",
         "ep_id": "raly_tv"
+    },
+    {
+        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
+        "name": "RTG",
+        "ep_id": "rtg"
     },
     {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
@@ -848,6 +863,11 @@
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
         "name": "Telered | Costa Rica",
         "ep_id": "telered_costa_rica"
+    },
+    {
+        "_id": "https://k20.usastreams.com:8081/telesistema/index.m3u8",
+        "name": "Telesistema | Costa Rica",
+        "ep_id": "telesistema_costa_rica"
     },
     {
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
@@ -2230,11 +2250,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2348,6 +2363,11 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
+    },
+    {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2500,11 +2520,6 @@
         "ep_id": "canalinstitucional_nacional_sin_trans"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0b0/index.m3u8",
-        "name": "CARACOL",
-        "ep_id": "caracol"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0hw/index.m3u8",
         "name": "CARACOL 2 DIRECTO PARA SENCORE",
         "ep_id": "caracol_2_directo_para_sencore"
@@ -2513,11 +2528,6 @@
         "_id": "http://181.78.8.199:8000/play/a08s/index.m3u8",
         "name": "CARACOL LOCAL",
         "ep_id": "caracol_local"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0aw/index.m3u8",
-        "name": "CARACOL SRT",
-        "ep_id": "caracol_srt"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
@@ -3208,6 +3218,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cg/index.m3u8",
         "name": "telemundo",
         "ep_id": "telemundo"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cb/index.m3u8",
+        "name": "warner",
+        "ep_id": "warner"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hh/index.m3u8",
