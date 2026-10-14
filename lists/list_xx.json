@@ -330,11 +330,6 @@
         "ep_id": "deluxe_dance_germany"
     },
     {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
-        "name": "Deluxe Music Germany",
-        "ep_id": "deluxe_music_germany"
-    },
-    {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
         "name": "DBM TV",
         "ep_id": "dbm_tv"
@@ -490,9 +485,19 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
+        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
+        "name": "15TV",
+        "ep_id": "15tv"
+    },
+    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
+    },
+    {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -625,6 +630,11 @@
         "ep_id": "tele_yucatan"
     },
     {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
+    },
+    {
         "_id": "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -690,11 +700,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -713,11 +718,6 @@
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
         "name": "Canal 5 Vision Latina",
         "ep_id": "canal_5_vision_latina"
-    },
-    {
-        "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
-        "name": "Canal 6 Digital | Argentina",
-        "ep_id": "canal_6_digital_argentina"
     },
     {
         "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
@@ -1545,6 +1545,11 @@
         "ep_id": "cine_de_oro"
     },
     {
+        "_id": "https://jmp2.uk/stvp-USBA3800001E0",
+        "name": "Cine Romantico",
+        "ep_id": "cine_romantico"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-US1700019P7",
         "name": "Coreano by CJ ENM",
         "ep_id": "coreano_by_cj_enm"
@@ -1558,6 +1563,11 @@
         "_id": "https://jmp2.uk/stvp-USBB320000647",
         "name": "XITE 80s Flashback",
         "ep_id": "xite_80s_flashback"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBB3200007AK",
+        "name": "XITE 90s Throwback",
+        "ep_id": "xite_90s_throwback"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD350003932",
@@ -1595,9 +1605,24 @@
         "ep_id": "xite_just_chill"
     },
     {
+        "_id": "https://jmp2.uk/stvp-US10000135V",
+        "name": "SMTOWN",
+        "ep_id": "smtown"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-US39000038W",
+        "name": "K-POP by CJ ENM",
+        "ep_id": "kpop_by_cj_enm"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-USAJ3000013FJ",
         "name": "NEW KPOP",
         "ep_id": "new_kpop"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBD3500016NH",
+        "name": "Stingray Today's K-Pop",
+        "ep_id": "stingray_todays_kpop"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500025GS",
@@ -1618,6 +1643,16 @@
         "_id": "https://jmp2.uk/stvp-USBD3500024YB",
         "name": "Qello Concerts by Stingray",
         "ep_id": "qello_concerts_by_stingray"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBD3500017CE",
+        "name": "Stingray Romance Latino",
+        "ep_id": "stingray_romance_latino"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBD3500009Y3",
+        "name": "Stingray Today's Latin Pop",
+        "ep_id": "stingray_todays_latin_pop"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3500010MT",
@@ -1758,6 +1793,11 @@
         "_id": "https://jmp2.uk/stvp-ESBD1300003VN",
         "name": "Corazón",
         "ep_id": "corazon"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ES300003D4",
+        "name": "Sony One Éxitos",
+        "ep_id": "sony_one_exitos"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES300005EL",
@@ -1988,16 +2028,6 @@
         "_id": "https://jmp2.uk/stvp-ESBD2300004Y7",
         "name": "Sol Música",
         "ep_id": "sol_musica"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ES3900001QG",
-        "name": "K-POP by CJ ENM",
-        "ep_id": "kpop_by_cj_enm"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ES1000001EF",
-        "name": "SMTOWN",
-        "ep_id": "smtown"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBA1500001C4",
@@ -2763,11 +2793,6 @@
         "_id": "http://181.78.8.199:8000/play/a0bw/index.m3u8",
         "name": "ESPN6",
         "ep_id": "espn6"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0bx/index.m3u8",
-        "name": "ESPN7",
-        "ep_id": "espn7"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ee/index.m3u8",
