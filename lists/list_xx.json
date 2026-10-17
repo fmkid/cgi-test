@@ -165,11 +165,6 @@
         "ep_id": "moonbug"
     },
     {
-        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal TV",
-        "ep_id": "taltal_tv"
-    },
-    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -280,11 +275,6 @@
         "ep_id": "vm_latino_cr"
     },
     {
-        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
-        "name": "Soy Plancha TV CR",
-        "ep_id": "soy_plancha_tv_cr"
-    },
-    {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
         "name": "Vintage Music CR",
         "ep_id": "vintage_music_cr"
@@ -293,11 +283,6 @@
         "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
         "name": "Urbano TV CR",
         "ep_id": "urbano_tv_cr"
-    },
-    {
-        "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
-        "name": "Video Tour Channel CR",
-        "ep_id": "video_tour_channel_cr"
     },
     {
         "_id": "https://rtmp.info/iqtv/envivo/playlist.m3u8",
@@ -323,11 +308,6 @@
         "_id": "https://amg01131-tracetv-traceurbanes-samsungspain-c6yeo.amagi.tv/playlist/amg01131-tracetv-traceurbanes-samsungspain/playlist.m3u8",
         "name": "TRACE Urban",
         "ep_id": "trace_urban"
-    },
-    {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
-        "name": "Deluxe Dance Germany",
-        "ep_id": "deluxe_dance_germany"
     },
     {
         "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
@@ -625,11 +605,6 @@
         "ep_id": "tele_yucatan"
     },
     {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
-    },
-    {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -685,11 +660,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -723,11 +693,6 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
-    },
-    {
-        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
-        "name": "Click TV | Chile",
-        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -2725,6 +2690,11 @@
         "ep_id": "entreteiment"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0b1/index.m3u8",
+        "name": "ESPN 1",
+        "ep_id": "espn_1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0b2/index.m3u8",
         "name": "ESPN 2",
         "ep_id": "espn_2"
@@ -2993,6 +2963,11 @@
         "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
         "name": "SONY MUVIES",
         "ep_id": "sony_muvies"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a096/index.m3u8",
+        "name": "SPACE SRT EN",
+        "ep_id": "space_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cl/index.m3u8",
