@@ -165,6 +165,11 @@
         "ep_id": "moonbug"
     },
     {
+        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
+        "name": "Taltal TV",
+        "ep_id": "taltal_tv"
+    },
+    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -310,6 +315,11 @@
         "ep_id": "trace_urban"
     },
     {
+        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
+        "name": "Deluxe Dance Germany",
+        "ep_id": "deluxe_dance_germany"
+    },
+    {
         "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
         "name": "Deluxe Music Germany",
         "ep_id": "deluxe_music_germany"
@@ -370,8 +380,8 @@
         "ep_id": "fite_247"
     },
     {
-        "_id": "https://5fc584f3f19c9.streamlock.net/canal22/videocanal22/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMS8yMDIxIDExOjQ2OjAzIFBNJmhhc2hfdmFsdWU9WmpCTERYMHh6UVVzcTJ0cmtNd25mQT09JnZhbGlkbWludXRlcz01JmlkPQ==",
-        "name": "Canal 22",
+        "_id": "https://5fc584f3f19c9.streamlock.net/canal222/videocanal222/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMS8yMDIxIDExOjQ5OjA5IFBNJmhhc2hfdmFsdWU9dmZ0MEZRMTMwZ3J6V3hXNndXeDFIUT09JnZhbGlkbWludXRlcz01JmlkPQ==",
+        "name": "Canal 22 +",
         "ep_id": "canal_22"
     },
     {
@@ -480,11 +490,6 @@
         "ep_id": "canal_10_durango"
     },
     {
-        "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
-        "name": "Canal 22 Nacional",
-        "ep_id": "canal_22_nacional"
-    },
-    {
         "_id": "https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8",
         "name": "Canal 26 Aguascalientes",
         "ep_id": "canal_26_aguascalientes"
@@ -585,6 +590,11 @@
         "ep_id": "set_television_canal_262"
     },
     {
+        "_id": "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8",
+        "name": "Señal España",
+        "ep_id": "senal_espana"
+    },
+    {
         "_id": "https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8",
         "name": "SIZART Canal 24",
         "ep_id": "sizart_canal_24"
@@ -603,6 +613,11 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
         "name": "Tele Yucatan",
         "ep_id": "tele_yucatan"
+    },
+    {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
@@ -693,6 +708,11 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
+        "name": "Click TV | Chile",
+        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -2205,11 +2225,6 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
         "name": "Canal 21 TV",
         "ep_id": "canal_21_tv"
@@ -2268,11 +2283,6 @@
         "_id": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
         "name": "TV Maná Argentina",
         "ep_id": "tv_mana_argentina"
-    },
-    {
-        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
-        "name": "24/7 Canal de Noticias",
-        "ep_id": "247_canal_de_noticias"
     },
     {
         "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
@@ -2355,6 +2365,11 @@
         "ep_id": "restaurando_vidas_internacional"
     },
     {
+        "_id": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
+        "name": "SoloBáilalo",
+        "ep_id": "solobailalo"
+    },
+    {
         "_id": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
         "name": "Televida",
         "ep_id": "televida"
@@ -2410,11 +2425,6 @@
         "ep_id": "animal_planet"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fo/index.m3u8",
-        "name": "ANTV",
-        "ep_id": "antv"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
         "name": "AXN",
         "ep_id": "axn"
@@ -2445,24 +2455,9 @@
         "ep_id": "cable_noticias"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
-        "name": "CANAL 1 NACIONAL SIN TRANS",
-        "ep_id": "canal_1_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0e4/index.m3u8",
         "name": "CANAL 12 VALLEDUPAR",
         "ep_id": "canal_12_valledupar"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d4/index.m3u8",
-        "name": "CANAL 13 NACIONAL SIN TRANS",
-        "ep_id": "canal_13_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d3/index.m3u8",
-        "name": "CANAL CAPITAL NACIONAL SIN TRANS",
-        "ep_id": "canal_capital_nacional_sin_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d2/index.m3u8",
@@ -2475,19 +2470,9 @@
         "ep_id": "canal_de_las_estrellas"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0cy/index.m3u8",
-        "name": "CANALES NACIONALES",
-        "ep_id": "canales_nacionales"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0cx/index.m3u8",
         "name": "CANALESTRELLAS",
         "ep_id": "canalestrellas"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d0/index.m3u8",
-        "name": "CANALINSTITUCIONAL  NACIONAL SIN TRANS",
-        "ep_id": "canalinstitucional_nacional_sin_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0b0/index.m3u8",
@@ -2570,19 +2555,9 @@
         "ep_id": "cnn_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fn/index.m3u8",
-        "name": "COLOMBEIA",
-        "ep_id": "colombeia"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0e3/index.m3u8",
         "name": "COMEDY",
         "ep_id": "comedy"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fq/index.m3u8",
-        "name": "CONCIENCIA TV",
-        "ep_id": "conciencia_tv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dr/index.m3u8",
@@ -2775,11 +2750,6 @@
         "ep_id": "fx"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a09k/index.m3u8",
-        "name": "GLOBOVISION",
-        "ep_id": "globovision"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ab/index.m3u8",
         "name": "GOLDEN EDGE",
         "ep_id": "golden_edge"
@@ -2843,11 +2813,6 @@
         "_id": "http://181.78.8.199:8000/play/a0ai/index.m3u8",
         "name": "LIFETIME INTERNO",
         "ep_id": "lifetime_interno"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fr/index.m3u8",
-        "name": "MERIDIANO",
-        "ep_id": "meridiano"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ad/index.m3u8",
@@ -2950,11 +2915,6 @@
         "ep_id": "sci"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d1/index.m3u8",
-        "name": "SEÑAL COLOMBIA  NACIONAL SIN TRANS",
-        "ep_id": "senal_colombia_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
         "name": "SONY CHANNEL",
         "ep_id": "sony_channel"
@@ -2995,21 +2955,6 @@
         "ep_id": "teleamiga_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d5/index.m3u8",
-        "name": "TELEANTIOQUIA NACIONAL SIN TRANS",
-        "ep_id": "teleantioquia_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d8/index.m3u8",
-        "name": "TELECAFE NACIONAL SIN TRANS",
-        "ep_id": "telecafe_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d6/index.m3u8",
-        "name": "TELECARIBE NACIONAL SIN TRANS",
-        "ep_id": "telecaribe_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0g7/index.m3u8",
         "name": "TELEHIT MUSICA",
         "ep_id": "telehit_musica"
@@ -3035,21 +2980,6 @@
         "ep_id": "telenovelas"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d7/index.m3u8",
-        "name": "TELEPACIFICO NACIONAL SIN TRANS",
-        "ep_id": "telepacifico_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fm/index.m3u8",
-        "name": "TELESUR",
-        "ep_id": "telesur"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
-        "name": "TELEVEN",
-        "ep_id": "televen"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
         "name": "TELEVISA 1",
         "ep_id": "televisa_1"
@@ -3068,11 +2998,6 @@
         "_id": "http://181.78.8.199:8000/play/a0ch/index.m3u8",
         "name": "TLC",
         "ep_id": "tlc"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fs/index.m3u8",
-        "name": "TLT",
-        "ep_id": "tlt"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
@@ -3100,11 +3025,6 @@
         "ep_id": "tooncast_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
-        "name": "TRO NACIONAL SIN TRANS",
-        "ep_id": "tro_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ci/index.m3u8",
         "name": "TURBO",
         "ep_id": "turbo"
@@ -3115,19 +3035,9 @@
         "ep_id": "tv_agro_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fp/index.m3u8",
-        "name": "TV FAMB",
-        "ep_id": "tv_famb"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0e5/index.m3u8",
         "name": "TVAGRO",
         "ep_id": "tvagro"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0ft/index.m3u8",
-        "name": "TVES",
-        "ep_id": "tves"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09t/index.m3u8",
