@@ -120,11 +120,6 @@
         "ep_id": "telemundo_puerto_rico"
     },
     {
-        "_id": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
-        "name": "Wellbeing TV",
-        "ep_id": "wellbeing_tv"
-    },
-    {
         "_id": "https://distributionsjustepourrire-justforlaughsgags-1-es.samsung.wurl.tv/playlist.m3u8",
         "name": "Just for Laughs",
         "ep_id": "just_for_laughs"
@@ -630,6 +625,11 @@
         "ep_id": "tele_yucatan"
     },
     {
+        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
+        "name": "Transmedia Televisión Morelia",
+        "ep_id": "transmedia_television_morelia"
+    },
+    {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
         "name": "TV Cuatro 4.1",
         "ep_id": "tv_cuatro_41"
@@ -683,11 +683,6 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
-    },
-    {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -760,6 +755,16 @@
         "ep_id": "extrema_tv_kids"
     },
     {
+        "_id": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
+        "name": "Frecuencia Musical Tv | USA",
+        "ep_id": "frecuencia_musical_tv_usa"
+    },
+    {
+        "_id": "https://s2.tvdatta.com:3307/live/fmtvmatrizlive.m3u8",
+        "name": "Frecuencia Musical Tv op2 | USA",
+        "ep_id": "frecuencia_musical_tv_op2_usa"
+    },
+    {
         "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
         "name": "FS1 | Austria",
         "ep_id": "fs1_austria"
@@ -830,11 +835,6 @@
         "ep_id": "retro_music_tv_checoslovaquia"
     },
     {
-        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
-        "name": "Retro Play TV | Chile",
-        "ep_id": "retro_play_tv_chile"
-    },
-    {
         "_id": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8",
         "name": "SKYFLIX Movies",
         "ep_id": "skyflix_movies"
@@ -868,6 +868,11 @@
         "_id": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
         "name": "Toonami Aftermath East",
         "ep_id": "toonami_aftermath_east"
+    },
+    {
+        "_id": "http://api.toonamiaftermath.com:3000/pst/playlist.m3u8",
+        "name": "Toonami Aftermath West",
+        "ep_id": "toonami_aftermath_west"
     },
     {
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
@@ -1478,6 +1483,11 @@
         "_id": "https://jmp2.uk/stvp-US2200005Y2",
         "name": "Canal ViX",
         "ep_id": "canal_vix"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-US2200004HD",
+        "name": "Angelique",
+        "ep_id": "angelique"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBB44000099N",
@@ -2230,6 +2240,11 @@
         "ep_id": "canal_21_tv"
     },
     {
+        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+        "name": "Chaco TV",
+        "ep_id": "chaco_tv"
+    },
+    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2328,6 +2343,11 @@
         "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
         "name": "TyC Sports USA",
         "ep_id": "tyc_sports_usa"
+    },
+    {
+        "_id": "https://videohd.live:19360/8008/8008.m3u8",
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
     },
     {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
@@ -2678,11 +2698,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
         "name": "Discoverykids",
         "ep_id": "discoverykids"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
-        "name": "EL MUNDO EL CAMPO",
-        "ep_id": "el_mundo_el_campo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09s/index.m3u8",
@@ -3058,6 +3073,11 @@
         "_id": "http://181.78.8.199:8000/play/a0fm/index.m3u8",
         "name": "TELESUR",
         "ep_id": "telesur"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
+        "name": "TELEVEN",
+        "ep_id": "televen"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
