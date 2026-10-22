@@ -550,11 +550,6 @@
         "ep_id": "jalisco_tv"
     },
     {
-        "_id": "https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8",
-        "name": "Lobo TV",
-        "ep_id": "lobo_tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8",
         "name": "Monte Maria",
         "ep_id": "monte_maria"
@@ -685,6 +680,11 @@
         "ep_id": "anime_tv_brasil"
     },
     {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
+    },
+    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -713,11 +713,6 @@
         "_id": "https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8",
         "name": "Caracola TV | Chile",
         "ep_id": "caracola_tv_chile"
-    },
-    {
-        "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
-        "name": "Chile Channel | Chile",
-        "ep_id": "chile_channel_chile"
     },
     {
         "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
@@ -833,6 +828,11 @@
         "_id": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
         "name": "Retro Music Tv | Checoslovaquia",
         "ep_id": "retro_music_tv_checoslovaquia"
+    },
+    {
+        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
+        "name": "Retro Play TV | Chile",
+        "ep_id": "retro_play_tv_chile"
     },
     {
         "_id": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8",
@@ -1213,11 +1213,6 @@
         "_id": "https://jmp2.uk/stvp-US11000020V",
         "name": "It’s Anime",
         "ep_id": "its_anime"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2000018YI",
-        "name": "Crunchyroll",
-        "ep_id": "crunchyroll"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC36000073J",
