@@ -485,11 +485,6 @@
         "ep_id": "15tv"
     },
     {
-        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
-        "name": "Antena TV",
-        "ep_id": "antena_tv"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
         "name": "Canal 10 Durango",
         "ep_id": "canal_10_durango"
@@ -548,6 +543,11 @@
         "_id": "https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8",
         "name": "Jalisco TV",
         "ep_id": "jalisco_tv"
+    },
+    {
+        "_id": "https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8",
+        "name": "Lobo TV",
+        "ep_id": "lobo_tv"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8",
@@ -715,6 +715,11 @@
         "ep_id": "caracola_tv_chile"
     },
     {
+        "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
+        "name": "Chile Channel | Chile",
+        "ep_id": "chile_channel_chile"
+    },
+    {
         "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
         "name": "Click TV | Chile",
         "ep_id": "click_tv_chile"
@@ -828,11 +833,6 @@
         "_id": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
         "name": "Retro Music Tv | Checoslovaquia",
         "ep_id": "retro_music_tv_checoslovaquia"
-    },
-    {
-        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
-        "name": "Retro Play TV | Chile",
-        "ep_id": "retro_play_tv_chile"
     },
     {
         "_id": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8",
@@ -1213,6 +1213,11 @@
         "_id": "https://jmp2.uk/stvp-US11000020V",
         "name": "It’s Anime",
         "ep_id": "its_anime"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-US2000018YI",
+        "name": "Crunchyroll",
+        "ep_id": "crunchyroll"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBC36000073J",
@@ -2205,11 +2210,6 @@
         "ep_id": "cgtn"
     },
     {
-        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
-        "name": "5TV Corrientes",
-        "ep_id": "5tv_corrientes"
-    },
-    {
         "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
         "name": "Beats Radio",
         "ep_id": "beats_radio"
@@ -2248,11 +2248,6 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
-    },
-    {
-        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
-        "name": "NG Federal",
-        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2295,11 +2290,6 @@
         "ep_id": "247_canal_de_noticias"
     },
     {
-        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
-        "name": "Canal 9 Resistencia",
-        "ep_id": "canal_9_resistencia"
-    },
-    {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
         "name": "Canal Orbe 21",
         "ep_id": "canal_orbe_21"
@@ -2313,11 +2303,6 @@
         "_id": "https://cloud.tvomix.com/KPOPMIX/index.m3u8",
         "name": "Kpop Mix",
         "ep_id": "kpop_mix"
-    },
-    {
-        "_id": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
-        "name": "Radio Conexion Web TV",
-        "ep_id": "radio_conexion_web_tv"
     },
     {
         "_id": "https://cloud.tvomix.com/URBANMIX/index.m3u8",
@@ -2355,19 +2340,9 @@
         "ep_id": "atacama_noticias"
     },
     {
-        "_id": "https://v2.tustreaming.cl/atacamatv/index.m3u8",
-        "name": "Atacama TV",
-        "ep_id": "atacama_tv"
-    },
-    {
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
-    },
-    {
-        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
-        "name": "Juntos TV",
-        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2693,6 +2668,11 @@
         "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
         "name": "Discoverykids",
         "ep_id": "discoverykids"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
+        "name": "EL MUNDO EL CAMPO",
+        "ep_id": "el_mundo_el_campo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09s/index.m3u8",
