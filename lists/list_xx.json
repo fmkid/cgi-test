@@ -320,11 +320,6 @@
         "ep_id": "trace_urban"
     },
     {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
-        "name": "Deluxe Dance Germany",
-        "ep_id": "deluxe_dance_germany"
-    },
-    {
         "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
         "name": "Deluxe Music Germany",
         "ep_id": "deluxe_music_germany"
@@ -483,6 +478,11 @@
         "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
         "name": "15TV",
         "ep_id": "15tv"
+    },
+    {
+        "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
+        "name": "Antena TV",
+        "ep_id": "antena_tv"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
@@ -833,6 +833,11 @@
         "_id": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
         "name": "Retro Music Tv | Checoslovaquia",
         "ep_id": "retro_music_tv_checoslovaquia"
+    },
+    {
+        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
+        "name": "Retro Play TV | Chile",
+        "ep_id": "retro_play_tv_chile"
     },
     {
         "_id": "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8",
@@ -2260,19 +2265,9 @@
         "ep_id": "powerhd"
     },
     {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-        "name": "Radio TV Neuquén",
-        "ep_id": "radio_tv_neuquen"
-    },
-    {
         "_id": "http://204.199.3.2/.m3u8",
         "name": "Radiocanal San Francisco",
         "ep_id": "radiocanal_san_francisco"
-    },
-    {
-        "_id": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
-        "name": "RTN",
-        "ep_id": "rtn"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8",
@@ -2303,6 +2298,11 @@
         "_id": "https://cloud.tvomix.com/KPOPMIX/index.m3u8",
         "name": "Kpop Mix",
         "ep_id": "kpop_mix"
+    },
+    {
+        "_id": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
+        "name": "Radio Conexion Web TV",
+        "ep_id": "radio_conexion_web_tv"
     },
     {
         "_id": "https://cloud.tvomix.com/URBANMIX/index.m3u8",
@@ -2343,6 +2343,11 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
+    },
+    {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -3173,11 +3178,6 @@
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
         "name": "cinecanal",
         "ep_id": "cinecanal"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
-        "name": "comedycentral",
-        "ep_id": "comedycentral"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
