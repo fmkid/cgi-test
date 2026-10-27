@@ -105,6 +105,11 @@
         "ep_id": "kanal_d"
     },
     {
+        "_id": "https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8",
+        "name": "Caras TV",
+        "ep_id": "caras_tv"
+    },
+    {
         "_id": "https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8",
         "name": "Boricua TV",
         "ep_id": "boricua_tv"
@@ -585,6 +590,11 @@
         "ep_id": "raly_tv"
     },
     {
+        "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
+        "name": "RTG",
+        "ep_id": "rtg"
+    },
+    {
         "_id": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8",
         "name": "SET Televisión Canal 26.1",
         "ep_id": "set_television_canal_261"
@@ -648,6 +658,11 @@
         "_id": "https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playlist.m3u8",
         "name": "TV Mar Los Cabos",
         "ep_id": "tv_mar_los_cabos"
+    },
+    {
+        "_id": "https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8",
+        "name": "TV Mar Puerto Vallarta",
+        "ep_id": "tv_mar_puerto_vallarta"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8",
@@ -923,6 +938,11 @@
         "_id": "https://jmp2.uk/stvp-USAJ3400011A8",
         "name": "Bloomberg TV+",
         "ep_id": "bloomberg_tv"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBA3000041ZP",
+        "name": "Movie Hub",
+        "ep_id": "movie_hub"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3000007MT",
@@ -1388,6 +1408,11 @@
         "_id": "https://jmp2.uk/stvp-USBD12000239N",
         "name": "Ryan and Friends",
         "ep_id": "ryan_and_friends"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBD12000153A",
+        "name": "pocket.watch Game-On",
+        "ep_id": "pocketwatch_gameon"
     },
     {
         "_id": "https://jmp2.uk/stvp-US2200007QG",
