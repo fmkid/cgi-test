@@ -180,11 +180,6 @@
         "ep_id": "mega_cine_tv"
     },
     {
-        "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
-        "name": "Entretencion",
-        "ep_id": "entretencion"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
         "name": "Teleseries",
         "ep_id": "teleseries"
@@ -485,11 +480,6 @@
         "ep_id": "ver_tvmas_veracruz"
     },
     {
-        "_id": "https://servilive.com:3380/live/v3n6thy7glive.m3u8",
-        "name": "15TV",
-        "ep_id": "15tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
@@ -613,16 +603,6 @@
         "_id": "https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8",
         "name": "SIZART Canal 24",
         "ep_id": "sizart_canal_24"
-    },
-    {
-        "_id": "https://servilive.com:3263/live/channel12live.m3u8",
-        "name": "Super Channel 12",
-        "ep_id": "super_channel_12"
-    },
-    {
-        "_id": "https://servilive.com:3879/live/telesaltillolive.m3u8",
-        "name": "Tele Saltillo",
-        "ep_id": "tele_saltillo"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
@@ -2360,11 +2340,6 @@
         "ep_id": "tyc_sports_usa"
     },
     {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
-    },
-    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2445,7 +2420,7 @@
         "ep_id": "negociostv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0ct/index.m3u8",
         "name": "AE",
         "ep_id": "ae"
     },
@@ -2493,11 +2468,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
         "name": "CANAL 1 NACIONAL SIN TRANS",
         "ep_id": "canal_1_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0e4/index.m3u8",
-        "name": "CANAL 12 VALLEDUPAR",
-        "ep_id": "canal_12_valledupar"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d4/index.m3u8",
@@ -2840,11 +2810,6 @@
         "ep_id": "goldenedge"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
-        "name": "HISTORY1",
-        "ep_id": "history1"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
         "name": "HISTORY2 INTERNO",
         "ep_id": "history2_interno"
@@ -2950,11 +2915,6 @@
         "ep_id": "nick_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
-        "name": "OLE 1",
-        "ep_id": "ole_1"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -3000,7 +2960,7 @@
         "ep_id": "senal_colombia_nacional_sin_trans"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0e6/index.m3u8",
         "name": "SONY CHANNEL",
         "ep_id": "sony_channel"
     },
@@ -3213,6 +3173,11 @@
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
         "name": "cinecanal",
         "ep_id": "cinecanal"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
+        "name": "comedycentral",
+        "ep_id": "comedycentral"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
