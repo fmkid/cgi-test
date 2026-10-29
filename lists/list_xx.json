@@ -180,6 +180,11 @@
         "ep_id": "mega_cine_tv"
     },
     {
+        "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
+        "name": "Entretencion",
+        "ep_id": "entretencion"
+    },
+    {
         "_id": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
         "name": "Teleseries",
         "ep_id": "teleseries"
@@ -485,11 +490,6 @@
         "ep_id": "antena_tv"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
-    },
-    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -608,11 +608,6 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
         "name": "Tele Yucatan",
         "ep_id": "tele_yucatan"
-    },
-    {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
@@ -2225,11 +2220,6 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
         "name": "Canal 21 TV",
         "ep_id": "canal_21_tv"
@@ -2420,7 +2410,7 @@
         "ep_id": "negociostv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ct/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
         "name": "AE",
         "ep_id": "ae"
     },
@@ -2810,6 +2800,11 @@
         "ep_id": "goldenedge"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
+        "name": "HISTORY1",
+        "ep_id": "history1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
         "name": "HISTORY2 INTERNO",
         "ep_id": "history2_interno"
@@ -2915,6 +2910,11 @@
         "ep_id": "nick_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
+        "name": "OLE 1",
+        "ep_id": "ole_1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -2960,7 +2960,7 @@
         "ep_id": "senal_colombia_nacional_sin_trans"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0e6/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
         "name": "SONY CHANNEL",
         "ep_id": "sony_channel"
     },
