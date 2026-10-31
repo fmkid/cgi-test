@@ -500,11 +500,6 @@
         "ep_id": "canal_26_aguascalientes"
     },
     {
-        "_id": "https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8",
-        "name": "Canal 33 Tijuana",
-        "ep_id": "canal_33_tijuana"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8",
         "name": "Canal 44 Ciudad Juárez",
         "ep_id": "canal_44_ciudad_juarez"
@@ -710,11 +705,6 @@
         "ep_id": "chile_channel_chile"
     },
     {
-        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
-        "name": "Click TV | Chile",
-        "ep_id": "click_tv_chile"
-    },
-    {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
         "name": "Colosal TV | Costa Rica",
         "ep_id": "colosal_tv_costa_rica"
@@ -898,11 +888,6 @@
         "_id": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
         "name": "RED BULL TV | Austria",
         "ep_id": "red_bull_tv_austria"
-    },
-    {
-        "_id": "http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8",
-        "name": "Teletrak | Chile",
-        "ep_id": "teletrak_chile"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA370000104",
@@ -1765,6 +1750,11 @@
         "ep_id": "cuentame_como_paso"
     },
     {
+        "_id": "https://jmp2.uk/stvp-ES500005BP",
+        "name": "Águila Roja",
+        "ep_id": "aguila_roja"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-ESBD1300003VN",
         "name": "Corazón",
         "ep_id": "corazon"
@@ -1845,6 +1835,11 @@
         "ep_id": "dateline_247"
     },
     {
+        "_id": "https://jmp2.uk/stvp-ES2600005G9",
+        "name": "Crimen - Rakuten TV",
+        "ep_id": "crimen_rakuten_tv"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-ES45000012U",
         "name": "Alerta Cobra",
         "ep_id": "alerta_cobra"
@@ -1870,6 +1865,11 @@
         "ep_id": "supertoons_tv"
     },
     {
+        "_id": "https://jmp2.uk/stvp-ESBD2300003S5",
+        "name": "Rabbids : La invasion",
+        "ep_id": "rabbids_la_invasion"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-ES700004C8",
         "name": "Runtime Christmas",
         "ep_id": "runtime_christmas"
@@ -1880,6 +1880,11 @@
         "ep_id": "en_familia_rakuten_tv"
     },
     {
+        "_id": "https://jmp2.uk/stvp-ESBC1700004PX",
+        "name": "Trailers",
+        "ep_id": "trailers"
+    },
+    {
         "_id": "https://jmp2.uk/stvp-ESBC400001QQ",
         "name": "Runtime",
         "ep_id": "runtime"
@@ -1888,6 +1893,11 @@
         "_id": "https://jmp2.uk/stvp-ES2600013H4",
         "name": "Películas Top - Rakuten TV",
         "ep_id": "peliculas_top_rakuten_tv"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ES2600012C9",
+        "name": "Películas Románticas - Rakuten TV",
+        "ep_id": "peliculas_romanticas_rakuten_tv"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES900002ZD",
@@ -1913,6 +1923,11 @@
         "_id": "https://jmp2.uk/stvp-ES2300005G7",
         "name": "Cine Western",
         "ep_id": "cine_western"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ESBC2700003T8",
+        "name": "Bigtime - Películas Gratis",
+        "ep_id": "bigtime_peliculas_gratis"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2200003DA",
@@ -2028,6 +2043,11 @@
         "_id": "https://jmp2.uk/stvp-ESBA1400006NP",
         "name": "FailArmy",
         "ep_id": "failarmy"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ESAJ4500023Y5",
+        "name": "People Are Awesome",
+        "ep_id": "people_are_awesome"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESAJ4500016BH",
@@ -2305,6 +2325,11 @@
         "ep_id": "tyc_sports_usa"
     },
     {
+        "_id": "https://videohd.live:19360/8008/8008.m3u8",
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
+    },
+    {
         "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
         "name": "AE Radio TV",
         "ep_id": "ae_radio_tv"
@@ -2385,7 +2410,7 @@
         "ep_id": "negociostv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0ct/index.m3u8",
         "name": "AE",
         "ep_id": "ae"
     },
@@ -2433,11 +2458,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
         "name": "CANAL 1 NACIONAL SIN TRANS",
         "ep_id": "canal_1_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0e4/index.m3u8",
-        "name": "CANAL 12 VALLEDUPAR",
-        "ep_id": "canal_12_valledupar"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d4/index.m3u8",
@@ -2493,6 +2513,11 @@
         "_id": "http://181.78.8.199:8000/play/a0aw/index.m3u8",
         "name": "CARACOL SRT",
         "ep_id": "caracol_srt"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
+        "name": "CARTOON NETWORK ENVIADO",
+        "ep_id": "cartoon_network_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09f/index.m3u8",
@@ -2755,6 +2780,11 @@
         "ep_id": "fx"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a09k/index.m3u8",
+        "name": "GLOBOVISION",
+        "ep_id": "globovision"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ab/index.m3u8",
         "name": "GOLDEN EDGE",
         "ep_id": "golden_edge"
@@ -2768,11 +2798,6 @@
         "_id": "http://181.78.8.199:8000/play/a0ck/index.m3u8",
         "name": "Goldenedge",
         "ep_id": "goldenedge"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
-        "name": "HISTORY1",
-        "ep_id": "history1"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
@@ -2880,11 +2905,6 @@
         "ep_id": "nick_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
-        "name": "OLE 1",
-        "ep_id": "ole_1"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -2930,7 +2950,7 @@
         "ep_id": "senal_colombia_nacional_sin_trans"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0e6/index.m3u8",
         "name": "SONY CHANNEL",
         "ep_id": "sony_channel"
     },
@@ -2938,6 +2958,11 @@
         "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
         "name": "SONY MUVIES",
         "ep_id": "sony_muvies"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a096/index.m3u8",
+        "name": "SPACE SRT EN",
+        "ep_id": "space_srt_en"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cl/index.m3u8",
@@ -3015,6 +3040,11 @@
         "ep_id": "telesur"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
+        "name": "TELEVEN",
+        "ep_id": "televen"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
         "name": "TELEVISA 1",
         "ep_id": "televisa_1"
@@ -3053,6 +3083,16 @@
         "_id": "http://181.78.8.199:8000/play/a098/index.m3u8",
         "name": "TNT SERIES SRT EN",
         "ep_id": "tnt_series_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a097/index.m3u8",
+        "name": "TNT SRT EN",
+        "ep_id": "tnt_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
+        "name": "TOONCAST ENVIADO",
+        "ep_id": "tooncast_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
