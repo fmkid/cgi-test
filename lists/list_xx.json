@@ -410,11 +410,6 @@
         "ep_id": "agu_canal_26"
     },
     {
-        "_id": "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8",
-        "name": "CHP: Canal 10",
-        "ep_id": "chp_canal_10"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8",
         "name": "CHH: CANAL 44",
         "ep_id": "chh_canal_44"
@@ -488,6 +483,11 @@
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
+    },
+    {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -703,6 +703,11 @@
         "_id": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
         "name": "Chile Channel | Chile",
         "ep_id": "chile_channel_chile"
+    },
+    {
+        "_id": "https://v2.tustreaming.cl/clicktv/playlist.m3u8",
+        "name": "Click TV | Chile",
+        "ep_id": "click_tv_chile"
     },
     {
         "_id": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
@@ -2390,19 +2395,9 @@
         "ep_id": "etc_tv_chile"
     },
     {
-        "_id": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
-        "name": "Canal 10 CR",
-        "ep_id": "canal_10_cr"
-    },
-    {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
         "name": "Best Clasicos",
         "ep_id": "best_clasicos"
-    },
-    {
-        "_id": "https://e46fa4a445464f8a9150fa7d510eb85c.mediatailor.us-west-2.amazonaws.com/v1/manifest/2d2d0d97b0e548f025b2598a69b55bf30337aa0e/npp/7ad7548f-cc44-4a1b-9aff-34610417fe1b/4.m3u8",
-        "name": "HITS MEXICANOS",
-        "ep_id": "hits_mexicanos"
     },
     {
         "_id": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
@@ -2410,7 +2405,7 @@
         "ep_id": "negociostv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ct/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
         "name": "AE",
         "ep_id": "ae"
     },
@@ -2800,6 +2795,11 @@
         "ep_id": "goldenedge"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
+        "name": "HISTORY1",
+        "ep_id": "history1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
         "name": "HISTORY2 INTERNO",
         "ep_id": "history2_interno"
@@ -2905,6 +2905,11 @@
         "ep_id": "nick_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
+        "name": "OLE 1",
+        "ep_id": "ole_1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -2950,7 +2955,7 @@
         "ep_id": "senal_colombia_nacional_sin_trans"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0e6/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
         "name": "SONY CHANNEL",
         "ep_id": "sony_channel"
     },
@@ -3088,11 +3093,6 @@
         "_id": "http://181.78.8.199:8000/play/a097/index.m3u8",
         "name": "TNT SRT EN",
         "ep_id": "tnt_srt_en"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
-        "name": "TOONCAST ENVIADO",
-        "ep_id": "tooncast_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
