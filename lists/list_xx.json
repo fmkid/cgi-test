@@ -175,11 +175,6 @@
         "ep_id": "zaz"
     },
     {
-        "_id": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
-        "name": "Mega Cine TV",
-        "ep_id": "mega_cine_tv"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
         "name": "Entretencion",
         "ep_id": "entretencion"
@@ -410,6 +405,11 @@
         "ep_id": "agu_canal_26"
     },
     {
+        "_id": "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8",
+        "name": "CHP: Canal 10",
+        "ep_id": "chp_canal_10"
+    },
+    {
         "_id": "https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8",
         "name": "CHH: CANAL 44",
         "ep_id": "chh_canal_44"
@@ -498,6 +498,11 @@
         "_id": "https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8",
         "name": "Canal 26 Aguascalientes",
         "ep_id": "canal_26_aguascalientes"
+    },
+    {
+        "_id": "https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8",
+        "name": "Canal 33 Tijuana",
+        "ep_id": "canal_33_tijuana"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8",
@@ -665,11 +670,6 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -770,11 +770,6 @@
         "ep_id": "neo_tv_argentina"
     },
     {
-        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
-        "name": "Neox | Argentina",
-        "ep_id": "neox_argentina"
-    },
-    {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
         "name": "Norte Informativo TV | Costa Rica",
         "ep_id": "norte_informativo_tv_costa_rica"
@@ -793,11 +788,6 @@
         "_id": "https://lightning-now90s-samsungnz.amagi.tv/playlist720p.m3u8",
         "name": "Now Rock",
         "ep_id": "now_rock"
-    },
-    {
-        "_id": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
-        "name": "Orbit TV op2 | Republica Dominicana",
-        "ep_id": "orbit_tv_op2_republica_dominicana"
     },
     {
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
@@ -2225,11 +2215,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2303,11 +2288,6 @@
         "_id": "https://cloud.tvomix.com/KPOPMIX/index.m3u8",
         "name": "Kpop Mix",
         "ep_id": "kpop_mix"
-    },
-    {
-        "_id": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
-        "name": "Radio Conexion Web TV",
-        "ep_id": "radio_conexion_web_tv"
     },
     {
         "_id": "https://cloud.tvomix.com/URBANMIX/index.m3u8",
@@ -2398,11 +2378,6 @@
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
         "name": "Best Clasicos",
         "ep_id": "best_clasicos"
-    },
-    {
-        "_id": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
-        "name": "NegociosTV",
-        "ep_id": "negociostv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
