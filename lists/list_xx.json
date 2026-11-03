@@ -175,6 +175,11 @@
         "ep_id": "zaz"
     },
     {
+        "_id": "https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8",
+        "name": "Mega Cine TV",
+        "ep_id": "mega_cine_tv"
+    },
+    {
         "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
         "name": "Entretencion",
         "ep_id": "entretencion"
@@ -485,11 +490,6 @@
         "ep_id": "antena_tv"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
-    },
-    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -575,6 +575,11 @@
         "ep_id": "presumiendo_mexico"
     },
     {
+        "_id": "http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8",
+        "name": "Radiotele Morelia",
+        "ep_id": "radiotele_morelia"
+    },
+    {
         "_id": "https://cloudvideo.servers10.com:8081/8072/index.m3u8",
         "name": "Raly TV",
         "ep_id": "raly_tv"
@@ -608,11 +613,6 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
         "name": "Tele Yucatan",
         "ep_id": "tele_yucatan"
-    },
-    {
-        "_id": "http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8",
-        "name": "Transmedia Televisión Morelia",
-        "ep_id": "transmedia_television_morelia"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
@@ -668,6 +668,11 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
+    },
+    {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -790,14 +795,14 @@
         "ep_id": "now_rock"
     },
     {
+        "_id": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8",
+        "name": "Orbit TV op2 | Republica Dominicana",
+        "ep_id": "orbit_tv_op2_republica_dominicana"
+    },
+    {
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
         "name": "Primired",
         "ep_id": "primired"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
-        "name": "Quantica TV | Argentina",
-        "ep_id": "quantica_tv_argentina"
     },
     {
         "_id": "https://stream2.xdevel.com/video0s975758-1048/stream/playlist.m3u8",
@@ -883,6 +888,11 @@
         "_id": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
         "name": "RED BULL TV | Austria",
         "ep_id": "red_bull_tv_austria"
+    },
+    {
+        "_id": "http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8",
+        "name": "Teletrak | Chile",
+        "ep_id": "teletrak_chile"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA370000104",
@@ -2205,14 +2215,14 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
         "name": "Canal 21 TV",
         "ep_id": "canal_21_tv"
+    },
+    {
+        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+        "name": "Chaco TV",
+        "ep_id": "chaco_tv"
     },
     {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
@@ -2288,6 +2298,11 @@
         "_id": "https://cloud.tvomix.com/KPOPMIX/index.m3u8",
         "name": "Kpop Mix",
         "ep_id": "kpop_mix"
+    },
+    {
+        "_id": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
+        "name": "Radio Conexion Web TV",
+        "ep_id": "radio_conexion_web_tv"
     },
     {
         "_id": "https://cloud.tvomix.com/URBANMIX/index.m3u8",
@@ -2378,6 +2393,11 @@
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
         "name": "Best Clasicos",
         "ep_id": "best_clasicos"
+    },
+    {
+        "_id": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
+        "name": "NegociosTV",
+        "ep_id": "negociostv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
