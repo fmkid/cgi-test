@@ -180,11 +180,6 @@
         "ep_id": "mega_cine_tv"
     },
     {
-        "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
-        "name": "Entretencion",
-        "ep_id": "entretencion"
-    },
-    {
         "_id": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
         "name": "Teleseries",
         "ep_id": "teleseries"
@@ -490,11 +485,6 @@
         "ep_id": "antena_tv"
     },
     {
-        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-        "name": "Canal 10 Durango",
-        "ep_id": "canal_10_durango"
-    },
-    {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
         "name": "Canal 22 Nacional",
         "ep_id": "canal_22_nacional"
@@ -583,11 +573,6 @@
         "_id": "http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8",
         "name": "Radiotele Morelia",
         "ep_id": "radiotele_morelia"
-    },
-    {
-        "_id": "https://cloudvideo.servers10.com:8081/8072/index.m3u8",
-        "name": "Raly TV",
-        "ep_id": "raly_tv"
     },
     {
         "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
@@ -778,6 +763,11 @@
         "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
         "name": "Neo TV | Argentina",
         "ep_id": "neo_tv_argentina"
+    },
+    {
+        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
+        "name": "Neox | Argentina",
+        "ep_id": "neox_argentina"
     },
     {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
@@ -2210,11 +2200,6 @@
         "ep_id": "beats_radio"
     },
     {
-        "_id": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
-        "name": "Cadena 103",
-        "ep_id": "cadena_103"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
         "name": "Canal 4 Posadas",
         "ep_id": "canal_4_posadas"
@@ -2223,11 +2208,6 @@
         "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
         "name": "Canal 13 La Rioja",
         "ep_id": "canal_13_la_rioja"
-    },
-    {
-        "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
-        "name": "Canal 21 TV",
-        "ep_id": "canal_21_tv"
     },
     {
         "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
@@ -2378,6 +2358,11 @@
         "_id": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
         "name": "Televida",
         "ep_id": "televida"
+    },
+    {
+        "_id": "https://v4.tustreaming.cl/tevexinter/index.m3u8",
+        "name": "Tevex",
+        "ep_id": "tevex"
     },
     {
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
@@ -2653,16 +2638,6 @@
         "_id": "http://181.78.8.199:8000/play/a070/index.m3u8",
         "name": "Discovery Kids HD",
         "ep_id": "discovery_kids_hd"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c2/index.m3u8",
-        "name": "Discoveryhh",
-        "ep_id": "discoveryhh"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
-        "name": "Discoverykids",
-        "ep_id": "discoverykids"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
