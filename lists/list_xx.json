@@ -520,11 +520,6 @@
         "ep_id": "cb_tv_michoacan"
     },
     {
-        "_id": "http://190.61.90.17:40000/play/a0hk/index.m3u8",
-        "name": "Exa TV",
-        "ep_id": "exa_tv"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
         "name": "Expresa TV",
         "ep_id": "expresa_tv"
@@ -748,11 +743,6 @@
         "_id": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
         "name": "FS1 | Austria",
         "ep_id": "fs1_austria"
-    },
-    {
-        "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
-        "name": "Iquique Tv | Chile",
-        "ep_id": "iquique_tv_chile"
     },
     {
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
@@ -2210,6 +2200,11 @@
         "ep_id": "canal_13_la_rioja"
     },
     {
+        "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
+        "name": "Canal 21 TV",
+        "ep_id": "canal_21_tv"
+    },
+    {
         "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
         "name": "Chaco TV",
         "ep_id": "chaco_tv"
@@ -2373,11 +2368,6 @@
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
         "name": "UTV",
         "ep_id": "utv"
-    },
-    {
-        "_id": "http://45.185.163.75:8000/play/a0gv/index.m3u8",
-        "name": "Etc TV | Chile",
-        "ep_id": "etc_tv_chile"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
@@ -2638,6 +2628,11 @@
         "_id": "http://181.78.8.199:8000/play/a070/index.m3u8",
         "name": "Discovery Kids HD",
         "ep_id": "discovery_kids_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
+        "name": "Discoverykids",
+        "ep_id": "discoverykids"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
@@ -3068,6 +3063,11 @@
         "_id": "http://181.78.8.199:8000/play/a097/index.m3u8",
         "name": "TNT SRT EN",
         "ep_id": "tnt_srt_en"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
+        "name": "TOONCAST ENVIADO",
+        "ep_id": "tooncast_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
