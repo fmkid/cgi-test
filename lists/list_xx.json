@@ -325,11 +325,6 @@
         "ep_id": "deluxe_dance_germany"
     },
     {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
-        "name": "Deluxe Music Germany",
-        "ep_id": "deluxe_music_germany"
-    },
-    {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
         "name": "DBM TV",
         "ep_id": "dbm_tv"
@@ -565,11 +560,6 @@
         "ep_id": "presumiendo_mexico"
     },
     {
-        "_id": "http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8",
-        "name": "Radiotele Morelia",
-        "ep_id": "radiotele_morelia"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
         "name": "RTG",
         "ep_id": "rtg"
@@ -745,6 +735,11 @@
         "ep_id": "fs1_austria"
     },
     {
+        "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
+        "name": "Iquique Tv | Chile",
+        "ep_id": "iquique_tv_chile"
+    },
+    {
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
         "name": "Kpop Tv Play | Brasil",
         "ep_id": "kpop_tv_play_brasil"
@@ -833,16 +828,6 @@
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
         "name": "TeleSUR HD | Costa Rica",
         "ep_id": "telesur_hd_costa_rica"
-    },
-    {
-        "_id": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
-        "name": "Toonami Aftermath East",
-        "ep_id": "toonami_aftermath_east"
-    },
-    {
-        "_id": "http://api.toonamiaftermath.com:3000/pst/playlist.m3u8",
-        "name": "Toonami Aftermath West",
-        "ep_id": "toonami_aftermath_west"
     },
     {
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
@@ -2370,6 +2355,11 @@
         "ep_id": "utv"
     },
     {
+        "_id": "http://45.185.163.75:8000/play/a0gv/index.m3u8",
+        "name": "Etc TV | Chile",
+        "ep_id": "etc_tv_chile"
+    },
+    {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
         "name": "Best Clasicos",
         "ep_id": "best_clasicos"
@@ -2453,11 +2443,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cy/index.m3u8",
         "name": "CANALES NACIONALES",
         "ep_id": "canales_nacionales"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cx/index.m3u8",
-        "name": "CANALESTRELLAS",
-        "ep_id": "canalestrellas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d0/index.m3u8",
@@ -2628,6 +2613,11 @@
         "_id": "http://181.78.8.199:8000/play/a070/index.m3u8",
         "name": "Discovery Kids HD",
         "ep_id": "discovery_kids_hd"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c2/index.m3u8",
+        "name": "Discoveryhh",
+        "ep_id": "discoveryhh"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
@@ -3018,11 +3008,6 @@
         "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
         "name": "TELEVEN",
         "ep_id": "televen"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
-        "name": "TELEVISA 1",
-        "ep_id": "televisa_1"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0av/index.m3u8",
