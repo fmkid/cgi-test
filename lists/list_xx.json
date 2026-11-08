@@ -180,6 +180,11 @@
         "ep_id": "mega_cine_tv"
     },
     {
+        "_id": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
+        "name": "Entretencion",
+        "ep_id": "entretencion"
+    },
+    {
         "_id": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
         "name": "Teleseries",
         "ep_id": "teleseries"
@@ -325,6 +330,11 @@
         "ep_id": "deluxe_dance_germany"
     },
     {
+        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
+        "name": "Deluxe Music Germany",
+        "ep_id": "deluxe_music_germany"
+    },
+    {
         "_id": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
         "name": "DBM TV",
         "ep_id": "dbm_tv"
@@ -465,11 +475,6 @@
         "ep_id": "son_tvp_cd_obregon"
     },
     {
-        "_id": "http://s5.mexside.net:1935/telemax/telemax/chunklist_w586584359.m3u8",
-        "name": "SON: Telemax Sonora",
-        "ep_id": "son_telemax_sonora"
-    },
-    {
         "_id": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8",
         "name": "VER: TVMAS Veracruz",
         "ep_id": "ver_tvmas_veracruz"
@@ -478,6 +483,11 @@
         "_id": "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8",
         "name": "Antena TV",
         "ep_id": "antena_tv"
+    },
+    {
+        "_id": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+        "name": "Canal 10 Durango",
+        "ep_id": "canal_10_durango"
     },
     {
         "_id": "https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8",
@@ -828,6 +838,16 @@
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
         "name": "TeleSUR HD | Costa Rica",
         "ep_id": "telesur_hd_costa_rica"
+    },
+    {
+        "_id": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
+        "name": "Toonami Aftermath East",
+        "ep_id": "toonami_aftermath_east"
+    },
+    {
+        "_id": "http://api.toonamiaftermath.com:3000/pst/playlist.m3u8",
+        "name": "Toonami Aftermath West",
+        "ep_id": "toonami_aftermath_west"
     },
     {
         "_id": "https://cloudvideo.servers10.com:8081/8198/index.m3u8",
@@ -2190,11 +2210,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2320,11 +2335,6 @@
         "ep_id": "juntos_tv"
     },
     {
-        "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
-        "name": "Pichilemu TV",
-        "ep_id": "pichilemu_tv"
-    },
-    {
         "_id": "https://v4.tustreaming.cl/restaurandovida/index.m3u8",
         "name": "Restaurando Vidas Internacional",
         "ep_id": "restaurando_vidas_internacional"
@@ -2443,6 +2453,11 @@
         "_id": "http://181.78.8.199:8000/play/a0cy/index.m3u8",
         "name": "CANALES NACIONALES",
         "ep_id": "canales_nacionales"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cx/index.m3u8",
+        "name": "CANALESTRELLAS",
+        "ep_id": "canalestrellas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d0/index.m3u8",
@@ -3008,6 +3023,11 @@
         "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
         "name": "TELEVEN",
         "ep_id": "televen"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0ak/index.m3u8",
+        "name": "TELEVISA 1",
+        "ep_id": "televisa_1"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0av/index.m3u8",
