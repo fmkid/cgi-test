@@ -165,11 +165,6 @@
         "ep_id": "moonbug"
     },
     {
-        "_id": "https://giatv.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8",
-        "name": "Taltal TV",
-        "ep_id": "taltal_tv"
-    },
-    {
         "_id": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
         "name": "ZAZ",
         "ep_id": "zaz"
@@ -430,11 +425,6 @@
         "ep_id": "dur_canal_10_durango"
     },
     {
-        "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videocbtv/chunklist_w233916547.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MTY6MTYgUE0maGFzaF92YWx1ZT1TRG9tVW16WXcxdldkdkQ5N3VwdjlnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
-        "name": "MIC: CBTV Michoacan",
-        "ep_id": "mic_cbtv_michoacan"
-    },
-    {
         "_id": "https://5f1af61612fb5.streamlock.net/canal6mich2/videocanal6mich2/chunklist_w119129650.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MjA6MzUgUE0maGFzaF92YWx1ZT1pLyttRnh1STUrS1gwNFdWZnFnbGRnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
         "name": "MIC: Canal 6",
         "ep_id": "mic_canal_6"
@@ -473,6 +463,11 @@
         "_id": "https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/chunklist_w1903526755_b1428000_sleng.m3u8",
         "name": "SON: TVP Cd. Obregon",
         "ep_id": "son_tvp_cd_obregon"
+    },
+    {
+        "_id": "http://s5.mexside.net:1935/telemax/telemax/chunklist_w586584359.m3u8",
+        "name": "SON: Telemax Sonora",
+        "ep_id": "son_telemax_sonora"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8",
@@ -518,11 +513,6 @@
         "_id": "https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8",
         "name": "Canal Parlamento del Congreso de Jalisco",
         "ep_id": "canal_parlamento_del_congreso_de_jalisco"
-    },
-    {
-        "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8",
-        "name": "CB TV Michoacan",
-        "ep_id": "cb_tv_michoacan"
     },
     {
         "_id": "https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8",
@@ -655,19 +645,9 @@
         "ep_id": "anime_tv_brasil"
     },
     {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
-    },
-    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
-    },
-    {
-        "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
-        "name": "Canal 15 DTP  | Honduras",
-        "ep_id": "canal_15_dtp_honduras"
     },
     {
         "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
@@ -2210,6 +2190,11 @@
         "ep_id": "canal_21_tv"
     },
     {
+        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+        "name": "Chaco TV",
+        "ep_id": "chaco_tv"
+    },
+    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2358,6 +2343,11 @@
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
         "name": "U Los Lagos TV",
         "ep_id": "u_los_lagos_tv"
+    },
+    {
+        "_id": "https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8",
+        "name": "UMAGTV 2",
+        "ep_id": "umagtv_2"
     },
     {
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
@@ -2638,11 +2628,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
         "name": "Discoverykids",
         "ep_id": "discoverykids"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
-        "name": "EL MUNDO EL CAMPO",
-        "ep_id": "el_mundo_el_campo"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09s/index.m3u8",
