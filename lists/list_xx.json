@@ -665,6 +665,11 @@
         "ep_id": "canal_15_dtp_honduras"
     },
     {
+        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
+        "name": "Canal 4 San Juan | Argentina",
+        "ep_id": "canal_4_san_juan_argentina"
+    },
+    {
         "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
         "name": "Canal 5 Vision Latina",
         "ep_id": "canal_5_vision_latina"
@@ -783,11 +788,6 @@
         "_id": "https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8",
         "name": "Primired",
         "ep_id": "primired"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
-        "name": "Quantica TV | Argentina",
-        "ep_id": "quantica_tv_argentina"
     },
     {
         "_id": "https://stream2.xdevel.com/video0s975758-1048/stream/playlist.m3u8",
@@ -2175,6 +2175,11 @@
         "ep_id": "cgtn"
     },
     {
+        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+        "name": "5TV Corrientes",
+        "ep_id": "5tv_corrientes"
+    },
+    {
         "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
         "name": "Beats Radio",
         "ep_id": "beats_radio"
@@ -2208,6 +2213,11 @@
         "_id": "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8",
         "name": "Cosmos TV",
         "ep_id": "cosmos_tv"
+    },
+    {
+        "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
+        "name": "NG Federal",
+        "ep_id": "ng_federal"
     },
     {
         "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
@@ -2250,6 +2260,11 @@
         "ep_id": "247_canal_de_noticias"
     },
     {
+        "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
+        "name": "Canal 9 Resistencia",
+        "ep_id": "canal_9_resistencia"
+    },
+    {
         "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
         "name": "Canal Orbe 21",
         "ep_id": "canal_orbe_21"
@@ -2283,11 +2298,6 @@
         "_id": "http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD",
         "name": "Disney Jr. Latin America South",
         "ep_id": "disney_jr_latin_america_south"
-    },
-    {
-        "_id": "http://45.170.130.224:8000/play/a020/index.m3u8",
-        "name": "TyC Sports USA",
-        "ep_id": "tyc_sports_usa"
     },
     {
         "_id": "https://videohd.live:19360/8008/8008.m3u8",
@@ -2370,6 +2380,11 @@
         "ep_id": "negociostv"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
+        "name": "AE",
+        "ep_id": "ae"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0by/index.m3u8",
         "name": "ANIMAL PLANET",
         "ep_id": "animal_planet"
@@ -2378,6 +2393,11 @@
         "_id": "http://181.78.8.199:8000/play/a0fo/index.m3u8",
         "name": "ANTV",
         "ep_id": "antv"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
+        "name": "AXN",
+        "ep_id": "axn"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a06w/index.m3u8",
@@ -2405,24 +2425,9 @@
         "ep_id": "cable_noticias"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0cz/index.m3u8",
-        "name": "CANAL 1 NACIONAL SIN TRANS",
-        "ep_id": "canal_1_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0e4/index.m3u8",
         "name": "CANAL 12 VALLEDUPAR",
         "ep_id": "canal_12_valledupar"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d4/index.m3u8",
-        "name": "CANAL 13 NACIONAL SIN TRANS",
-        "ep_id": "canal_13_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d3/index.m3u8",
-        "name": "CANAL CAPITAL NACIONAL SIN TRANS",
-        "ep_id": "canal_capital_nacional_sin_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0d2/index.m3u8",
@@ -2443,11 +2448,6 @@
         "_id": "http://181.78.8.199:8000/play/a0cx/index.m3u8",
         "name": "CANALESTRELLAS",
         "ep_id": "canalestrellas"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d0/index.m3u8",
-        "name": "CANALINSTITUCIONAL  NACIONAL SIN TRANS",
-        "ep_id": "canalinstitucional_nacional_sin_trans"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0b0/index.m3u8",
@@ -2520,11 +2520,6 @@
         "ep_id": "city_enviado_enviar"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0dt/index.m3u8",
-        "name": "CNN",
-        "ep_id": "cnn"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a08a/index.m3u8",
         "name": "CNN ENVIADO",
         "ep_id": "cnn_enviado"
@@ -2565,11 +2560,6 @@
         "ep_id": "dhe_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0c4/index.m3u8",
-        "name": "DISCOVERY CHANNEL",
-        "ep_id": "discovery_channel"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0c5/index.m3u8",
         "name": "DISCOVERY ID",
         "ep_id": "discovery_id"
@@ -2603,16 +2593,6 @@
         "_id": "http://181.78.8.199:8000/play/a070/index.m3u8",
         "name": "Discovery Kids HD",
         "ep_id": "discovery_kids_hd"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c2/index.m3u8",
-        "name": "Discoveryhh",
-        "ep_id": "discoveryhh"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0c3/index.m3u8",
-        "name": "Discoverykids",
-        "ep_id": "discoverykids"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hb/index.m3u8",
@@ -2715,11 +2695,6 @@
         "ep_id": "ewtn"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0hu/index.m3u8",
-        "name": "FOOD NETWORK",
-        "ep_id": "food_network"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ds/index.m3u8",
         "name": "FX",
         "ep_id": "fx"
@@ -2735,19 +2710,24 @@
         "ep_id": "golden_edge"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0cj/index.m3u8",
+        "name": "Golden",
+        "ep_id": "golden"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ck/index.m3u8",
         "name": "Goldenedge",
         "ep_id": "goldenedge"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
+        "name": "HISTORY1",
+        "ep_id": "history1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
         "name": "HISTORY2 INTERNO",
         "ep_id": "history2_interno"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0g0/index.m3u8",
-        "name": "HOGAR TV HD",
-        "ep_id": "hogar_tv_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a081/index.m3u8",
@@ -2845,6 +2825,11 @@
         "ep_id": "nick_hd"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
+        "name": "OLE 1",
+        "ep_id": "ole_1"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -2875,19 +2860,14 @@
         "ep_id": "rumba_tv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fy/index.m3u8",
-        "name": "RUMBA TV HD",
-        "ep_id": "rumba_tv_hd"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0hv/index.m3u8",
         "name": "SCI",
         "ep_id": "sci"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d1/index.m3u8",
-        "name": "SEÑAL COLOMBIA  NACIONAL SIN TRANS",
-        "ep_id": "senal_colombia_nacional_sin_trans"
+        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
+        "name": "SONY CHANNEL",
+        "ep_id": "sony_channel"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
@@ -2925,21 +2905,6 @@
         "ep_id": "teleamiga_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d5/index.m3u8",
-        "name": "TELEANTIOQUIA NACIONAL SIN TRANS",
-        "ep_id": "teleantioquia_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d8/index.m3u8",
-        "name": "TELECAFE NACIONAL SIN TRANS",
-        "ep_id": "telecafe_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d6/index.m3u8",
-        "name": "TELECARIBE NACIONAL SIN TRANS",
-        "ep_id": "telecaribe_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0g7/index.m3u8",
         "name": "TELEHIT MUSICA",
         "ep_id": "telehit_musica"
@@ -2955,24 +2920,9 @@
         "ep_id": "telenostalgia_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fz/index.m3u8",
-        "name": "TELENOSTALGIA HD",
-        "ep_id": "telenostalgia_hd"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ar/index.m3u8",
         "name": "TELENOVELAS",
         "ep_id": "telenovelas"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0d7/index.m3u8",
-        "name": "TELEPACIFICO NACIONAL SIN TRANS",
-        "ep_id": "telepacifico_nacional_sin_trans"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fm/index.m3u8",
-        "name": "TELESUR",
-        "ep_id": "telesur"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09j/index.m3u8",
@@ -3030,19 +2980,9 @@
         "ep_id": "tooncast_enviado"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0d9/index.m3u8",
-        "name": "TRO NACIONAL SIN TRANS",
-        "ep_id": "tro_nacional_sin_trans"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ci/index.m3u8",
         "name": "TURBO",
         "ep_id": "turbo"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fj/index.m3u8",
-        "name": "TV AGRO HD",
-        "ep_id": "tv_agro_hd"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0fp/index.m3u8",
@@ -3098,6 +3038,16 @@
         "_id": "http://181.78.8.199:8000/play/a0bz/index.m3u8",
         "name": "cinecanal",
         "ep_id": "cinecanal"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
+        "name": "comedycentral",
+        "ep_id": "comedycentral"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
+        "name": "history",
+        "ep_id": "history"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
