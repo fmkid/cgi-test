@@ -100,6 +100,11 @@
         "ep_id": "kanal_d"
     },
     {
+        "_id": "https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8",
+        "name": "Caras TV",
+        "ep_id": "caras_tv"
+    },
+    {
         "_id": "https://2-fss-2.streamhoster.com/pl_138/amlst:201284-1347630/playlist.m3u8",
         "name": "Boricua TV",
         "ep_id": "boricua_tv"
@@ -263,6 +268,11 @@
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8",
         "name": "VM Latino CR",
         "ep_id": "vm_latino_cr"
+    },
+    {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8",
+        "name": "Soy Plancha TV CR",
+        "ep_id": "soy_plancha_tv_cr"
     },
     {
         "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
@@ -570,19 +580,9 @@
         "ep_id": "set_television_canal_262"
     },
     {
-        "_id": "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8",
-        "name": "Señal España",
-        "ep_id": "senal_espana"
-    },
-    {
         "_id": "https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8",
         "name": "SIZART Canal 24",
         "ep_id": "sizart_canal_24"
-    },
-    {
-        "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
-        "name": "Tele Yucatan",
-        "ep_id": "tele_yucatan"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
@@ -660,11 +660,6 @@
         "ep_id": "canal_4_san_juan_argentina"
     },
     {
-        "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
-        "name": "Canal 5 Vision Latina",
-        "ep_id": "canal_5_vision_latina"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
         "name": "Canal 6 Digital | Argentina",
         "ep_id": "canal_6_digital_argentina"
@@ -700,6 +695,11 @@
         "ep_id": "dreiko_tv_panama"
     },
     {
+        "_id": "https://kali.vdopanel.com:3957/stream/play.m3u8",
+        "name": "El Magic | Argentina",
+        "ep_id": "el_magic_argentina"
+    },
+    {
         "_id": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
         "name": "Extrema TV | Costa Rica",
         "ep_id": "extrema_tv_costa_rica"
@@ -725,6 +725,16 @@
         "ep_id": "fs1_austria"
     },
     {
+        "_id": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+        "name": "Gente Opa",
+        "ep_id": "gente_opa"
+    },
+    {
+        "_id": "https://live.obslivestream.com/hielmusic/index.m3u8",
+        "name": "Hiel Music",
+        "ep_id": "hiel_music"
+    },
+    {
         "_id": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
         "name": "Iquique Tv | Chile",
         "ep_id": "iquique_tv_chile"
@@ -733,11 +743,6 @@
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
         "name": "Kpop Tv Play | Brasil",
         "ep_id": "kpop_tv_play_brasil"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-        "name": "Neo TV | Argentina",
-        "ep_id": "neo_tv_argentina"
     },
     {
         "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
@@ -775,11 +780,6 @@
         "ep_id": "primired"
     },
     {
-        "_id": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
-        "name": "Quantica TV | Argentina",
-        "ep_id": "quantica_tv_argentina"
-    },
-    {
         "_id": "https://stream2.xdevel.com/video0s975758-1048/stream/playlist.m3u8",
         "name": "Radio Bruno | Italia",
         "ep_id": "radio_bruno_italia"
@@ -790,9 +790,9 @@
         "ep_id": "retro_music_tv_checoslovaquia"
     },
     {
-        "_id": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
-        "name": "Retro Play TV | Chile",
-        "ep_id": "retro_play_tv_chile"
+        "_id": "https://v1.tustreaming.cl/sabortv/index.m3u8",
+        "name": "Sabor Tv",
+        "ep_id": "sabor_tv"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8",
@@ -850,11 +850,6 @@
         "ep_id": "bloomberg_mexico"
     },
     {
-        "_id": "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
-        "name": "RT en Espanol | Rusia",
-        "ep_id": "rt_en_espanol_rusia"
-    },
-    {
         "_id": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
         "name": "RED BULL TV | Austria",
         "ep_id": "red_bull_tv_austria"
@@ -870,29 +865,29 @@
         "ep_id": "cbs_news_247"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USBC4400003OU",
-        "name": "CBC News",
-        "ep_id": "cbc_news"
+        "_id": "https://jmp2.uk/stvp-USBC1000017D8",
+        "name": "WSOC Charlotte",
+        "ep_id": "wsoc_charlotte"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USAJ3400011A8",
-        "name": "Bloomberg TV+",
-        "ep_id": "bloomberg_tv"
+        "_id": "https://jmp2.uk/stvp-US700004OA",
+        "name": "WBTV News",
+        "ep_id": "wbtv_news"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USBA3000041ZP",
-        "name": "Movie Hub",
-        "ep_id": "movie_hub"
+        "_id": "https://jmp2.uk/stvp-US1400004HN",
+        "name": "WCNC",
+        "ep_id": "wcnc"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-USBC3200001S5",
+        "name": "WN Charlotte",
+        "ep_id": "wn_charlotte"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ3000007MT",
         "name": "Maverick Black Cinema",
         "ep_id": "maverick_black_cinema"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US300068X7",
-        "name": "Samsung Television Network",
-        "ep_id": "samsung_television_network"
     },
     {
         "_id": "https://jmp2.uk/stvp-USAJ22000130U",
@@ -905,84 +900,9 @@
         "ep_id": "cbs_sports_hq"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USBD12000255B",
-        "name": "FIFA+",
-        "ep_id": "fifa"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USBA300034DB",
         "name": "Pac-12 Insider",
         "ep_id": "pac12_insider"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4100001KP",
-        "name": "Women's Sports Network",
-        "ep_id": "womens_sports_network"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4600010KE",
-        "name": "DP World Tour",
-        "ep_id": "dp_world_tour"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US600011Q2",
-        "name": "Formula 1 Channel",
-        "ep_id": "formula_1_channel"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD1700019RN",
-        "name": "RACER Select",
-        "ep_id": "racer_select"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3500007C4",
-        "name": "MotoGP Channel",
-        "ep_id": "motogp_channel"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC3200019WF",
-        "name": "NHRA TV",
-        "ep_id": "nhra_tv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD4200011W4",
-        "name": "Hagerty",
-        "ep_id": "hagerty"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US310000101",
-        "name": "MrBeast",
-        "ep_id": "mrbeast"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC1300009VM",
-        "name": "LOL! Network",
-        "ep_id": "lol_network"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2500009PQ",
-        "name": "BET x Tyler Perry Comedy",
-        "ep_id": "bet_x_tyler_perry_comedy"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US350000563",
-        "name": "GET Comedy",
-        "ep_id": "get_comedy"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4500009VV",
-        "name": "BBC Comedy",
-        "ep_id": "bbc_comedy"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US170002608",
-        "name": "Mr. Bean Animated",
-        "ep_id": "mr_bean_animated"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD12000038K",
-        "name": "Portlandia",
-        "ep_id": "portlandia"
     },
     {
         "_id": "https://jmp2.uk/stvp-US4100039PO",
@@ -990,119 +910,9 @@
         "ep_id": "americas_funniest_home_videos"
     },
     {
-        "_id": "https://jmp2.uk/stvp-USBA1600001XM",
-        "name": "Always Funny Videos",
-        "ep_id": "always_funny_videos"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USAJ30000039U",
         "name": "Dry Bar Comedy",
         "ep_id": "dry_bar_comedy"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD7000145C",
-        "name": "Comedy Dynamics",
-        "ep_id": "comedy_dynamics"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4500004SQ",
-        "name": "Mystery Science Theater 3000",
-        "ep_id": "mystery_science_theater_3000"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB4400018LR",
-        "name": "Wipeout Xtra",
-        "ep_id": "wipeout_xtra"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3500006VF",
-        "name": "America's Got Talent",
-        "ep_id": "americas_got_talent"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB520002173",
-        "name": "Ice Road Truckers",
-        "ep_id": "ice_road_truckers"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB5200020Z0",
-        "name": "Ax Men",
-        "ep_id": "ax_men"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD27000156I",
-        "name": "Alone By History",
-        "ep_id": "alone_by_history"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USAK3508706A",
-        "name": "Xtreme Outdoor Presented by HISTORY",
-        "ep_id": "xtreme_outdoor_presented_by_history"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US1900010IY",
-        "name": "Celebrity Name Game",
-        "ep_id": "celebrity_name_game"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US26000201N",
-        "name": "Biography: The Icons",
-        "ep_id": "biography_the_icons"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US700005ID",
-        "name": "WWE Superstar Central",
-        "ep_id": "wwe_superstar_central"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US130000639",
-        "name": "PBS Genealogy",
-        "ep_id": "pbs_genealogy"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2600024EO",
-        "name": "In Depth with Graham Bensinger",
-        "ep_id": "in_depth_with_graham_bensinger"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB32000251N",
-        "name": "TODAY All Day",
-        "ep_id": "today_all_day"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB1900006NY",
-        "name": "VICE",
-        "ep_id": "vice"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC10000129R",
-        "name": "Backstage",
-        "ep_id": "backstage"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US1300003SW",
-        "name": "Billboard TV",
-        "ep_id": "billboard_tv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USAJ3504701A",
-        "name": "Documentary+",
-        "ep_id": "documentary"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBA300032J7",
-        "name": "FOX SOUL",
-        "ep_id": "fox_soul"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD70000412",
-        "name": "4UV",
-        "ep_id": "4uv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US8000024G",
-        "name": "OUTtv Proud",
-        "ep_id": "outtv_proud"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBA3700002JF",
@@ -1110,199 +920,9 @@
         "ep_id": "et"
     },
     {
-        "_id": "https://jmp2.uk/stvp-US39000218V",
-        "name": "Ghost Hunters",
-        "ep_id": "ghost_hunters"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB5200028MM",
-        "name": "Mysteries Xplored",
-        "ep_id": "mysteries_xplored"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US1900002QK",
-        "name": "Universal Monsters",
-        "ep_id": "universal_monsters"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD1200007FE",
-        "name": "OuterSphere",
-        "ep_id": "outersphere"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC4400006BR",
-        "name": "Haunt TV",
-        "ep_id": "haunt_tv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4200004KK",
-        "name": "Ghost Stories",
-        "ep_id": "ghost_stories"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB10000047W",
-        "name": "Unidentified",
-        "ep_id": "unidentified"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USAJ17000014C",
-        "name": "The Asylum",
-        "ep_id": "the_asylum"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC100001175",
-        "name": "Horror by ALTER",
-        "ep_id": "horror_by_alter"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD700015LK",
-        "name": "Midnight Pulp",
-        "ep_id": "midnight_pulp"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US15000032I",
-        "name": "ANIME x HIDIVE",
-        "ep_id": "anime_x_hidive"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US11000020V",
-        "name": "It’s Anime",
-        "ep_id": "its_anime"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2000018YI",
-        "name": "Crunchyroll",
-        "ep_id": "crunchyroll"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC36000073J",
-        "name": "RetroCrush",
-        "ep_id": "retrocrush"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US1700027JI",
-        "name": "BizaarTV",
-        "ep_id": "bizaartv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3500004M7",
-        "name": "FilmRise Anime",
-        "ep_id": "filmrise_anime"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3400005I4",
-        "name": "Dungeons & Dragons: Adventures",
-        "ep_id": "dungeons_dragons_adventures"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US240000434",
-        "name": "Team Liquid",
-        "ep_id": "team_liquid"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US300065DB",
-        "name": "Love Pets",
-        "ep_id": "love_pets"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3700006XE",
-        "name": "Dinos 24/7",
-        "ep_id": "dinos_247"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC2100008DP",
-        "name": "Xplore",
-        "ep_id": "xplore"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3800007CR",
-        "name": "WildEarth",
-        "ep_id": "wildearth"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD1200009JI",
-        "name": "History & Warfare Now",
-        "ep_id": "history_warfare_now"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC39000204J",
-        "name": "Military Heroes",
-        "ep_id": "military_heroes"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USAJ3400014LK",
-        "name": "WeatherSpy",
-        "ep_id": "weatherspy"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USBB800001O7",
         "name": "PBS Digital Studios",
         "ep_id": "pbs_digital_studios"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4500002UB",
-        "name": "Mattel Jr.",
-        "ep_id": "mattel_jr"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2900013AY",
-        "name": "Hot Wheels Action",
-        "ep_id": "hot_wheels_action"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4100025G5",
-        "name": "Peppa Pig & Friends",
-        "ep_id": "peppa_pig_friends"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD50000048H",
-        "name": "Caillou",
-        "ep_id": "caillou"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD350002338",
-        "name": "Baby Einstein",
-        "ep_id": "baby_einstein"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500015R5",
-        "name": "Teletubbies",
-        "ep_id": "teletubbies"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC4400012QS",
-        "name": "Strawberry Shortcake",
-        "ep_id": "strawberry_shortcake"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC44000072I",
-        "name": "HappyKids",
-        "ep_id": "happykids"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300015BY",
-        "name": "Rainbow Ruby",
-        "ep_id": "rainbow_ruby"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300016AK",
-        "name": "Rev and Roll",
-        "ep_id": "rev_and_roll"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB3600001R6",
-        "name": "TG Junior",
-        "ep_id": "tg_junior"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300019OU",
-        "name": "All Babies Channel",
-        "ep_id": "all_babies_channel"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US3400003HI",
-        "name": "ducktv",
-        "ep_id": "ducktv"
     },
     {
         "_id": "https://jmp2.uk/stvp-USBD3300013KV",
@@ -1310,359 +930,14 @@
         "ep_id": "sensical_jr"
     },
     {
-        "_id": "https://jmp2.uk/stvp-US2900015RO",
-        "name": "Kartoon Channel!",
-        "ep_id": "kartoon_channel"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2900012T8",
-        "name": "Power Rangers",
-        "ep_id": "power_rangers"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US29000168D",
-        "name": "Transformers",
-        "ep_id": "transformers"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBA2300001S8",
-        "name": "The LEGO Channel",
-        "ep_id": "the_lego_channel"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300020PM",
-        "name": "Sonic The Hedgehog",
-        "ep_id": "sonic_the_hedgehog"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD33000180S",
-        "name": "Slugterra",
-        "ep_id": "slugterra"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US1000003G8",
-        "name": "Yu-Gi-Oh",
-        "ep_id": "yugioh"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD12000239N",
-        "name": "Ryan and Friends",
-        "ep_id": "ryan_and_friends"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD12000153A",
-        "name": "pocket.watch Game-On",
-        "ep_id": "pocketwatch_gameon"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200007QG",
-        "name": "Ninja Kidz",
-        "ep_id": "ninja_kidz"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB1900004J9",
-        "name": "Toon Goggles",
-        "ep_id": "toon_goggles"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300017XB",
-        "name": "Sensical Makers",
-        "ep_id": "sensical_makers"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300012VX",
-        "name": "batteryPOP",
-        "ep_id": "batterypop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2600019IC",
-        "name": "Historia",
-        "ep_id": "historia"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4600005ST",
-        "name": "CG MMA En Español",
-        "ep_id": "cg_mma_en_espanol"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2700004DX",
-        "name": "beIN Sports XTRA ñ",
-        "ep_id": "bein_sports_xtra_n"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US41000060J",
-        "name": "WAPA+",
-        "ep_id": "wapa"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USAJ2200020N4",
-        "name": "Estrella News",
-        "ep_id": "estrella_news"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200003ZN",
-        "name": "Curiosity Motores",
-        "ep_id": "curiosity_motores"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC24000145I",
-        "name": "Estrella Games",
-        "ep_id": "estrella_games"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200001IY",
-        "name": "Curiosity Animales",
-        "ep_id": "curiosity_animales"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US22000020U",
-        "name": "Curiosity Explora",
-        "ep_id": "curiosity_explora"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC39000080S",
-        "name": "Canela.TV",
-        "ep_id": "canelatv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US27000033D",
-        "name": "Novelas Turcas",
-        "ep_id": "novelas_turcas"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US270000298",
-        "name": "¿Qué Culpa Tiene Fatmagül?",
-        "ep_id": "que_culpa_tiene_fatmagul"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200005Y2",
-        "name": "Canal ViX",
-        "ep_id": "canal_vix"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US2200004HD",
-        "name": "Angelique",
-        "ep_id": "angelique"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB44000099N",
-        "name": "ViX Novelas de romance",
-        "ep_id": "vix_novelas_de_romance"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD17000172A",
-        "name": "Las 3 Marías",
-        "ep_id": "las_3_marias"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC2100012EJ",
-        "name": "ViX Grandes Parejas",
-        "ep_id": "vix_grandes_parejas"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBC2100011WI",
-        "name": "ViX Villanos de Novela",
-        "ep_id": "vix_villanos_de_novela"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD1700018II",
-        "name": "Rebelde",
-        "ep_id": "rebelde"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD2700002DU",
-        "name": "Galanes",
-        "ep_id": "galanes"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD2500022U5",
-        "name": "Cine Retro",
-        "ep_id": "cine_retro"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD2700005KL",
-        "name": "Cine de Oro",
-        "ep_id": "cine_de_oro"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USBA3800001E0",
         "name": "Cine Romantico",
         "ep_id": "cine_romantico"
     },
     {
-        "_id": "https://jmp2.uk/stvp-US1700019P7",
-        "name": "Coreano by CJ ENM",
-        "ep_id": "coreano_by_cj_enm"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300004RH",
-        "name": "XITE Hits",
-        "ep_id": "xite_hits"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB320000647",
-        "name": "XITE 80s Flashback",
-        "ep_id": "xite_80s_flashback"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB3200007AK",
-        "name": "XITE 90s Throwback",
-        "ep_id": "xite_90s_throwback"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD350003932",
-        "name": "XITE Celebrates",
-        "ep_id": "xite_celebrates"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US46000072L",
-        "name": "XITE Christian Hits",
-        "ep_id": "xite_christian_hits"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300007PB",
-        "name": "XITE Nuevo Latino",
-        "ep_id": "xite_nuevo_latino"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300010L9",
-        "name": "XITE Siempre Latino",
-        "ep_id": "xite_siempre_latino"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4600008JA",
-        "name": "XITE Reggae Vibes",
-        "ep_id": "xite_reggae_vibes"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB2300004KV",
-        "name": "XITE Rock x Metal",
-        "ep_id": "xite_rock_x_metal"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBB2300003JZ",
-        "name": "XITE Just Chill",
-        "ep_id": "xite_just_chill"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US10000135V",
-        "name": "SMTOWN",
-        "ep_id": "smtown"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US39000038W",
-        "name": "K-POP by CJ ENM",
-        "ep_id": "kpop_by_cj_enm"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-USAJ3000013FJ",
         "name": "NEW KPOP",
         "ep_id": "new_kpop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500016NH",
-        "name": "Stingray Today's K-Pop",
-        "ep_id": "stingray_todays_kpop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500025GS",
-        "name": "Stingray DJAZZ",
-        "ep_id": "stingray_djazz"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD350002623",
-        "name": "Stingray Classica",
-        "ep_id": "stingray_classica"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4700003DP",
-        "name": "Stingray Movie Music",
-        "ep_id": "stingray_movie_music"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500024YB",
-        "name": "Qello Concerts by Stingray",
-        "ep_id": "qello_concerts_by_stingray"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500017CE",
-        "name": "Stingray Romance Latino",
-        "ep_id": "stingray_romance_latino"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500009Y3",
-        "name": "Stingray Today's Latin Pop",
-        "ep_id": "stingray_todays_latin_pop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500010MT",
-        "name": "Stingray Hip Hop",
-        "ep_id": "stingray_hip_hop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4700002UF",
-        "name": "Stingray Euro Hits",
-        "ep_id": "stingray_euro_hits"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD35000149S",
-        "name": "Stingray Nothin' But 90s",
-        "ep_id": "stingray_nothin_but_90s"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300022QK",
-        "name": "Stingray Remember the 80s",
-        "ep_id": "stingray_remember_the_80s"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500008IJ",
-        "name": "Stingray Flashback 70s",
-        "ep_id": "stingray_flashback_70s"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4700007GV",
-        "name": "Stingray Soft Hits",
-        "ep_id": "stingray_soft_hits"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4700006XL",
-        "name": "Stingray Jukebox Oldies",
-        "ep_id": "stingray_jukebox_oldies"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500011J3",
-        "name": "Stingray Easy Listening",
-        "ep_id": "stingray_easy_listening"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD35000128A",
-        "name": "Stingray Smooth Jazz",
-        "ep_id": "stingray_smooth_jazz"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD35000180U",
-        "name": "Stingray Classic Rock",
-        "ep_id": "stingray_classic_rock"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-US4700005EA",
-        "name": "Stingray Country Greats",
-        "ep_id": "stingray_country_greats"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3300021KV",
-        "name": "Stingray Hot Country",
-        "ep_id": "stingray_hot_country"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500022DN",
-        "name": "Stingray Greatest Hits",
-        "ep_id": "stingray_greatest_hits"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-USBD3500013DG",
-        "name": "Stingray Spa",
-        "ep_id": "stingray_spa"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES26000068D",
@@ -1685,11 +960,6 @@
         "ep_id": "dhar_mann_tv"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ES4300001K6",
-        "name": "Chicas Guapas TV",
-        "ep_id": "chicas_guapas_tv"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES26000025M",
         "name": "¡Hola! Play",
         "ep_id": "hola_play"
@@ -1705,14 +975,14 @@
         "ep_id": "ideas_en_5_minutos"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ES42000022E",
-        "name": "Xataka",
-        "ep_id": "xataka"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES4700001VS",
         "name": "2M",
         "ep_id": "2m"
+    },
+    {
+        "_id": "https://jmp2.uk/stvp-ES1700003C6",
+        "name": "Coreano by CJ ENM",
+        "ep_id": "coreano_by_cj_enm"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2200001SF",
@@ -1723,16 +993,6 @@
         "_id": "https://jmp2.uk/stvp-ES400002P5",
         "name": "Cuéntame cómo pasó",
         "ep_id": "cuentame_como_paso"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ES500005BP",
-        "name": "Águila Roja",
-        "ep_id": "aguila_roja"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBD1300003VN",
-        "name": "Corazón",
-        "ep_id": "corazon"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES300003D4",
@@ -1820,19 +1080,14 @@
         "ep_id": "alerta_cobra"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBD3200001EG",
-        "name": "Motorvision",
-        "ep_id": "motorvision"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ESBD2900001P9",
         "name": "World Poker Tour",
         "ep_id": "world_poker_tour"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBD130000205",
-        "name": "Pitufo TV",
-        "ep_id": "pitufo_tv"
+        "_id": "https://jmp2.uk/stvp-ES4800002OZ",
+        "name": "Caillou",
+        "ep_id": "caillou"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBD5100001G0",
@@ -1845,11 +1100,6 @@
         "ep_id": "rabbids_la_invasion"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ES700004C8",
-        "name": "Runtime Christmas",
-        "ep_id": "runtime_christmas"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES260001081",
         "name": "En Familia - Rakuten TV",
         "ep_id": "en_familia_rakuten_tv"
@@ -1860,11 +1110,6 @@
         "ep_id": "trailers"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBC400001QQ",
-        "name": "Runtime",
-        "ep_id": "runtime"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES2600013H4",
         "name": "Películas Top - Rakuten TV",
         "ep_id": "peliculas_top_rakuten_tv"
@@ -1873,11 +1118,6 @@
         "_id": "https://jmp2.uk/stvp-ES2600012C9",
         "name": "Películas Románticas - Rakuten TV",
         "ep_id": "peliculas_romanticas_rakuten_tv"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ES900002ZD",
-        "name": "Todo Pasión",
-        "ep_id": "todo_pasion"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES260000700",
@@ -1893,11 +1133,6 @@
         "_id": "https://jmp2.uk/stvp-ESBC2700002LO",
         "name": "Grjngo - Películas Del Oeste",
         "ep_id": "grjngo_peliculas_del_oeste"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ES2300005G7",
-        "name": "Cine Western",
-        "ep_id": "cine_western"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBC2700003T8",
@@ -1925,11 +1160,6 @@
         "ep_id": "scifi_rakuten_tv"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBD800001RJ",
-        "name": "Cine Friki",
-        "ep_id": "cine_friki"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES4100002WB",
         "name": "Thrillers - Rakuten TV",
         "ep_id": "thrillers_rakuten_tv"
@@ -1955,24 +1185,9 @@
         "ep_id": "vevo_latino"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBD230000289",
-        "name": "Vevo Retro",
-        "ep_id": "vevo_retro"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBC2100001IU",
-        "name": "Vevo Pop",
-        "ep_id": "vevo_pop"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBD2300004Y7",
-        "name": "Sol Música",
-        "ep_id": "sol_musica"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBA1500001C4",
-        "name": "Deluxe Lounge HD",
-        "ep_id": "deluxe_lounge_hd"
+        "_id": "https://jmp2.uk/stvp-ES3900001QG",
+        "name": "K-POP by CJ ENM",
+        "ep_id": "kpop_by_cj_enm"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES24000028L",
@@ -2008,11 +1223,6 @@
         "_id": "https://jmp2.uk/stvp-ESBC170000388",
         "name": "WaterBear",
         "ep_id": "waterbear"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBC43000013T",
-        "name": "Todo Novelas",
-        "ep_id": "todo_novelas"
     },
     {
         "_id": "https://jmp2.uk/stvp-ESBA1400006NP",
@@ -2063,6 +1273,11 @@
         "_id": "https://thriller-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6480/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6480&ads.rtv_channel_name=thriller-rakuten-tv_es&ads.rtv_content_id=6480&ads.rtv_content_language=es&ads.rtv_language=es&ads.rtvid=271859&ads.streaming_id=a3cb69dc-13b0-4f77-bfdb-735c958516b8&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6480&publishing_platform_id=5&tenant_identifier=rtv",
         "name": "Thrillers",
         "ep_id": "thrillers"
+    },
+    {
+        "_id": "https://zylo-cinefriki-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-cinefriki-rakuten/CDN/master.m3u8?ads_amagi_channel_id=851&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=movies%2Cmystery&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_content_id=5016&ads_rtv_content_language=es&ads_rtvid=271859&ads_streaming_id=e8c3d02f-94ac-4531-8c36-592a93d96b68&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
+        "name": "Cine Friki",
+        "ep_id": "cine_friki"
     },
     {
         "_id": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=com.rakuten.tv&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=sci-fi%2Cmystery%2Chorror&ads._fw_content_language=es&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=DarkMatterTV&ads.content_livestream=0&ads.csid=zeus_es_tricoastdarkmatteres_ssai&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=es&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=4070&ads.rakuten_streaming_id=1a4f9467-b785-4b51-8c33-2a1bfaddbe9b&ads.rakuten_user_type=visitor&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.xumo_channelId=88883019&ads.xumo_channel_id=88883019&ads.xumo_contentId=3479&ads.xumo_contentName=TriCoastDarkMatterES&ads.xumo_ifa=&ads.xumo_ifaType=ppid&ads.xumo_providerId=3479&ads.xumo_providerName=dark-matter-spa-rakutentv&ads.xumo_streamId=88883019",
@@ -2150,11 +1365,6 @@
         "ep_id": "cgtn_documentary"
     },
     {
-        "_id": "https://africanews-eng-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiYTRiMmU5OTUtODRhMy00MzgyLWE2ZmQtYzlhZDQzMWFjY2QzIiwibWt0IjoiZXMiLCJjaCI6NjU4OCwicHRmIjo1fQ%3D%3D/26036/africanews-en.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakuten.tv&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=1&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=149.102.236.246&ads.market=es&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_id=6588&ads.rtv_channel_name=africanews-eng_es&ads.rtv_content_id=6588&ads.rtv_content_language=en&ads.rtv_language=en&ads.rtvid=271859&ads.streaming_id=a4b2e995-84a3-4382-a6fd-c9ad431accd3&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6588&publishing_platform_id=5&tenant_identifier=rtv",
-        "name": "Africanews",
-        "ep_id": "africanews"
-    },
-    {
         "_id": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8?ads_amagi_channel_id=852&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB12&ads_content_genre=news&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=5004&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=9681d5c5-abc7-4578-bb75-8be4c43e9d3b&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
         "name": "CGTN",
         "ep_id": "cgtn"
@@ -2163,11 +1373,6 @@
         "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
         "name": "5TV Corrientes",
         "ep_id": "5tv_corrientes"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
-        "name": "Beats Radio",
-        "ep_id": "beats_radio"
     },
     {
         "_id": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
@@ -2185,11 +1390,6 @@
         "ep_id": "canal_21_tv"
     },
     {
-        "_id": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-        "name": "Chaco TV",
-        "ep_id": "chaco_tv"
-    },
-    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -2203,11 +1403,6 @@
         "_id": "http://www.coninfo.net:1935/tvlink/live/playlist.m3u8",
         "name": "NG Federal",
         "ep_id": "ng_federal"
-    },
-    {
-        "_id": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
-        "name": "Power Max Radio TV",
-        "ep_id": "power_max_radio_tv"
     },
     {
         "_id": "https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8",
@@ -2230,29 +1425,14 @@
         "ep_id": "rtn"
     },
     {
-        "_id": "https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8",
-        "name": "TeleJunín",
-        "ep_id": "telejunin"
-    },
-    {
         "_id": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
         "name": "TV Maná Argentina",
         "ep_id": "tv_mana_argentina"
     },
     {
-        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
-        "name": "24/7 Canal de Noticias",
-        "ep_id": "247_canal_de_noticias"
-    },
-    {
         "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
         "name": "Canal 9 Resistencia",
         "ep_id": "canal_9_resistencia"
-    },
-    {
-        "_id": "https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8",
-        "name": "Canal Orbe 21",
-        "ep_id": "canal_orbe_21"
     },
     {
         "_id": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
@@ -2295,11 +1475,6 @@
         "ep_id": "tiv_television"
     },
     {
-        "_id": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
-        "name": "AE Radio TV",
-        "ep_id": "ae_radio_tv"
-    },
-    {
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
         "name": "Atacama Noticias",
         "ep_id": "atacama_noticias"
@@ -2315,11 +1490,6 @@
         "ep_id": "pichilemu_tv"
     },
     {
-        "_id": "https://v4.tustreaming.cl/restaurandovida/index.m3u8",
-        "name": "Restaurando Vidas Internacional",
-        "ep_id": "restaurando_vidas_internacional"
-    },
-    {
         "_id": "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
         "name": "SoloBáilalo",
         "ep_id": "solobailalo"
@@ -2328,11 +1498,6 @@
         "_id": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
         "name": "Televida",
         "ep_id": "televida"
-    },
-    {
-        "_id": "https://v4.tustreaming.cl/tevexinter/index.m3u8",
-        "name": "Tevex",
-        "ep_id": "tevex"
     },
     {
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
@@ -2350,9 +1515,24 @@
         "ep_id": "utv"
     },
     {
+        "_id": "https://livetv.fastv.jp/channel_assembly/69608FB2725E0FA3B972/master.m3u8",
+        "name": "Animax TV | Japon",
+        "ep_id": "animax_tv_japon"
+    },
+    {
         "_id": "http://45.185.163.75:8000/play/a0gv/index.m3u8",
-        "name": "Etc TV | Chile",
-        "ep_id": "etc_tv_chile"
+        "name": "Etc TV op2 | Chile",
+        "ep_id": "etc_tv_op2_chile"
+    },
+    {
+        "_id": "http://190.60.39.221:8000/play/a08k/index.m3u8",
+        "name": "Tlnovelas",
+        "ep_id": "tlnovelas"
+    },
+    {
+        "_id": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8",
+        "name": "Telefe HD",
+        "ep_id": "telefe_hd"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
@@ -2363,6 +1543,11 @@
         "_id": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
         "name": "NegociosTV",
         "ep_id": "negociostv"
+    },
+    {
+        "_id": "https://acceso.mediosdecostarica.com:3812/hybrid/play.m3u8",
+        "name": "Radio SON TV",
+        "ep_id": "radio_son_tv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
@@ -3093,5 +2278,100 @@
         "_id": "http://23.237.104.106:8080/USA_BUZZR/index.m3u8",
         "name": "Buzzr",
         "ep_id": "buzzr"
+    },
+    {
+        "_id": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8",
+        "name": "Retro TV",
+        "ep_id": "retro_tv"
+    },
+    {
+        "_id": "https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8",
+        "name": "Biz TV",
+        "ep_id": "biz_tv"
+    },
+    {
+        "_id": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8",
+        "name": "Heartland",
+        "ep_id": "heartland"
+    },
+    {
+        "_id": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Revn/index.m3u8",
+        "name": "Rev'n",
+        "ep_id": "revn"
+    },
+    {
+        "_id": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+        "name": "Bloomberg",
+        "ep_id": "bloomberg"
+    },
+    {
+        "_id": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+        "name": "ABC News",
+        "ep_id": "abc_news"
+    },
+    {
+        "_id": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
+        "name": "CBS News",
+        "ep_id": "cbs_news"
+    },
+    {
+        "_id": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003",
+        "name": "NBC News",
+        "ep_id": "nbc_news"
+    },
+    {
+        "_id": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
+        "name": "NASA TV Media",
+        "ep_id": "nasa_tv_media"
+    },
+    {
+        "_id": "https://drybar-drybarcomedy-1-us.samsung.wurl.tv/playlist.m3u8",
+        "name": "Drybar Comedy",
+        "ep_id": "drybar_comedy"
+    },
+    {
+        "_id": "http://media.boni-records.com/index.m3u8",
+        "name": "Music Channel",
+        "ep_id": "music_channel"
+    },
+    {
+        "_id": "https://FFFFFFF110156200.tvustream.com/ryfy.m3u8",
+        "name": "Stryk TV",
+        "ep_id": "stryk_tv"
+    },
+    {
+        "_id": "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8",
+        "name": "FOX Live Now",
+        "ep_id": "fox_live_now"
+    },
+    {
+        "_id": "https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8",
+        "name": "Cheddar",
+        "ep_id": "cheddar"
+    },
+    {
+        "_id": "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8",
+        "name": "WeatherNation",
+        "ep_id": "weathernation"
+    },
+    {
+        "_id": "https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8",
+        "name": "America's Voice",
+        "ep_id": "americas_voice"
+    },
+    {
+        "_id": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+        "name": "Newsmax TV",
+        "ep_id": "newsmax_tv"
+    },
+    {
+        "_id": "https://hls.botflix.tv/tv/index.m3u8",
+        "name": "Botflix TV",
+        "ep_id": "botflix_tv"
+    },
+    {
+        "_id": "https://hls.botflix.tv/radioo/index.m3u8",
+        "name": "Botflix Radioo",
+        "ep_id": "botflix_radioo"
     }
 ]
