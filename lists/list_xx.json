@@ -275,16 +275,6 @@
         "ep_id": "soy_plancha_tv_cr"
     },
     {
-        "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
-        "name": "Vintage Music CR",
-        "ep_id": "vintage_music_cr"
-    },
-    {
-        "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
-        "name": "Urbano TV CR",
-        "ep_id": "urbano_tv_cr"
-    },
-    {
         "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
         "name": "Video Tour Channel CR",
         "ep_id": "video_tour_channel_cr"
@@ -313,11 +303,6 @@
         "_id": "https://amg01131-tracetv-traceurbanes-samsungspain-c6yeo.amagi.tv/playlist/amg01131-tracetv-traceurbanes-samsungspain/playlist.m3u8",
         "name": "TRACE Urban",
         "ep_id": "trace_urban"
-    },
-    {
-        "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
-        "name": "Deluxe Dance Germany",
-        "ep_id": "deluxe_dance_germany"
     },
     {
         "_id": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
@@ -413,11 +398,6 @@
         "_id": "https://cdn.jwplayer.com/manifests/bez1terN.m3u8",
         "name": "CMX: Efekto TV",
         "ep_id": "cmx_efekto_tv"
-    },
-    {
-        "_id": "http://204.12.193.98:1935/TvHD/canal10/playlist.m3u8",
-        "name": "DUR: Canal 10 Durango",
-        "ep_id": "dur_canal_10_durango"
     },
     {
         "_id": "https://5ca3e84a76d30.streamlock.net/cbtv/videocbtv/chunklist_w233916547.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MTY6MTYgUE0maGFzaF92YWx1ZT1TRG9tVW16WXcxdldkdkQ5N3VwdjlnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
@@ -560,11 +540,6 @@
         "ep_id": "presumiendo_mexico"
     },
     {
-        "_id": "http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8",
-        "name": "Radiotele Morelia",
-        "ep_id": "radiotele_morelia"
-    },
-    {
         "_id": "https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8",
         "name": "RTG",
         "ep_id": "rtg"
@@ -580,9 +555,9 @@
         "ep_id": "set_television_canal_262"
     },
     {
-        "_id": "https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8",
-        "name": "SIZART Canal 24",
-        "ep_id": "sizart_canal_24"
+        "_id": "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8",
+        "name": "Tele Yucatan",
+        "ep_id": "tele_yucatan"
     },
     {
         "_id": "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8",
@@ -638,11 +613,6 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
-    },
-    {
-        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
-        "name": "Bayres TV | Argentina",
-        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -750,11 +720,6 @@
         "ep_id": "neox_argentina"
     },
     {
-        "_id": "https://videohd.live:19360/8076/8076.m3u8",
-        "name": "Norte Informativo TV | Costa Rica",
-        "ep_id": "norte_informativo_tv_costa_rica"
-    },
-    {
         "_id": "https://lightning-now70s-samsungnz.amagi.tv/playlist720p.m3u8",
         "name": "Now 70",
         "ep_id": "now_70"
@@ -808,11 +773,6 @@
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
         "name": "Telered | Costa Rica",
         "ep_id": "telered_costa_rica"
-    },
-    {
-        "_id": "https://k20.usastreams.com:8081/telesistema/index.m3u8",
-        "name": "Telesistema | Costa Rica",
-        "ep_id": "telesistema_costa_rica"
     },
     {
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
@@ -1430,6 +1390,11 @@
         "ep_id": "tv_mana_argentina"
     },
     {
+        "_id": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
+        "name": "24/7 Canal de Noticias",
+        "ep_id": "247_canal_de_noticias"
+    },
+    {
         "_id": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
         "name": "Canal 9 Resistencia",
         "ep_id": "canal_9_resistencia"
@@ -1470,11 +1435,6 @@
         "ep_id": "tyc_sports_usa"
     },
     {
-        "_id": "https://videohd.live:19360/8008/8008.m3u8",
-        "name": "TIV Television",
-        "ep_id": "tiv_television"
-    },
-    {
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
         "name": "Atacama Noticias",
         "ep_id": "atacama_noticias"
@@ -1503,11 +1463,6 @@
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
         "name": "U Los Lagos TV",
         "ep_id": "u_los_lagos_tv"
-    },
-    {
-        "_id": "https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8",
-        "name": "UMAGTV 2",
-        "ep_id": "umagtv_2"
     },
     {
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
@@ -1558,11 +1513,6 @@
         "_id": "http://181.78.8.199:8000/play/a0by/index.m3u8",
         "name": "ANIMAL PLANET",
         "ep_id": "animal_planet"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fo/index.m3u8",
-        "name": "ANTV",
-        "ep_id": "antv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
@@ -1635,11 +1585,6 @@
         "ep_id": "caracol_local"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0aw/index.m3u8",
-        "name": "CARACOL SRT",
-        "ep_id": "caracol_srt"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
         "name": "CARTOON NETWORK ENVIADO",
         "ep_id": "cartoon_network_enviado"
@@ -1670,11 +1615,6 @@
         "ep_id": "cine_mexicano"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a07z/index.m3u8",
-        "name": "CINE MEXICANO ENVIADO",
-        "ep_id": "cine_mexicano_enviado"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a09q/index.m3u8",
         "name": "CINE PREMIUN",
         "ep_id": "cine_premiun"
@@ -1693,16 +1633,6 @@
         "_id": "http://181.78.8.199:8000/play/a08a/index.m3u8",
         "name": "CNN ENVIADO",
         "ep_id": "cnn_enviado"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fn/index.m3u8",
-        "name": "COLOMBEIA",
-        "ep_id": "colombeia"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0fq/index.m3u8",
-        "name": "CONCIENCIA TV",
-        "ep_id": "conciencia_tv"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dr/index.m3u8",
@@ -1955,11 +1885,6 @@
         "ep_id": "lifetime_interno"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fr/index.m3u8",
-        "name": "MERIDIANO",
-        "ep_id": "meridiano"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ad/index.m3u8",
         "name": "MTV",
         "ep_id": "mtv"
@@ -2140,11 +2065,6 @@
         "ep_id": "tlc"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fs/index.m3u8",
-        "name": "TLT",
-        "ep_id": "tlt"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
         "name": "TNT NOVELAS",
         "ep_id": "tnt_novelas"
@@ -2175,19 +2095,9 @@
         "ep_id": "turbo"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0fp/index.m3u8",
-        "name": "TV FAMB",
-        "ep_id": "tv_famb"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0e5/index.m3u8",
         "name": "TVAGRO",
         "ep_id": "tvagro"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0ft/index.m3u8",
-        "name": "TVES",
-        "ep_id": "tves"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09t/index.m3u8",
@@ -2363,6 +2273,11 @@
         "_id": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
         "name": "Newsmax TV",
         "ep_id": "newsmax_tv"
+    },
+    {
+        "_id": "https://live.gideo.video/americateve2/master.m3u8",
+        "name": "America TeVe",
+        "ep_id": "america_teve"
     },
     {
         "_id": "https://hls.botflix.tv/tv/index.m3u8",
