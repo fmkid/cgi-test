@@ -275,6 +275,16 @@
         "ep_id": "soy_plancha_tv_cr"
     },
     {
+        "_id": "https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8",
+        "name": "Vintage Music CR",
+        "ep_id": "vintage_music_cr"
+    },
+    {
+        "_id": "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8",
+        "name": "Urbano TV CR",
+        "ep_id": "urbano_tv_cr"
+    },
+    {
         "_id": "http://k4.usastreams.com/videotour/videotour/playlist.m3u8",
         "name": "Video Tour Channel CR",
         "ep_id": "video_tour_channel_cr"
@@ -600,11 +610,6 @@
         "ep_id": "univision_latin_america"
     },
     {
-        "_id": "https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8",
-        "name": "VB Media TV",
-        "ep_id": "vb_media_tv"
-    },
-    {
         "_id": "https://cloudvideo.servers10.com:8081/8016/index.m3u8",
         "name": "Visión Televisión",
         "ep_id": "vision_television"
@@ -613,6 +618,11 @@
         "_id": "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8",
         "name": "Anime TV | Brasil",
         "ep_id": "anime_tv_brasil"
+    },
+    {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
     },
     {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
@@ -773,6 +783,11 @@
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
         "name": "Telered | Costa Rica",
         "ep_id": "telered_costa_rica"
+    },
+    {
+        "_id": "https://k20.usastreams.com:8081/telesistema/index.m3u8",
+        "name": "Telesistema | Costa Rica",
+        "ep_id": "telesistema_costa_rica"
     },
     {
         "_id": "https://s1.tvdatta.com:3582/live/telesurlive.m3u8",
@@ -1505,19 +1520,9 @@
         "ep_id": "radio_son_tv"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0al/index.m3u8",
-        "name": "AE",
-        "ep_id": "ae"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0by/index.m3u8",
         "name": "ANIMAL PLANET",
         "ep_id": "animal_planet"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cu/index.m3u8",
-        "name": "AXN",
-        "ep_id": "axn"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a06w/index.m3u8",
@@ -1585,16 +1590,6 @@
         "ep_id": "caracol_local"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a095/index.m3u8",
-        "name": "CARTOON NETWORK ENVIADO",
-        "ep_id": "cartoon_network_enviado"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a09f/index.m3u8",
-        "name": "CARTOONITO ENVIADO",
-        "ep_id": "cartoonito_enviado"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a09p/index.m3u8",
         "name": "CINE FAMILIAR",
         "ep_id": "cine_familiar"
@@ -1628,11 +1623,6 @@
         "_id": "http://181.78.8.199:8000/play/a0eg/index.m3u8",
         "name": "CITY ENVIADO ENVIAR",
         "ep_id": "city_enviado_enviar"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a08a/index.m3u8",
-        "name": "CNN ENVIADO",
-        "ep_id": "cnn_enviado"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0dr/index.m3u8",
@@ -1790,11 +1780,6 @@
         "ep_id": "espn_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0bv/index.m3u8",
-        "name": "ESPN5",
-        "ep_id": "espn5"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0bw/index.m3u8",
         "name": "ESPN6",
         "ep_id": "espn6"
@@ -1838,11 +1823,6 @@
         "_id": "http://181.78.8.199:8000/play/a0ck/index.m3u8",
         "name": "Goldenedge",
         "ep_id": "goldenedge"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0an/index.m3u8",
-        "name": "HISTORY1",
-        "ep_id": "history1"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ag/index.m3u8",
@@ -1940,11 +1920,6 @@
         "ep_id": "nick_hd"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0aj/index.m3u8",
-        "name": "OLE 1",
-        "ep_id": "ole_1"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0af/index.m3u8",
         "name": "OLE 2.2",
         "ep_id": "ole_22"
@@ -1978,11 +1953,6 @@
         "_id": "http://181.78.8.199:8000/play/a0hv/index.m3u8",
         "name": "SCI",
         "ep_id": "sci"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0ao/index.m3u8",
-        "name": "SONY CHANNEL",
-        "ep_id": "sony_channel"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0ap/index.m3u8",
@@ -2085,11 +2055,6 @@
         "ep_id": "tnt_srt_en"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a09g/index.m3u8",
-        "name": "TOONCAST ENVIADO",
-        "ep_id": "tooncast_enviado"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0ci/index.m3u8",
         "name": "TURBO",
         "ep_id": "turbo"
@@ -2143,11 +2108,6 @@
         "_id": "http://181.78.8.199:8000/play/a0c0/index.m3u8",
         "name": "comedycentral",
         "ep_id": "comedycentral"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cv/index.m3u8",
-        "name": "history",
-        "ep_id": "history"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0cr/index.m3u8",
