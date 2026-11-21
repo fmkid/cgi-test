@@ -250,11 +250,6 @@
         "ep_id": "lassie_tv"
     },
     {
-        "_id": "https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8",
-        "name": "VClassicTV",
-        "ep_id": "vclassictv"
-    },
-    {
         "_id": "https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8",
         "name": "Portal FoxMix",
         "ep_id": "portal_foxmix"
@@ -645,6 +640,11 @@
         "ep_id": "canal_15_dtp_honduras"
     },
     {
+        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
+        "name": "Canal 4 San Juan | Argentina",
+        "ep_id": "canal_4_san_juan_argentina"
+    },
+    {
         "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
         "name": "Canal 6 Digital | Argentina",
         "ep_id": "canal_6_digital_argentina"
@@ -728,6 +728,16 @@
         "_id": "https://d1243acc59954ef9bdd02bd9d13025cb.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-br_NewKPop/playlist.m3u8",
         "name": "Kpop Tv Play | Brasil",
         "ep_id": "kpop_tv_play_brasil"
+    },
+    {
+        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
+        "name": "Neox | Argentina",
+        "ep_id": "neox_argentina"
+    },
+    {
+        "_id": "https://videohd.live:19360/8076/8076.m3u8",
+        "name": "Norte Informativo TV | Costa Rica",
+        "ep_id": "norte_informativo_tv_costa_rica"
     },
     {
         "_id": "https://lightning-now70s-samsungnz.amagi.tv/playlist720p.m3u8",
@@ -2178,11 +2188,6 @@
         "_id": "https://jireh-10-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/tvmas/livestream0/chunks.m3u8?dpssid=b2105023887169ce9bd2c6a2e&sid=ba5t1l1xb297314216469ce9c570f1e1&ndvc=0",
         "name": "TV+ HD",
         "ep_id": "tv_hd"
-    },
-    {
-        "_id": "http://23.237.104.106:8080/USA_BUZZR/index.m3u8",
-        "name": "Buzzr",
-        "ep_id": "buzzr"
     },
     {
         "_id": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8",
