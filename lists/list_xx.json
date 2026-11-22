@@ -1440,6 +1440,11 @@
         "ep_id": "tyc_sports_usa"
     },
     {
+        "_id": "https://videohd.live:19360/8008/8008.m3u8",
+        "name": "TIV Television",
+        "ep_id": "tiv_television"
+    },
+    {
         "_id": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8",
         "name": "Atacama Noticias",
         "ep_id": "atacama_noticias"
@@ -2120,11 +2125,6 @@
         "ep_id": "univision"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0cp/index.m3u8",
-        "name": "Venevision",
-        "ep_id": "venevision"
-    },
-    {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
         "name": "WIN SPORT MAS  LOCAL",
         "ep_id": "win_sport_mas_local"
@@ -2273,11 +2273,6 @@
         "_id": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
         "name": "Newsmax TV",
         "ep_id": "newsmax_tv"
-    },
-    {
-        "_id": "https://live.gideo.video/americateve2/master.m3u8",
-        "name": "America TeVe",
-        "ep_id": "america_teve"
     },
     {
         "_id": "https://hls.botflix.tv/tv/index.m3u8",
