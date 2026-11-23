@@ -90,11 +90,6 @@
         "ep_id": "tvp_obregon"
     },
     {
-        "_id": "https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL",
-        "name": "UMTV",
-        "ep_id": "umtv"
-    },
-    {
         "_id": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
         "name": "Kanal D",
         "ep_id": "kanal_d"
@@ -638,11 +633,6 @@
         "_id": "https://vdo.tecnoservix.stream:3838/live/canal15dtplive.m3u8",
         "name": "Canal 15 DTP  | Honduras",
         "ep_id": "canal_15_dtp_honduras"
-    },
-    {
-        "_id": "http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8",
-        "name": "Canal 4 San Juan | Argentina",
-        "ep_id": "canal_4_san_juan_argentina"
     },
     {
         "_id": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
@@ -1345,11 +1335,6 @@
         "ep_id": "canal_4_posadas"
     },
     {
-        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
-        "name": "Canal 13 La Rioja",
-        "ep_id": "canal_13_la_rioja"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
         "name": "Canal 21 TV",
         "ep_id": "canal_21_tv"
@@ -1498,11 +1483,6 @@
         "_id": "http://190.60.39.221:8000/play/a08k/index.m3u8",
         "name": "Tlnovelas",
         "ep_id": "tlnovelas"
-    },
-    {
-        "_id": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8",
-        "name": "Telefe HD",
-        "ep_id": "telefe_hd"
     },
     {
         "_id": "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
@@ -2123,6 +2103,11 @@
         "_id": "http://181.78.8.199:8000/play/a0e2/index.m3u8",
         "name": "UNIVISION",
         "ep_id": "univision"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0cp/index.m3u8",
+        "name": "Venevision",
+        "ep_id": "venevision"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
