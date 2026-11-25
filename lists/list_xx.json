@@ -420,11 +420,6 @@
         "ep_id": "mic_canal_6"
     },
     {
-        "_id": "https://5ca3e84a76d30.streamlock.net/canal6mich/videocanal6mich/playlist.m3u8",
-        "name": "MIC: Media Group Radio",
-        "ep_id": "mic_media_group_radio"
-    },
-    {
         "_id": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8",
         "name": "NAY: 8 NTV Nayarit",
         "ep_id": "nay_8_ntv_nayarit"
@@ -625,6 +620,11 @@
         "ep_id": "anime_tv_brasil"
     },
     {
+        "_id": "https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8",
+        "name": "Bayres TV | Argentina",
+        "ep_id": "bayres_tv_argentina"
+    },
+    {
         "_id": "https://76af1d7e277b46a58a41c188c3ea4117.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_BjgtjmePeliculasGratis/playlist.m3u8",
         "name": "Bjgtjme | Argentina",
         "ep_id": "bjgtjme_argentina"
@@ -678,11 +678,6 @@
         "_id": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
         "name": "Extrema TV | Costa Rica",
         "ep_id": "extrema_tv_costa_rica"
-    },
-    {
-        "_id": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
-        "name": "Extrema TV Kids",
-        "ep_id": "extrema_tv_kids"
     },
     {
         "_id": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
@@ -773,11 +768,6 @@
         "_id": "https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8",
         "name": "Telemas | Costarica",
         "ep_id": "telemas_costarica"
-    },
-    {
-        "_id": "https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8",
-        "name": "Telenorte",
-        "ep_id": "telenorte"
     },
     {
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
@@ -1010,11 +1000,6 @@
         "ep_id": "al_jazeera"
     },
     {
-        "_id": "https://jmp2.uk/stvp-ESBC400003YM",
-        "name": "NBC News NOW",
-        "ep_id": "nbc_news_now"
-    },
-    {
         "_id": "https://jmp2.uk/stvp-ES3400004SS",
         "name": "Sky News International",
         "ep_id": "sky_news_international"
@@ -1038,11 +1023,6 @@
         "_id": "https://jmp2.uk/stvp-ES1600004JV",
         "name": "Todo Crimen",
         "ep_id": "todo_crimen"
-    },
-    {
-        "_id": "https://jmp2.uk/stvp-ESBD3700001S0",
-        "name": "DATELINE 24/7",
-        "ep_id": "dateline_247"
     },
     {
         "_id": "https://jmp2.uk/stvp-ES2600005G9",
@@ -1295,6 +1275,16 @@
         "ep_id": "canal_4_posadas"
     },
     {
+        "_id": "http://arcast.net:1935/mp/mp/playlist.m3u8",
+        "name": "Canal 13 La Rioja",
+        "ep_id": "canal_13_la_rioja"
+    },
+    {
+        "_id": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
+        "name": "Canal 21 TV",
+        "ep_id": "canal_21_tv"
+    },
+    {
         "_id": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
         "name": "Ciudad Magazine",
         "ep_id": "ciudad_magazine"
@@ -1393,11 +1383,6 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
-    },
-    {
-        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
-        "name": "Juntos TV",
-        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2013,6 +1998,11 @@
         "_id": "http://181.78.8.199:8000/play/a0ch/index.m3u8",
         "name": "TLC",
         "ep_id": "tlc"
+    },
+    {
+        "_id": "http://181.78.8.199:8000/play/a0bq/index.m3u8",
+        "name": "TNT NOVELAS",
+        "ep_id": "tnt_novelas"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a09h/index.m3u8",
