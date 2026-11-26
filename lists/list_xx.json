@@ -420,6 +420,11 @@
         "ep_id": "mic_canal_6"
     },
     {
+        "_id": "https://5ca3e84a76d30.streamlock.net/canal6mich/videocanal6mich/playlist.m3u8",
+        "name": "MIC: Media Group Radio",
+        "ep_id": "mic_media_group_radio"
+    },
+    {
         "_id": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8",
         "name": "NAY: 8 NTV Nayarit",
         "ep_id": "nay_8_ntv_nayarit"
@@ -673,11 +678,6 @@
         "_id": "https://kali.vdopanel.com:3957/stream/play.m3u8",
         "name": "El Magic | Argentina",
         "ep_id": "el_magic_argentina"
-    },
-    {
-        "_id": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
-        "name": "Extrema TV | Costa Rica",
-        "ep_id": "extrema_tv_costa_rica"
     },
     {
         "_id": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
@@ -1265,11 +1265,6 @@
         "ep_id": "cgtn"
     },
     {
-        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
-        "name": "5TV Corrientes",
-        "ep_id": "5tv_corrientes"
-    },
-    {
         "_id": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
         "name": "Canal 4 Posadas",
         "ep_id": "canal_4_posadas"
@@ -1385,6 +1380,11 @@
         "ep_id": "aysen_tv"
     },
     {
+        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+        "name": "Juntos TV",
+        "ep_id": "juntos_tv"
+    },
+    {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
         "name": "Pichilemu TV",
         "ep_id": "pichilemu_tv"
@@ -1403,6 +1403,11 @@
         "_id": "http://tv.ulagos.cl/web/live.m3u8",
         "name": "U Los Lagos TV",
         "ep_id": "u_los_lagos_tv"
+    },
+    {
+        "_id": "https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8",
+        "name": "UMAGTV 2",
+        "ep_id": "umagtv_2"
     },
     {
         "_id": "https://v2.tustreaming.cl/utv/index.m3u8",
@@ -1995,7 +2000,7 @@
         "ep_id": "televisa_de_3_canales"
     },
     {
-        "_id": "http://181.78.8.199:8000/play/a0ch/index.m3u8",
+        "_id": "http://181.78.8.199:8000/play/a0a3/index.m3u8",
         "name": "TLC",
         "ep_id": "tlc"
     },
@@ -2048,11 +2053,6 @@
         "_id": "http://181.78.8.199:8000/play/a0e2/index.m3u8",
         "name": "UNIVISION",
         "ep_id": "univision"
-    },
-    {
-        "_id": "http://181.78.8.199:8000/play/a0cp/index.m3u8",
-        "name": "Venevision",
-        "ep_id": "venevision"
     },
     {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
