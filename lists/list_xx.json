@@ -680,6 +680,16 @@
         "ep_id": "el_magic_argentina"
     },
     {
+        "_id": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
+        "name": "Extrema TV | Costa Rica",
+        "ep_id": "extrema_tv_costa_rica"
+    },
+    {
+        "_id": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
+        "name": "Extrema TV Kids",
+        "ep_id": "extrema_tv_kids"
+    },
+    {
         "_id": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
         "name": "Frecuencia Musical Tv | USA",
         "ep_id": "frecuencia_musical_tv_usa"
@@ -768,6 +778,11 @@
         "_id": "https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8",
         "name": "Telemas | Costarica",
         "ep_id": "telemas_costarica"
+    },
+    {
+        "_id": "https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8",
+        "name": "Telenorte",
+        "ep_id": "telenorte"
     },
     {
         "_id": "https://k20.usastreams.com:8081/telered/index.m3u8",
@@ -1263,6 +1278,11 @@
         "_id": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8?ads_amagi_channel_id=852&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB12&ads_content_genre=news&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=149.102.236.246&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=5004&ads_rtv_content_language=en&ads_rtvid=271859&ads_streaming_id=9681d5c5-abc7-4578-bb75-8be4c43e9d3b&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor",
         "name": "CGTN",
         "ep_id": "cgtn"
+    },
+    {
+        "_id": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+        "name": "5TV Corrientes",
+        "ep_id": "5tv_corrientes"
     },
     {
         "_id": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
@@ -2055,6 +2075,11 @@
         "ep_id": "univision"
     },
     {
+        "_id": "http://181.78.8.199:8000/play/a0cp/index.m3u8",
+        "name": "Venevision",
+        "ep_id": "venevision"
+    },
+    {
         "_id": "http://181.78.8.199:8000/play/a0hz/index.m3u8",
         "name": "WIN SPORT MAS  LOCAL",
         "ep_id": "win_sport_mas_local"
@@ -2203,11 +2228,6 @@
         "_id": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
         "name": "Newsmax TV",
         "ep_id": "newsmax_tv"
-    },
-    {
-        "_id": "https://live.gideo.video/americateve2/master.m3u8",
-        "name": "America TeVe",
-        "ep_id": "america_teve"
     },
     {
         "_id": "https://hls.botflix.tv/tv/index.m3u8",
