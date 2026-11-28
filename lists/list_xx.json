@@ -725,11 +725,6 @@
         "ep_id": "kpop_tv_play_brasil"
     },
     {
-        "_id": "https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8",
-        "name": "Neox | Argentina",
-        "ep_id": "neox_argentina"
-    },
-    {
         "_id": "https://videohd.live:19360/8076/8076.m3u8",
         "name": "Norte Informativo TV | Costa Rica",
         "ep_id": "norte_informativo_tv_costa_rica"
@@ -1398,11 +1393,6 @@
         "_id": "https://v1.tustreaming.cl/aysentv/index.m3u8",
         "name": "Aysen TV",
         "ep_id": "aysen_tv"
-    },
-    {
-        "_id": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
-        "name": "Juntos TV",
-        "ep_id": "juntos_tv"
     },
     {
         "_id": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
@@ -2228,6 +2218,11 @@
         "_id": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
         "name": "Newsmax TV",
         "ep_id": "newsmax_tv"
+    },
+    {
+        "_id": "https://live.gideo.video/americateve2/master.m3u8",
+        "name": "America TeVe",
+        "ep_id": "america_teve"
     },
     {
         "_id": "https://hls.botflix.tv/tv/index.m3u8",
